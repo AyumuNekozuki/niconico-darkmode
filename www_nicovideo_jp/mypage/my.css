@@ -1,0 +1,183 @@
+#logo_zero a{
+  filter: invert();
+}
+
+.userDetail{
+  border: none !important;
+  background: #272727 !important;
+  padding: 10px !important;
+}
+.profile h2,.accountNumber,.clearfix li{
+  color: whitesmoke !important;
+}
+.stats{
+  background: none !important;
+  border: whitesmoke 0.5px solid !important;
+}
+.clearfix li a{
+  color: #0080ff !important;
+}
+.pullout dt a{
+  background-color: #767676 !important;
+  color: black !important;
+  text-decoration: none !important;
+  padding: 0 5px !important;
+}
+.pullout dd{
+  background-color: #767676 !important;
+  border: none !important;
+}
+.pullout dd ul li a{
+  color: black !important;
+}
+.accountEdit{
+  background-color: #767676 !important;
+  border: none !important;
+}
+.accountEdit:hover{
+  background-color: #767676 !important;
+  color: whitesmoke !important;
+  text-decoration: underline !important;
+}
+
+/*sidebar*/
+.sidebar ul,.sidebar ul li{
+  border: none !important;
+}
+.sidebar ul li a{
+  background: #272727 !important;
+  border: none !important;
+}
+.favTab a span, .nicorepoTab a span, .tagrepoTab a span, .mylistTab a span, .videoTab a span, .badgeTab a span, .stampTab a span, .nicoruTab a span, .buyhistoryTab a span, .translationTab a span, .historyTab a span{
+  filter: invert() !important;
+}
+.sidebar ul li.parent{
+  background: none !important;
+}
+.sidebar ul .parent .navInner{
+  border: none !important;
+}
+.sidebar ul li.parent ul.child li{
+  padding : 3px 0 3px 1px !important; 
+  background: #272727 !important;
+}
+.sidebar ul li.parent ul.child{
+  width: 100% !important;
+}
+.sidebar ul li.parent .navInner ul.child li.active a{
+  width: 100% !important;
+  padding: 6px 2px 2px 0 !important;
+}
+.navInner{
+  background: #272727 !important;
+}
+.sidebar ul li.parent ul.child li.active{
+  background: #35393B !important;
+  width: 100% !important;
+}
+.sidebar ul li.parent ul.child li.active a{
+  background: #35393B !important;
+  width: 100% !important;
+}
+
+/*info*/
+#personalFrameArea{
+  background: none !important;
+  border: none !important;
+}
+#personalFrame{
+  background-color: #272727 !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding-bottom: 5px !important;
+}
+.personalTitle h3{
+  color: whitesmoke !important;
+}
+.personalDescriptionText{
+  background-color: #35393B !important;
+}
+#personalFrame .personalFrameHighlight{
+  font-weight: lighter !important;
+}
+
+/*content*/
+.wrapper .content{
+  border: none !important;
+  background-color: #272727 !important;
+}
+
+/*nicorepo*/
+.setting-container{
+  background-color: #272727 !important;
+  border-bottom: #767676 solid 0.5px !important;
+}
+.NicorepoFilterSelectContainer-caption,.NicorepoFilterSelectContainer-label{
+  color: whitesmoke !important;
+}
+.articleBody{
+  background: #35393B !important;
+}
+.log-body span{
+  color: whitesmoke;
+}
+.nicorepo .nicorepo-page .log{
+  border-top: 1px solid #767676 !important;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+.nicorepo .log:first-child{
+  border-top: none !important; 
+}
+.nicorepo .log-footer .log-footer-date.hot,.nicorepo .log-body strong{
+  color: red !important;
+}
+.nicorepo .next-page{
+  background: #35393B !important;
+}
+/*nicorepo mute*/
+.text,.setting-mute-count,.contents-text,.setting-contents .setting-text{
+  color: white !important;
+}
+.mute-setting{
+  border: none !important;
+  background: #35393B !important;
+}
+.setting-action .button-unmute{
+  color: #fff !important;
+  background-color: #86b302 !important;
+}
+
+/*follow user*/
+#favUser .articleBody .pagerWrap,.articleBody .outer{
+  border-bottom: #767676 solid 1px !important;
+}
+.articleBody .outer .buttonShape{
+  color: black !important;
+}
+.section p{
+  color: #999999 !important;
+}
+#favUser .articleBody .pagerWrap.disable{
+  border-bottom: none !important;
+}
+
+/*ads*/
+.pc_video_my_text_west_item a{
+  color: black !important;
+}
+
+/*footer*/
+#footerWrap{
+  background: #1A1B1C !important;
+}
+#footerWrap #footerNav .outer h3{
+  border-bottom: #767676 solid 1px !important;
+  color: white !important;
+}
+#footerWrap #footerNav ul li{
+  background: none !important;
+}
+.figureWrap span,.figureWrap small{
+  color: whitesmoke !important;
+}

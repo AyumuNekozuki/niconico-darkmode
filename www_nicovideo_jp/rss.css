@@ -1,0 +1,9 @@
+.RssListPage-caption{
+  background: none !important;
+}
+.RssListPage-caption h2{
+  color: white !important;
+}
+.RssListPage-message,.RssListPage-itemUpdateAt{
+  color: whitesmoke !important;
+}

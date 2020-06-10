@@ -148,6 +148,14 @@
   }
 
   /*fotter*/
+  .toPageTopWrap{
+    background: #35393B !important;
+  }
+  .toPageTopWrap .inner a:hover, .toPageTopWrap .inner a:active{
+    background: #35393B !important;
+    border: none !important;
+    color: whitesmoke !important;
+  }
   .FooterContainer{
     color: white !important;
   }

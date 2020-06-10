@@ -40,10 +40,28 @@
             "matches": [
                 "https://www.nicovideo.jp/search/*",
                 "https://www.nicovideo.jp/tag/*",
-                "https://www.nicovideo.jp/mylist_search/*"
+                "https://www.nicovideo.jp/mylist_search/*",
+                "https://www.nicovideo.jp/newarrival*",
+                "https://www.nicovideo.jp/recent*"
             ],
             "css": [
                 "parts/header.css","www_nicovideo_jp/serch.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/rss*"
+            ],
+            "css": [
+                "parts/header.css","www_nicovideo_jp/rss.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/my/*"
+            ],
+            "css": [
+                "parts/header.css","www_nicovideo_jp/mypage/my.css"
             ]
         }
     ]
