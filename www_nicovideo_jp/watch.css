@@ -1,0 +1,91 @@
+/*www.nicovideo.jp/watch/**/
+
+.HeaderContainer{
+  background-color:#1A1B1C !important;
+}
+.VideoTitle{
+  color: white !important;
+}
+.VideoDescriptionExpander .VideoDescriptionExpander-switchExpand{
+  background: #1A1B1C !important;
+}
+.VideoDescriptionExpander .VideoDescriptionExpander-switch{
+  color: #0080ff !important;
+  fill: #0080ff !important;
+}
+.VideoDescriptionExpander .VideoDescriptionExpander-switchExpand:before{
+  border-color: #0080ff transparent transparent !important;
+}
+.VideoDescriptionExpander .VideoDescriptionExpander-switchCollapse:before{
+  border-color: transparent transparent #0080ff !important;
+}
+.VideoOwnerUploadedLink{
+  border: none !important;
+  background-color: #35393B !important;
+}
+
+/*詳細文*/
+.VideoDescription-html{
+  color: whitesmoke !important;
+}
+.VideoDescription-html a{
+  color: #0080ff !important;
+}
+
+/*情報*/
+.VideoMetaContainer>*, .VideoMetaOverflowMenuContainer{
+  border-left : none !important;
+}
+.VideoUploadDateMeta-dateTimeLabel,.FormattedNumber,.GenreRankMeta-yesterdayRank{
+  color: whitesmoke !important;
+}
+.GenreRankMeta-highestPast{
+  color: #0080ff !important;
+}
+
+/*情報popup*/
+.VideoMetaOverflowMenuContainer-menu{
+  background: #1A1B1C !important;
+}
+.VideoMetaOverflowMenuContainer-menuBlock:not(:first-of-type){
+  border-top: 1px solid #35393B !important;
+}
+.GenreRankMetaOverflowMenuContainer-header{
+  background: #1A1B1C !important;
+  color: white !important;
+}
+.GenreRankMetaOverflowMenuContainer-body{
+  background: #1A1B1C !important;
+  color: whitesmoke !important;
+}
+.GenreRankMetaOverflowMenuContainer-tagIcon{
+  fill: whitesmoke !important;
+}
+.GenreRankMetaOverflowMenuContainer-body{
+  overflow-y: auto !important;
+}
+
+/*タグ*/
+.TagEnterEditingButton,.TagContainer-editButton{
+  background-color: #35393B !important;
+}
+.TagItem {
+  background-color: #35393B !important;
+  border: none !important;
+}
+.TagItem a{
+  color: whitesmoke !important;
+}
+.TagItem a :hover{
+  color: whitesmoke !important;
+}
+.TagContainer.is-editing{
+  background-color: #1A1B1C !important;
+  border: 1px solid #e5e8ea;
+}
+.TagItem-name{
+  color: whitesmoke !important;
+}
+.TagContainer-editButton:hover{
+  background-color: #069 !important;
+}
