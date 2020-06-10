@@ -27,6 +27,15 @@
             "css": [
                 "parts/header.css","www_nicovideo_jp/watch.css"
             ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/search/*",
+                "https://www.nicovideo.jp/tag/*"
+            ],
+            "css": [
+                "parts/header.css","www_nicovideo_jp/serch.css"
+            ]
         }
     ]
 }

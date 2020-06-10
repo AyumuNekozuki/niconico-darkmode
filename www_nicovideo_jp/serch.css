@@ -1,0 +1,126 @@
+.header{
+  background-color:#1A1B1C !important;
+}
+.logo a svg{
+  fill :white !important;
+}
+
+/*input*/
+.tagCaption{
+  background-color:#1A1B1C !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.formSearch{
+  background: none !important;
+}
+.message p{
+  color: whitesmoke !important;
+}
+.tab0{
+  background: #383e3e !important;
+}
+.tab0 .dataValue{
+  color: red !important;
+}
+.formSearch .searchFormB{
+  border: none !important;
+}
+.formSearch .searchFormB .sbubmit input{
+  background: #383e3e !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+.searchSubmit input{
+  filter: invert();
+}
+.tab1{
+  background: #383e3e !important;
+}
+.tab1 .dataValue{
+  color: white !important;
+}
+
+/*tagserch*/
+.tagListBox{
+  background-color:#1A1B1C !important;
+}
+.title{
+  color: whitesmoke !important;
+}
+.tagCaption .tag{
+  background-color: #35393B !important;
+  border: none !important;
+  color: whitesmoke !important;
+}
+.tagCaption .tag:hover{
+  text-decoration: underline !important;
+}
+
+/*billboard*/
+.billboard_ad{
+  background: #1A1B1C !important;
+  border-bottom: none !important;
+}
+
+/*sort*/
+.switchingBtn{
+  background-color: #35393B !important;
+  border: none !important;
+}
+.switchingBtn:hover{
+  text-decoration: underline !important;
+  color: whitesmoke !important;
+}
+.one, .two, .four{
+  filter: invert();
+}
+.searchOption{
+  background-color: #35393B !important;
+  border: none !important;
+}
+
+
+/*結果*/
+.value{
+  color: whitesmoke !important;
+}
+.itemComment{
+  background-color: #35393B !important;
+  color: #767676 !important;
+  border: none !important;
+}
+
+/*Rカラム*/
+.sub{
+  background: #1A1B1C !important;
+}
+.content .contentHeader{
+  background-color: #35393B !important;
+}
+.relatedInfo .exTxt, .supplement{
+  color: #666 !important;
+}
+.button.default{
+  border: #666 solid 2px !important;
+  background-color: #666 !important;
+  color: white !important;
+}
+
+/*trend*/
+.trendtag .item:hover{
+  background-color: #35393B !important;
+}
+.tagWrap a{
+  background-color: #35393B !important;
+  border: none !important;
+}
+.tagWrap a:hover{
+  color: whitesmoke !important;
+  text-decoration: underline !important;
+}
+
+/*広告*/
+.leadBanner{
+  background-color: #1A1B1C !important;
+}

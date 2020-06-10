@@ -89,3 +89,223 @@
 .TagContainer-editButton:hover{
   background-color: #069 !important;
 }
+
+/*タグ追加・検索窓*/
+.TagEditForm-input{
+  box-shadow: none !important;
+}
+.TagSuggestionInput-input{
+  background-color: #35393B !important;
+  color: whitesmoke !important;
+  box-shadow: none !important;
+}
+.TagSuggestionList{
+  border: none !important;
+  box-shadow: none !important;
+}
+.TagSuggestionList-item,.TagSuggestionList-favoriteTag,.SearchBox-optionMenu{
+  background-color: #1A1B1C !important;
+  color: whitesmoke !important;
+  border-top: 1px dotted #35393B !important;
+}
+.TagSuggestionList-item.is-active, .TagSuggestionList-item:hover,.SearchBox-optionMenuItem:hover{
+  background-color: #35393B !important;
+}
+.SearchBox{
+  border: none !important;
+  background: #35393B !important;
+}
+
+/*R-panel*/
+.MainContainer-playerPanel,.VideoMenuContainer-areaLeft, .VideoMenuContainer-areaRight,.PlayerPanelContainer,.CommentPanelContainer{
+  background: #1A1B1C !important;
+}
+.VideoMenuContainer-areaLeft .VideoMenuContainer-button{
+  fill: whitesmoke !important;
+}
+.VideoMenuContainer-areaLeft .VideoMenuContainer-button:hover:not([disabled]){
+  fill: #007cff !important;
+}
+.VideoMenuContainer .UadButtonBalloon{
+  background-color: #1A1B1C !important;
+}
+.VideoMenuContainer .UadButtonBalloon{
+  border: 1px solid #35393B !important;
+}
+.VideoMenuContainer .UadButtonBalloon:before{
+  border: none !important;
+}
+.VideoMenuContainer:after{
+  border-bottom: none !important;
+}
+.PlayerPanelContainer-tabItem{
+  border-bottom: none !important;
+  color: white !important;
+}
+.PlayerPanelContainer-tabItem.current{
+  border-bottom: 3px solid #007cff !important;
+}
+.VideoListPanelContainer .NextPlayVideoContainer{
+  border-bottom: 1px solid #35393B !important;
+}
+.NextPlayVideoContainer-note,.WatchRecommendation-heading,.NextPlayVideoContainer-continuous{
+  color: whitesmoke !important;
+}
+
+/*コメントパネル*/
+.CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell{
+  background: #35393B !important;
+  color: white !important;
+}
+.CommentPanelContainer .CommentPanelDataGrid{
+  color: whitesmoke !important;
+}
+.CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell,.CommentPanelDataGrid .CommentPanelDataGrid-TableCell{
+  border-right: 1px solid rgb(58, 59, 53) !important;
+}
+.CommentPanelContainer [data-row-nicoru-rank="1"]{
+  background: rgb(74, 75, 58) !important;
+}
+.DataGrid-Table :hover{
+  background: #35393B !important;
+}
+.DropDownMenu,.DateTimeInput-date,.DateTimeInput-time{
+  background-color: #35393B;
+  color: white;
+  box-shadow: none !important;
+}
+.CommentPanelMenuContainer-pastCommentMenu{
+  background: #35393B !important;
+}
+
+/*NG*/
+.NGSettingPanelContainer-content,.ViewerNGListDataGrid-HeaderCell{
+  background: #35393B !important;
+  color: whitesmoke !important;
+}
+.ViewerNGList{
+  background: #1A1B1C !important;
+  color: whitesmoke !important;
+}
+.ViewerNGListDataGrid-TableCell{
+  border-right: 1px solid #35393B !important;
+}
+.ViewerNGListDataGrid-HeaderCellSeparator{
+  color: #35393B !important;
+}
+
+.NGSettingPanelContainer-openViewerNGRegisterButton{
+  background-color: #e5e8ea !important;
+  color: black !important;
+}
+.NGSettingPanelContainer-openViewerNGRegisterButton:hover{
+  background-color: #069 !important;
+}
+.NGSettingPanelContainer-num,.NGSettingPanelContainer-enableCheckbox{
+  color: #0080ff !important;
+}
+.NGSettingPanelContainer-removeButton[disabled]{
+  color: gray !important;
+}
+.ViewerNGRegister{
+  background: #35393B !important;
+}
+.ViewerNGRegister-header{
+  border-bottom: 1px solid gray;
+}
+.RadioItem-label{
+  color: whitesmoke !important;
+}
+.ViewerNGRegister-input{
+  background: #35393B !important;
+  color: white !important;
+}
+
+/*twitter*/
+.TwitterClientContainer,.SharePanelContainer,.AddingMylistPanel-mylist,.AddingMylistModal{
+  background-color: #35393B !important;
+}
+.TwitterClient-Account-Message,.AddingMylistPanel-name{
+  color: whitesmoke !important;
+}
+.TwitterClient-Message-Textarea,.SharePanelContainer-textarea,.SharePanelContainer-linkTimeText,.AddingMylistModal-descriptionInput{
+  background-color: #35393B !important;
+  color: white !important;
+  box-shadow:none !important;
+  border: 0.5px solid #767676 !important;
+}
+.CheckboxLabel,.SharePanelContainer-playerEmbedOption{
+  color: white !important;
+}
+.AddingMylistModal-cancel{
+  background: #999 !important;
+  color: #fff !important;
+}
+.AddingMylistModal-submit{
+  background: #007cff !important;
+  color: #fff !important;
+}
+
+
+/*コメント入力*/
+.CommentPostContainer-commandInput,.CommentPostContainer-commentInput{
+  background-color: #35393B !important;
+  border-right: 1px solid gray;
+}
+.CommentCommandInput,.CommentInput-textarea{
+  color: white !important;
+}
+.CommentCommandPaletteContainer{
+  background-color: #35393B !important;
+}
+.CommentCommandPaletteNode[data-type=layout], .CommentCommandPaletteNode[data-type=size]{
+  background-color: #35393B !important;
+  border: 2px solid #767676 !important;
+}
+.CommentCommandPaletteNode svg{
+  fill: whitesmoke !important;
+}
+
+/*広告・市場*/
+.BottomContainer{
+  background: #1A1B1C !important;
+}
+.Card{
+  background-color: #35393B !important;
+}
+.Card-title,.IchibaForWatch_Title_Body{
+  color: whitesmoke !important;
+}
+.IchibaForWatch{
+  background: #35393B !important;
+}
+.IchibaForWatch_EditButton,.IchibaFooter_SearchButton{
+  color: whitesmoke !important;
+  background-color: #0080ff !important;
+}
+.IchibaMainItem_Info,.IchibaMainItem_Price_Number,.IchibaMainItem_Price_SaleRate,.IchibaSuggestItem_Price_Number,.IchibaSuggestItem_Price_SaleRate{
+  color: #767676 !important;
+}
+
+/*市場モーダル*/
+.IchibaModal_Container,.IchibaModal_Body,.IchibaAdded,.IchibaTagSearch,.IchibaAdded_Header{
+  background-color: #35393B !important;
+}
+.IchibaModal_Title_Body,.IchibaSuggest_Title,.IchibaTagSearch_Title,.IchibaAdded_Title,.IchibaAdded_Description{
+  color: whitesmoke !important;
+}
+.IchibaModal_Body{
+  border-top: 1px solid #767676 !important;
+}
+.IchibaSearchForm_Category,.IchibaSearchForm_Keyword_Input,.IchibaSuggest_Sort{
+  background-color: #35393B !important;
+  color: whitesmoke !important;
+  border: 1px solid #767676 !important;
+}
+.noItem,.loading{
+  color: #767676 !important;
+}
+.IchibaTagSearch_Item a{
+  background-color: #35393B !important;
+  border: 0.5px solid #767676 !important;
+}
