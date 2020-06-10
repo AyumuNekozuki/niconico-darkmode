@@ -13,6 +13,8 @@
 }
 .formSearch{
   background: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 .message p{
   color: whitesmoke !important;
@@ -90,6 +92,12 @@
   color: #767676 !important;
   border: none !important;
 }
+.itemTime{
+  color: #999 !important;
+}
+.column .main{
+  color: white !important;
+}
 
 /*Rカラム*/
 .sub{
@@ -123,4 +131,129 @@
 /*広告*/
 .leadBanner{
   background-color: #1A1B1C !important;
+}
+
+/*tag*/
+.contentHeader h1 span{
+  color: white !important;
+}
+.itemDescription p{
+  color: #999 !important;
+}
+
+.button.nav{
+  background-color: #666 !important;
+  color: black !important;
+}
+.button.nav:hover{
+  background-color: #666 !important;
+  color: white !important;
+}
+.button-tagrepo{
+  color: black !important;
+}
+.button-tagrepo:hover{
+  color: white !important;
+}
+
+/*serchbox*/
+.videoSearchOption .tab{
+  background-color: #1A1B1C !important;
+}
+.videoSearchOption .tab:hover, .tab a:hover{
+  color: white !important;
+  text-decoration: underline !important;
+}
+.videoSearchOption .active {
+  background-color: #35393B !important;
+}
+.videoSearchOption .active :hover{
+  color: white !important;
+  text-decoration: none !important;
+}
+.videoSearchInput{
+  border: #1A1B1C solid 1px !important;
+}
+.inputText input{
+  background-color: #35393B !important;
+  color: whitesmoke !important;
+  height: 24px !important;
+}
+.videoSearch input[type='text']{
+  line-height: 22px !important;
+}
+.clear-button-inner-tag{
+  line-height: 23px !important;
+  height: 22px !important;
+  width: 20px !important;
+  top: -24px !important;
+  background: #35393B !important;
+  color: whitesmoke !important;
+  border: 1px solid whitesmoke !important;
+}
+.videoSearchInput .inputText{
+  padding-top: 0 !important;
+}
+.videoSearchInput{
+  padding-left: 0 !important;
+  border: none !important;
+}
+
+/*mylist*/
+#nicodou a img{
+  filter: invert();
+}
+#search_frm_a, #search_frm_b{
+  background: none !important;
+  
+}
+#search_frm_b table{
+  color: whitesmoke !important;
+}
+a.tab_0:hover, a.tab_0:active, a.tab_1:link, a.tab_1:visited, a.tab_1:hover, a.tab_1:active{
+  background: none !important;
+}
+.tab_0, .tab_1{
+  background: #35393B !important;
+}
+.tab_0 strong{
+  color: white !important;
+}
+.font12{
+  color: whitesmoke;
+}
+#search_united{
+  border: none !important;
+  background: #383e3e !important;
+  color: white !important;
+
+}
+.dotline_2{
+  border-top: solid 0.5px #35393B !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+.content_672 select{
+  background: #35393B !important;
+  color: white !important;
+  border: 1px solid #767676 !important;
+}
+
+.pager span.here{
+  background: #35393B !important;
+  margin-left: 4px !important;
+  padding: 5px 8px !important;
+  border: none !important;
+}
+.pager span.here:hover{
+  text-decoration: underline !important;
+}
+.pager a:link, .pager a:visited{
+  background: #35393B !important;
+  margin-left: 4px !important;
+  padding: 5px 8px !important;
+  border: none !important;
+}
+.pager a:link, .pager a:visited:hover{
+  text-decoration: underline !important;
 }

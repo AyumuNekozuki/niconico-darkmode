@@ -14,6 +14,14 @@
         },
         {
             "matches": [
+                "https://www.nicovideo.jp/daily_topics/*"
+            ],
+            "css": [
+                "parts/header.css","www_nicovideo_jp/daily_topics.css"
+            ]
+        },
+        {
+            "matches": [
                 "https://www.nicovideo.jp/video_top*"
             ],
             "css": [
@@ -31,7 +39,8 @@
         {
             "matches": [
                 "https://www.nicovideo.jp/search/*",
-                "https://www.nicovideo.jp/tag/*"
+                "https://www.nicovideo.jp/tag/*",
+                "https://www.nicovideo.jp/mylist_search/*"
             ],
             "css": [
                 "parts/header.css","www_nicovideo_jp/serch.css"

@@ -166,8 +166,12 @@
 .CommentPanelContainer [data-row-nicoru-rank="1"]{
   background: rgb(74, 75, 58) !important;
 }
+.CommentPanelContainer [data-row-nicoru-rank="2"]{
+  color: black !important;
+}
 .DataGrid-Table :hover{
   background: #35393B !important;
+  color: white !important;
 }
 .DropDownMenu,.DateTimeInput-date,.DateTimeInput-time{
   background-color: #35393B;

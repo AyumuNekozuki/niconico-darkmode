@@ -66,10 +66,22 @@
     color: whitesmoke !important;
     fill: whitesmoke !important;
   }
+  .NiconicoNoticeContainer .DottedList>li:not(:last-child),.NiconicoNoticeContainer-noticeList.DottedList li:last-child{
+    border: dashed 1px #35393B !important;
+  }
+  .DottedList>li:not(:last-child){
+    border-bottom: dashed 1px #35393B !important;
+  }
+  .NiconicoNoticeContainer-header h1:before{
+    filter: invert();
+  }
 
   /*デイリートピックス*/
   .TodayRecommendContainer-header h1{
     color: white !important;
+  }
+  .TodayRecommendContainer-header{
+    border-bottom: 1px solid #35393B !important;
   }
 
   /*コンテナ*/
@@ -91,6 +103,9 @@
   }
   .AdsPRText a :hover{
     color: #0080ff !important;
+  }
+  .NiconewsContainer footer{
+    border-top: none !important;
   }
 
   /*コンテナ アニメ・広告*/
@@ -116,6 +131,9 @@
   /*コンテナ CH・App・RPG*/
   .ContentItem-title, .ContentItem-metaAdditional{
     color: whitesmoke !important;
+  }
+  .ChannelContainer-column+.ChannelContainer-column,.NicoappAndAtsumaruSeparatorContainer{
+    border-left: 1px dashed #35393B !important;
   }
 
   /*notice*/
