@@ -9,8 +9,7 @@
     color: #DCE7EA !important;
   }
   a:hover {
-    color: #0080ff !important;
-    fill: #0080ff !important;
+    text-decoration: underline !important;
   }
 
   .NiconicoLogo {

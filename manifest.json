@@ -9,7 +9,8 @@
                 "https://www.nicovideo.jp/*"
             ],
             "css": [
-                "parts/header.css","www_nicovideo_jp/_.css"
+                "parts/header.css",
+                "www_nicovideo_jp/_.css"
             ]
         },
         {
@@ -17,7 +18,8 @@
                 "https://www.nicovideo.jp/daily_topics/*"
             ],
             "css": [
-                "parts/header.css","www_nicovideo_jp/daily_topics.css"
+                "parts/header.css",
+                "www_nicovideo_jp/daily_topics.css"
             ]
         },
         {
@@ -25,7 +27,8 @@
                 "https://www.nicovideo.jp/video_top*"
             ],
             "css": [
-                "parts/header.css","www_nicovideo_jp/video_top.css"
+                "parts/header.css",
+                "www_nicovideo_jp/video_top.css"
             ]
         },
         {
@@ -33,7 +36,8 @@
                 "https://www.nicovideo.jp/watch/*"
             ],
             "css": [
-                "parts/header.css","www_nicovideo_jp/watch.css"
+                "parts/header.css",
+                "www_nicovideo_jp/watch.css"
             ]
         },
         {
@@ -45,7 +49,8 @@
                 "https://www.nicovideo.jp/recent*"
             ],
             "css": [
-                "parts/header.css","www_nicovideo_jp/serch.css"
+                "parts/header.css",
+                "www_nicovideo_jp/serch.css"
             ]
         },
         {
@@ -53,15 +58,19 @@
                 "https://www.nicovideo.jp/rss*"
             ],
             "css": [
-                "parts/header.css","www_nicovideo_jp/rss.css"
+                "parts/header.css",
+                "www_nicovideo_jp/rss.css"
             ]
         },
         {
             "matches": [
-                "https://www.nicovideo.jp/my/*"
+                "https://www.nicovideo.jp/my/*",
+                "https://www.nicovideo.jp/user/*"
             ],
             "css": [
-                "parts/header.css","www_nicovideo_jp/mypage/my.css"
+                "parts/header.css",
+                "www_nicovideo_jp/mypage/my.css",
+                "www_nicovideo_jp/mypage/user.css"
             ]
         }
     ]
