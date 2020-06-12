@@ -1,0 +1,28 @@
+.NicovideoLogo,.LogoContainer-nicovideoLogo{
+  filter: invert();
+}
+
+/*serch box*/
+  .SearchBox-option{
+    background-color: #35393B !important;
+  }
+  .SearchBox-form{
+    background-color: #35393B !important;
+    box-shadow: none !important;
+  }
+  .SearchBox-query{
+    color: whitesmoke !important;
+  }
+
+.RecommendationsHeading{
+  color: whitesmoke !important;
+}
+
+.TagItem-link{
+  background: #35393B !important;
+  border: none !important;
+}
+
+.BaseLayout-footer{
+  background: none !important;
+}

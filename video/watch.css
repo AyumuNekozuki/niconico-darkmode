@@ -135,6 +135,9 @@
 .VideoMenuContainer .UadButtonBalloon:before{
   border: none !important;
 }
+.VideoMenuContainer .UadButtonBalloon:after{
+  border-right-color: #35393B !important;
+}
 .VideoMenuContainer:after{
   border-bottom: none !important;
 }

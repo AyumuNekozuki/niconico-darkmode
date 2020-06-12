@@ -2,35 +2,8 @@
   body{
     background-color:#1A1B1C !important;
   }
-  /*ロゴ*/
-  .LogoContainer-nicovideoLogo{
-    filter: invert();
-  }
-
-  /*serch*/
-  .SearchBox-option{
-    background-color: #35393B !important;
-  }
-  .SearchBox-form{
-    background-color: #35393B !important;
-    box-shadow: none !important;
-  }
-  .SearchBox-query{
-    color: whitesmoke !important;
-  }
 
   /*ジャンル*/
-  .VideoTopGenreListContainer{
-    background-color:#1A1B1C !important;
-  }
-  .VideoTopGenreListContainer-item{
-    background-color: #35393B !important;
-    border: none !important;
-  }
-  .is-current{
-    border: 1px solid #767676 !important;
-  }
-
   .GenreTopPageHeader{
     background-color: #35393B !important;
   }
@@ -92,4 +65,8 @@
   }
   .FooterContainer-metadata{
     color: white !important;
+  }
+
+  .Separator{
+    background: repeating-linear-gradient(-45deg,#767676,#767676 6px,transparent 0,transparent 12px) !important;
   }

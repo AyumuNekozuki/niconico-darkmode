@@ -10,7 +10,7 @@
             ],
             "css": [
                 "parts/header.css",
-                "www_nicovideo_jp/_.css"
+                "top/_.css"
             ]
         },
         {
@@ -19,7 +19,7 @@
             ],
             "css": [
                 "parts/header.css",
-                "www_nicovideo_jp/daily_topics.css"
+                "top/daily_topics.css"
             ]
         },
         {
@@ -28,7 +28,8 @@
             ],
             "css": [
                 "parts/header.css",
-                "www_nicovideo_jp/video_top.css"
+                "video/parts/cre_design.css",
+                "video/video_top.css"
             ]
         },
         {
@@ -37,7 +38,7 @@
             ],
             "css": [
                 "parts/header.css",
-                "www_nicovideo_jp/watch.css"
+                "video/watch.css"
             ]
         },
         {
@@ -50,7 +51,8 @@
             ],
             "css": [
                 "parts/header.css",
-                "www_nicovideo_jp/serch.css"
+                "video/parts/zero_design.css",
+                "video/serch.css"
             ]
         },
         {
@@ -59,7 +61,7 @@
             ],
             "css": [
                 "parts/header.css",
-                "www_nicovideo_jp/rss.css"
+                "top/rss.css"
             ]
         },
         {
@@ -69,8 +71,38 @@
             ],
             "css": [
                 "parts/header.css",
-                "www_nicovideo_jp/mypage/my.css",
-                "www_nicovideo_jp/mypage/user.css"
+                "video/mypage/my.css",
+                "video/mypage/user.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/ranking*"
+            ],
+            "css": [
+                "parts/header.css",
+                "video/parts/cre_design.css",
+                "video/ranking.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/recommendations*"
+            ],
+            "css": [
+                "parts/header.css",
+                "video/parts/cre_design.css",
+                "video/recommendations.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/video_catalog*"
+            ],
+            "css": [
+                "parts/header.css",
+                "video/parts/zero_design.css",
+                "video/other.css"
             ]
         }
     ]

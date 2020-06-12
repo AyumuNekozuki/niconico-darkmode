@@ -1,9 +1,3 @@
-.header{
-  background-color:#1A1B1C !important;
-}
-.logo a svg{
-  fill :white !important;
-}
 
 /*input*/
 .tagCaption{
@@ -265,17 +259,6 @@ a.tab_0:hover, a.tab_0:active, a.tab_1:link, a.tab_1:visited, a.tab_1:hover, a.t
 .thumb_cols{
   filter: invert();
 }
-#search_tab a.head_ssw_0{
-  background-color: #1A1B1C !important;
-}
-#search_input{
-  background: #35393B !important;
-  border: #35393B solid 1px !important;
-}
-#bar_search{
-  background-color: #35393B !important;
-  color: whitesmoke !important;
-}
 
 .uad_thumbfrm{
   border: none !important;
@@ -286,4 +269,18 @@ a.tab_0:hover, a.tab_0:active, a.tab_1:link, a.tab_1:visited, a.tab_1:hover, a.t
 }
 .thumb_num{
   color: #767676 !important;
+}
+
+/*nicopedia*/
+.related_pedia_inner{
+  background: #35393B !important;
+  border: solid 2px #FC6;
+  color: whitesmoke;
+}
+#related_nicopedia_body{
+  background: #35393B !important;
+  border: none !important;
+}
+#related_nicopedia_body div p a{
+  color: orange !important;
 }

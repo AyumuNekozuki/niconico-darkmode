@@ -1,0 +1,190 @@
+
+/*将棋盤*/
+  .RankingHeader{
+    background-color: #35393B !important;
+  }
+  .RankingHeader-prefix{
+    color: whitesmoke !important;
+  }
+  .RankingHeader h1{
+    color: white !important;
+  }
+  .RankingGenreListContainer-categoryHelp{
+    color: whitesmoke !important;
+  }
+  .CategoryHelpModal-infoLink a{
+    color: #086ED4 !important;
+  }
+
+  .LaneHeader p{
+    color: white !important;
+  }
+  .CustomButton{
+    background: #35393B !important;
+  }
+  .RankingIcon_customBlack{
+    filter: invert();
+  }
+  .CustomButton span{
+    color: white !important;
+  }
+  .RankingCustomDialogContainer-dialog{
+    background: #35393B !important;
+    color: white !important;
+  }
+  .CustomRankingFieldset-legend{
+    background: #767676 !important;
+    color: white !important;
+  }
+  .CustomRankingFieldset{
+    border: 1px solid #767676;
+  }
+  .TagRankingCustomEditor-tag{
+    border-bottom: 2px solid #767676;
+  }
+  .RankingIcon_tag{
+    filter: invert();
+  }
+  .TagSuggestionInput-input{
+    color: white !important;
+  }
+  .TagSuggestionList{
+    background: #767676 !important;
+    border: 1px solid #767676;
+  }
+  .TagSuggestionList-item{
+    color: whitesmoke !important;
+  }
+  .TagSuggestionList-item:hover, .TagSuggestionList-item_isActive{
+    background: #999 !important;
+  }
+  .CustomGenreSelector-label{
+    border: none !important;
+    background: #767676 !important;
+  }
+  .CustomGenreSelector-check:checked+.CustomGenreSelector-label{
+    background: #007cff !important;
+  }
+
+  .RankingBaseItem{
+    background: #35393B !important;
+  }
+  .Card-link:hover{
+    text-decoration: none !important;
+  }
+
+  .RankingHeaderContainer-header_fixed{
+    background: #1A1B1C !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid #767676;
+  }
+  .RankingSettingSummary-content{
+    background: #35393B !important;
+  }
+  .RankingSettingSummary-content::before,.RankingSettingSummary-content::after{
+    background: #35393B !important;
+  }
+  .RankingSettingSummary-main>h1,.RankingSettingItem-content{
+    color: whitesmoke !important;
+  }
+  /*ads*/
+  .Ads,.MatrixRankingBannerAd-caption,.MatrixRankingBannerAd{
+    background: #1A1B1C !important;
+  }
+
+  .MatrixRanking-postDescription{
+    color: #999 !important;
+  }
+
+  
+
+/*各ジャンル*/
+  .RankingTermSelector-label,.RankingTermSelector .Dropdown-button{
+    color: whitesmoke !important;
+  }
+  .RankingTermSelector .Dropdown-button:after{
+    filter: invert();
+  }
+  .Dropdown-list{
+    background-color: #35393B !important;
+    box-shadow: none !important;
+    border: 1px solid #767676 !important;
+  }
+  .DropdownItem{
+    background-color: #35393B !important;
+  }
+  .DropdownItem[data-is-selected]{
+    background: #007cff !important;
+  }
+
+  .MediaObject.RankingMainVideo,.MediaObject.RankingMainNicoad{
+    background: #35393B !important;
+  }
+  .MediaObject.RankingMainNicoad[data-nicoad-grade=gold]{
+    background: #35393B !important;
+    border: 3px solid gold !important;
+  }
+  .MediaObject.RankingMainNicoad[data-nicoad-grade=silver]{
+    background: #35393B !important;
+    border: 2px solid silver !important;
+  }
+  .MediaObject.RankingMainNicoad[data-nicoad-grade=bronze]{
+    background: #35393B !important;
+    border: 1px solid #a36b21 !important;
+  }
+
+  .RankingFilterTag{
+    background: #35393B !important;
+    border: none !important;
+  }
+  .RankingFilterTag_active{
+    background: #007cff !important;
+  }
+
+  .Paginator-item{
+    border: none !important;
+    background: #35393B !important;
+  }
+  .Paginator-item_current{
+    background: none !important;
+  }
+  .SpecifiedRanking-footer{
+    color: #999 !important;
+  }
+  
+
+  /*side*/
+  .BaseRankingContentContainer header{
+    background: #35393B !important;
+  }
+  .BaseRankingContentContainer header h1,.NicoNewsContainer-heading,.BaseRankingContentContainer-main h2{
+    color: whitesmoke !important;
+  }
+  .AnotherRankingLink-button{
+    background: #35393B !important;
+    border: none !important;
+  }
+  .MediaObject-body p{
+    color: #999 !important;
+  }
+  .BaseRankingContentContainer.TrendTagContainer .TrendTagContainer-link{
+    background: #35393B !important;
+    border: none !important;
+  }
+  .BaseRankingContentContainer.TrendTagContainer .TrendTagContainer-row{
+    border-bottom: none !important;
+  }
+
+  /*ads*/
+  .BaseLayout-footer{
+    background: #1A1B1C !important;
+  }
+  .AdsPRText-item{
+    background: #e5e5e5 !important;
+  }
+
+  /*footer*/
+  .FooterContainer-feedback{
+    background-color: #35393B !important;
+    border: none !important;
+  }

@@ -7,3 +7,8 @@
 #siteHeader a{
   color: whitesmoke !important;
 }
+
+#siteHeaderNotification .siteHeaderNotificationContainer #siteHeaderNotificationWithNotification dd a{
+  background: #35393B !important;
+  box-shadow: none !important;
+}
