@@ -1,0 +1,31 @@
+/*BG*/
+.___focus-axis-contents-area___iobXj,.___online-viewing-banner___2fAaR,.___contents-area___36GBL,#informationArea{
+  background-color:#1A1B1C !important;
+}
+
+/*title*/
+header a{
+  color: white !important;
+}
+.___heading___29ime svg>path,.___heading___29ime svg>rect{
+  fill: white !important;
+}
+
+/*head info*/
+.___subject___1xC_J,.___message___3QdNF, .___visit-anchor___3UmQE,.___item___2UlkV{
+  background-color: #35393B !important;
+  color: whitesmoke !important;
+}
+.___visit-anchor___3UmQE:after{
+  border-color: whitesmoke !important;
+}
+
+
+/*info*/
+.___heading___1ZfRu,.___item-list___1miSk,.___item___3DvIG{
+  background-color: #737373 !important;
+  color: white !important;
+}
+.___heading___1ZfRu:hover,.___item___3DvIG:hover{
+  text-decoration: underline !important;
+}

@@ -12,3 +12,11 @@
   background: #35393B !important;
   box-shadow: none !important;
 }
+
+body{
+  color: white !important;
+  background-color:#1A1B1C !important;
+}
+a{
+  color: white !important;
+}

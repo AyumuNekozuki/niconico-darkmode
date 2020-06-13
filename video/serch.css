@@ -284,3 +284,10 @@ a.tab_0:hover, a.tab_0:active, a.tab_1:link, a.tab_1:visited, a.tab_1:hover, a.t
 #related_nicopedia_body div p a{
   color: orange !important;
 }
+
+/*related_tag*/
+#PAGEBODY form input{
+  background: #35393B !important;
+  color: whitesmoke !important;
+  border: solid 1px #767676 !important;
+}

@@ -415,16 +415,16 @@ body .mypage-garage-lead-link:hover{
 #live .outer ol li{
   border-bottom: 1px solid #767676 !important;
 }
-#live .outer ol li .timeshiftWatchButton{
+#live .outer ol li .timeshiftWatchButton,.liveWatchButton{
   background: #767676 !important;
   border: #767676 1px solid !important;
   text-shadow: none !important;
 }
-#live .outer ol li .timeshiftWatchButton:hover{
+#live .outer ol li .timeshiftWatchButton:hover,.liveWatchButton:hover{
   color: whitesmoke !important;
   text-decoration: underline !important;
 }
-#live .outer ol li .timeshiftWatchButton span{
+#live .outer ol li .timeshiftWatchButton span,.liveWatchButton span{
   filter: invert();
 }
 .outer.noItem p{
@@ -502,26 +502,18 @@ body .mypage-garage-lead-link:hover{
   color: white !important;
 }
 
+/*history*/
+.articleBody .outer .section ul.metadata li.posttime{
+  color: black !important;
+}
+
 
 /*ads*/
 .pc_video_my_text_west_item a{
   color: black !important;
 }
 
-/*footer*/
-#footerWrap{
-  background: #1A1B1C !important;
-}
-#footerWrap #footerNav .outer h3{
-  border-bottom: #767676 solid 1px !important;
-  color: white !important;
-}
-#footerWrap #footerNav ul li{
-  background: none !important;
-}
-.figureWrap span,.figureWrap small{
-  color: whitesmoke !important;
-}
+
 
 /*serch*/
 .suggestBoxInner li a{

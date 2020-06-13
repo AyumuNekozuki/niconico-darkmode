@@ -1,5 +1,5 @@
 /*logo*/
-.NicovideoLogo,.LogoContainer-nicovideoLogo{
+.HeaderContainer-logo .LogoContainer .NicovideoLogo{
   filter: invert();
 }
 
@@ -28,10 +28,19 @@
 }
 
 /*tag*/
-.TagItem-link,.RankingFilterTag{
+.TagItem-link,.RankingFilterTag,.TrendyTagContainer-link{
   background: #35393B !important;
   border: none !important;
 }
 .RankingFilterTag_active{
   background: #007cff !important;
+}
+
+/*serchbox suggest*/
+.suggestBox{
+  background-color: #1A1B1C !important; 
+}
+.suggestBoxInner{
+  border: 1px solid #333333;
+  background-color: #1A1B1C !important;
 }

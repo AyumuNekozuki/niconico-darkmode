@@ -1,12 +1,13 @@
 {
     "manifest_version": 2,
     "name": "niconico-darkmode.",
-    "version": "0.1.0",
-    "description": "niconicoをダークモードにします",
+    "version": "0.2.0",
+    "description": "niconicoサイトをダークモード化する拡張機能",
     "content_scripts": [
         {
             "matches": [
-                "https://www.nicovideo.jp/*"
+                "https://www.nicovideo.jp/",
+                "https://www.nicovideo.jp/?*"
             ],
             "css": [
                 "parts/header.css",
@@ -24,7 +25,20 @@
         },
         {
             "matches": [
-                "https://www.nicovideo.jp/video_top*"
+                "https://www.nicovideo.jp/recommendnews",
+                "https://www.nicovideo.jp/recommendnews*"
+            ],
+            "css": [
+                "parts/header.css",
+                "video/parts/zero_design.css",
+                "top/recommendnews.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/video_top",
+                "https://www.nicovideo.jp/video_top?*",
+                "https://www.nicovideo.jp/video_top/genre*"
             ],
             "css": [
                 "parts/header.css",
@@ -47,7 +61,8 @@
                 "https://www.nicovideo.jp/tag/*",
                 "https://www.nicovideo.jp/mylist_search/*",
                 "https://www.nicovideo.jp/newarrival*",
-                "https://www.nicovideo.jp/recent*"
+                "https://www.nicovideo.jp/recent*",
+                "https://www.nicovideo.jp/related_tag*"
             ],
             "css": [
                 "parts/header.css",
@@ -71,6 +86,7 @@
             ],
             "css": [
                 "parts/header.css",
+                "video/parts/zero_design.css",
                 "video/mypage/my.css",
                 "video/mypage/user.css"
             ]
@@ -103,6 +119,42 @@
                 "parts/header.css",
                 "video/parts/zero_design.css",
                 "video/other.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://live.nicovideo.jp/",
+                "https://live.nicovideo.jp/?*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/parts/card.css",
+                "live/live_top.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://live2.nicovideo.jp/focus",
+                "https://live2.nicovideo.jp/focus?*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/parts/card.css",
+                "live/forcus.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://live.nicovideo.jp/recent",
+                "https://live.nicovideo.jp/recent?*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/parts/card.css",
+                "live/recent.css"
             ]
         }
     ]

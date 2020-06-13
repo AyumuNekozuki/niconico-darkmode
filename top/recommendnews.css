@@ -1,0 +1,25 @@
+#header h1#logo_zero a{
+  filter: invert();
+}
+.cmnHeading{
+  background: none !important;
+}
+
+.contentsInner li{
+  background: none !important;
+  border-bottom: 1px solid #767676 !important;
+}
+.contentsInner li p{
+  color: #999 !important;
+}
+
+.pager a, .pager span{
+  border: none !important;
+  background-color: #767676 !important;
+}
+
+.pager span.active{
+  border: none !important;
+  background-color: #1A1B1C !important;
+}
+

@@ -7,3 +7,9 @@
 .RssListPage-message,.RssListPage-itemUpdateAt{
   color: whitesmoke !important;
 }
+.NiconicoLogo{
+  filter: invert();
+}
+.FooterContainer-column{
+  border-top: 2px solid white !important;
+}

@@ -155,6 +155,7 @@
   color: whitesmoke !important;
 }
 
+
 /*コメントパネル*/
 .CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell{
   background: #35393B !important;
@@ -235,7 +236,7 @@
 .TwitterClient-Account-Message,.AddingMylistPanel-name{
   color: whitesmoke !important;
 }
-.TwitterClient-Message-Textarea,.SharePanelContainer-textarea,.SharePanelContainer-linkTimeText,.AddingMylistModal-descriptionInput{
+.TwitterClient-Message-Textarea,.SharePanelContainer-textarea,.SharePanelContainer-linkTimeText,.AddingMylistModal-descriptionInput,.AddingMylistModal-nameInput{
   background-color: #35393B !important;
   color: white !important;
   box-shadow:none !important;
@@ -286,12 +287,18 @@
 .IchibaForWatch{
   background: #35393B !important;
 }
-.IchibaForWatch_EditButton,.IchibaFooter_SearchButton{
+.IchibaForWatch_EditButton,.IchibaFooter_SearchButton,.IchibaForWatch_SearchButton{
   color: whitesmoke !important;
   background-color: #0080ff !important;
 }
 .IchibaMainItem_Info,.IchibaMainItem_Price_Number,.IchibaMainItem_Price_SaleRate,.IchibaSuggestItem_Price_Number,.IchibaSuggestItem_Price_SaleRate{
   color: #767676 !important;
+}
+.IchibaMain_Container .IchibaBalloon{
+  background: #767676 !important;
+}
+.IchibaMain_Container .IchibaBalloon::after{
+  border-top: 16px solid #767676 !important;
 }
 
 /*市場モーダル*/
@@ -315,4 +322,64 @@
 .IchibaTagSearch_Item a{
   background-color: #35393B !important;
   border: 0.5px solid #767676 !important;
+}
+
+/*投稿者メニュー*/
+.EditorMenuContainer{
+  background: #35393B !important;
+}
+.EditorMenuContainer-menuBox>li:first-child{
+  background: #35393B !important;
+  border-right: none !important;
+  color: whitesmoke !important;
+}
+.EditorMenuContainer-menuBox-menu{
+  background: #35393B !important;
+  color: whitesmoke !important;
+}
+.EditorMenuContainer-menuBox-menu .icon{
+  fill: whitesmoke !important;
+}
+.EditorMenuContainer-menuHeading{
+  margin: 11px 12px 0 12px !important;
+}
+.EditorMenuContainer-menuBox-menu-child .menuItem,.menuItem .RouterLink{
+  background: #35393B !important;
+}
+.EditorMenuContainer-menuBox-menu-child .menuItem .Link:hover,.menuItem .RouterLink:hover{
+  background: #767676 !important;
+}
+.EditorMenuContainer-menuBox-menu-child .menuItem .OpenBlankIcon{
+  fill: whitesmoke !important;
+}
+
+/*投稿者コメント*/
+.OwnerEditPanel{
+  background: #35393B !important;
+}
+.OwnerEditPanelHeader-left span{
+  color: white !important;
+}
+.OwnerEditButton{
+  background: #767676 !important;
+  border: none !important;
+  color: white !important;
+}
+
+/*nicoscript easy-settings*/
+#content.editting #videoHeaderDetail .owner, #content.editting #videoHeaderDetail .owner_easy, #content.editting #videoHeaderDetail .comment, #content.editting #videoHeaderDetail .mymemory{
+  color: white !important;
+}
+#nicos_color,#nicos_jump,.editOwnerEasySubmit p .submit,.menuInner .submit{
+  background: #35393B !important;
+  color: whitesmoke !important;
+  border: 1px solid #767676 !important;
+}
+
+/*series*/
+.VideoDescriptionSeriesContainer{
+  border-top: 2px solid #767676 !important;
+}
+.VideoDescriptionSeriesContainer-label{
+  color: whitesmoke !important;
 }

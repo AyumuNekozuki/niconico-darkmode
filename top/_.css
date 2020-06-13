@@ -126,8 +126,14 @@
   .NicoadContainer-headerLogo{
     filter: invert();
   }
+  .NicoadItem [data-nicoad-sponsor]{
+    color: black !important;
+  }
 
   /*コンテナ CH・App・RPG*/
+  .ChannelContainer-label{
+    color: black !important;
+  }
   .ContentItem-title, .ContentItem-metaAdditional{
     color: whitesmoke !important;
   }
@@ -163,4 +169,9 @@
   }
   .FooterContainer-column{
     border-top: 2px solid white !important;
+  }
+
+  /*ads*/
+  .AdsPRText{
+    color: black !important;
   }
