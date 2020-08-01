@@ -19,7 +19,7 @@
 .VideoDescriptionExpander .VideoDescriptionExpander-switchCollapse:before{
   border-color: transparent transparent #0080ff !important;
 }
-.VideoOwnerUploadedLink{
+.VideoOwnerUploadedLink,.VideoOwnerChannelLink{
   border: none !important;
   background-color: #35393B !important;
 }
@@ -114,6 +114,32 @@
 .SearchBox{
   border: none !important;
   background: #35393B !important;
+}
+
+/*かんたんコメント*/
+.ControllerBoxCommentAreaContainer{
+  background: black !important;
+  border-right: none !important;
+}
+.CommentPostContainer-commentInput{
+  border: none !important;
+}
+.CommentPostContainer-commandInput{
+  border: none !important;
+  border-right: 1px solid rgb(118, 118, 118) !important;
+}
+.EasyCommentContainer{
+  background: none !important;
+}
+.EasyCommentButton{
+  background: #35393B !important;
+  color: white !important;
+  border: none !important;
+}
+.LikeButton{
+  background: #35393B !important;
+  color: white !important;
+  border: 2px solid rgb(118, 118, 118) !important;
 }
 
 /*R-panel*/

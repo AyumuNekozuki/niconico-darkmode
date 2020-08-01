@@ -20,3 +20,83 @@ body{
 a{
   color: white !important;
 }
+
+.nico-CommonHeaderRoot, .common-header-15gxh1a,.common-header-1cuw74j,.common-header-5onxr7{
+  background-color: #252525 !important;
+}
+.common-header-1319btw{
+  color: whitesmoke !important;
+}
+.common-header-g0o5vq:hover,.common-header-10swg38:hover{
+  text-decoration: none !important;
+}
+.nico-CommonHeaderRoot .common-header-5x0u19:hover,.common-header-5onxr7:hover{
+  background-color: #555555 !important;
+  text-decoration: none !important;
+}
+
+.common-header-g80xl3{
+  background-color: #252525 !important;
+  border: solid 2px #333 !important;
+}
+.common-header-g80xl3:hover{
+  background-color: #D1A437 !important;
+}
+.common-header-g80xl3:hover .common-header-1iolkct svg g g,.common-header-g80xl3:hover .common-header-1sypczf{
+  fill: #FFFFFF !important;
+  color: #FFFFFF !important;
+}
+.common-header-1sypczf{
+  color: whitesmoke !important;
+}
+
+.nico-CommonHeaderRoot .common-header-zz80x3{
+  background-color: #252525 !important;
+  border-bottom: 1px solid #333 !important;
+}
+.nico-CommonHeaderRoot .common-header-zz80x3:hover {
+  background-color: #555555 !important;
+  text-decoration: none !important;
+}
+.common-header-430bj8{
+  color: whitesmoke !important;
+}
+.common-header-cvcm83 > *{
+  border-top: 1px solid #333 !important;
+}
+
+.common-header-1gq7o6w{
+  background-color: #252525 !important;
+  border-bottom: #333 1px solid !important
+}
+.common-header-1gq7o6w:hover{
+  background-color: #555555 !important;
+}
+.common-header-1u02t5o{
+  color: whitesmoke !important;
+}
+
+.common-header-xp52wl{
+  border: #333 2px solid !important;
+}
+.common-header-yrq9nc{
+  color: whitesmoke !important;
+}
+.common-header-xp52wl:hover{
+  background-color: #CC0000 !important;
+}
+
+.common-header-juy1p4{
+  background-color: #252525 !important;
+  border-bottom: 1px solid #555555 !important;
+}
+.common-header-juy1p4:nth-child(2n){
+  border-left: 1px solid #555555 !important;
+}
+.common-header-11j62e9{
+  background-color: #252525 !important;
+}
+.common-header-juy1p4:hover, .common-header-11j62e9:hover{
+  background-color: #555555 !important;
+  text-decoration: none !important;
+}

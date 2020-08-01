@@ -56,6 +56,9 @@
   }
 
   /*ニコニコインフォ*/
+  .NiconicoNoticeContainer-topNotification{
+    background-color: #555555 !important;
+  }
   .NiconicoNoticeContainer{
     background-color: #333333 !important;
     border:solid 1px #35393B !important;

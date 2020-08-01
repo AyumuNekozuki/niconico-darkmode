@@ -1,0 +1,123 @@
+.UserPageHeader,
+.UserPage-header,
+.UserDetailsHeader,
+.MainMenuContainer,
+.MainMenuContainer-menu{
+  background: #252525 !important;
+  background-color: #252525 !important;
+}
+
+.NiconicoLogo{
+  filter: invert();
+}
+.PersonalFrame{
+  background-color: #252525 !important;
+  border: 2px solid #666 !important;
+}
+
+
+.UserDetailsHeader-nickname{
+  color: white !important;
+}
+
+.UserDetailsHeader-accountID,
+.UserDetailsHeader-accountRegisteredVersion,
+.UserDetailsStatusItem-label{
+  color: #999 !important;
+}
+
+.UserDetailsHeader:after{
+  background-color: #666 !important;
+}
+
+.ExpandBoxButton-overlay{
+  background: none !important;
+}
+.ExpandBoxButton{
+  background-color: #333;
+}
+.NiconicoPoint{
+  border: #666 solid 1px !important;
+  background: #252525 !important;
+  border-radius: 5px;
+}
+
+/*nicorepo item*/
+.NicorepoItem-item,
+.UserItem-content,
+.FollowingTagContainer-content,
+.MylistMediaObject-linkArea,
+.ChannelItem-content,
+.CommunityItem-content,
+.ModalActionButton{
+  background: #252525 !important;
+  background-color: #252525 !important;
+  color: white !important;
+  border: none !important;
+}
+.NiconicoPoint:hover,
+.NicorepoItem-item:hover,
+.UserItem-content:hover,
+.FollowingTagContainer-content:hover,
+.MylistMediaObject-linkArea:hover,
+.ChannelItem-content:hover,
+.CommunityItem-content:hover,
+.ModalActionButton:hover,
+.MainMenuItem:hover,
+.MylistMediaObject-linkArea:hover .MylistThumbnails{
+  background-color: #35393B !important;
+}
+
+.UserItem-nickname,
+.MylistMediaObject-bodyTitle,
+.ChannelItem-name,
+.CommunityItem-name,
+.MylistThumbnails-itemCount{
+  color: white !important;
+}
+
+/*movie item*/
+.MylistThumbnails{
+  background: #252525 !important;
+  border: 1px #333 solid !important;
+}
+.MylistThumbnails-itemCount{
+  background: #35393B !important;
+  padding: 1px .5rem;
+  border-radius: 5px;
+}
+.MylistThumbnails-thumbnail:nth-of-type(3):before{
+  background: -webkit-gradient(linear,left top,right top,from(hsla(0,0%,98%,0)),to(#252525)) !important;
+  background: linear-gradient(90deg,hsla(0,0%,98%,0),#252525) !important;
+}
+.WatchLaterHeader-name,
+.MylistHeader-name,
+.VideoMediaObject-bodyTitle{
+  color: white !important;
+}
+.VideoMediaObject-bodyDescription,
+.MylistDescription .ExpandBox_is-expanded{
+  color: #999 !important;
+}
+.WatchLaterList-item+.WatchLaterList-item{
+  border-top: #666 1px solid !important;
+}
+.MylistHeader-metaItemValue{
+  color: whitesmoke !important;
+}
+.MylistItemList-item+.MylistItemList-item:before,
+.MylistHeader:after{
+  background-color: #666 !important;
+}
+
+
+/*side sort*/
+.SubMenuLink-label{
+  color: whitesmoke !important;
+}
+.SubMenuLink-link_active span{
+  color: #0080ff !important;
+}
+.SubMenuLink-link_internal:hover span{
+  color: #0080ff !important;
+}

@@ -1,0 +1,214 @@
+.html5_message, .return_html5_message{
+  border-bottom: none !important;
+}
+
+#videoHeaderDetail h2{
+  color: white !important;
+}
+
+.videoDescription.description{
+  color: whitesmoke !important;
+}
+.videoDescription.description a{
+  color: #0080ff !important;
+}
+
+
+/*user prof*/
+#topVideoInfo .ch_prof, #topVideoInfo .userProfile{
+  border: none !important;
+  background-color: #35393B !important;
+}
+
+/**/
+.videoStats{
+  color: whitesmoke !important;
+}
+#topVideoInfo .videoInfoLeft .extraVideoTrigger{
+  color: whitesmoke !important;
+}
+#topVideoInfo .hiddenInfo .extraVideoInfo{
+  background-color: #35393B !important;
+}
+.supplementary li{
+  color: whitesmoke !important;
+}
+
+#topVideoInfo .parentVideoInfo{
+  border: none !important;
+  background-color: #35393B !important;
+}
+#topVideoInfo .parentVideoInfo .cct{
+  color: whitesmoke !important;
+}
+#videoDetailInformation .videoMainInfoContainer{
+  border-top: 1px solid #767676;
+}
+
+/*share*/
+.expandTriger{
+  background: #767676 !important;
+  border: none !important;
+}
+#topVideoInfo .hiddenInfo .videoShareBody{
+  background: none !important;
+}
+.expandContainer{
+  background-color: #35393B !important;
+}
+.expandContainerBottom div h5{
+  color: whitesmoke !important;
+}
+#topVideoInfo .hiddenInfo .videoShareBody .shareOptionWrap textarea{
+  background: #767676 !important;
+  border: none !important;
+  color: white !important;
+}
+#topVideoInfo .hiddenInfo .videoShareBody .shareOptionWrap .shareOption .inputRadio{
+  color: whitesmoke !important;
+}
+
+/*tag*/
+#videoTagContainer .tagInner #videoHeaderTagList .toggleTagEdit{
+  background-color: #767676 !important;
+  color: white !important;
+}
+#videoTagContainer .tagInner #tagEditContainer .note{
+  color: whitesmoke !important;
+}
+#videoTagContainer .tagInner #tagEditContainer .tagInputText input{
+  background: #767676 !important;
+  border: none !important;
+  color: white !important;
+  margin-left: 0 !important;
+}
+#videoTagContainer .tagInner #tagEditContainer .tagInputText{
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.suggestBox{
+  background: #767676 !important;
+  border-top: 2px solid #767676 !important;
+}
+.suggestBoxInner{
+  border: 1px solid #767676 !important;
+  background: none !important;
+}
+#videoTagContainer .tagInner #tagEditContainer .tagAddButton input{
+  background: #767676 !important;
+  border: none !important;
+  color: white !important;
+  margin-left: 0 !important;
+}
+
+/*comment*/
+#playerTabContainer{
+  background: #767676 !important;
+}
+.player-panel-tabs .player-tab-header .player-tab-item{
+  background: #35393B !important;
+  color: white !important;
+  border-bottom: 2px solid #35393B !important;
+}
+
+.player-panel-tabs .player-tab-header .player-tab-item.active{
+  background: #007cff !important;
+  color: white !important;
+  border-bottom: 2px solid #007cff !important;
+}
+.comment-panel .select-box .options{
+  background: #767676 !important;
+}
+.comment-panel .select-box .options .option:hover{
+  background: #35393B !important;
+}
+
+/**/
+#videoExplorerExpand{
+  border: none !important;
+  background: #767676 !important;
+}
+#outline{
+  background: #1A1B1C !important;
+}
+#videoStats li{
+  color: #666 !important;
+}
+#videoStats li span{
+  color: whitesmoke !important;
+}
+
+/*share*/
+.expandContainerBottom h5{
+  color: whitesmoke !important;
+}
+.shareOptionTextarea{
+  background: #767676 !important;
+  border: none !important;
+  color: white !important;
+}
+#videoComment h4{
+  color: white !important;
+}
+#bottomVideoDetailInformation .trigger{
+  background: none !important;
+}
+#superBannerAds{
+  background: #1A1B1C !important;
+}
+
+/**/
+#liveTopics{
+  background: #35393B !important;
+}
+#liveTopics .liveTopicsHeader .liveTopicsTitle{
+  color: white !important;
+}
+
+/**/
+#twitter-client{
+  background: #35393B !important;
+}
+#twitter-client .account{
+  color: white !important;
+}
+#twitter-client .tweet-message .tweet-message-text{
+  background: #767676 !important;
+  border: none !important;
+  color: white !important;
+}
+
+/**/
+#playerSettingPanel{
+  background: #35393B !important;
+}
+#playerSettingPanel #playerSettingPanelContent{
+  background: #767676 !important;
+  border: none !important;
+}
+#playerSettingPanel #playerSettingPanelContent li .advancedSettings{
+  color: black !important;
+}
+#playerSettingPanel #playerSettingPanelTab li a{
+  background: #35393B !important;
+  border: none !important;
+  color: white !important;
+}
+#playerSettingPanel #playerSettingPanelTab li.active a{
+  background: #767676 !important;
+  border: none !important;
+  color: white !important;
+}
+#playerSettingPanel #playerSettingPanelContent .performance .inner .advancedSettings{
+  background-color: #eaeaea !important;
+}
+#playerSettingPanel #playerSettingPanelContent .imageQuality .left .attention, #playerSettingPanel #playerSettingPanelContent .imageQuality .right .attention{
+  color: white !important;
+}
+
+/**/
+#playerSettingSystemMessageSubPanel,#playerSettingSystemMessageSubPanel .systemMessageSubPanelOuter{
+  background: #35393B !important;
+}
