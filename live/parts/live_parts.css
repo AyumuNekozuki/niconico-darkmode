@@ -49,3 +49,18 @@
 .___middle-ad___1z4fB,.___footer-ad___1Rn52.___footer-ad___1Rn52, .___footer-ad___1Rn52.___footer-ad___1Rn52+.___footer-ad___1Rn52{
   background-color:#1A1B1C !important;
 }
+
+/*follow*/
+.___program-list-section___tu0rX,.___program-list-section___3n9d_,.___program-list-section___3Eiaa,.___program-list-section___28tzn{
+  background-color: #35393B !important;
+  color: white !important;
+}
+.___program-card___3lP8g:hover.___program-card___2ghwY:hover, .___program-card___5ydve:hover,.___program-card___1rfSu:hover,.___program-card___2_Exo:hover{
+  background-color: #737373 !important;
+}
+.___program-provider-name___2nXc3,.___program-provider-name___1KWYZ,.___program-provider-name___3vdOf{
+  color: whitesmoke !important;
+}
+.___duration___1DqL4,.___duration___1x3OH,.___duration___2ob70{
+  color: #999 !important;
+}

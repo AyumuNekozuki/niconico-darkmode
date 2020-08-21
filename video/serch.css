@@ -1,3 +1,6 @@
+.logo a svg g g{
+  fill: #FFFFFF !important
+}
 
 /*input*/
 .tagCaption{
@@ -23,7 +26,7 @@
   border: none !important;
 }
 .formSearch .searchFormB .sbubmit input{
-  background: #383e3e !important;
+  background: #6e7474 !important;
   box-shadow: none !important;
   color: white !important;
 }

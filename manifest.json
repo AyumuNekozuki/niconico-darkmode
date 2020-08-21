@@ -155,6 +155,34 @@
                 "live/parts/card.css",
                 "live/recent.css"
             ]
+        },
+        {
+            "matches": [
+                "https://site.live.nicovideo.jp/recent/namagame*"
+            ],
+            "css": [
+                "live/site-live/namagame.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://live.nicovideo.jp/timetable*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/timetable.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://live2.nicovideo.jp/watch/*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/watch.css"
+            ]
         }
     ]
 }

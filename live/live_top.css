@@ -19,6 +19,9 @@ header a{
 .___visit-anchor___3UmQE:after{
   border-color: whitesmoke !important;
 }
+.___message-anchor___1olWf{
+  color: black !important;
+}
 
 
 /*info*/
@@ -28,4 +31,24 @@ header a{
 }
 .___heading___1ZfRu:hover,.___item___3DvIG:hover{
   text-decoration: underline !important;
+}
+
+.___billboard-ad___2f-2_{
+  background-color: #252527 !important;
+}
+
+
+/*follow*/
+.___program-list-section___tu0rX{
+  background-color: #35393B !important;
+  color: white !important;
+}
+.___program-card___3lP8g:hover{
+  background-color: #737373 !important;
+}
+.___program-provider-name___2nXc3{
+  color: whitesmoke !important;
+}
+.___duration___1DqL4{
+  color: #999 !important;
 }

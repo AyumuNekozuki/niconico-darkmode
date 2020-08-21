@@ -100,3 +100,19 @@ a{
   background-color: #555555 !important;
   text-decoration: none !important;
 }
+
+/*notice*/
+.common-header-1l1lwin,
+.common-header-9wgpqv{
+  background-color: #252525 !important;
+}
+.common-header-1ip78db:hover,.common-header-1ip78db:hover .common-header-9wgpqv{
+  background-color: #35393B !important;
+  text-decoration: none !important;
+}
+.common-header-abyv5k{
+  color: white !important;
+}
+.common-header-sig2g svg path{
+  fill :white !important
+}

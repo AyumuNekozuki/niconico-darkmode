@@ -1,0 +1,59 @@
+.container table#timeline .item{
+  background: #252525 !important;
+}
+.container table#timeline .item td.item_image, .container table#timeline .item_score,.container table#timeline .item_text{
+  background: none !important;
+}
+
+/**/
+
+.item_description{
+  color: #999 !important;
+}
+.timetablePage-TimeshiftButton{
+  border: none !important;
+  background-color: #999 !important;
+}
+.timetablePage-TimeshiftButton_Icon{
+  filter: invert();
+}
+
+/*table*/
+.ui-datepicker-calendar{
+  background: #252525 !important;
+}
+.ui-widget-content{
+  color: white !important;
+}
+.ui-datepicker td{
+  border: #252525 1px solid !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+  background: #35393B !important;
+  color: white !important;
+}
+.ui-datepicker-week-end:nth-last-child(2) a.ui-state-default{
+  color: #0080ff !important;
+}
+.ui-datepicker-week-end:last-child a.ui-state-default{
+  color: #f33 !important;
+}
+
+
+#calendar .ui-datepicker-calendar a:hover, #calendar .ui-widget-content .ui-state-active {
+  color: white !important;
+  background: #0080ff !important;
+}
+
+/*but*/
+#SideNavigation .timetablePage-SideNavigation_Link{
+  background: none !important;
+}
+#SideNavigation .timetablePage-SideNavigation_Link{
+  color: white !important;
+}
+
+.feedback_link a{
+  background: none !important;
+}

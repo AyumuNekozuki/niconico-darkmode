@@ -1,0 +1,35 @@
+/*sec1*/
+.namagame-PlayerWantedProgram,.namagame-GamePlayProgram,.namagame-Introduction{
+  background: #1A1B1C !important;
+}
+
+.namagame-PlayerWantedProgram_Header,.namagame-GamePlayProgram_Header{
+  color: white !important;
+}
+.namagame-PlayerWantedProgram_Header::before,.namagame-GamePlayProgram_Header::before{
+  filter: invert();
+}
+
+
+/*card*/
+.namagame-PlayerWantedProgram_TitleText,.namagame-GamePlayProgram_TitleText{
+  color: white !important;
+}
+.namagame-PlayerWantedProgram_Detail:hover{
+  color: white !important;
+}
+.namagame-PlayerWantedProgram_Item:hover,.namagame-GamePlayProgram_Item:hover{
+  background: #35393B;
+  border-radius: 5px;
+}
+.namagame-PlayerWantedProgram_UserName,.namagame-PlayerWantedProgram_Time,.namagame-PlayerWantedProgram_DataText{
+  color: whitesmoke !important;
+}
+
+.namagame-GamePlayProgram_UserName,.namagame-GamePlayProgram_Time,.namagame-GamePlayProgram_DataText{
+  color: whitesmoke !important;
+}
+
+.namagame-GamePlayProgram_LabelItem-play{
+  background: #333 !important;
+}

@@ -1,0 +1,139 @@
+/*BG*/
+.___page___1G6yH{
+  background: #1A1B1C !important;
+}
+.___program-information-area___3Y_YG{
+  background: #252525 !important;
+}
+
+/*counter*/
+.___broadcast-participation-area___2_M2S{
+  border: none !important;
+  background: #1A1B1C !important;
+}
+.___disabled-message___gyrKQ a{
+  color: black !important;
+}
+
+/*side panel*/
+.___player-status___BQ7B7{
+  background-color: #1A1B1C !important;
+  border: none !important;
+}
+.___promotion-balloon___UsNYE{
+  background-color: #1A1B1C !important;
+  border: 1px solid #666;
+}
+.___close-button___2ZJVz:hover{
+  background: #1A1B1C !important;
+}
+.___promotion-balloon___UsNYE:before{
+  background: none !important;
+}
+.___program-statistics-menu___NOQCW{
+  border: none !important;
+}
+.___tab-area___3ACye{
+  background-color: #1A1B1C !important;
+  border-bottom: #999 2px solid !important;
+}
+.___ng-setting-popup-button___yBxaP>svg{
+  fill: white !important;
+}
+.___ng-setting-popup-button___yBxaP:hover>svg{
+  fill: #0080ff !important;
+  transition: fill .12s ease;
+}
+
+.___tab___1OVyJ{
+  color: white !important;
+  background: none !important;
+}
+.___tab___1OVyJ[aria-selected=true]:after{
+  background-color: #0080ff !important;
+}
+
+.___banner-panel___XbLIX{
+  border: solid #666;
+}
+.___close-button___1AMBC{
+  background-color: #1A1B1C !important;
+}
+
+/*side comment*/
+.___comment-number___2Qws3,.___table-row___27ghe[data-comment-type=cruise] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=nicoad] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=programExtend] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=quote] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=ranking] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=spi] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=transparent] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=userFollow] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=userLevelup] .___comment-text___2cPL0{
+  color: #999 !important;
+}
+.___table-row___27ghe[data-comment-type=operator] .___comment-text___2cPL0{
+  color: rgb(255, 0, 0) !important;
+}
+.___table-cell___3E0rV{
+  color: white;
+}
+.___table-row___27ghe:hover, .___table-row___27ghe[aria-selected=true]{
+  background-color: #35393B !important;
+}
+
+/*side osusume*/
+.___item___3VvT9{
+  border-bottom: 1px solid #333 !important;
+}
+.___program-card___x3vdg:hover{
+  background-color: #35393B !important;
+}
+.___program-title___3kSQv{
+  color: white !important;
+}
+.___duration___1JLRl, .___start-at___3ynDg,.___content___1pUhn{
+  color: #999 !important;
+}
+
+/*NG*/
+.___ng-panel___2Dau-{
+  background-color: #252525 !important;
+  color: white !important;
+}
+.___heading___Ej5Kv,.___header-cell___Cg80J{
+  color: white !important;
+}
+.___header___3lx6k{
+  border: solid #252525 1px;
+  background-color: #252525 !important;
+}
+.___table-row___ptvPu:hover, .___table-row___ptvPu[aria-selected=true], .___tooltip___2GW8j{
+  background-color: #35393B !important;
+}
+.___ng-delete-button___2I-AE{
+  color: white !important;
+}
+.___symbol-mark___3ahYk>path{
+  fill: white !important;
+}
+
+/*title*/
+.___program-information-header-area___1iPxh{
+  background-color: #252525 !important;
+  border-bottom: 1px solid #1A1B1C !important;
+  box-shadow: 0 4px 8px 0 #1A1B1C !important;
+}
+.___program-summary___2BVKN{
+  background-color: #252525 !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.___title___1aYd0{
+  color: white !important;
+}
+.___onair-time___ezyFY,.___level___2Pj85{
+  color: #999 !important;
+}
+.___popup-toggle-button___1UajY,.___popup-toggle-button___31Okx{
+  filter: invert();
+}
+.___list___280fl,.___list___3Tgas{
+  background-color: #252525 !important;
+}
+.___item___2ZLjH a:hover,.___item___2DzBr a:hover{
+  background-color: #35393B !important;
+}
