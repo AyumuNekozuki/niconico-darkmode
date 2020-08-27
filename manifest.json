@@ -193,6 +193,22 @@
                 "live/parts/card.css",
                 "live/follow.css"
             ]
+        },{
+            "matches": [
+                "https://live.nicovideo.jp/my*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/my.css"
+            ]
+        },{
+            "matches": [
+                "https://live2.nicovideo.jp/create*"
+            ],
+            "css": [
+                "live/create.css"
+            ]
         }
     ]
 }

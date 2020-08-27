@@ -1,0 +1,77 @@
+.infoarea-yellow a{
+  color: #0080ff !important;
+}
+
+#mypage_list{
+  background-color: #252525 !important;
+}
+
+/*yoyaku list*/
+.liveListInner4{
+  border: 1px solid #252525 !important;
+  border-top: 4px solid #252525 !important;
+  background-color: #252525 !important;
+}
+.liveListInner4 div.ttl, .liveListInner4 h3.ttl{
+  background: none !important;
+}
+.h3ttl .ttl{
+  margin-bottom: calc(10px + 1rem);
+}
+div.tsr_control, div.tsr_popup{
+  border: none !important;
+}
+div.tsr_control{
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  background: #555555 !important;
+  border-radius: 5px !important;
+  margin: 0 8px .75rem 0 !important;
+  padding: 3px 8px 5px !important;
+  color: white !important;
+}
+div.column{
+  background: none !important;
+}
+div.tsr_popup{
+  background-color: #252525;
+}
+
+div#Favorite_list{
+  display: none !important;
+}
+
+
+/*my live*/
+div#liveItemsWrap{
+  margin: .75rem auto auto auto !important;
+}
+.liveItem{
+  background: #35393B !important;
+  border: #35393B 1px solid !important;
+}
+.liveItemImg p,.liveItemImg p a{
+  color: #999 !important;
+}
+.liveItemTxt p{
+  color: #999 !important;
+}
+.liveItemTxt p.big{
+  color: white !important;
+}
+
+/*net chicket*/
+.btn_toggle{
+  color: #0080ff !important;
+}
+.se{
+  background: #333333 !important;
+}
+div.serial table.se th{
+  border-bottom:none !important;
+}
+
+/*feed*/
+.feedback_link a{
+  background: none !important;
+}
