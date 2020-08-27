@@ -2,3 +2,9 @@
 .video_catalog {
   color: white !important;
 }
+.video_catalog ul li{
+  color: #999 !important;
+}
+.video_catalog ul li a{
+  color: white !important;
+}

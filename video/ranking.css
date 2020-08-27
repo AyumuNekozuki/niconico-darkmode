@@ -3,7 +3,7 @@
 
 /*将棋盤*/
   .RankingHeader{
-    background-color: #35393B !important;
+    background-color: #1A1B1C !important;
   }
   .RankingHeader-prefix{
     color: whitesmoke !important;
@@ -15,14 +15,17 @@
     color: whitesmoke !important;
   }
   .CategoryHelpModal-infoLink a{
-    color: #086ED4 !important;
+    color: #0080FF !important;
+  }
+  .CategoryHelpModal-infoLink a:hover{
+    text-decoration: underline;
   }
 
   .LaneHeader p{
     color: white !important;
   }
   .CustomButton{
-    background: #35393B !important;
+    background: #252525 !important;
   }
   .RankingIcon_customBlack{
     filter: invert();
@@ -31,18 +34,18 @@
     color: white !important;
   }
   .RankingCustomDialogContainer-dialog{
-    background: #35393B !important;
+    background: #252525 !important;
     color: white !important;
   }
   .CustomRankingFieldset-legend{
-    background: #767676 !important;
+    background: #666 !important;
     color: white !important;
   }
   .CustomRankingFieldset{
-    border: 1px solid #767676;
+    border: 1px solid #666;
   }
   .TagRankingCustomEditor-tag{
-    border-bottom: 2px solid #767676;
+    border-bottom: 2px solid #666;
   }
   .RankingIcon_tag{
     filter: invert();
@@ -51,25 +54,26 @@
     color: white !important;
   }
   .TagSuggestionList{
-    background: #767676 !important;
-    border: 1px solid #767676;
+    background: #333 !important;
+    border: 1px solid #666 !important;
   }
   .TagSuggestionList-item{
     color: whitesmoke !important;
+    border-top: 1px dotted #666 !important;
   }
   .TagSuggestionList-item:hover, .TagSuggestionList-item_isActive{
-    background: #999 !important;
+    background: #555555 !important;
   }
   .CustomGenreSelector-label{
     border: none !important;
-    background: #767676 !important;
+    background: #666 !important;
   }
   .CustomGenreSelector-check:checked+.CustomGenreSelector-label{
     background: #007cff !important;
   }
 
   .RankingBaseItem{
-    background: #35393B !important;
+    background: #252525 !important;
   }
   .Card-link:hover{
     text-decoration: none !important;
@@ -78,13 +82,13 @@
   .RankingHeaderContainer-header_fixed{
     background: #1A1B1C !important;
     box-shadow: none !important;
-    border-bottom: 2px solid #767676;
+    border-bottom: 2px solid #666;
   }
   .RankingSettingSummary-content{
-    background: #35393B !important;
+    background: #252525 !important;
   }
   .RankingSettingSummary-content::before,.RankingSettingSummary-content::after{
-    background: #35393B !important;
+    background: #252525 !important;
   }
   .RankingSettingSummary-main>h1,.RankingSettingItem-content{
     color: whitesmoke !important;
@@ -108,35 +112,35 @@
     filter: invert();
   }
   .Dropdown-list{
-    background-color: #35393B !important;
+    background-color: #252525 !important;
     box-shadow: none !important;
-    border: 1px solid #767676 !important;
+    border: 1px solid #666 !important;
   }
   .DropdownItem{
-    background-color: #35393B !important;
+    background-color: #252525 !important;
   }
   .DropdownItem[data-is-selected]{
     background: #007cff !important;
   }
 
   .MediaObject.RankingMainVideo,.MediaObject.RankingMainNicoad{
-    background: #35393B !important;
+    background: #252525 !important;
   }
   .MediaObject.RankingMainNicoad[data-nicoad-grade=gold]{
-    background: #35393B !important;
+    background: #252525 !important;
     border: 3px solid gold !important;
   }
   .MediaObject.RankingMainNicoad[data-nicoad-grade=silver]{
-    background: #35393B !important;
+    background: #252525 !important;
     border: 2px solid silver !important;
   }
   .MediaObject.RankingMainNicoad[data-nicoad-grade=bronze]{
-    background: #35393B !important;
+    background: #252525 !important;
     border: 1px solid #a36b21 !important;
   }
 
   .RankingFilterTag{
-    background: #35393B !important;
+    background: #252525 !important;
     border: none !important;
   }
   .RankingFilterTag_active{
@@ -145,7 +149,7 @@
 
   .Paginator-item{
     border: none !important;
-    background: #35393B !important;
+    background: #252525 !important;
   }
   .Paginator-item_current{
     background: none !important;
@@ -157,20 +161,20 @@
 
   /*side*/
   .BaseRankingContentContainer header{
-    background: #35393B !important;
+    background: #252525 !important;
   }
   .BaseRankingContentContainer header h1,.NicoNewsContainer-heading,.BaseRankingContentContainer-main h2{
     color: whitesmoke !important;
   }
   .AnotherRankingLink-button{
-    background: #35393B !important;
+    background: #252525 !important;
     border: none !important;
   }
   .MediaObject-body p{
     color: #999 !important;
   }
   .BaseRankingContentContainer.TrendTagContainer .TrendTagContainer-link{
-    background: #35393B !important;
+    background: #252525 !important;
     border: none !important;
   }
   .BaseRankingContentContainer.TrendTagContainer .TrendTagContainer-row{
@@ -187,6 +191,6 @@
 
   /*footer*/
   .FooterContainer-feedback{
-    background-color: #35393B !important;
+    background-color: #252525 !important;
     border: none !important;
   }

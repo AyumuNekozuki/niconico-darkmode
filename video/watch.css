@@ -21,7 +21,7 @@
 }
 .VideoOwnerUploadedLink,.VideoOwnerChannelLink{
   border: none !important;
-  background-color: #35393B !important;
+  background-color: #252525 !important;
 }
 
 /*詳細文*/
@@ -53,7 +53,7 @@
   background: #1A1B1C !important;
 }
 .VideoMetaOverflowMenuContainer-menuBlock:not(:first-of-type){
-  border-top: 1px solid #35393B !important;
+  border-top: 1px solid #333 !important;
 }
 .GenreRankMetaOverflowMenuContainer-header{
   background: #1A1B1C !important;
@@ -72,10 +72,10 @@
 
 /*タグ*/
 .TagEnterEditingButton,.TagContainer-editButton{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
 }
 .TagItem {
-  background-color: #35393B !important;
+  background-color: #252525 !important;
   border: none !important;
 }
 .TagItem a{
@@ -86,13 +86,13 @@
 }
 .TagContainer.is-editing{
   background-color: #1A1B1C !important;
-  border: 1px solid #e5e8ea;
+  border: 1px solid #555555;
 }
 .TagItem-name{
   color: whitesmoke !important;
 }
 .TagContainer-editButton:hover{
-  background-color: #069 !important;
+  background-color: #0080FF !important;
 }
 
 /*タグ追加・検索窓*/
@@ -100,7 +100,7 @@
   box-shadow: none !important;
 }
 .TagSuggestionInput-input{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
   color: whitesmoke !important;
   box-shadow: none !important;
 }
@@ -109,42 +109,16 @@
   box-shadow: none !important;
 }
 .TagSuggestionList-item,.TagSuggestionList-favoriteTag,.SearchBox-optionMenu{
-  background-color: #1A1B1C !important;
+  background-color: #252525 !important;
   color: whitesmoke !important;
-  border-top: 1px dotted #35393B !important;
+  border-top: 1px dotted #252525 !important;
 }
 .TagSuggestionList-item.is-active, .TagSuggestionList-item:hover,.SearchBox-optionMenuItem:hover{
   background-color: #35393B !important;
 }
 .SearchBox{
   border: none !important;
-  background: #35393B !important;
-}
-
-/*かんたんコメント*/
-.ControllerBoxCommentAreaContainer{
-  background: black !important;
-  border-right: none !important;
-}
-.CommentPostContainer-commentInput{
-  border: none !important;
-}
-.CommentPostContainer-commandInput{
-  border: none !important;
-  border-right: 1px solid rgb(118, 118, 118) !important;
-}
-.EasyCommentContainer{
-  background: none !important;
-}
-.EasyCommentButton{
-  background: #35393B !important;
-  color: white !important;
-  border: none !important;
-}
-.LikeButton{
-  background: #35393B !important;
-  color: white !important;
-  border: 2px solid rgb(118, 118, 118) !important;
+  background: #252525 !important;
 }
 
 /*R-panel*/
@@ -161,13 +135,13 @@
   background-color: #1A1B1C !important;
 }
 .VideoMenuContainer .UadButtonBalloon{
-  border: 1px solid #35393B !important;
+  border: 1px solid #252525 !important;
 }
 .VideoMenuContainer .UadButtonBalloon:before{
   border: none !important;
 }
 .VideoMenuContainer .UadButtonBalloon:after{
-  border-right-color: #35393B !important;
+  border-right-color: #252525 !important;
 }
 .VideoMenuContainer:after{
   border-bottom: none !important;
@@ -176,11 +150,14 @@
   border-bottom: none !important;
   color: white !important;
 }
+.PlayerPanelContainer-tabItem{
+  border-bottom: 3px solid #555555 !important;
+}
 .PlayerPanelContainer-tabItem.current{
   border-bottom: 3px solid #007cff !important;
 }
 .VideoListPanelContainer .NextPlayVideoContainer{
-  border-bottom: 1px solid #35393B !important;
+  border-bottom: 1px solid #252525 !important;
 }
 .NextPlayVideoContainer-note,.WatchRecommendation-heading,.NextPlayVideoContainer-continuous{
   color: whitesmoke !important;
@@ -189,14 +166,14 @@
 
 /*コメントパネル*/
 .CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell{
-  background: #35393B !important;
+  background: #252525 !important;
   color: white !important;
 }
 .CommentPanelContainer .CommentPanelDataGrid{
   color: whitesmoke !important;
 }
 .CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell,.CommentPanelDataGrid .CommentPanelDataGrid-TableCell{
-  border-right: 1px solid rgb(58, 59, 53) !important;
+  border-right: 1px solid #333 !important;
 }
 .CommentPanelContainer [data-row-nicoru-rank="1"]{
   background: rgb(74, 75, 58) !important;
@@ -205,7 +182,7 @@
   color: black !important;
 }
 .DataGrid-Table :hover{
-  background: #35393B !important;
+  background: #252525 !important;
   color: white !important;
 }
 .DropDownMenu,.DateTimeInput-date,.DateTimeInput-time{
@@ -217,9 +194,17 @@
   background: #35393B !important;
 }
 
+.ContextMenu .CommentPanelContextMenuContainer{
+  border: 1px solid #555555;
+  background: #252525 !important;
+}
+.CommentPanelContextMenuContainer-menuItem:hover{
+  background: #555555 !important;
+}
+
 /*NG*/
 .NGSettingPanelContainer-content,.ViewerNGListDataGrid-HeaderCell{
-  background: #35393B !important;
+  background: #252525 !important;
   color: whitesmoke !important;
 }
 .ViewerNGList{
@@ -227,27 +212,27 @@
   color: whitesmoke !important;
 }
 .ViewerNGListDataGrid-TableCell{
-  border-right: 1px solid #35393B !important;
+  border-right: 1px solid #252525 !important;
 }
 .ViewerNGListDataGrid-HeaderCellSeparator{
-  color: #35393B !important;
+  color: #252525 !important;
 }
 
 .NGSettingPanelContainer-openViewerNGRegisterButton{
-  background-color: #e5e8ea !important;
-  color: black !important;
+  background-color: #555555 !important;
+  color: white !important;
 }
 .NGSettingPanelContainer-openViewerNGRegisterButton:hover{
-  background-color: #069 !important;
+  background-color: #0080FF !important;
 }
 .NGSettingPanelContainer-num,.NGSettingPanelContainer-enableCheckbox{
   color: #0080ff !important;
 }
 .NGSettingPanelContainer-removeButton[disabled]{
-  color: gray !important;
+  color: #999999 !important;
 }
 .ViewerNGRegister{
-  background: #35393B !important;
+  background: #252525 !important;
 }
 .ViewerNGRegister-header{
   border-bottom: 1px solid gray;
@@ -256,22 +241,22 @@
   color: whitesmoke !important;
 }
 .ViewerNGRegister-input{
-  background: #35393B !important;
+  background: #252525 !important;
   color: white !important;
 }
 
 /*twitter*/
 .TwitterClientContainer,.SharePanelContainer,.AddingMylistPanel-mylist,.AddingMylistModal{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
 }
 .TwitterClient-Account-Message,.AddingMylistPanel-name{
   color: whitesmoke !important;
 }
 .TwitterClient-Message-Textarea,.SharePanelContainer-textarea,.SharePanelContainer-linkTimeText,.AddingMylistModal-descriptionInput,.AddingMylistModal-nameInput{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
   color: white !important;
   box-shadow:none !important;
-  border: 0.5px solid #767676 !important;
+  border: 0.5px solid #666666 !important;
 }
 .CheckboxLabel,.SharePanelContainer-playerEmbedOption{
   color: white !important;
@@ -288,21 +273,47 @@
 
 /*コメント入力*/
 .CommentPostContainer-commandInput,.CommentPostContainer-commentInput{
-  background-color: #35393B !important;
-  border-right: 1px solid gray;
+  background-color: #252525 !important;
+  border-right: 1px solid #666;
 }
 .CommentCommandInput,.CommentInput-textarea{
   color: white !important;
 }
 .CommentCommandPaletteContainer{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
 }
 .CommentCommandPaletteNode[data-type=layout], .CommentCommandPaletteNode[data-type=size]{
   background-color: #35393B !important;
-  border: 2px solid #767676 !important;
+  border: 2px solid #666 !important;
 }
 .CommentCommandPaletteNode svg{
   fill: whitesmoke !important;
+}
+
+/*かんたんコメント*/
+.ControllerBoxCommentAreaContainer{
+  background: black !important;
+  border-right: none !important;
+}
+.CommentPostContainer-commentInput{
+  border: none !important;
+}
+.CommentPostContainer-commandInput{
+  border: none !important;
+  border-right: 1px solid #666 !important;
+}
+.EasyCommentContainer{
+  background: none !important;
+}
+.EasyCommentButton{
+  background: #252525 !important;
+  color: white !important;
+  border: none !important;
+}
+.LikeButton{
+  background: #252525 !important;
+  color: white !important;
+  border: 2px solid #666 !important;
 }
 
 /*広告・市場*/
@@ -310,59 +321,54 @@
   background: #1A1B1C !important;
 }
 .Card{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
 }
 .Card-title,.IchibaForWatch_Title_Body{
   color: whitesmoke !important;
 }
 .IchibaForWatch{
-  background: #35393B !important;
+  background: #252525 !important;
 }
 .IchibaForWatch_EditButton,.IchibaFooter_SearchButton,.IchibaForWatch_SearchButton{
   color: whitesmoke !important;
   background-color: #0080ff !important;
 }
 .IchibaMainItem_Info,.IchibaMainItem_Price_Number,.IchibaMainItem_Price_SaleRate,.IchibaSuggestItem_Price_Number,.IchibaSuggestItem_Price_SaleRate{
-  color: #767676 !important;
+  color: #666 !important;
 }
 .IchibaMain_Container .IchibaBalloon{
-  background: #767676 !important;
+  background: #666 !important;
 }
 .IchibaMain_Container .IchibaBalloon::after{
-  border-top: 16px solid #767676 !important;
+  border-top: 16px solid #666 !important;
 }
 
 /*市場モーダル*/
 .IchibaModal_Container,.IchibaModal_Body,.IchibaAdded,.IchibaTagSearch,.IchibaAdded_Header{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
 }
 .IchibaModal_Title_Body,.IchibaSuggest_Title,.IchibaTagSearch_Title,.IchibaAdded_Title,.IchibaAdded_Description{
   color: whitesmoke !important;
 }
 .IchibaModal_Body{
-  border-top: 1px solid #767676 !important;
+  border-top: 1px solid #666 !important;
 }
 .IchibaSearchForm_Category,.IchibaSearchForm_Keyword_Input,.IchibaSuggest_Sort{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
   color: whitesmoke !important;
-  border: 1px solid #767676 !important;
+  border: 1px solid #666 !important;
 }
 .noItem,.loading{
-  color: #767676 !important;
+  color: #666 !important;
 }
 .IchibaTagSearch_Item a{
-  background-color: #35393B !important;
-  border: 0.5px solid #767676 !important;
+  background-color: #252525 !important;
+  border: 0.5px solid #666 !important;
 }
 
 /*投稿者メニュー*/
 .EditorMenuContainer{
   background: #35393B !important;
-}
-.EditorMenuContainer-menuBox>li:first-child{
-  background: #35393B !important;
-  border-right: none !important;
-  color: whitesmoke !important;
 }
 .EditorMenuContainer-menuBox-menu{
   background: #35393B !important;
@@ -378,10 +384,20 @@
   background: #35393B !important;
 }
 .EditorMenuContainer-menuBox-menu-child .menuItem .Link:hover,.menuItem .RouterLink:hover{
-  background: #767676 !important;
+  background: #555555 !important;
 }
 .EditorMenuContainer-menuBox-menu-child .menuItem .OpenBlankIcon{
   fill: whitesmoke !important;
+}
+.EditorMenuContainer-menuHeading{
+  color: white !important;
+}
+.EditorMenuContainer-menuBox>li.EditorMenuContainer-menuBox-menu:first-child{
+  border-right: none !important;
+  background: none !important;
+}
+.EditorMenuContainer-menuBox-menu:hover{
+  background: #555555 !important;
 }
 
 /*投稿者コメント*/

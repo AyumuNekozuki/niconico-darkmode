@@ -17,7 +17,7 @@
   color: whitesmoke !important;
 }
 .tab0{
-  background: #383e3e !important;
+  background: #252525 !important;
 }
 .tab0 .dataValue{
   color: red !important;
@@ -26,7 +26,7 @@
   border: none !important;
 }
 .formSearch .searchFormB .sbubmit input{
-  background: #6e7474 !important;
+  background: #252525 !important;
   box-shadow: none !important;
   color: white !important;
 }
@@ -34,7 +34,7 @@
   filter: invert();
 }
 .tab1{
-  background: #383e3e !important;
+  background: #252525 !important;
 }
 .tab1 .dataValue{
   color: white !important;
@@ -48,7 +48,7 @@
   color: whitesmoke !important;
 }
 .tagCaption .tag{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
   border: none !important;
   color: whitesmoke !important;
 }
@@ -64,7 +64,7 @@
 
 /*sort*/
 .switchingBtn{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
   border: none !important;
 }
 .switchingBtn:hover{
@@ -75,7 +75,7 @@
   filter: invert();
 }
 .searchOption{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
   border: none !important;
 }
 
@@ -85,8 +85,8 @@
   color: whitesmoke !important;
 }
 .itemComment{
-  background-color: #35393B !important;
-  color: #767676 !important;
+  background-color: #252525 !important;
+  color: #555555 !important;
   border: none !important;
 }
 .itemTime{
@@ -101,10 +101,10 @@
   background: #1A1B1C !important;
 }
 .content .contentHeader{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
 }
 .relatedInfo .exTxt, .supplement{
-  color: #666 !important;
+  color: #999 !important;
 }
 .button.default{
   border: #666 solid 2px !important;
@@ -114,10 +114,10 @@
 
 /*trend*/
 .trendtag .item:hover{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
 }
 .tagWrap a{
-  background-color: #35393B !important;
+  background-color: #252525 !important;
   border: none !important;
 }
 .tagWrap a:hover{

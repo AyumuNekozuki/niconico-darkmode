@@ -5,7 +5,7 @@
 
   /*ジャンル*/
   .GenreTopPageHeader{
-    background-color: #35393B !important;
+    background-color: #252525 !important;
   }
   .GenreTopPageHeader-prefix{
     color: whitesmoke !important;
@@ -35,7 +35,7 @@
     color: whitesmoke !important;
   }
   .TagItem-link, .RepresentedTag{
-    background-color: #35393B !important;
+    background-color: #252525 !important;
     border: none !important;
   }
   .TagWithVideoItem-articleLink, .TrendyTagsContainer-expands, .TrendyTagsWithVideosContainer-more{
@@ -61,12 +61,12 @@
     background-color:#1A1B1C !important;
   }
   .FooterContainer-feedback{
-    background-color: #35393B !important;
+    background-color: #252525 !important;
   }
   .FooterContainer-metadata{
     color: white !important;
   }
 
   .Separator{
-    background: repeating-linear-gradient(-45deg,#767676,#767676 6px,transparent 0,transparent 12px) !important;
+    background: repeating-linear-gradient(-45deg,#555555,#555555 6px,transparent 0,transparent 12px) !important;
   }

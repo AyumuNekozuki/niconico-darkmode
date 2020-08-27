@@ -7,15 +7,15 @@
 
 .contentsInner li{
   background: none !important;
-  border-bottom: 1px solid #767676 !important;
+  border-bottom: 1px solid #333 !important;
 }
 .contentsInner li p{
-  color: #999 !important;
+  color: #666 !important;
 }
 
 .pager a, .pager span{
   border: none !important;
-  background-color: #767676 !important;
+  background-color: #333 !important;
 }
 
 .pager span.active{

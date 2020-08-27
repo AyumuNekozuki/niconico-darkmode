@@ -1,10 +1,10 @@
 
 /*serch box*/
   .SearchBox-option{
-    background-color: #35393B !important;
+    background-color: #252525 !important;
   }
   .SearchBox-form{
-    background-color: #35393B !important;
+    background-color: #252525 !important;
     box-shadow: none !important;
   }
   .SearchBox-query{
@@ -16,7 +16,7 @@
 }
 
 .TagItem-link{
-  background: #35393B !important;
+  background: #252525 !important;
   border: none !important;
 }
 

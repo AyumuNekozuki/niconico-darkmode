@@ -8,7 +8,7 @@
   a{
     color: #DCE7EA !important;
   }
-  a:hover {
+  .BaseLayout-main a:hover,.FooterContainer a:hover{
     text-decoration: underline !important;
   }
 

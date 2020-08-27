@@ -10,8 +10,8 @@
                 "https://www.nicovideo.jp/?*"
             ],
             "css": [
-                "parts/header.css",
-                "top/_.css"
+                "top/_.css",
+                "parts/header.css"
             ]
         },
         {
@@ -19,8 +19,8 @@
                 "https://www.nicovideo.jp/daily_topics/*"
             ],
             "css": [
-                "parts/header.css",
-                "top/daily_topics.css"
+                "top/daily_topics.css",
+                "parts/header.css"
             ]
         },
         {
@@ -52,7 +52,6 @@
             ],
             "css": [
                 "parts/header.css",
-                "video/flash_watch.css",
                 "video/watch.css"
             ]
         },

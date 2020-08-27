@@ -15,7 +15,10 @@
   background: none !important;
 }
 #navigation span{
-  background: #35393B !important;
+  background: #252525 !important;
+}
+#navigation span:hover{
+  background: #555555 !important;
 }
 #navigation span a{
   background: none !important;
@@ -65,6 +68,10 @@ th.calendar_1,th.calendar_2,th.calendar_3,th.calendar_4,th.calendar_5{
 #today_contents h2{
   color: white !important;
   border-bottom: 1px solid #767676 !important;
+}
+
+#today_contents a:hover{
+  text-decoration: underline !important;
 }
 
 #today_program{
