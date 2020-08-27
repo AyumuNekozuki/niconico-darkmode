@@ -182,6 +182,17 @@
                 "live/parts/live_parts.css",
                 "live/watch.css"
             ]
+        },
+        {
+            "matches": [
+                "https://live.nicovideo.jp/follow*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/parts/card.css",
+                "live/follow.css"
+            ]
         }
     ]
 }

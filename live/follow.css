@@ -1,0 +1,32 @@
+.___heading___2uxEn{
+  color: white !important;
+}
+
+.___label___3_cDE{
+  color: #999 !important;
+}
+.___target___ajljm[aria-pressed=true]+.___label___3_cDE{
+  color: white !important;
+}
+
+.___program-card___3lP8g:hover,.___label___3KD2C:hover{
+  background-color: #555555 !important;
+}
+
+.___radio-group-field___3gwJ7{
+  background-color: #252525 !important;
+}
+.___label___njX1h, .___toggle-button___2VOaL,.___label___3KD2C{
+  color: white !important;
+}
+.___target___3rM3p[type=radio]:checked~.___label___3KD2C{
+  color: #0080ff !important;
+}
+
+.___toggle-button___2VOaL{
+  background-color: #252525 !important;
+}
+
+.___symbol-mark___2uryc g{
+  fill:white !important;
+}
