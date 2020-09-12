@@ -111,6 +111,27 @@
         },
         {
             "matches": [
+                "https://www.nicovideo.jp/openlist*",
+                "https://www.nicovideo.jp/mymemory_register"
+            ],
+            "css": [
+                "parts/header.css",
+                "video/parts/zero_design.css",
+                "video/recommendations.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/ranking_graph*"
+            ],
+            "css": [
+                "parts/header.css",
+                "video/parts/zero_design.css",
+                "video/ranking_graph.css"
+            ]
+        },
+        {
+            "matches": [
                 "https://www.nicovideo.jp/video_catalog*"
             ],
             "css": [
@@ -175,6 +196,16 @@
         },
         {
             "matches": [
+                "https://live.nicovideo.jp/ranking*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/ranking.css"
+            ]
+        },
+        {
+            "matches": [
                 "https://live2.nicovideo.jp/watch/*"
             ],
             "css": [
@@ -208,6 +239,16 @@
             ],
             "css": [
                 "live/create.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://live.nicovideo.jp/search*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/search.css"
             ]
         }
     ]

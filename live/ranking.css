@@ -1,0 +1,30 @@
+.rk-Title p{
+  color: #999 !important;
+}
+.rk-Navigation_List li a.active{
+  background-color: #0080ff !important;
+}
+.rk-Navigation_List li a:not(.active):hover{
+  background-color: #666 !important;
+}
+
+.rk-RankingList_Header{
+  background-color: #333 !important;
+  color: white !important;
+}
+.rk-ProgramCard{
+  border-bottom: solid 1px #333 !important;
+}
+.rk-ProgramCard_DetailTitle svg{
+  fill: #258D8D !important;
+}
+
+.rk-Navigation_Date.active::after{
+  background-color: #0080ff !important;
+}
+
+.rk-RankingList_Header_GenreSelector{
+  background-color: #252525 !important;
+  border: 1px solid #666 !important;
+  color: white !important;
+}

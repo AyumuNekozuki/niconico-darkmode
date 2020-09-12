@@ -7,11 +7,11 @@
 }
 
 /*serchbox cre*/
-.___text-box___1phU7,#header_search_form_input{
+.___text-box___1phU7,#header_search_form_input,.___text-box___JpUEV{
   background-color: #35393B !important;
   color: white !important;
 }
-.___search-button___1LfLF svg{
+.___search-button___1LfLF svg,.___search-button___1FxzB svg{
   fill: black !important;
 }
 .___suggest___37_Ri{
@@ -62,5 +62,11 @@
   color: whitesmoke !important;
 }
 .___duration___1DqL4,.___duration___1x3OH,.___duration___2ob70{
+  color: #999 !important;
+}
+.___main-message___2bzNI{
+  color: white !important;
+}
+.___description-message___mkXTv{
   color: #999 !important;
 }

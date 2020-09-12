@@ -24,6 +24,11 @@
   background-color: #252525 !important;
 }
 
+/*community*/
+.CommunityEditorMenuContainer{
+  background: #258D8D !important;
+}
+
 /*詳細文*/
 .VideoDescription-html{
   color: whitesmoke !important;
@@ -429,4 +434,10 @@
 }
 .VideoDescriptionSeriesContainer-label{
   color: whitesmoke !important;
+}
+
+/*player fix*/
+.___player-display-header___3Qj5J.___player-display-header___f1wRW a{
+  color: #0080FF !important;
+  text-decoration: underline !important;
 }

@@ -6,6 +6,8 @@
   background: #252525 !important;
 }
 
+
+
 /*counter*/
 .___broadcast-participation-area___2_M2S{
   border: none !important;
@@ -13,6 +15,12 @@
 }
 .___disabled-message___gyrKQ a{
   color: black !important;
+}
+.___broadcast-participation-area-disabled-message-area___24J5E{
+  background: #00000099 !important;
+}
+.___broadcast-participation-area-disabled-message-area___24J5E span{
+  color: white !important;
 }
 
 /*comment*/

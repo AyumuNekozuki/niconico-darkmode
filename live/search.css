@@ -1,0 +1,104 @@
+#billboard_ad{
+  background-color: #1A1B1C !important;
+  border-bottom: 1px solid #999;
+}
+
+/*input serch*/
+.search-input-area{
+  background: none !important;
+}
+.search-input-area .search-tab-anchor{
+  background-color: #1A1B1C !important;
+  border: 1px #666 solid;
+}
+#search_form_word{
+  background-color: #35393B !important;
+  color: white !important;
+}
+
+/*結果*/
+.searchPage-Layout_Section{
+  background-color: #252525 !important;
+  border: 1px solid #666 !important;
+}
+.searchPage-SearchHeader_ButtonContent{
+  color: white !important;
+}
+.searchPage-SearchHeader_ButtonInput:checked+.searchPage-SearchHeader_ButtonContent{
+  color: #0080ff !important;
+  -webkit-box-shadow: 0 -2px 0 0 #0080ff inset !important;
+}
+
+/*sort*/
+.searchPage-SearchFilter_ProviderCaption{
+  background-color: #252525 !important;
+  border: 1px solid #666 !important;
+  color: white !important;
+}
+.searchPage-SearchFilter_ProviderInput:checked+.searchPage-SearchFilter_ProviderCaption{
+  background-color: #0080ff !important;
+  border: 1px solid #0080ff !important;
+}
+.searchPage-SearchFilter_Sort{
+  background-color: #252525 !important;
+  border: 1px solid #666 !important;
+  color: white !important;
+}
+
+/*option*/
+.searchPage-SearchOption{
+  background-color: #555 !important;
+}
+.searchPage-Switch_Caption{
+  color: white !important;
+}
+
+/*live*/
+.searchPage-ProgramList_Description{
+  color: #999 !important;
+}
+.searchPage-ProgramList_Data li span{
+  color: #999 !important;
+}
+.searchPage-ProgramList_TimeShift{
+  background-color: #252525 !important;
+  border: 1px solid #666 !important;
+  color: white !important;
+}
+
+/*コミュ限*/
+.searchPage-ProgramList_TitleIcon-pay, .searchPage-ProgramList_TitleIcon-private{
+  border-color: #258D8D !important;
+  color: #258D8D !important;
+}
+
+
+/*next*/
+.searchPage-Pager_Item-next[data-disabled=true], .searchPage-Pager_Item-prev[data-disabled=true], .searchPage-Pager_Item[data-disabled=true]{
+  background-color: #666 !important;
+  border-color: #666 !important;
+  color: #999 !important;
+}
+.searchPage-Pager_Item, .searchPage-Pager_Item-next, .searchPage-Pager_Item-prev{
+  background-color: #404040 !important;
+  border-color: #404040 !important;
+  color: white !important;
+}
+.searchPage-Pager_Item-next[data-active=true], .searchPage-Pager_Item-prev[data-active=true], .searchPage-Pager_Item[data-active=true]{
+  background-color: #0080ff !important;
+  border-color: #0080ff !important;
+  color: white !important;
+}
+
+/*midashi*/
+.searchPage-SearchSubHeader_LinkContent{
+  color: white !important;
+}
+
+/*ads feedback*/
+#footer_ads{
+  background: none !important;
+}
+.feedback_link a{
+  background: none !important;
+}
