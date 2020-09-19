@@ -250,6 +250,16 @@
                 "live/parts/live_parts.css",
                 "live/search.css"
             ]
+        },
+        {
+            "matches": [
+                "https://live.nicovideo.jp/history*"
+            ],
+            "css": [
+                "parts/header.css",
+                "live/parts/live_parts.css",
+                "live/history.css"
+            ]
         }
     ]
 }

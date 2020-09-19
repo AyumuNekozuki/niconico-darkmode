@@ -7,6 +7,11 @@
   background-color: #252525 !important;
 }
 
+.FormationFrame-message{
+  border: none !important;
+  color: white !important;
+}
+
 .NiconicoLogo{
   filter: invert();
 }
