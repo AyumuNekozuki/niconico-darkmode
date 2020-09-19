@@ -1,13 +1,12 @@
 ![](https://img.shields.io/github/license/AyumuNekozuki/niconico-darkmode)
 
-# niconico Darkmode
+![](images/ss/ss1.png)
 
 niconicoサイトをダークモード化する拡張機能です。（現在制作中）
 
 ## Preview
 
-![niconico総合TOP](images/preview01.png)
-
+![niconico総合TOP](images/ss/002.png)
 
 ---
 
