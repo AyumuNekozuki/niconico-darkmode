@@ -1,8 +1,15 @@
 {
     "manifest_version": 2,
     "name": "niconico Darkmode",
-    "version": "0.9.0",
-    "description": "niconicoサイトをダークモード化する拡張機能(Pre-release)",
+    "version": "1.0.0",
+    "description": "niconicoサイトをダークモード化する拡張機能",
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png",
+        "500": "images/icon500.png"
+    },
     "content_scripts": [
         {
             "matches": [
