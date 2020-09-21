@@ -37,6 +37,11 @@
   color: #0080ff !important;
 }
 
+.Dialog{
+  background: #252525 !important;
+  border: 2px solid #999 !important;
+}
+
 /*情報*/
 .VideoMetaContainer>*, .VideoMetaOverflowMenuContainer{
   border-left : none !important;
@@ -183,9 +188,19 @@
 .CommentPanelContainer [data-row-nicoru-rank="1"]{
   background: rgb(74, 75, 58) !important;
 }
-.CommentPanelContainer [data-row-nicoru-rank="2"]{
+.CommentPanelContainer [data-row-nicoru-rank="2"],
+.CommentPanelContainer [data-row-nicoru-rank="3"],
+.CommentPanelContainer [data-row-nicoru-rank="4"]{
   color: black !important;
 }
+
+.CommentPanelDataGrid .CommentPanelDataGrid-Body::-webkit-scrollbar, .CommentPanelDataGrid .CommentPanelDataGrid-getScrollbarWidth::-webkit-scrollbar{
+  background: #252525 !important;
+}
+.CommentPanelDataGrid .CommentPanelDataGrid-Body::-webkit-scrollbar-thumb{
+  background: #666 !important;
+}
+
 .DataGrid-Table :hover{
   background: #252525 !important;
   color: white !important;
@@ -297,7 +312,7 @@
 
 /*かんたんコメント*/
 .ControllerBoxCommentAreaContainer{
-  background: black !important;
+  background: none !important;
   border-right: none !important;
 }
 .CommentPostContainer-commentInput{
@@ -315,10 +330,29 @@
   color: white !important;
   border: none !important;
 }
+.EasyCommentContainer-nextButton{
+  background: linear-gradient(90deg,hsla(0,0%,100%,0),rgba(0, 0, 0, 0.94),black) !important;
+}
+.EasyCommentContainer-prevButton{
+  background: linear-gradient(270deg,hsla(0,0%,100%,0),rgba(0, 0, 0, 0.94),black) !important;
+}
+.EasyCommentContainer-nextButton svg,.EasyCommentContainer-prevButton svg{
+  fill: white;
+}
+.CommentShutter:empty{
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
 .LikeButton{
   background: #252525 !important;
   color: white !important;
   border: 2px solid #666 !important;
+}
+.LikeIcon.LikeButton-icon svg svg defs #LikeIcon_svg__frame-0 path{
+  fill: white !important;
+}
+
+.ContentTree-parentSummary .Link{
+  background-color: #069 !important;
 }
 
 /*広告・市場*/
