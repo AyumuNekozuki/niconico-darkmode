@@ -31,6 +31,14 @@
   color: #999 !important;
 }
 
+.UserDescription .ExpandBox-expanded a{
+  color: #0080ff !important;
+}
+.UserDescription .ExpandBox-expanded a:hover{
+  color: #0080ff !important;
+  text-decoration: underline !important;
+}
+
 .UserDetailsHeader:after{
   background-color: #666 !important;
 }

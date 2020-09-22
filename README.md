@@ -2,7 +2,7 @@
 
 ![](images/ss/ss1.png)
 
-niconicoサイトをダークモード化する拡張機能です。（現在制作中）
+niconicoサイトをダークモード化する拡張機能です。
 
 ## Preview
 

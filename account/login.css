@@ -1,0 +1,23 @@
+body{
+  background: #1A1B1C !important;
+}
+
+
+/*header logo*/
+.header .header__title img {
+  filter: invert();
+}
+
+/*login*/
+.main.login .login-form{
+  background: none !important;
+  color: white !important;
+}
+.text-link:link{
+  color: #0080ff !important;
+}
+
+.main .sns-group .text-description,
+.main .sns-group .button-wrap > p{
+  color: #999 !important;
+}

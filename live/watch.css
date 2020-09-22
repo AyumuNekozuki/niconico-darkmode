@@ -17,7 +17,7 @@
 /*counter*/
 .___broadcast-participation-area___2_M2S{
   border: none !important;
-  background: #1A1B1C !important;
+  background: none !important;
 }
 .___disabled-message___gyrKQ a{
   color: black !important;
@@ -41,11 +41,23 @@ input[name="command"]{
 .___command-palette___2gp0H{
   background-color: hsla(0,0%,100%,.9);
 }
+.___command-palette___c692n.___command-palette___2gp0H{
+  background: #252525 !important;
+}
+.___message___2r1zv{
+  color: #999 !important;
+}
 .___item___1Ez9-.___control___3F6-e input,.___item___R78sZ.___control___Qtpvm input{
   background: none !important;
 }
 .___overlay___34ni-{
   background-color: #262626cc !important;
+}
+.___disabled-message___gyrKQ{
+  color: white !important;
+}
+.___disabled-message___gyrKQ a{
+  color: #0080ff !important;
 }
 
 /*side panel*/
@@ -288,4 +300,16 @@ input[name="command"]{
 /*footer*/
 .___page-top-anchor___9sr8C{
   background-color: #1A1B1C !important;
+}
+
+
+
+
+/*nicoad-ex*/
+#iframePanel-header h1{
+  color: white !important;
+  background: #252525 !important;
+}
+.___rich-view-status___3mt-b{
+  border: 1px solid #252525 !important;
 }
