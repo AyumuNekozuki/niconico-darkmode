@@ -4,6 +4,11 @@
 
 niconicoサイトをダークモード化する拡張機能です。
 
+▼ DLはこちらから
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/niconico-darkmode/gihjpgjpgofigjcckobchfchlfbhenjl)
+- [Firefox Add-ons](https://addons.mozilla.org/ja/firefox/addon/niconico-darkmode/)
+
+
 ## Preview
 
 ![niconico総合TOP](images/ss/002.png)
