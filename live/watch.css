@@ -313,3 +313,69 @@ input[name="command"]{
 .___rich-view-status___3mt-b{
   border: 1px solid #252525 !important;
 }
+
+/*--v103 fix--*/
+
+  /*unkome url*/
+  .___announcement-renderer___3f4Bt.___ga-ns-announcement-renderer___3T9uf.___announcement-renderer___MpHXY a{
+    color: #0080FF !important;
+  }
+
+  /*gentei yuuryou*/
+  .___limited-program-label___2Am1g{
+    color: #258D8D !important;
+    border: 1px solid #258D8D !important;
+  }
+  .___pay-program-label___1_Kcn{
+    border: 1px solid #d9a300 !important;
+    color: #d9a300 !important;
+  }
+
+  /*kanren*/
+  .___content-preview___1ShLa{
+    background-color: #1A1B1C !important;
+  }
+
+  /*nyukai*/
+  .___visit-anchor___2Yf1E{
+    color: black !important;
+  }
+  .___payment-information___2xFqv{
+    background-color: #333333 !important;
+  }
+  .___payment-information___2xFqv .___message___3RPvj{
+    color: whitesmoke !important;
+  }
+  .___net-ticket-purchase-anchor___2EVYl{
+    background-color: #d9a300 !important;
+    color: white !important;
+    border: 1px solid #d9a300 !important;
+  }
+
+  /*com in*/
+  .___follow-anchor___U_Edx{
+    color: white !important;
+    background-color: #39f !important;
+  }
+
+  /*follow*/
+  .___follow-anchor___1_jPc{
+    color: #0080ff !important;
+  }
+
+  /*comment migi*/
+  .___comment-context-menu___1nzl_{
+    background-color: #35393B !important; 
+    border: 1px solid #35393B !important;
+    color: whitesmoke !important;
+  }
+  .___comment-context-menu___1nzl_ .___menu-item___XRf5G{
+    color: whitesmoke !important;
+    background-color: #35393B !important; 
+  }
+  .___comment-context-menu___1nzl_ .___menu-item___XRf5G:hover{
+    background-color: #737373 !important; 
+  }
+  .___menu___2E9GD+.___menu___2E9GD:before{
+    background-color: #35393B !important;
+  }

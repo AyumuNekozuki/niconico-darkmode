@@ -190,7 +190,8 @@
 }
 .CommentPanelContainer [data-row-nicoru-rank="2"],
 .CommentPanelContainer [data-row-nicoru-rank="3"],
-.CommentPanelContainer [data-row-nicoru-rank="4"]{
+.CommentPanelContainer [data-row-nicoru-rank="4"],
+.CommentPanelContainer [data-row-nicoru-rank="5"]{
   color: black !important;
 }
 
