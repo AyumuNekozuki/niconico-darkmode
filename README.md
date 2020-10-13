@@ -1,6 +1,8 @@
-![](https://img.shields.io/github/license/AyumuNekozuki/niconico-darkmode)
+![](https://img.shields.io/github/license/AyumuNekozuki/niconico-darkmode) 
+![](https://img.shields.io/chrome-web-store/v/gihjpgjpgofigjcckobchfchlfbhenjl) ![](https://img.shields.io/chrome-web-store/users/gihjpgjpgofigjcckobchfchlfbhenjl)
+![](https://img.shields.io/amo/v/niconico-darkmode) ![](https://img.shields.io/amo/users/niconico-darkmode)
 
-![](images/ss/ss1.png)
+![](/ss/ss1.png)
 
 niconicoサイトをダークモード化する拡張機能です。
 
@@ -11,7 +13,7 @@ niconicoサイトをダークモード化する拡張機能です。
 
 ## Preview
 
-![niconico総合TOP](images/ss/002.png)
+![niconico総合TOP](/ss/002.png)
 
 ---
 
@@ -23,7 +25,10 @@ niconicoサイトをダークモード化する拡張機能です。
 （どちらもOSは問わないが最新のものであることが条件）
 
 ## 使用言語
+- javascript
+- jQuery
 - CSS3
+- SCSS
 
 ## 開発への参加
 ### 環境構築
@@ -32,7 +37,7 @@ niconicoサイトをダークモード化する拡張機能です。
 3. DLしたファイルを読み込み編集
 
 ### 注意事項
-同じCSSファイルでChrome/Firefoxどちらも動作する必要があります。
+同じCSS(SCSS)ファイルでChrome/Firefoxどちらも動作する必要があります。
 
 ## ライセンス
 MIT
