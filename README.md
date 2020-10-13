@@ -1,5 +1,7 @@
 ![](https://img.shields.io/github/license/AyumuNekozuki/niconico-darkmode) 
+
 ![](https://img.shields.io/chrome-web-store/v/gihjpgjpgofigjcckobchfchlfbhenjl) ![](https://img.shields.io/chrome-web-store/users/gihjpgjpgofigjcckobchfchlfbhenjl)
+
 ![](https://img.shields.io/amo/v/niconico-darkmode) ![](https://img.shields.io/amo/users/niconico-darkmode)
 
 ![](/ss/ss1.png)
