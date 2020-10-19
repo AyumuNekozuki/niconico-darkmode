@@ -12,10 +12,6 @@
     },
     "content_scripts": [
         {
-            "matches":["https://*.nicovideo.jp/*"],
-            "css":["v120/header.css"]
-        },
-        {
             "matches": [
                 "https://www.nicovideo.jp/",
                 "https://www.nicovideo.jp/?*"
@@ -24,6 +20,7 @@
                 "v120/jquery-3.5.1.min.js","v120/main_v110.js"
             ],
             "css": [
+                "v120/header.css",
                 "v120/social-top.css"
             ]
         },
@@ -297,6 +294,7 @@
                 "https://www.nicovideo.jp/series/*"
             ],
             "css": [
+                "v120/header.css",
                 "v120/series.css"
             ]
         }
