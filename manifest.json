@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "niconico Darkmode",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "niconicoサイトをダークモード化する拡張機能",
     "icons": {
         "16": "images/icon16.png",
@@ -12,13 +12,19 @@
     },
     "content_scripts": [
         {
+            "matches":["https://*.nicovideo.jp/*"],
+            "css":["v120/header.css"]
+        },
+        {
             "matches": [
                 "https://www.nicovideo.jp/",
                 "https://www.nicovideo.jp/?*"
             ],
+            "js": [
+                "v120/jquery-3.5.1.min.js","v120/main_v110.js"
+            ],
             "css": [
-                "top/_.css",
-                "parts/header.css"
+                "v120/social-top.css"
             ]
         },
         {
@@ -285,6 +291,18 @@
             "css": [
                 "top/feedback.css"
             ]
+        },
+        {
+            "matches": [
+                "https://www.nicovideo.jp/series/*"
+            ],
+            "css": [
+                "v120/series.css"
+            ]
         }
+    ]
+    ,
+    "permissions": [
+        "storage"
     ]
 }

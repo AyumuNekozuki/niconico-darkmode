@@ -1,0 +1,428 @@
+@charset "UTF-8";
+.ja-jp .TopPage .CrossSearch-services {
+  background-color: #1A1B1C !important;
+  border: solid 1px #555555 !important;
+}
+
+.ja-jp .TopPage .CrossSearch-services .CrossSearch-service {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .TopPage .CrossSearch-form .CrossSearch-input {
+  background-color: #1A1B1C !important;
+  color: #FEFEFE !important;
+  border: solid 1px #555555 !important;
+}
+
+.ja-jp .TopPage .CrossSearch-form .CrossSearch-button {
+  background-color: #333 !important;
+}
+
+.ja-jp .TopPage .CrossSearch-form .suggestBox {
+  background-color: #1A1B1C !important;
+}
+
+.ja-jp .TopPage .CrossSearch-form .suggestBox .suggestBoxInner {
+  border: 1px solid #555555;
+  background-color: #1A1B1C !important;
+}
+
+.ja-jp .TopPage .CrossSearch-form .suggestBox .suggestBoxInner a {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .TopPage .CrossSearch-form .suggestBox .suggestBoxInner li:hover {
+  background-color: #555555 !important;
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-header .HeaderContainer-searchBox .SearchBox-option {
+  background-color: #252525 !important;
+}
+
+.ja-jp .BaseLayout-header .HeaderContainer-searchBox .SearchBox-form {
+  background-color: #252525 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.ja-jp .BaseLayout-header .HeaderContainer-searchBox .SearchBox-query {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-header .HeaderContainer-searchBox .suggestBox {
+  background-color: #1A1B1C !important;
+}
+
+.ja-jp .BaseLayout-header .HeaderContainer-searchBox .suggestBox .suggestBoxInner {
+  border: 1px solid #555555;
+  background-color: #1A1B1C !important;
+}
+
+.ja-jp .BaseLayout-header .HeaderContainer-searchBox .suggestBox .suggestBoxInner a {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-header .HeaderContainer-searchBox .suggestBox .suggestBoxInner li:hover {
+  background-color: #555555 !important;
+  color: #FEFEFE !important;
+}
+
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox {
+  border: none;
+  background: #252525;
+}
+
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagEditForm-input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionInput-input {
+  background-color: #252525;
+  color: #FEFEFE;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList-item,
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList-favoriteTag,
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .SearchBox-optionMenu {
+  background-color: #252525;
+  color: #FEFEFE;
+  border-top: 1px dotted #252525;
+}
+
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList-item.is-active,
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList-item:hover,
+.ja-jp .WatchAppContainer .HeaderContainer-searchBox .SearchBox .SearchBox-optionMenuItem:hover {
+  background-color: #333333;
+}
+
+.ja-jp .FooterContainer a {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .FooterContainer a:hover {
+  color: #0080FF !important;
+}
+
+.ja-jp .FooterContainer .FooterContainer-column {
+  border-top: 2px solid #FEFEFE;
+}
+
+.ja-jp .FooterContainer .FooterContainer-feedback {
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+
+.toPageTopWrap {
+  background: #333333 !important;
+}
+
+.toPageTopWrap .inner a:hover, .toPageTopWrap .inner a:active {
+  background: #333333 !important;
+  border: none !important;
+  color: #FEFEFE !important;
+}
+
+#footerWrap {
+  background: #1A1B1C !important;
+}
+
+#footerWrap a {
+  color: #FEFEFE !important;
+}
+
+#footerWrap a:hover {
+  color: #0080FF !important;
+}
+
+#footerWrap #footerNav .outer h3 {
+  border-bottom: #555555 solid 1px !important;
+  color: #FEFEFE !important;
+}
+
+#footerWrap #footerNav ul li {
+  background: none !important;
+}
+
+#footerWrap .figureWrap span, #footerWrap .figureWrap small {
+  color: #FEFEFE !important;
+}
+
+.ja-jp {
+  background-color: #1A1B1C !important;
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main {
+  background-color: #1A1B1C !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage {
+  /*コンテナ 動画静画生放送*/
+  /*コンテナ ニュース*/
+  /*コンテナ アニメ・広告*/
+  /*コンテナ チャンネル・アプリ・アツマール*/
+  /*連絡コンテナ*/
+}
+
+.ja-jp .BaseLayout-main .TopPage .ArrowLink {
+  color: #FEFEFE !important;
+  fill: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .ArrowLink:hover {
+  color: #0080FF !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconicoLogo {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.ja-jp .BaseLayout-main .TopPage .PersonalFrameContainer {
+  background-color: #272727 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .PersonalFrameContainer .PersonalFrameContainer-title {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .PersonalFrameContainer .PersonalFrameContainer-description {
+  background-color: #333333 !important;
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .PersonalFrameContainer .PersonalFrameContainer-close {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer {
+  background-color: #333333 !important;
+  border: solid 1px #555555 !important;
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer a {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer a:hover {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer .NiconicoNoticeContainer-topNotification {
+  background-color: #555555 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer .DottedList > li {
+  border-bottom: dashed 1px #555 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer .NiconicoNoticeContainer-header h1:before {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .ArrowLink {
+  color: #FEFEFE !important;
+  fill: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .ArrowLink:hover {
+  color: #0080FF !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-header {
+  border-bottom: 1px solid #272727 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-header h1 {
+  color: white !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-block a {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-block a:hover {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-block .DottedList > li:not(:last-child) {
+  border-bottom: dashed 1px #555 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicovideoContainer,
+.ja-jp .BaseLayout-main .TopPage .NicoseigaContainer,
+.ja-jp .BaseLayout-main .TopPage .PastNicoliveContainer {
+  border-top: 4px solid #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicovideoContainer a,
+.ja-jp .BaseLayout-main .TopPage .NicoseigaContainer a,
+.ja-jp .BaseLayout-main .TopPage .PastNicoliveContainer a {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicovideoContainer a:hover,
+.ja-jp .BaseLayout-main .TopPage .NicoseigaContainer a:hover,
+.ja-jp .BaseLayout-main .TopPage .PastNicoliveContainer a:hover {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .PastNicoliveContainer-headerLogo {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .DottedList > li {
+  border-bottom: dashed 1px #555 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer a {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer a:hover {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .NiconewsContainer-photoNews {
+  background-color: #272727 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .NiconewsContainer-photoNews .NiconewsContainer-twitterCount {
+  background: #272727;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .NiconewsContainer-photoNews .NiconewsContainer-twitterCount:after {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(90%, #272727)) !important;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), #272727 90%) !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .Tabs-tab {
+  background-color: #272727 !important;
+  color: #999 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .Tabs-tab.is-active {
+  background-color: #ff8000 !important;
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NiconewsContainer footer {
+  border-top: none !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NAnimeContainer .NAnimeContainer-headerLogo {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.ja-jp .BaseLayout-main .TopPage .DAnimeStoreContainer {
+  background-color: #FAFAFA;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicoadContainer {
+  border-top: 4px solid #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicoadContainer a {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicoadContainer a:hover {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicoadContainer .NicoadContainer-headerLogo {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicoadContainer .NicoadItem [data-nicoad-sponsor] {
+  color: black !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .ChannelContainer a {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .ChannelContainer a:hover {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .ChannelContainer .ChannelContainer-label {
+  color: black !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .ChannelContainer .ChannelContainer-column + .ChannelContainer-column {
+  border-left: 1px dashed #555555 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicoappContainer a div {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicoappContainer a:hover div {
+  color: #0080FF !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .RPGAtsumaruContainer a {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .RPGAtsumaruContainer a:hover {
+  color: #0080FF !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .NicoappAndAtsumaruSeparatorContainer {
+  border-left: 1px dashed #555555 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer {
+  border-top: 2px solid #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer .DottedList > li:not(:last-child) {
+  border-bottom: dashed 1px #555 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer a {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer a:hover {
+  color: #0080FF !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer .BaseNoticeContainer-headerIcon {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.ja-jp .BaseLayout-main .TopPage .PublishedArticlesContainer {
+  border-top: 2px solid #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .PublishedArticlesContainer .DottedList > li:not(:last-child) {
+  border-bottom: dashed 1px #555 !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .PublishedArticlesContainer a {
+  color: #FEFEFE !important;
+}
+
+.ja-jp .BaseLayout-main .TopPage .PublishedArticlesContainer a:hover {
+  color: #0080FF !important;
+}
