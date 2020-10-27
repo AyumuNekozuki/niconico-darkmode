@@ -1,3 +1,5 @@
+console.log("niconico-Darkmode: version: v1.1.1")
+
 function setting_true(){
   $('body').eq(0).addClass('ja-jp');
 }
@@ -12,7 +14,7 @@ $(function(){
     var first_check = setInterval(function(){
       if(first_check_count == 0){
         if(!$('.common-header-nicodarksetting-but').length){
-          $('.common-header-wb7b82').eq(0).prepend('<div class="common-header-nicodarksetting-but" style="position: relative;text-decoration: none;padding: 0px 8px;height: 36px;width: 60px;line-height: 36px;color: rgb(255, 255, 255);font-size: 12px;">🌙設定<div class="nicodark-setting-menupanel"><img class="nicodark-logo" src="https://github.com/AyumuNekozuki/niconico-darkmode/blob/master/ss/ss1.png?raw=true"><div class="nicodark-setting-menu"><label for="nicodark_setting_cb" class="nicodark-label01"><span class="nicodark-span01">総合TOP</span><label for="nicodark_setting_cb" id="nicodark-aria" class="nicodark-label02" aria-checked="false"><input type="checkbox" id="nicodark_setting_cb" class="nicodark-cb"><span class="nicodark-span02"></span></label></label></div><p style="margin: .25rem;padding: .25rem;font-size: 10px;line-height: 15px;border: .5px red dotted;">近日行われる総合TOPリニューアルに向けての一時実装です。TOPページのデザインが崩れた場合にご利用ください。</p></div></div>');
+          $('.common-header-wb7b82').eq(0).prepend('<div class="common-header-nicodarksetting-but" style="position: relative;text-decoration: none;padding: 0px 8px;height: 36px;width: 60px;line-height: 36px;color: rgb(255, 255, 255);font-size: 12px;">🌙設定<div class="nicodark-setting-menupanel"><img class="nicodark-logo" src="https://github.com/AyumuNekozuki/niconico-darkmode/blob/master/ss/ss1.png?raw=true"><div class="nicodark-setting-menu"><label for="nicodark_setting_cb" class="nicodark-label01"><span class="nicodark-span01">総合TOP</span><label for="nicodark_setting_cb" id="nicodark-aria" class="nicodark-label02" aria-checked="false"><input type="checkbox" id="nicodark_setting_cb" class="nicodark-cb"><span class="nicodark-span02"></span></label></label></div><p style="margin: .25rem;padding: .25rem;font-size: 10px;line-height: 15px;border: .5px red dotted;">ネット超会議やボカコレなどのネットイベント用です。TOPページのデザインが崩れた場合にご利用ください。</p></div></div>');
 
           $('#nicodark_setting_cb').click(function() {
             var cb = $('#nicodark_setting_cb').prop('checked');

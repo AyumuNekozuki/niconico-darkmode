@@ -1,39 +1,60 @@
-@charset "UTF-8";
-.ja-jp .TopPage .CrossSearch-services {
-  background-color: #1A1B1C !important;
-  border: solid 1px #555555 !important;
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector {
+  border-color: #333333;
+  background: #333333;
 }
 
-.ja-jp .TopPage .CrossSearch-services .CrossSearch-service {
-  color: #FEFEFE !important;
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService {
+  color: #FEFEFE;
 }
 
-.ja-jp .TopPage .CrossSearch-form .CrossSearch-input {
-  background-color: #1A1B1C !important;
-  color: #FEFEFE !important;
-  border: solid 1px #555555 !important;
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService.active,
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService:hover {
+  background: #555555;
 }
 
-.ja-jp .TopPage .CrossSearch-form .CrossSearch-button {
-  background-color: #333 !important;
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form {
+  background: #333333;
+  -webkit-box-shadow: inset 0 0 0 1px #333333;
+          box-shadow: inset 0 0 0 1px #333333;
 }
 
-.ja-jp .TopPage .CrossSearch-form .suggestBox {
-  background-color: #1A1B1C !important;
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox {
+  border-color: #555555;
+  background-color: #333333;
 }
 
-.ja-jp .TopPage .CrossSearch-form .suggestBox .suggestBoxInner {
-  border: 1px solid #555555;
-  background-color: #1A1B1C !important;
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner {
+  border-color: #555555;
+  background-color: #333333;
 }
 
-.ja-jp .TopPage .CrossSearch-form .suggestBox .suggestBoxInner a {
-  color: #FEFEFE !important;
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner .favTagEditBox p {
+  color: #999;
 }
 
-.ja-jp .TopPage .CrossSearch-form .suggestBox .suggestBoxInner li:hover {
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li {
+  color: inherit;
+}
+
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li a {
+  color: #FEFEFE;
+}
+
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li a:hover {
+  background: none !important;
+  color: inherit !important;
+}
+
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li:hover, .ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li.active {
   background-color: #555555 !important;
-  color: #FEFEFE !important;
+}
+
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li:hover a, .ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li.active a {
+  color: #FEFEFE;
+}
+
+.ja-jp .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner .favTagItem.active + .suggestItem {
+  border-color: #555555;
 }
 
 .ja-jp .BaseLayout-header .HeaderContainer-searchBox .SearchBox-option {
@@ -105,6 +126,69 @@
   background-color: #333333;
 }
 
+.ja-jp #head_search #search_tab a.head_ssw_0 {
+  background-color: #252525;
+  color: #999;
+}
+
+.ja-jp #head_search #search_input {
+  background: #252525;
+  border: #555555 solid 1px;
+}
+
+.ja-jp #head_search #search_input #bar_search {
+  background-color: #252525;
+  color: #FEFEFE;
+}
+
+.ja-jp #head_search #search_input .suggestBox {
+  background-color: #252525;
+}
+
+.ja-jp #head_search #search_input .suggestBox .suggestBoxInner {
+  border: 1px solid #555555;
+  background-color: #252525;
+}
+
+.ja-jp #head_search #search_input .suggestBox .suggestBoxInner .favTagEditBox p {
+  color: #FEFEFE;
+}
+
+.ja-jp #head_search #search_input .suggestBox .suggestBoxInner .favTagItem {
+  border-color: #555555;
+}
+
+.ja-jp #head_search #search_input .suggestBox .suggestBoxInner .favTagItem li a {
+  color: #FEFEFE;
+}
+
+.ja-jp #head_search #search_input .suggestBox .suggestBoxInner .favTagItem li.active {
+  background-color: #555555 !important;
+}
+
+.ja-jp #head_search #search_input .suggestBox .suggestBoxInner .favTagItem li.active a {
+  background: none !important;
+  color: #FEFEFE !important;
+}
+
+.ja-jp textarea {
+  background: #333333;
+  color: #FEFEFE;
+  border-color: #555555;
+}
+
+.ja-jp input[type=text],
+.ja-jp input[type=date], .ja-jp input[type=time],
+.ja-jp .AddingMylistModal-nameInput,
+.ja-jp .AddingMylistModal-descriptionInput,
+.ja-jp .ichiba_search_form_query {
+  background: #333333;
+  color: #FEFEFE;
+  border-color: #555555;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .ja-jp .FooterContainer a {
   color: #FEFEFE !important;
 }
@@ -157,6 +241,50 @@
   color: #FEFEFE !important;
 }
 
+.ja-jp .TopPage-stageArea .AuroraVisionCard {
+  background-color: #252525;
+}
+
+.ja-jp .TopPage-stageArea .AuroraVisionCard .AuroraVisionCard-meta .AuroraVisionCard-metaCatch {
+  color: #FEFEFE;
+}
+
+.ja-jp .TopPage-stageArea .AuroraVisionCard .AuroraVisionCard-uploader {
+  color: #FEFEFE;
+}
+
+.ja-jp .TopPage-stageArea .AuroraVisionCard .AuroraVisionCard-uploader[data-is-hover="true"] {
+  color: #0080FF;
+}
+
+.ja-jp .TopPage-stageArea .AuroraVisionCard[data-is-hover="true"] .AuroraVisionCard-meta .AuroraVisionCard-metaCatch {
+  color: #0080FF;
+}
+
+.ja-jp .TopPage-stageArea .ContentsPickupContainer .ContentsPickupCard {
+  background-color: #252525;
+}
+
+.ja-jp .TopPage-stageArea .ContentsPickupContainer .ContentsPickupCard .ContentsPickupCard-content {
+  color: #FEFEFE;
+}
+
+.ja-jp .TopPage-stageArea .ContentsPickupContainer .ContentsPickupCard .ContentsPickupCard-content .ContentsPickupCard-metaPickupComment {
+  color: #999;
+}
+
+.ja-jp .TopPage-stageArea .ContentsPickupContainer .ContentsPickupCard .ContentsPickupCard-content:hover {
+  color: #0080FF;
+}
+
+.ja-jp .TopPage-stageArea .ContentsPickupContainer .ContentsPickupCard .ContentsPickupCard-footerUploader {
+  color: #FEFEFE;
+}
+
+.ja-jp .TopPage-stageArea .ContentsPickupContainer .ContentsPickupCard .ContentsPickupCard-footerUploader:hover {
+  color: #0080FF;
+}
+
 .ja-jp {
   background-color: #1A1B1C !important;
   color: #FEFEFE !important;
@@ -166,263 +294,318 @@
   background-color: #1A1B1C !important;
 }
 
-.ja-jp .BaseLayout-main .TopPage {
-  /*コンテナ 動画静画生放送*/
-  /*コンテナ ニュース*/
-  /*コンテナ アニメ・広告*/
-  /*コンテナ チャンネル・アプリ・アツマール*/
-  /*連絡コンテナ*/
-}
-
-.ja-jp .BaseLayout-main .TopPage .ArrowLink {
-  color: #FEFEFE !important;
-  fill: #FEFEFE !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .ArrowLink:hover {
-  color: #0080FF !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NiconicoLogo {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .TopPage-header .NiconicoLogo {
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
 
-.ja-jp .BaseLayout-main .TopPage .PersonalFrameContainer {
-  background-color: #272727 !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .PersonalFrameContainer .PersonalFrameContainer-title {
-  color: #FEFEFE !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .PersonalFrameContainer .PersonalFrameContainer-description {
-  background-color: #333333 !important;
-  color: #FEFEFE !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .PersonalFrameContainer .PersonalFrameContainer-close {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
-.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer {
-  background-color: #333333 !important;
-  border: solid 1px #555555 !important;
-  color: #FEFEFE !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer a {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .TopPage-header .HeaderContainer_Re-mainLower .OneLineLinkContainer-link {
   color: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer a:hover {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .TopPage-header .HeaderContainer_Re-mainLower .OneLineLinkContainer-link:hover {
   color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer .NiconicoNoticeContainer-topNotification {
-  background-color: #555555 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .PersonalFrameContainer {
+  background: #1A1B1C;
+  border: none;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer .DottedList > li {
-  border-bottom: dashed 1px #555 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .PersonalFrameContainer .PersonalFrameContainer-body {
+  background: #252525;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconicoNoticeContainer .NiconicoNoticeContainer-header h1:before {
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .PersonalFrameContainer .PersonalFrameContainer-body .PersonalFrameContainer-link {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .PersonalFrameContainer .PersonalFrameContainer-body .PersonalFrameContainer-link:hover {
+  color: #30A6CA;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .PersonalFrameContainer .PersonalFrameContainer-body .PersonalFrameContainer-close svg {
+  fill: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .PersonalFrameContainer .PersonalFrameContainer-body .PersonalFrameContainer-close:hover svg {
+  fill: #30A6CA;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .TopPage-stageArea {
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
 
-.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .ArrowLink {
-  color: #FEFEFE !important;
-  fill: #FEFEFE !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .ArrowLink:hover {
-  color: #0080FF !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-header {
-  border-bottom: 1px solid #272727 !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-header h1 {
-  color: white !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-block a {
-  color: #FEFEFE;
-}
-
-.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-block a:hover {
-  color: #0080FF;
-}
-
-.ja-jp .BaseLayout-main .TopPage .TodayRecommendContainer .TodayRecommendContainer-block .DottedList > li:not(:last-child) {
-  border-bottom: dashed 1px #555 !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NicovideoContainer,
-.ja-jp .BaseLayout-main .TopPage .NicoseigaContainer,
-.ja-jp .BaseLayout-main .TopPage .PastNicoliveContainer {
-  border-top: 4px solid #FEFEFE !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NicovideoContainer a,
-.ja-jp .BaseLayout-main .TopPage .NicoseigaContainer a,
-.ja-jp .BaseLayout-main .TopPage .PastNicoliveContainer a {
-  color: #FEFEFE;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NicovideoContainer a:hover,
-.ja-jp .BaseLayout-main .TopPage .NicoseigaContainer a:hover,
-.ja-jp .BaseLayout-main .TopPage .PastNicoliveContainer a:hover {
-  color: #0080FF;
-}
-
-.ja-jp .BaseLayout-main .TopPage .PastNicoliveContainer-headerLogo {
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .TopPage-stageArea section {
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .DottedList > li {
-  border-bottom: dashed 1px #555 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-wideSection .TopPage-stageArea .LEDMessageBoard::after {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1A1B1C), to(transparent)), -webkit-gradient(linear, left bottom, left top, from(#1A1B1C), to(transparent));
+  background-image: linear-gradient(#1A1B1C, transparent), linear-gradient(0deg, #1A1B1C, transparent);
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer a {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer .FrameTitleLink .FrameTitleLink-titleText {
   color: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer a:hover {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer .FrameTitleLink:hover .FrameTitleLink-titleText {
   color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .NiconewsContainer-photoNews {
-  background-color: #272727 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer .ContentsDigestFrame-description {
+  color: #999;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .NiconewsContainer-photoNews .NiconewsContainer-twitterCount {
-  background: #272727;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer .SeeMoreLink .SeeMoreLink-text {
+  background-color: #333333;
+  color: #FEFEFE;
+  border-color: #555555;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .NiconewsContainer-photoNews .NiconewsContainer-twitterCount:after {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(90%, #272727)) !important;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0), #272727 90%) !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer .SeeMoreLink .SeeMoreLink-text svg {
+  fill: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .Tabs-tab {
-  background-color: #272727 !important;
-  color: #999 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer .SeeMoreLink:hover .SeeMoreLink-text {
+  background-color: #0080FF;
+  border-color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer .Tabs-tab.is-active {
-  background-color: #ff8000 !important;
-  color: #FEFEFE !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NiconewsContainer footer {
-  border-top: none !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NAnimeContainer .NAnimeContainer-headerLogo {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
-.ja-jp .BaseLayout-main .TopPage .DAnimeStoreContainer {
-  background-color: #FAFAFA;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NicoadContainer {
-  border-top: 4px solid #FEFEFE !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .NicoadContainer a {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer .ContentsDigestFrame-body .ContentsDigestFrame-card .ContentsDigestFrame-cardMetaTitle {
   color: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NicoadContainer a:hover {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer .ContentsDigestFrame-body .ContentsDigestFrame-card:hover .ContentsDigestFrame-cardMetaTitle {
   color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NicoadContainer .NicoadContainer-headerLogo {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ThemeContainer > .ContentsDigestFrame + .ContentsDigestFrame:before {
+  border-color: #555555;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NicoadContainer .NicoadItem [data-nicoad-sponsor] {
-  color: black !important;
-}
-
-.ja-jp .BaseLayout-main .TopPage .ChannelContainer a {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoAdContainer .NicoAdContainer-header .FrameTitleLink .FrameTitleLink-titleText {
   color: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .ChannelContainer a:hover {
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoAdContainer .NicoAdContainer-header .FrameTitleLink:hover .FrameTitleLink-titleText {
   color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .ChannelContainer .ChannelContainer-label {
-  color: black !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoAdContainer .NicoAdContainer-header .SeeMoreLink .SeeMoreLink-text {
+  background-color: #333333;
+  color: #FEFEFE;
+  border-color: #555555;
 }
 
-.ja-jp .BaseLayout-main .TopPage .ChannelContainer .ChannelContainer-column + .ChannelContainer-column {
-  border-left: 1px dashed #555555 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoAdContainer .NicoAdContainer-header .SeeMoreLink .SeeMoreLink-text svg {
+  fill: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NicoappContainer a div {
-  color: #FEFEFE !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoAdContainer .NicoAdContainer-header .SeeMoreLink:hover .SeeMoreLink-text {
+  background-color: #0080FF;
+  border-color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NicoappContainer a:hover div {
-  color: #0080FF !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-header .FrameTitleLink .FrameTitleLink-titleText {
+  color: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .RPGAtsumaruContainer a {
-  color: #FEFEFE !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-header .FrameTitleLink:hover .FrameTitleLink-titleText {
+  color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .RPGAtsumaruContainer a:hover {
-  color: #0080FF !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-header .SeeMoreLink .SeeMoreLink-text {
+  background-color: #333333;
+  color: #FEFEFE;
+  border-color: #555555;
 }
 
-.ja-jp .BaseLayout-main .TopPage .NicoappAndAtsumaruSeparatorContainer {
-  border-left: 1px dashed #555555 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-header .SeeMoreLink .SeeMoreLink-text svg {
+  fill: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer {
-  border-top: 2px solid #FEFEFE !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-header .SeeMoreLink:hover .SeeMoreLink-text {
+  background-color: #0080FF;
+  border-color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer .DottedList > li:not(:last-child) {
-  border-bottom: dashed 1px #555 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-main #NicoNewsContainer-tabs .Tabs-tab {
+  background-color: #272727;
+  color: #999;
 }
 
-.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer a {
-  color: #FEFEFE !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-main #NicoNewsContainer-tabs .Tabs-tab:hover {
+  color: #ff8000;
 }
 
-.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer a:hover {
-  color: #0080FF !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-main #NicoNewsContainer-tabs .Tabs-tab.is-active {
+  background-color: #ff8000;
+  color: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .BaseNoticeContainer .BaseNoticeContainer-headerIcon {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-main .NicoNewsContainer-articles .NicoNewsContainer-textNews li + li {
+  border-color: #555555;
 }
 
-.ja-jp .BaseLayout-main .TopPage .PublishedArticlesContainer {
-  border-top: 2px solid #FEFEFE !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-main .NicoNewsContainer-articles .NicoNewsContainer-photoNews {
+  background: #333333;
 }
 
-.ja-jp .BaseLayout-main .TopPage .PublishedArticlesContainer .DottedList > li:not(:last-child) {
-  border-bottom: dashed 1px #555 !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-main .NicoNewsContainer-articles a {
+  color: #FEFEFE;
 }
 
-.ja-jp .BaseLayout-main .TopPage .PublishedArticlesContainer a {
-  color: #FEFEFE !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-main .NicoNewsContainer-articles a:hover {
+  color: #0080FF;
 }
 
-.ja-jp .BaseLayout-main .TopPage .PublishedArticlesContainer a:hover {
-  color: #0080FF !important;
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .NicoNewsContainer .NicoNewsContainer-main .NicoNewsContainer-articles .NicoNewsContainer-commentCount {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ContentsInformationAreaContainer .ContentsDigestFrame-header .FrameTitleLink .FrameTitleLink-titleText {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ContentsInformationAreaContainer .ContentsDigestFrame-header .FrameTitleLink:hover .FrameTitleLink-titleText {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ContentsInformationAreaContainer .ContentsDigestFrame-header .SeeMoreLink .SeeMoreLink-text {
+  background-color: #333333;
+  color: #FEFEFE;
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ContentsInformationAreaContainer .ContentsDigestFrame-header .SeeMoreLink .SeeMoreLink-text svg {
+  fill: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ContentsInformationAreaContainer .ContentsDigestFrame-header .SeeMoreLink:hover .SeeMoreLink-text {
+  background-color: #0080FF;
+  border-color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ContentsInformationAreaContainer .ContentsDigestFrame-body .ContentsDigestFrame-card .ContentsDigestFrame-cardMetaTitle {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ContentsInformationAreaContainer .ContentsDigestFrame-body .ContentsDigestFrame-card:hover .ContentsDigestFrame-cardMetaTitle {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .ContentsInformationAreaContainer > * + :before {
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .RealEventInformationAreaContainer section {
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .RealEventInformationAreaContainer section h1 {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .RealEventInformationAreaContainer section .RealEventInformationAreaContainer-contents .TicketNoticeContainer-title {
+  color: inherit;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .RealEventInformationAreaContainer section .RealEventInformationAreaContainer-contents .TicketNoticeContainer-title .TicketNoticeContainer-titleLink {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .RealEventInformationAreaContainer section .RealEventInformationAreaContainer-contents .TicketNoticeContainer-title .TicketNoticeContainer-titleLink:hover {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-section .RealEventInformationAreaContainer section .RealEventInformationAreaContainer-contents .TicketNoticeContainer-title + :before {
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-middleBillboardAdSection {
+  border: none;
+  background: #333333;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer {
+  border: none;
+  background: #333333;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-upper .NicoNoticeContainer .TextListFrame-header .FrameTitleLink .FrameTitleLink-titleText {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-upper .NicoNoticeContainer .TextListFrame-header .FrameTitleLink:hover .FrameTitleLink-titleText {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-upper .NicoNoticeContainer .TextListFrame-header .SeeMoreLink .SeeMoreLink-text {
+  background-color: #333333;
+  color: #FEFEFE;
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-upper .NicoNoticeContainer .TextListFrame-header .SeeMoreLink .SeeMoreLink-text svg {
+  fill: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-upper .NicoNoticeContainer .TextListFrame-header .SeeMoreLink:hover .SeeMoreLink-text {
+  background-color: #0080FF;
+  border-color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-upper .NicoNoticeContainer .TextListFrame-contents .TextListFrame-item a {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-upper .NicoNoticeContainer .TextListFrame-contents .TextListFrame-item a:hover {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-upper .NicoNoticeContainer .TextListFrame-contents .TextListFrame-item + :before {
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .FooterAreaContainer-contents:before {
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .TextListFrame .TextListFrame-header .FrameTitleLink .FrameTitleLink-titleText {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .TextListFrame .TextListFrame-header .FrameTitleLink:hover .FrameTitleLink-titleText {
+  color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .TextListFrame .TextListFrame-header .SeeMoreLink .SeeMoreLink-text {
+  background-color: #333333;
+  color: #FEFEFE;
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .TextListFrame .TextListFrame-header .SeeMoreLink .SeeMoreLink-text svg {
+  fill: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .TextListFrame .TextListFrame-header .SeeMoreLink:hover .SeeMoreLink-text {
+  background-color: #0080FF;
+  border-color: #0080FF;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .TextListFrame .TextListFrame-contents .TextListFrame-item + :before {
+  border-color: #555555;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .TextListFrame .TextListFrame-contents .TextListFrame-item a {
+  color: #FEFEFE;
+}
+
+.ja-jp .BaseLayout-main .TopPage .TopPage-footer .FooterAreaContainer .FooterAreaContainer-lower .TextListFrame .TextListFrame-contents .TextListFrame-item a:hover {
+  color: #0080FF;
 }
