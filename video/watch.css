@@ -4,7 +4,7 @@
   background-color:#1A1B1C !important;
 }
 .VideoTitle{
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .VideoDescriptionExpander .VideoDescriptionExpander-switchExpand{
   background: #1A1B1C !important;
@@ -31,10 +31,21 @@
 
 /*詳細文*/
 .VideoDescription-html{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .VideoDescription-html a{
   color: #0080ff !important;
+}
+.VideoDescription-html span[style="color: #262626;"]{
+  color: #FEFEFE !important;
+}
+.VideoDescription-html span[style="color: #ffffff;"],
+.VideoDescription-html span[style="color: white;"]{
+  color: black !important;
+}
+.VideoDescription-html span[style="color: #000000;"],
+.VideoDescription-html span[style="color: black;"]{
+  color: white !important;
 }
 
 .Dialog{
@@ -47,7 +58,7 @@
   border-left : none !important;
 }
 .VideoUploadDateMeta-dateTimeLabel,.FormattedNumber,.GenreRankMeta-yesterdayRank{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .GenreRankMeta-highestPast{
   color: #0080ff !important;
@@ -67,14 +78,14 @@
 }
 .GenreRankMetaOverflowMenuContainer-header{
   background: #1A1B1C !important;
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .GenreRankMetaOverflowMenuContainer-body{
   background: #1A1B1C !important;
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .GenreRankMetaOverflowMenuContainer-tagIcon{
-  fill: whitesmoke !important;
+  fill: #FEFEFE !important;
 }
 .GenreRankMetaOverflowMenuContainer-body{
   overflow-y: auto !important;
@@ -89,17 +100,17 @@
   border: none !important;
 }
 .TagItem a{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .TagItem a :hover{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .TagContainer.is-editing{
   background-color: #1A1B1C !important;
   border: 1px solid #555555;
 }
 .TagItem-name{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .TagContainer-editButton:hover{
   background-color: #0080FF !important;
@@ -111,7 +122,7 @@
 }
 .TagSuggestionInput-input{
   background-color: #252525 !important;
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
   box-shadow: none !important;
 }
 .TagSuggestionList{
@@ -120,7 +131,7 @@
 }
 .TagSuggestionList-item,.TagSuggestionList-favoriteTag,.SearchBox-optionMenu{
   background-color: #252525 !important;
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
   border-top: 1px dotted #252525 !important;
 }
 .TagSuggestionList-item.is-active, .TagSuggestionList-item:hover,.SearchBox-optionMenuItem:hover{
@@ -136,7 +147,7 @@
   background: #1A1B1C !important;
 }
 .VideoMenuContainer-areaLeft .VideoMenuContainer-button{
-  fill: whitesmoke !important;
+  fill: #FEFEFE !important;
 }
 .VideoMenuContainer-areaLeft .VideoMenuContainer-button:hover:not([disabled]){
   fill: #007cff !important;
@@ -158,7 +169,7 @@
 }
 .PlayerPanelContainer-tabItem{
   border-bottom: none !important;
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .PlayerPanelContainer-tabItem{
   border-bottom: 3px solid #555555 !important;
@@ -170,17 +181,17 @@
   border-bottom: 1px solid #252525 !important;
 }
 .NextPlayVideoContainer-note,.WatchRecommendation-heading,.NextPlayVideoContainer-continuous{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 
 
 /*コメントパネル*/
 .CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell{
   background: #252525 !important;
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .CommentPanelContainer .CommentPanelDataGrid{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell,.CommentPanelDataGrid .CommentPanelDataGrid-TableCell{
   border-right: 1px solid #333 !important;
@@ -204,11 +215,11 @@
 
 .DataGrid-Table :hover{
   background: #252525 !important;
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .DropDownMenu,.DateTimeInput-date,.DateTimeInput-time{
   background-color: #35393B;
-  color: white;
+  color: #FEFEFE;
   box-shadow: none !important;
 }
 .CommentPanelMenuContainer-pastCommentMenu{
@@ -226,11 +237,11 @@
 /*NG*/
 .NGSettingPanelContainer-content,.ViewerNGListDataGrid-HeaderCell{
   background: #252525 !important;
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .ViewerNGList{
   background: #1A1B1C !important;
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .ViewerNGListDataGrid-TableCell{
   border-right: 1px solid #252525 !important;
@@ -241,7 +252,7 @@
 
 .NGSettingPanelContainer-openViewerNGRegisterButton{
   background-color: #555555 !important;
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .NGSettingPanelContainer-openViewerNGRegisterButton:hover{
   background-color: #0080FF !important;
@@ -259,11 +270,11 @@
   border-bottom: 1px solid gray;
 }
 .RadioItem-label{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .ViewerNGRegister-input{
   background: #252525 !important;
-  color: white !important;
+  color: #FEFEFE !important;
 }
 
 /*twitter*/
@@ -271,16 +282,16 @@
   background-color: #252525 !important;
 }
 .TwitterClient-Account-Message,.AddingMylistPanel-name{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .TwitterClient-Message-Textarea,.SharePanelContainer-textarea,.SharePanelContainer-linkTimeText,.AddingMylistModal-descriptionInput,.AddingMylistModal-nameInput{
   background-color: #252525 !important;
-  color: white !important;
+  color: #FEFEFE !important;
   box-shadow:none !important;
   border: 0.5px solid #666666 !important;
 }
 .CheckboxLabel,.SharePanelContainer-playerEmbedOption{
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .AddingMylistModal-cancel{
   background: #999 !important;
@@ -298,7 +309,7 @@
   border-right: 1px solid #666;
 }
 .CommentCommandInput,.CommentInput-textarea{
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .CommentCommandPaletteContainer{
   background-color: #252525 !important;
@@ -308,7 +319,7 @@
   border: 2px solid #666 !important;
 }
 .CommentCommandPaletteNode svg{
-  fill: whitesmoke !important;
+  fill: #FEFEFE !important;
 }
 
 /*かんたんコメント*/
@@ -328,7 +339,7 @@
 }
 .EasyCommentButton{
   background: #252525 !important;
-  color: white !important;
+  color: #FEFEFE !important;
   border: none !important;
 }
 .EasyCommentContainer-nextButton{
@@ -338,18 +349,18 @@
   background: linear-gradient(270deg,hsla(0,0%,100%,0),rgba(0, 0, 0, 0.94),black) !important;
 }
 .EasyCommentContainer-nextButton svg,.EasyCommentContainer-prevButton svg{
-  fill: white;
+  fill: #FEFEFE;
 }
 .CommentShutter:empty{
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 .LikeButton{
   background: #252525 !important;
-  color: white !important;
+  color: #FEFEFE !important;
   border: 2px solid #666 !important;
 }
 .LikeIcon.LikeButton-icon svg svg defs #LikeIcon_svg__frame-0 path{
-  fill: white !important;
+  fill: #FEFEFE !important;
 }
 
 .ContentTree-parentSummary .Link{
@@ -364,13 +375,13 @@
   background-color: #252525 !important;
 }
 .Card-title,.IchibaForWatch_Title_Body{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .IchibaForWatch{
   background: #252525 !important;
 }
 .IchibaForWatch_EditButton,.IchibaFooter_SearchButton,.IchibaForWatch_SearchButton{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
   background-color: #0080ff !important;
 }
 .IchibaMainItem_Info,.IchibaMainItem_Price_Number,.IchibaMainItem_Price_SaleRate,.IchibaSuggestItem_Price_Number,.IchibaSuggestItem_Price_SaleRate{
@@ -388,14 +399,14 @@
   background-color: #252525 !important;
 }
 .IchibaModal_Title_Body,.IchibaSuggest_Title,.IchibaTagSearch_Title,.IchibaAdded_Title,.IchibaAdded_Description{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .IchibaModal_Body{
   border-top: 1px solid #666 !important;
 }
 .IchibaSearchForm_Category,.IchibaSearchForm_Keyword_Input,.IchibaSuggest_Sort{
   background-color: #252525 !important;
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
   border: 1px solid #666 !important;
 }
 .noItem,.loading{
@@ -412,10 +423,10 @@
 }
 .EditorMenuContainer-menuBox-menu{
   background: #35393B !important;
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 .EditorMenuContainer-menuBox-menu .icon{
-  fill: whitesmoke !important;
+  fill: #FEFEFE !important;
 }
 .EditorMenuContainer-menuHeading{
   margin: 11px 12px 0 12px !important;
@@ -427,10 +438,10 @@
   background: #555555 !important;
 }
 .EditorMenuContainer-menuBox-menu-child .menuItem .OpenBlankIcon{
-  fill: whitesmoke !important;
+  fill: #FEFEFE !important;
 }
 .EditorMenuContainer-menuHeading{
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .EditorMenuContainer-menuBox>li.EditorMenuContainer-menuBox-menu:first-child{
   border-right: none !important;
@@ -445,21 +456,21 @@
   background: #35393B !important;
 }
 .OwnerEditPanelHeader-left span{
-  color: white !important;
+  color: #FEFEFE !important;
 }
 .OwnerEditButton{
   background: #767676 !important;
   border: none !important;
-  color: white !important;
+  color: #FEFEFE !important;
 }
 
 /*nicoscript easy-settings*/
 #content.editting #videoHeaderDetail .owner, #content.editting #videoHeaderDetail .owner_easy, #content.editting #videoHeaderDetail .comment, #content.editting #videoHeaderDetail .mymemory{
-  color: white !important;
+  color: #FEFEFE !important;
 }
 #nicos_color,#nicos_jump,.editOwnerEasySubmit p .submit,.menuInner .submit{
   background: #35393B !important;
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
   border: 1px solid #767676 !important;
 }
 
@@ -468,7 +479,7 @@
   border-top: 2px solid #767676 !important;
 }
 .VideoDescriptionSeriesContainer-label{
-  color: whitesmoke !important;
+  color: #FEFEFE !important;
 }
 
 /*player fix*/
