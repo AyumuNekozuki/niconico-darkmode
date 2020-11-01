@@ -1,0 +1,138 @@
+@import '_default';
+
+.niconico-darkmode-setting-true{
+  //yes or no but
+
+  //cansel
+  .ViewerNGRegister-cancelButton,
+  .AddingMylistModal-cancel{
+    color: $main-text-color;
+    background: $sub2-background-color;
+    border-color: $border-background-color;
+  }
+  .ViewerNGRegister-cancelButton:hover,
+  .AddingMylistModal-cancel:hover{
+    background: $border-background-color;
+  }
+
+  //yes
+  .ViewerNGRegister-submitButton,
+  .AddingMylistModal-submit{
+    color: $main-url-color;
+    border-color: $main-url-color;
+    background: $sub2-background-color;
+  }
+  .ViewerNGRegister-submitButton:hover,
+  .AddingMylistModal-submit:hover{
+    background: $main-url-color;
+  }
+
+  //disabled
+  .ViewerNGRegister-submitButton:disabled{
+    color: $sub-2-text-color;
+    background: $sub2-background-color;
+    border-color: $border-background-color;
+  }
+
+  //socialtop
+  .WatchLaterMenu,.MylistMenu{
+    .Selectbox-button{
+      background: $sub2-background-color;
+      border-color: $border-background-color;
+      .Selectbox-label{
+        color: $main-text-color;
+      }
+    }
+    .Selectbox-button:hover{
+      background: $hover-background-color;
+    }
+    .ContinuousPlayButton{
+      color: $main-text-color;
+      background: $sub2-background-color;
+      border-color: $border-background-color;
+    }
+    .ContinuousPlayButton:hover{
+      color: $main-text-color;
+      background: $main-url-color;
+      border-color: $main-url-color;
+    }
+  }
+  .MylistVideoListEditMenu{
+    .Selectbox-button{
+      background: $sub2-background-color;
+      border-color: $border-background-color;
+      .Selectbox-label{
+        color: $main-text-color;
+      }
+    }
+    .Selectbox-button:hover{
+      background: $hover-background-color;
+    }
+    .VideoListEditMenuButton{
+      background: $sub2-background-color;
+      border-color: $border-background-color;
+      color: $main-text-color;
+    }
+    .VideoListEditMenuButton:hover{
+      background: $main-url-color;
+      border-color: $main-url-color;
+      color: $main-text-color;
+    }
+    .VideoListEditMenu-delete.VideoListEditMenuButton:hover{
+      background: #d0021b;
+      border-color: #d0021b;
+    }
+    .Selectbox-button_disabled .Selectbox-label,
+    .VideoListEditMenuButton_disable{
+      color: $sub-2-text-color;
+    }
+  }
+  .MymemoryContainer-editMenu{
+    .Checkbox{
+      .Checkbox-label{
+        color: $main-text-color;
+      }
+    }
+    .VideoListEditMenuButton{
+      background: $sub2-background-color;
+      color: $main-text-color;
+      border-color: $border-background-color;
+    }
+    .VideoListEditMenuButton_disable{
+      color: $sub-2-text-color;
+    }
+  }
+  .VideoWatchHistoryContainer-editMenu{
+    .Checkbox-label{
+      color: $main-text-color;
+    }
+  }
+  .VideoListEditMenuButton{
+    background: $sub2-background-color;
+    color: $main-text-color;
+    border-color: $border-background-color;
+  }
+  .VideoListEditMenuButton:hover{
+    background: red;
+    color: $main-text-color !important;
+    border-color: red;
+  }
+  .VideoListEditMenuButton_disable{
+    color: $sub-2-text-color;
+  }
+
+  .Selectbox-button{
+    background-color: $sub2-background-color;
+    border-color: $border-background-color;
+    .Selectbox-label{
+      color: $main-text-color;
+    }
+  }
+  .Selectbox-button:hover{
+    background-color: $hover-background-color;
+    border-color: $border-background-color;
+    .Selectbox-label{
+      color: $main-text-color;
+    }
+  }
+}

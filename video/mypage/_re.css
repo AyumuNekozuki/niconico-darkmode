@@ -378,14 +378,3 @@ input.CopyForm-form{
   background-color: #737373 !important;
   color: white !important;
 }
-
-.VideoContainer-headerSortSelectboxItem:hover{
-  background-color: #737373 !important;
-}
-
-.NicoruHistoryPassiveItem-videoOwner{
-  color: black !important;
-}
-.NicoruHistoryPassiveItem-videoOwnerNickname{
-  color: #0080ff !important;
-}

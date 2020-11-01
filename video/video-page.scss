@@ -1,0 +1,150 @@
+@import 'parts/_zero_design';
+@import '../parts/_default';
+@import '../parts/_serchbox';
+@import '../parts/_textarea';
+@import '../parts/_dropdown';
+@import '../parts/_page-next';
+
+.niconico-darkmode-setting-true{
+  background-color:$main-background-color;
+
+  #PAGECONTAINER{
+    #PAGEBODY{
+      .mb8p4{
+        h1{
+          color: $main-text-color;
+        }
+        p.font12{
+          color: $sub-1-text-color;
+        }
+      }
+      form[name="filter"]{
+        .font12{
+          color: $sub-1-text-color;
+        }
+        input.submit{
+          background: $hover-background-color;
+          border-color: $border-background-color;
+          color: $main-text-color;
+          padding: 4px 6px;
+        }
+        input#filtertext{
+          border: solid 2px $border-background-color !important;
+        }
+      }
+      .content_672{
+        .thumb_num{
+          color: $sub-2-text-color;
+        }
+        .thumb_num.new{
+          color: red;
+        }
+        table p.thumb_cols{
+          filter: $invert;
+        }
+        div.thumb_col_4{
+          .uad_thumbfrm{
+            background: none;
+            border: none;
+            .font10{
+              color: $sub-2-text-color;
+            }
+          }
+          a.watch{
+            color: $main-text-color;
+          }
+          a.watch:visited{
+            color: $sub-1-text-color;
+          }
+        }
+        div.thumb_col_2{
+          .uad_thumbfrm{
+            background: none;
+            border: none;
+            .font10{
+              color: $sub-2-text-color;
+            }
+          }
+          a.watch{
+            color: $main-text-color;
+          }
+          a.watch:visited{
+            color: $sub-1-text-color;
+          }
+          p.vinfo_description{
+            color: $sub-2-text-color;
+          }
+        }
+        div.thumb_col_1{
+          .uad_thumbfrm{
+            background: none;
+            border: none;
+            .font10{
+              color: $sub-2-text-color;
+            }
+          }
+          a.watch{
+            color: $main-text-color;
+          }
+          a.watch:visited{
+            color: $sub-1-text-color;
+          }
+          p.vinfo_description{
+            color: $sub-2-text-color;
+          }
+        }
+
+        //related_tag
+        table[style="color:#666;"]{
+          a{
+            color: $main-text-color;
+          }
+          a:visited{
+            color: $sub-1-text-color;
+          }
+        }
+      }
+      .content_312{
+        .related_pedia_outer{
+          background: $nico-black;
+          .related_pedia_inner{
+            background: none;
+            border: none;
+            p.font10{
+              color: $sub-2-text-color;
+            }
+            p.font12{
+              color: $sub-1-text-color;
+            }
+            #related_nicopedia_body{
+              border: solid 1px $nico-dic;
+              background: $sub2-background-color;
+              div{
+                a{
+                  color: $main-text-color;
+                }
+                a:visited{
+                  color: $sub-1-text-color;
+                }
+                a:hover{
+                  color: $main-url-color;
+                }
+                p.font10{
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+            #related_nicopedia_footer{
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

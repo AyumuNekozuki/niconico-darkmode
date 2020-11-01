@@ -1,0 +1,88 @@
+@import '_default';
+
+.niconico-darkmode-setting-true{
+  select{
+    background-color: $sub2-background-color;
+    color: $main-text-color;
+    border-color: $border-background-color;
+    box-shadow: none;
+  }
+
+  //hover-menu-item
+
+  .EditorMenuContainer-menuBox-menu-child{
+    //video-watch
+    border: none !important;
+    .menuItem{
+      background: $sub2-background-color;
+      a{
+        color: $main-text-color;
+      }
+      a:hover{
+        background: $hover-background-color;
+      }
+    }
+  }
+
+  .TagRankingCustomEditor-tag{
+    //将棋盤ランキング タグカスタム
+    .TagSuggestionList{
+      background: $sub2-background-color;
+      border-color: $border-background-color;
+      .TagSuggestionList-list{
+        .TagSuggestionList-item{
+          color: $main-text-color;
+          border-color: $border-background-color;
+        }
+        .TagSuggestionList-item:hover{
+          background: $hover-background-color;
+        }
+      }
+    }
+  }
+
+  .OtherMypageLinks,
+  .ThreePointMenu{
+    //social-mypage
+
+    background: $sub2-background-color;
+    .OtherMypageLinks-link,
+    .UserDetailsMenu-item,
+    .NicorepoItemMenu-item,
+    .MylistHeaderMenu-item{
+      color: $main-text-color;
+    }
+    .OtherMypageLinks-link:hover,
+    .UserDetailsMenu-item:hover,
+    .NicorepoItemMenu-item:hover,
+    .MylistHeaderMenu-item:hover{
+      background-color: $hover-background-color;
+    }
+  }
+
+
+  //マイリストメニュー／プルダウン
+  .Selectbox,.ThreePointMenu{
+    background: $sub2-background-color;
+    .SortSelectbox-item,
+    .MylistSelectbox-item,
+    .VideoMenuButtonItem,
+    .VideoMenuLinkItem,
+    .MymemoryContainer-menuOrderSelectorItem,
+    .NicoruHistoryActiveItem-deleteButton,
+    .MylistsSortSelectbox-item,
+    .VideoContainer-headerMenuSortSelectboxItem{
+      color: $main-text-color;
+    }
+    .SortSelectbox-item:hover,
+    .MylistSelectbox-item:hover,
+    .VideoMenuButtonItem:hover,
+    .VideoMenuLinkItem:hover,
+    .MymemoryContainer-menuOrderSelectorItem:hover,
+    .NicoruHistoryActiveItem-deleteButton:hover,
+    .MylistsSortSelectbox-item:hover,
+    .VideoContainer-headerMenuSortSelectboxItem:hover{
+      background-color: $hover-background-color;
+    }
+  }
+}

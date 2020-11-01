@@ -1,0 +1,28 @@
+@import '../parts/_default';
+@import '../parts/_footer';
+@import '../parts/_page-next.scss';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+  color: $main-text-color;
+  a{
+    color: $main-text-color !important;
+  }
+  a:hover{
+    color: $main-url-color !important;
+  }
+
+  #logo_zero{
+    filter: $invert;
+  }
+  .cmnHeading{
+    background: none !important;
+  }
+  .contentsInner li{
+    background: none !important;
+    border-bottom: 1px solid $border-background-color !important;
+    p{
+      color: $sub-2-text-color !important;
+    }
+  }
+}

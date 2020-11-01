@@ -1,0 +1,479 @@
+@import '../../parts/_default';
+@import '../../parts/_serchbox';
+@import '../../parts/_dropdown';
+@import '../../parts/_textarea';
+@import '../../parts/_button';
+@import '../../parts/_modal';
+@import '../../parts/_page-next';
+@import '../../parts/_footer';
+@import '_mypage-card';
+
+
+.niconico-darkmode-setting-true{
+    background-color: $main-background-color;
+
+    .BaseLayout-main{
+        .UserPageHeader{
+            background-color: $nico-default-bg;
+            .HeaderContainer_Re-main{
+                .NiconicoLogo_re{
+                   filter: $invert; 
+                }
+            }
+        }
+        #UserPage-app{
+            .UserPage-header{
+                background-color: $nico-default-bg;
+                .UserDetailsHeader{
+                    background-color: $nico-default-bg;
+                    .UserDetailsHeader-body{
+                        .UserDetailsHeader-bodyHeader{
+                            h3{
+                                color: $main-text-color;
+                            }
+                            .UserDetailsHeader-actions{
+                                .Dropdown-button{
+                                    color: $sub-1-text-color;
+                                }
+                                .Dropdown-button:hover{
+                                    background: $hover-background-color;
+                                }
+                                .Dropdown-button:after{
+                                    filter: $invert;
+                                }
+                                .ShareButton,
+                                .ThreePointMenu-button{
+                                    filter: $invert;
+                                }
+                            }
+                        }
+                    }
+                }
+                .UserDetailsHeader-account{
+                    span{
+                        color: $sub-1-text-color;
+                    }
+                    span.UserDetailsHeader-accountType_premium{
+                        color: $nico-premium;
+                    }
+                }
+                .UserDetailsStatus{
+                    .UserDetailsStatusItem-linkLabel{
+                        color: $sub-1-text-color;
+                    }
+                    .NiconicoPoint{
+                        background-color: $sub2-background-color;
+                    }
+                }
+                .UserDetailsHeader-description{
+                    .ExpandBoxButton-overlay{
+                        background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,$nico-default-bg);
+                    }
+                }
+                .UserDetailsHeader:after{
+                    background-color: $border-background-color;
+                }
+            }
+            .MainMenuContainer{
+                background-color: $nico-default-bg;
+                .MainMenuContainer-menu{
+                    background-color: $nico-default-bg;
+                    .MainMenuContainer-menuList{
+                        a{
+                            color: $main-text-color;
+                        }
+                        .MainMenuItem-active{
+                            color: $main-url-color;
+                        }
+                        .MainMenuItem:hover{
+                            background-color: $hover-background-color;
+                        }
+                    }
+                }
+            }
+            .UserPage-main{
+                .BlankState-title{  //no-data
+                    color: $main-text-color;
+                }
+                .SideContainer{
+                    .RadioGroup{
+                        .SubMenuLinkList{
+                            .SubMenuLink-link{
+                                .SubMenuLink-label{
+                                    color: $main-text-color;
+                                }
+                            }
+                            .SubMenuLink-link:hover{
+                                .SubMenuLink-label{
+                                    color: $main-url-color;
+                                }
+                            }
+                            .SubMenuLink-icon{
+                                .RadioItem{
+                                    .RadioItem-label::before{
+                                        border-color: $border-background-color;
+                                    }
+                                    .RadioItem-label::after{
+                                        background: none;
+                                    }
+                                    input:checked+label:after{
+                                        background: $main-url-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .ModalActionButton{
+                        background: $sub2-background-color;
+                        color: $main-text-color;
+                    }
+                    .ModalActionButton:hover{
+                        color: $main-url-color;
+                    }
+                    .SubMenuLink{
+                        .SubMenuLink-label{
+                            color: $sub-1-text-color;
+                        }
+                    }
+                    .SubMenuLink:hover{
+                        .SubMenuLink-label{
+                            color: $main-url-color;
+                        }
+                    }
+                    .SubMenuLink_disable{
+                        a span{
+                            color: $sub-2-text-color !important;
+                        }
+                    }
+                    .SubMenuLinkList,.MylistPageSubMenu{
+                        .SubMenuLink{
+                            .SubMenuLink-link:hover{
+                                background: none;
+                            }
+                            span{
+                                color: $main-text-color;
+                            }
+                            .SubMenuLink-link_active{
+                                border-left: 5px solid $main-url-color;
+                                background: none;
+                                span{
+                                    color: $main-url-color;
+                                }
+                            }
+                        }
+                    }
+                }
+                .NicorepoPage-content{
+                    .TimelineContainer{
+                        .NicorepoItem-item{
+                            .ThreePointMenu-button{
+                                filter: $invert;
+                            }
+                        }
+                        .NicorepoItemSkeleton{
+                            background: none;
+                        }
+                    }
+                }
+                .FollowPage-content{
+                    .FolloweeContainer-header{
+                        color: $sub-1-text-color;
+                        .FolloweeContainer-headerLiveLink{
+                            color: $sub-1-text-color;
+                        }
+                        .FolloweeContainer-headerLiveLink:hover{
+                            color: $main-url-color;
+                        }
+                    }
+                    .FollowingTagContainer{
+                        .FollowingTagContainer-itemCount span{
+                            color: $sub-1-text-color;
+                        }
+                    }
+                    .FollowingMylistContainer{
+                        .FollowingMylistContainer-itemCount span{
+                            color: $sub-1-text-color;
+                        }
+                    }
+                    .FollowingChannelContainer{
+                        .FollowingChannelContainer-followingChannelCount span{
+                            color: $sub-1-text-color;
+                        }
+                        .LiveLink{
+                            color: $sub-1-text-color;
+                        }
+                        .LiveLink:hover{
+                            color: $main-url-color;
+                        }
+                    }
+                    .FollowingCommunityContainer{
+                        .FollowingCommunityContainer-itemCount span{
+                            color: $sub-1-text-color;
+                        }
+                        .LiveLink{
+                            color: $sub-1-text-color;
+                        }
+                        .LiveLink:hover{
+                            color: $main-url-color;
+                        }
+                    }
+                    .FollowerContainer{
+                        .FollowerContainer-followerCount{
+                            .FollowerContainer-followerCountValue{
+                                color: $sub-1-text-color;
+                            }
+                        }
+                    }
+                    .FollowOwnerItemSkeletonList,
+                    .FollowingTagItemSkeletonList,
+                    .FollowingMylistContainer{
+                        li,
+                        .MylistMediaObjectSkeleton{
+                            background: none;
+                        }
+                    }
+                }
+                .WatchLaterPage-content{
+                    .WatchLaterContainer-header{
+                        .WatchLaterHeader-name{
+                            color: $main-text-color;
+                        }
+                        .WatchLaterHeader-meta span{
+                            color: $sub-1-text-color;
+                        }
+                    }
+                    .MylistItemMemo-preview{
+                        background: $sub2-background-color;
+                        color: $main-text-color;
+                    }
+                    .MylistItemMemo-edit.TextField{
+                        border: none;
+                        background: none;
+                    }
+                    .MylistVideoListEditMenu{
+                        .Checkbox .Checkbox-label{
+                            color: $sub-1-text-color;
+                        }
+                        .VideoListEditMenu-divider{
+                            background-color: $border-background-color;
+                        }
+                    }
+                }
+                .MylistPage-content{
+                    .MylistHeader{
+                        .MylistHeader-name{
+                            color: $main-text-color;
+                        }
+                        .MylistHeader-meta{
+                            .MylistHeader-metaItemValue{
+                                color: $sub-1-text-color;
+                            }
+                        }
+                    }
+                    .MylistHeader:after{
+                        background-color: $border-background-color;
+                    }
+                    .MylistDescription .ExpandBox_is-expanded{
+                        color: $sub-1-text-color;
+                    }
+                    .MylistHeaderAction{
+                        .ShareButton,.ThreePointMenu-button{
+                            filter: $invert;
+                        }
+                    }
+                    .MylistItemMemo-preview{
+                        background: $sub2-background-color;
+                        color: $main-text-color;
+                    }
+                    .MylistItemMemo-edit.TextField{
+                        border: none;
+                        background: none;
+                    }
+                    .MylistVideoListEditMenu{
+                        .Checkbox .Checkbox-label{
+                            color: $sub-1-text-color;
+                        }
+                        .VideoListEditMenu-divider{
+                            background-color: $border-background-color;
+                        }
+                    }
+                }
+                .MymemoryContainer{
+                    header{
+                        .MymemoryContainer-title{
+                            color: $main-text-color;
+                        }
+                        .MymemoryContainer-meta{
+                            .MymemoryContainer-metaItem{
+                                color: $sub-1-text-color;
+                                span{
+                                    color: $sub-1-text-color;
+                                }
+                            }
+                        }
+                        .MymemoryContainer-menu{
+                            .Selectbox-button{
+                                background: $nico-black;
+                                border-color: $border-background-color;
+                                .Selectbox-label{
+                                    color: $main-text-color;
+                                }
+                            }
+                        }
+                    }
+                }
+                .HistoryPage-content{
+                    .VideoWatchHistoryContainer-header{
+                        .VideoWatchHistoryContainer-headerTotalCount{
+                            color: $sub-1-text-color;
+                            span{
+                                color: $sub-1-text-color;
+                            }
+                        }
+                        .VideoWatchHistoryContainer-headerAllDeleteButton{
+                            color: $main-text-color;
+                            background: $sub2-background-color;
+                            border-radius: 4px;
+                            border-color: $border-background-color;
+                        }
+                        .VideoWatchHistoryContainer-headerAllDeleteButton:hover{
+                            background: red;
+                        }
+                    }
+                }
+                .StampContainer{
+                    .StampContainer-information{
+                        .StampContainer-exp{
+                            span{color: $sub-1-text-color;}
+                        }
+                        .StampContainer-stampRanking{
+                            a{
+                                color: $main-text-color;
+                            }
+                            a:hover{
+                                color: $main-url-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .RightSideContainer{
+                .PersonalFrame{
+                    background-color: $nico-black;
+                    .PersonalFrame-body{
+                        border-color: $nico-personal-topics;
+                    }
+                    .PersonalFrame-text{
+                        color: $main-text-color;
+                    }
+                    .PersonalFrame-text:hover{
+                        color: $nico-personal-topics;
+                    }
+                }
+                .RightSideContainer-formationFrame{
+                    .FormationFrame-message{
+                        border-color: $sub2-background-color;
+                        background-color: $sub2-background-color;
+                        color: $main-text-color;
+                    }
+                }
+                .RightSideContainer-formationFrame:hover{
+                    .FormationFrame-message{
+                        color: $main-url-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .Modal{
+        .ModalContent{
+            background-color: $main-background-color;
+            .ModalContent-body{
+                background-color: $nico-black;
+            }
+        }
+    }
+    .Modal.NicorepoMuteSettingContainer{
+        .ModalContent-body{
+            .NicorepoMuteSettingContainer-infoNumber{
+                color: $sub-1-text-color;
+            }
+            .NicorepoMuteItem-item{
+                .NicorepoMuteItem-detail{
+                    color: $main-text-color;
+                }
+            }
+        }
+    }
+    .Modal.ShareModal{
+        .ShareModal-modal{
+            background-color: $main-background-color;
+            color: $main-text-color;
+            .CopyForm-copy:hover{
+                background-color: $hover-background-color;
+            }
+        }
+    }
+    .Modal.EditMylistModal{
+        .ModalContent-body{
+            background: linear-gradient(hsla(0,0%,100%,0),$nico-black 70%) 0 100%,linear-gradient(transparent,rgba(0,0,0,.1)) 0 100%;
+            .TextField-label,
+            .EditMylistModal-settingsItemLabel,
+            .MylistCreateModalContainer-watchHistoriesTitle{
+                color: $main-text-color;
+            }
+            .EditMylistModal-settingsItemRadioGroup{
+                .RadioItem-label{
+                    color: $main-text-color;
+                }
+                .RadioItem>label:after{
+                    background-color: $nico-black;
+                }
+                .RadioItem>input:checked+label:after{
+                    background-color: $main-url-color;
+                }
+            }
+            .Selectbox-button{
+                background-color: $sub2-background-color;
+                border-color: $border-background-color;
+                .Selectbox-label{
+                  color: $main-text-color;
+                }
+            }
+        }
+        .ModalContent-footer{
+            background-color: #333;
+        }
+    }
+    .Modal.SortMylistsModal{
+        .ModalContent-body{
+            .SortMylistsModal-controller{
+                .Selectbox-button{
+                    background-color: $sub2-background-color;
+                    border-color: $border-background-color;
+                    .Selectbox-label{
+                      color: $main-text-color;
+                    }
+                }
+                .Checkbox-label{
+                    color: $sub-1-text-color;
+                }
+            }
+            .SortMylistsModal-list{
+                .SortMylistsListItem{
+                    .SortMylistsListItem-name{
+                        color: $main-text-color;
+                    }
+                }
+                .SortMylistsModal-listItem+.SortMylistsModal-listItem{
+                    border-color: $border-background-color;
+                }
+            }
+            background: linear-gradient(hsla(0,0%,100%,0),$nico-black 70%) 0 100%,linear-gradient(transparent,rgba(0,0,0,.1)) 0 100%;
+        }
+        .ModalContent-footer{
+            background-color: #333;
+        }
+    }
+}

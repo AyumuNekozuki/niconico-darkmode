@@ -1,0 +1,10 @@
+@import '../parts/_default';
+@import '../parts/_textarea';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  .feedbackBody{
+    color: $main-text-color;
+  }
+}

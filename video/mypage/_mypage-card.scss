@@ -1,0 +1,443 @@
+@import '../../parts/_default';
+@import '../../parts/_dropdown';
+
+.niconico-darkmode-setting-true{
+
+  //ニコレポ
+  .NicorepoItem-item{
+    background-color: $sub2-background-color;
+    border: none;
+    color: $main-text-color;
+    a{
+      color: $main-text-color;
+    }
+  }
+  .NicorepoItem-item:hover{
+    background-color: $hover-background-color;
+  }
+
+  //フォロー：ユーザー
+  .UserItem-content{
+    background: $sub2-background-color;
+    border: none;
+    .UserItem-nickname{
+      color: $main-text-color;
+    }
+    .UserItem-description{
+      color: $sub-1-text-color;
+    }
+  }
+  .UserItem:hover{
+    box-shadow: none;
+
+  }
+
+  //フォロー：タグ
+  .FollowingTagContainer-content{
+    background: $sub2-background-color;
+    border: none;
+    .FollowingTagContainer-tagNameLink{
+      color: $main-text-color;
+    }
+    .FollowingTagContainer-tagNameLink:visited{
+      color: $sub-1-text-color;
+    }
+    .FollowingTagContainer-tagNameLink:hover{
+      color: $main-url-color;
+    }
+    .FollowingTagContainer-contentBody{
+      .FollowingTagContainer-nicodicSummary{
+        color: $sub-1-text-color;
+      }
+      a{
+        color: $main-text-color;
+      }
+      a:hover{
+        color: $main-url-color;
+      }
+    }
+  }
+
+  //フォロー：マイリスト
+  .MylistMediaObject{
+    .MylistMediaObject-linkArea{
+      background: $sub2-background-color;
+      border: none;
+      .MylistMediaObject-bodyTitle{
+        color: $main-text-color;
+      }
+      .MylistThumbnails{
+        background: none;
+        border: none;
+        .MylistThumbnails-itemCount{
+          color: $main-text-color;
+        }
+      }
+      .MylistThumbnails-thumbnail:nth-of-type(3):before{
+        background: linear-gradient(90deg,hsla(0,0%,98%,0),$nico-default-bg);
+      }
+    }
+    .MylistMediaObject-linkArea:visited:not(:hover) .MylistMediaObject-bodyTitle{
+      color: $sub-1-text-color;
+    }
+    .MylistMediaObject-linkArea:hover{
+      background: $hover-background-color;
+    }
+  }
+  .MylistMediaObject:hover{
+    box-shadow: none;
+  }
+
+  //フォロー：チャンネル
+  .ChannelItem-content{
+    background: $sub2-background-color;
+    border: none;
+    .ChannelItem-name{
+      color: $main-text-color;
+    }
+    .ChannelItem-description{
+      color: $sub-1-text-color;
+    }
+  }
+  .ChannelItem-link:visited .ChannelItem-name{
+    color: $sub-1-text-color;
+  }
+  .ChannelItem:hover{
+    box-shadow: none;
+    .ChannelItem-content{
+      background: $hover-background-color;
+      .ChannelItem-name{
+        color: $main-text-color;
+      }
+    }
+  }
+
+  //フォロー：コミュニティ
+  .CommunityItem-content{
+    background: $sub2-background-color;
+    border: none;
+    .CommunityItem-name{
+      color: $main-text-color;
+    }
+    .CommunityItem-description{
+      color: $sub-1-text-color;
+    }
+  }
+  .CommunityItem-link:visited .CommunityItem-name{
+    color: $sub-1-text-color;
+  }
+  .CommunityItem:hover{
+    box-shadow: none;
+    .CommunityItem-content{
+      background: $hover-background-color;
+      .CommunityItem-name{
+        color: $main-text-color;
+      }
+    }
+  }
+
+  //あとで見る
+  .WatchLaterList-item{
+    .VideoMediaObject-item{
+      .VideoMediaObject-linkArea{
+        .VideoMediaObject-bodyTitle{
+          color: $main-text-color;
+        }
+      }
+      .VideoMediaObject-linkArea:visited{
+        .VideoMediaObject-bodyTitle{
+          color: $sub-1-text-color;
+        }
+      }
+      .VideoMediaObject-linkArea:hover{
+        .VideoMediaObject-bodyTitle{
+          color: $main-url-color;
+        }
+      }
+      .VideoMediaObject-action{
+        filter: $invert;
+      }
+    }
+  }
+  .WatchLaterList-item+.WatchLaterList-item{
+    border-color: $border-background-color;
+  }
+
+  //マイリスト
+  .MylistItem{
+    .VideoMediaObject-item{
+      .VideoMediaObject-linkArea{
+        .VideoMediaObject-bodyTitle{
+          color: $main-text-color;
+        }
+      }
+      .VideoMediaObject-linkArea:visited{
+        .VideoMediaObject-bodyTitle{
+          color: $sub-1-text-color;
+        }
+      }
+      .VideoMediaObject-linkArea:hover{
+        .VideoMediaObject-bodyTitle{
+          color: $main-url-color;
+        }
+      }
+      .VideoMediaObject-action{
+        filter: $invert;
+      }
+    }
+  }
+  .MylistItemList-item+.MylistItemList-item:before{
+    background-color: $border-background-color;
+  }
+
+  //マイメモリー
+  .MymemoryContainer-listItem{
+    .VideoMediaObject-item{
+      .VideoMediaObject-linkArea{
+        .VideoMediaObject-bodyTitle{
+          color: $main-text-color;
+        }
+      }
+      .VideoMediaObject-linkArea:visited{
+        .VideoMediaObject-bodyTitle{
+          color: $sub-1-text-color;
+        }
+      }
+      .VideoMediaObject-linkArea:hover{
+        .VideoMediaObject-bodyTitle{
+          color: $main-url-color;
+        }
+      }
+      .VideoMediaObject-action{
+        filter: $invert;
+      }
+    }
+  }
+  .MymemoryContainer-listItem+.MymemoryContainer-listItem:before{
+    background-color: $border-background-color;
+  }
+
+  //履歴：動画
+  .VideoWatchHistoryContainer-item{
+    .VideoMediaObject-item{
+      .VideoMediaObject-linkArea{
+        .VideoMediaObject-bodyTitle{
+          color: $main-text-color;
+        }
+      }
+      .VideoMediaObject-linkArea:visited{
+        .VideoMediaObject-bodyTitle{
+          color: $sub-1-text-color;
+        }
+      }
+      .VideoMediaObject-linkArea:hover{
+        .VideoMediaObject-bodyTitle{
+          color: $main-url-color;
+        }
+      }
+      .VideoMediaObject-action{
+        filter: $invert;
+      }
+    }
+  }
+  .VideoWatchHistoryContainer-item+.VideoWatchHistoryContainer-item:before{
+    background-color: $border-background-color;
+  }
+
+  //履歴：いいね！
+  .LikeHistoryContainer{
+    .VideoMediaObject{
+      .VideoMediaObject-item{
+        .VideoMediaObject-linkArea{
+          .VideoMediaObject-bodyTitle{
+            color: $main-text-color;
+          }
+        }
+        .VideoMediaObject-linkArea:visited{
+          .VideoMediaObject-bodyTitle{
+            color: $sub-1-text-color;
+          }
+        }
+        .VideoMediaObject-linkArea:hover{
+          .VideoMediaObject-bodyTitle{
+            color: $main-url-color;
+          }
+        }
+        .VideoMediaObject-action{
+          filter: $invert;
+        }
+      }
+      .LikeItemAfter{
+        header{
+          .LikeItemAfter-owner{
+            .LikeItemAfter-ownerName{
+              color: $main-text-color;
+            }
+          }
+          .LikeItemAfter-owner:hover{
+            .LikeItemAfter-ownerName{
+              color: $main-url-color;
+            }
+          }
+        }
+        .LikeItemAfter-thanksMessage{
+          background: $sub2-background-color;
+          border-color: $sub2-background-color;
+          color: $main-text-color;
+          h1{
+            color: $sub-1-text-color;
+          }
+        }
+        .LikeItemAfter-thanksMessage:after, .LikeItemAfter-thanksMessage:before{
+          border-bottom-color: $sub2-background-color;
+        }
+      }
+    }
+    .VideoMediaObjectList>*+*{
+      border-color: $border-background-color;
+    }
+  }
+
+  //履歴：ニコられた
+  .NicoruHistoryPassiveItem{
+    background-color: $sub2-background-color;
+    box-shadow: none;
+    .NicoruHistoryPassiveItem-subject{
+      border-color: $border-background-color;
+      .NicoruHistoryPassiveItem-subjectComment,
+      .NicoruHistoryPassiveItem-subjectNicoruCountInner{
+        color: $main-text-color;
+      }
+    }
+    .NicoruHistoryPassiveItem-video{
+      background: none;
+      a{
+        color: $main-text-color;
+      }
+      a:hover{
+        color: $main-url-color;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  //履歴：ニコった
+  .NicoruHistoryActiveItem{
+    background-color: $sub2-background-color;
+    box-shadow: none;
+    .NicoruHistoryActiveItem-subject{
+      border-color: $border-background-color;
+      .ThreePointMenu-button{
+        filter: $invert;
+      }
+      .NicoruHistoryActiveItem-subjectComment,
+      .NicoruHistoryActiveItem-subjectNicoruCountInner{
+        color: $main-text-color;
+      }
+    }
+    .NicoruHistoryActiveItem-count{
+      .NicoruHistoryActiveItem-countInner{
+        color: $main-text-color;
+      }
+    }
+    .NicoruHistoryActiveItem-video{
+      background: none;
+      a{
+        color: $main-text-color;
+      }
+      a:hover{
+        color: $main-url-color;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  //スタンプ
+  .StampCard{
+    background: $sub2-background-color;
+    .StampCard-title{
+      color: $main-text-color;
+    }
+    .StampCard-rank{
+      background: none;
+      .StampCard-star{
+        fill: $nico-point;
+      }
+      .StampCard-star_placeholder{
+        fill: $nico-black;
+      }
+    }
+  }
+
+  //公開ユザペ
+    //動画
+    .VideoContainer-item{
+      .VideoMediaObject-item{
+        .VideoMediaObject-linkArea{
+          .VideoMediaObject-bodyTitle{
+            color: $main-text-color;
+          }
+        }
+        .VideoMediaObject-linkArea:visited{
+          .VideoMediaObject-bodyTitle{
+            color: $sub-1-text-color;
+          }
+        }
+        .VideoMediaObject-linkArea:hover{
+          .VideoMediaObject-bodyTitle{
+            color: $main-url-color;
+          }
+        }
+        .VideoMediaObject-action{
+          filter: $invert;
+        }
+      }
+    }
+    //シリーズ
+    .SeriesContainer-item{
+      .SeriesMediaObject-body{
+        .SeriesMediaObject-bodyTitle{
+          color: $main-text-color !important;
+        }
+        .SeriesMediaObject-bodyTitle:visited{
+          color: $sub-1-text-color !important;
+        }
+        .SeriesMediaObject-bodyTitle:hover{
+          color: $main-url-color !important;
+        }
+        .SeriesMediaObject-bodyCount{
+          color: $sub-2-text-color !important;
+        }
+      }
+    }
+
+  //モーダル
+    //マイリスト作成
+    .MylistCreateModalContainer-watchHistories{
+      .MylistCreateModalContainer-watchHistoryItem{
+        .VideoMediaObject-item{
+          .VideoMediaObject-linkArea{
+            .VideoMediaObject-bodyTitle{
+              color: $main-text-color;
+            }
+          }
+          .VideoMediaObject-linkArea:visited{
+            .VideoMediaObject-bodyTitle{
+              color: $sub-1-text-color;
+            }
+          }
+          .VideoMediaObject-linkArea:hover{
+            .VideoMediaObject-bodyTitle{
+              color: $main-url-color;
+            }
+          }
+          .VideoMediaObject-action{
+            filter: $invert;
+          }
+        }
+      }
+    }
+    .MylistCreateModalContainer-watchHistoryItem+.MylistCreateModalContainer-watchHistoryItem:before{
+      background-color: $border-background-color;
+    }
+}

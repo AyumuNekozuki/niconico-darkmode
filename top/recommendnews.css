@@ -1,25 +1,126 @@
-#header h1#logo_zero a{
-  filter: invert();
+.niconico-darkmode-setting-true .FooterContainer a {
+  color: #F5F5F5 !important;
 }
-.cmnHeading{
+
+.niconico-darkmode-setting-true .FooterContainer a:hover {
+  color: #0080FF !important;
+}
+
+.niconico-darkmode-setting-true .FooterContainer .FooterContainer-column {
+  border-top: 2px solid #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .FooterContainer .FooterContainer-feedback {
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+
+.toPageTopWrap {
+  background: #333333 !important;
+}
+
+.toPageTopWrap .inner a:hover, .toPageTopWrap .inner a:active {
+  background: #333333 !important;
+  border: none !important;
+  color: #F5F5F5 !important;
+}
+
+#footerWrap {
+  background: #1A1B1C !important;
+}
+
+#footerWrap a {
+  color: #F5F5F5 !important;
+}
+
+#footerWrap a:hover {
+  color: #0080FF !important;
+}
+
+#footerWrap #footerNav .outer h3 {
+  border-bottom: #555555 solid 1px !important;
+  color: #F5F5F5 !important;
+}
+
+#footerWrap #footerNav ul li {
   background: none !important;
 }
 
-.contentsInner li{
-  background: none !important;
-  border-bottom: 1px solid #333 !important;
-}
-.contentsInner li p{
-  color: #666 !important;
+#footerWrap .figureWrap span, #footerWrap .figureWrap small {
+  color: #F5F5F5 !important;
 }
 
-.pager a, .pager span{
+.niconico-darkmode-setting-true .contents .pager a, .niconico-darkmode-setting-true .contents .pager span {
   border: none !important;
-  background-color: #333 !important;
+  background-color: #333333 !important;
 }
 
-.pager span.active{
+.niconico-darkmode-setting-true .contents .pager .active {
   border: none !important;
+  background-color: #0080FF !important;
+}
+
+.niconico-darkmode-setting-true .Pagination .PaginationItem {
+  border-color: #333333;
+  background: #333333;
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .Pagination .PaginationItem:hover {
+  color: #0080FF;
+}
+
+.niconico-darkmode-setting-true .Pagination .PaginationItem_selected {
+  color: #F5F5F5 !important;
+  border-color: #0080FF;
+  background: #0080FF;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 table.pager span.here {
+  background: #0080FF;
+  border: 5px solid #0080FF;
+  border-radius: 2.5px;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 table.pager a {
+  background: #555555;
+  border: 5px solid #555555;
+  border-radius: 2.5px;
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 table.pager a:hover {
+  background: #999999;
+  border-color: #999999;
+}
+
+.niconico-darkmode-setting-true {
   background-color: #1A1B1C !important;
+  color: #F5F5F5;
 }
 
+.niconico-darkmode-setting-true a {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true a:hover {
+  color: #0080FF !important;
+}
+
+.niconico-darkmode-setting-true #logo_zero {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.niconico-darkmode-setting-true .cmnHeading {
+  background: none !important;
+}
+
+.niconico-darkmode-setting-true .contentsInner li {
+  background: none !important;
+  border-bottom: 1px solid #555555 !important;
+}
+
+.niconico-darkmode-setting-true .contentsInner li p {
+  color: #999999 !important;
+}

@@ -1,25 +1,427 @@
-
-/*serch box*/
-  .SearchBox-option{
-    background-color: #252525 !important;
-  }
-  .SearchBox-form{
-    background-color: #252525 !important;
-    box-shadow: none !important;
-  }
-  .SearchBox-query{
-    color: whitesmoke !important;
-  }
-
-.RecommendationsHeading{
-  color: whitesmoke !important;
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector {
+  border-color: #333333;
+  background: #333333;
 }
 
-.TagItem-link{
-  background: #252525 !important;
-  border: none !important;
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService {
+  color: #F5F5F5;
 }
 
-.BaseLayout-footer{
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService.active,
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService:hover, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService.active,
+.niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-rowSelector .CrossSearch_Re-rowService:hover {
+  background: #555555;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form {
+  background: #333333;
+  -webkit-box-shadow: inset 0 0 0 1px #333333;
+          box-shadow: inset 0 0 0 1px #333333;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox {
+  border-color: #555555;
+  background-color: #333333;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner {
+  border-color: #555555;
+  background-color: #333333;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner .favTagEditBox p, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner .favTagEditBox p {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li {
+  color: inherit;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li a, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li a:hover, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li a:hover {
   background: none !important;
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li:hover, .niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li.active, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li:hover, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li.active {
+  background-color: #555555 !important;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li:hover a, .niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li.active a, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li:hover a, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner ul li.active a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .TopPage .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner .favTagItem.active + .suggestItem, .niconico-darkmode-setting-true .UserPageHeader .SearchContainer .CrossSearch_Re .CrossSearch_Re-form .suggestBox .suggestBoxInner .favTagItem.active + .suggestItem {
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-header .HeaderContainer-searchBox .SearchBox-option {
+  background-color: #252525 !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-header .HeaderContainer-searchBox .SearchBox-form {
+  background-color: #252525 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-header .HeaderContainer-searchBox .SearchBox-query {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-header .HeaderContainer-searchBox .suggestBox {
+  background-color: #1A1B1C !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-header .HeaderContainer-searchBox .suggestBox .suggestBoxInner {
+  border: 1px solid #555555;
+  background-color: #1A1B1C !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-header .HeaderContainer-searchBox .suggestBox .suggestBoxInner a {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-header .HeaderContainer-searchBox .suggestBox .suggestBoxInner li:hover {
+  background-color: #555555 !important;
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox {
+  border: none;
+  background: #252525;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagEditForm-input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionInput-input {
+  background-color: #252525;
+  color: #F5F5F5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList-item,
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList-favoriteTag,
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .SearchBox-optionMenu {
+  background-color: #252525;
+  color: #F5F5F5;
+  border-top: 1px dotted #252525;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList-item.is-active,
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .TagSuggestionList-item:hover,
+.niconico-darkmode-setting-true .WatchAppContainer .HeaderContainer-searchBox .SearchBox .SearchBox-optionMenuItem:hover {
+  background-color: #333333;
+}
+
+.niconico-darkmode-setting-true #head_search #search_tab a.head_ssw_0 {
+  background-color: #252525;
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true #head_search #search_input {
+  background: #252525;
+  border: #555555 solid 1px;
+}
+
+.niconico-darkmode-setting-true #head_search #search_input #bar_search {
+  background-color: #252525;
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true #head_search #search_input .suggestBox {
+  background-color: #252525;
+}
+
+.niconico-darkmode-setting-true #head_search #search_input .suggestBox .suggestBoxInner {
+  border: 1px solid #555555;
+  background-color: #252525;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true #head_search #search_input .suggestBox .suggestBoxInner .favTagEditBox p {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true #head_search #search_input .suggestBox .suggestBoxInner li a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true #head_search #search_input .suggestBox .suggestBoxInner li.active {
+  background-color: #555555 !important;
+}
+
+.niconico-darkmode-setting-true #head_search #search_input .suggestBox .suggestBoxInner li.active a {
+  background: none !important;
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchOption .tab {
+  background-color: #252525;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchOption .tab a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchOption .active {
+  background-color: #555555;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput {
+  border-color: #555555;
+  background: #555555;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form {
+  background: #555555;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText input {
+  background: #555555;
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText .clear-button-tag .clear-button-inner-tag {
+  color: #F5F5F5;
+  background: #999999;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText .suggestBox {
+  background-color: #252525;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText .suggestBox .suggestBoxInner {
+  border: 1px solid #555555;
+  background-color: #252525;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText .suggestBox .suggestBoxInner .favTagEditBox p {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText .suggestBox .suggestBoxInner .favTagItem {
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText .suggestBox .suggestBoxInner .favTagItem li a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText .suggestBox .suggestBoxInner .favTagItem li.active {
+  background-color: #555555 !important;
+}
+
+.niconico-darkmode-setting-true .header .siteHeader .videoSearch .videoSearchInput form .inputText .suggestBox .suggestBoxInner .favTagItem li.active a {
+  background: none !important;
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .suggestBox .suggestItem li a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .suggestBox .suggestItem li.active {
+  background: #555555 !important;
+}
+
+.niconico-darkmode-setting-true .suggestBox .suggestItem li.active a {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .ViewerNGRegister-cancelButton,
+.niconico-darkmode-setting-true .AddingMylistModal-cancel {
+  color: #F5F5F5;
+  background: #333333;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .ViewerNGRegister-cancelButton:hover,
+.niconico-darkmode-setting-true .AddingMylistModal-cancel:hover {
+  background: #555555;
+}
+
+.niconico-darkmode-setting-true .ViewerNGRegister-submitButton,
+.niconico-darkmode-setting-true .AddingMylistModal-submit {
+  color: #0080FF;
+  border-color: #0080FF;
+  background: #333333;
+}
+
+.niconico-darkmode-setting-true .ViewerNGRegister-submitButton:hover,
+.niconico-darkmode-setting-true .AddingMylistModal-submit:hover {
+  background: #0080FF;
+}
+
+.niconico-darkmode-setting-true .ViewerNGRegister-submitButton:disabled {
+  color: #999999;
+  background: #333333;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .WatchLaterMenu .Selectbox-button, .niconico-darkmode-setting-true .MylistMenu .Selectbox-button {
+  background: #333333;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .WatchLaterMenu .Selectbox-button .Selectbox-label, .niconico-darkmode-setting-true .MylistMenu .Selectbox-button .Selectbox-label {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .WatchLaterMenu .Selectbox-button:hover, .niconico-darkmode-setting-true .MylistMenu .Selectbox-button:hover {
+  background: #555555;
+}
+
+.niconico-darkmode-setting-true .WatchLaterMenu .ContinuousPlayButton, .niconico-darkmode-setting-true .MylistMenu .ContinuousPlayButton {
+  color: #F5F5F5;
+  background: #333333;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .WatchLaterMenu .ContinuousPlayButton:hover, .niconico-darkmode-setting-true .MylistMenu .ContinuousPlayButton:hover {
+  color: #F5F5F5;
+  background: #0080FF;
+  border-color: #0080FF;
+}
+
+.niconico-darkmode-setting-true .MylistVideoListEditMenu .Selectbox-button {
+  background: #333333;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .MylistVideoListEditMenu .Selectbox-button .Selectbox-label {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .MylistVideoListEditMenu .Selectbox-button:hover {
+  background: #555555;
+}
+
+.niconico-darkmode-setting-true .MylistVideoListEditMenu .VideoListEditMenuButton {
+  background: #333333;
+  border-color: #555555;
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .MylistVideoListEditMenu .VideoListEditMenuButton:hover {
+  background: #0080FF;
+  border-color: #0080FF;
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .MylistVideoListEditMenu .VideoListEditMenu-delete.VideoListEditMenuButton:hover {
+  background: #d0021b;
+  border-color: #d0021b;
+}
+
+.niconico-darkmode-setting-true .MylistVideoListEditMenu .Selectbox-button_disabled .Selectbox-label,
+.niconico-darkmode-setting-true .MylistVideoListEditMenu .VideoListEditMenuButton_disable {
+  color: #999999;
+}
+
+.niconico-darkmode-setting-true .MymemoryContainer-editMenu .Checkbox .Checkbox-label {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .MymemoryContainer-editMenu .VideoListEditMenuButton {
+  background: #333333;
+  color: #F5F5F5;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .MymemoryContainer-editMenu .VideoListEditMenuButton_disable {
+  color: #999999;
+}
+
+.niconico-darkmode-setting-true .VideoWatchHistoryContainer-editMenu .Checkbox-label {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .VideoListEditMenuButton {
+  background: #333333;
+  color: #F5F5F5;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .VideoListEditMenuButton:hover {
+  background: red;
+  color: #F5F5F5 !important;
+  border-color: red;
+}
+
+.niconico-darkmode-setting-true .VideoListEditMenuButton_disable {
+  color: #999999;
+}
+
+.niconico-darkmode-setting-true .Selectbox-button {
+  background-color: #333333;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .Selectbox-button .Selectbox-label {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .Selectbox-button:hover {
+  background-color: #555555;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .Selectbox-button:hover .Selectbox-label {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true {
+  background-color: #1A1B1C;
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-header .NicovideoLogo {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .TagItem .TagItem-link {
+  background: #333333;
+  border: none;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .RecommendTagListContainer .RecommendationsHeading aside {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .RecommendVideoListContainer .RecommendationsHeading aside {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .RecommendVideoListContainer .RecommendVideoListContainer-videos .VideoCard .Card-link:visited {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .RecommendVideoListContainer .RecommendVideoListContainer-more {
+  background: #333333;
+  color: #F5F5F5;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .RecommendVideoListContainer .RecommendVideoListContainer-more:hover {
+  background: #0080FF;
+  border-color: #0080FF;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-footer {
+  background: #252525;
 }

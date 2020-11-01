@@ -1,0 +1,111 @@
+@import '../parts/_default';
+@import '../parts/_serchbox';
+@import '../parts/_video-card';
+@import '../parts/_footer';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  .BaseLayout-header{
+    .NicovideoLogo{
+      filter: $invert;
+    }
+
+    /*videotop-genre*/
+    .VideoTopGenreListContainer{
+      a{
+        color: $main-text-color;
+      }
+      a:hover{
+        color: $main-url-color;
+      }
+
+      background-color: $main-background-color !important;
+      .VideoTopGenreListContainer-item{
+        background-color: $nico-default-bg !important;
+        border: none !important;
+      }
+      .is-current{
+        background-color: $main-url-color !important;
+        color: $main-text-color !important;
+      }
+      .is-current a:hover{
+        color: $main-text-color !important;
+      }
+    }
+
+
+  }
+  .BaseLayout-main{
+    .BaseLayout-billboard{
+      .Ads970x250Billboard{
+        background: $sub-background-color !important;
+        border-top: 2px solid $sub-background-color !important;
+        border-bottom: 2px solid $sub-background-color !important;
+      }
+    }
+    .VideoIntroductionAreaContainer{ //いきなり動画紹介
+      .VideoIntroductionPlayerContainer-main{
+        .VideoIntroductionPlayerContainer-description{
+          h2{
+            color: $main-text-color;
+          }
+          h3{
+            color: $sub-1-text-color;
+          }
+        }
+      }
+    }
+    .BaseLayout-block{
+      .Separator{
+        background: repeating-linear-gradient(-45deg,$border-background-color,$border-background-color 6px,transparent 0,transparent 12px);
+      }
+      .ColumnTitle{
+        .ColumnTitle-icon{
+          filter: $invert;
+        }
+        .ColumnTitle-text{
+          color: $main-text-color;
+        }
+        .ColumnTitle-link{
+          color: $main-text-color;
+          .ColumnTitle-linkText{
+            color: $sub-1-text-color;
+          }
+        }
+        .ColumnTitle-link:hover{
+          color: $main-url-color;
+        }
+        .ColumnTitle-link:hover > .ColumnTitle-linkText{
+          color: $main-url-color;
+        }
+      }
+      .TagWithVideoItem{
+        .TagWithVideoItem-nicopediaText{
+          color: $sub-1-text-color;
+        }
+        .TagWithVideoItem-articleLink{
+          color: $main-text-color;
+          background: linear-gradient(90deg,hsla(0,0%,96.1%,0),$main-background-color 20px);
+        }
+        .TagWithVideoItem-articleLink:hover{
+          color: $main-url-color;
+        }
+      }
+      .NewsNotificationContainer{
+        .NewsNotificationList-item{
+          color: $main-text-color;
+          .timestamp{
+            color: $sub-1-text-color;
+          }
+        }
+        .NewsNotificationList-item + .NewsNotificationList-item{
+          border-top: 2px dotted $border-background-color;
+        }
+      }
+    }
+  }
+  .BaseLayout-footer{
+    background: $sub-background-color;
+  }
+}

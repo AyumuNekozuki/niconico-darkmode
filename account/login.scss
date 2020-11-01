@@ -1,0 +1,30 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background: $main-background-color !important;
+
+  header{
+    .header__title{
+      img{
+        filter: $invert;
+      }
+    }
+  }
+
+  .main.login{
+
+    .login-form{
+      background: none !important;
+      color: $main-text-color !important;
+    }
+
+    .text-link{
+      color: $main-url-color !important;
+    }
+
+    .sns-group .text-description,
+    .button-wrap > p{
+      color: $sub-1-text-color !important;
+    }
+  }
+}

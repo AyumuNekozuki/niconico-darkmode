@@ -1,0 +1,26 @@
+@import '_default';
+
+.niconico-darkmode-setting-true{
+  .VideoCard,
+  .NicoadVideoItem{
+    a{
+      color: $main-text-color;
+    }
+    a:hover{
+      color: $main-url-color;
+    }
+  }
+  .TagItem{
+    .TagItem-link{
+      color: $main-text-color;
+      background: $sub-background-color !important;
+      border: 1px solid $sub-background-color;
+    }
+    .TagItem-link:hover{
+      color: $main-url-color;
+    }
+  }
+  .RankingBaseItem{
+    background: $nico-default-bg;
+  }
+}

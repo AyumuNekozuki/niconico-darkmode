@@ -28,3 +28,39 @@
 .___heading___BYXKM{
   color: white !important;
 }
+
+
+/*好みタグ*/
+.___big-banner___1EkFF{
+  background: none !important;
+}
+.___tag-widget___3N4L8{
+  background: none !important;
+}
+.___counter___g2o1l{
+  background-color: #252525 !important;
+}
+.___counter___g2o1l:hover{
+  background-color: #555555 !important;
+}
+.___counter___g2o1l .___label___2JS3t,
+.___tag-widget___1ZJ2x [class*=___number___]{
+  color: #F5F5F5 !important;
+}
+.___expand-button___2TWkz{
+  background-color: #252525 !important;
+  color: #F5F5F5 !important;
+}
+.___expand-button___2TWkz:hover{
+  background-color: #555555 !important;
+}
+.___heading___3Vck6{
+  color: #F5F5F5 !important;
+}
+.___caption___xME9V{
+  color: #c4c4c4 !important;
+}
+.___target___3aD2V{
+  background-color: #252525 !important;
+  color: #F5F5F5 !important;
+}

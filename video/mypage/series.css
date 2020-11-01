@@ -242,88 +242,43 @@
   color: #F5F5F5 !important;
 }
 
-.niconico-darkmode-setting-true .VideoCard a,
-.niconico-darkmode-setting-true .NicoadVideoItem a {
+.niconico-darkmode-setting-true textarea {
+  background: #333333;
   color: #F5F5F5;
+  border-color: #555555;
 }
 
-.niconico-darkmode-setting-true .VideoCard a:hover,
-.niconico-darkmode-setting-true .NicoadVideoItem a:hover {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .TagItem .TagItem-link {
+.niconico-darkmode-setting-true input[type=text],
+.niconico-darkmode-setting-true input[type=date], .niconico-darkmode-setting-true input[type=time],
+.niconico-darkmode-setting-true .AddingMylistModal-nameInput,
+.niconico-darkmode-setting-true .AddingMylistModal-descriptionInput,
+.niconico-darkmode-setting-true .ichiba_search_form_query {
+  background: #333333;
   color: #F5F5F5;
-  background: #272727 !important;
-  border: 1px solid #272727;
+  border-color: #555555;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-.niconico-darkmode-setting-true .TagItem .TagItem-link:hover {
-  color: #0080FF;
+.niconico-darkmode-setting-true .Modal-content {
+  background: #252525 !important;
 }
 
-.niconico-darkmode-setting-true .RankingBaseItem {
-  background: #252525;
+.niconico-darkmode-setting-true .Modal-content header {
+  background: #252525 !important;
 }
 
-.niconico-darkmode-setting-true .FooterContainer a {
+.niconico-darkmode-setting-true .Modal-content header h1 {
   color: #F5F5F5 !important;
 }
 
-.niconico-darkmode-setting-true .FooterContainer a:hover {
-  color: #0080FF !important;
-}
-
-.niconico-darkmode-setting-true .FooterContainer .FooterContainer-column {
-  border-top: 2px solid #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .FooterContainer .FooterContainer-feedback {
-  background-color: #333333;
-  border: 1px solid #333333;
-}
-
-.toPageTopWrap {
-  background: #333333 !important;
-}
-
-.toPageTopWrap .inner a:hover, .toPageTopWrap .inner a:active {
-  background: #333333 !important;
-  border: none !important;
-  color: #F5F5F5 !important;
-}
-
-#footerWrap {
-  background: #1A1B1C !important;
-}
-
-#footerWrap a {
-  color: #F5F5F5 !important;
-}
-
-#footerWrap a:hover {
-  color: #0080FF !important;
-}
-
-#footerWrap #footerNav .outer h3 {
-  border-bottom: #555555 solid 1px !important;
-  color: #F5F5F5 !important;
-}
-
-#footerWrap #footerNav ul li {
-  background: none !important;
-}
-
-#footerWrap .figureWrap span, #footerWrap .figureWrap small {
-  color: #F5F5F5 !important;
+.niconico-darkmode-setting-true .Modal-content .Modal-close {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 .niconico-darkmode-setting-true {
   background-color: #1A1B1C !important;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-header {
-  /*videotop-genre*/
 }
 
 .niconico-darkmode-setting-true .BaseLayout-header .NicovideoLogo {
@@ -331,100 +286,93 @@
           filter: invert(100%);
 }
 
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer {
-  background-color: #1A1B1C !important;
+.niconico-darkmode-setting-true .BaseLayout-main .SeriesAdditionalContainer {
+  background: #252525 !important;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer a {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer a:hover {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer .VideoTopGenreListContainer-item {
-  background-color: #252525 !important;
-  border: none !important;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer .is-current {
-  background-color: #0080FF !important;
+.niconico-darkmode-setting-true .BaseLayout-main .SeriesAdditionalContainer .SeriesAdditionalContainer-ownerArea {
   color: #F5F5F5 !important;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer .is-current a:hover {
+.niconico-darkmode-setting-true .BaseLayout-main .SeriesAdditionalContainer .SeriesAdditionalContainer-ownerArea .SeriesAdditionalContainer-ownerName {
+  color: #F5F5F5 !important;
+  border-bottom: 2px solid #555555;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .SeriesAdditionalContainer .SeriesAdditionalContainer-ownerArea .SeriesAdditionalContainer-ownerName:hover {
+  color: #0080FF !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnSub .SeriesMenuContainer-seriesList {
+  background: #252525 !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnSub .SeriesMenuContainer-seriesList .SeriesMenuContainer-seriesItem a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnSub .SeriesMenuContainer-seriesList .SeriesMenuContainer-seriesItem a:hover {
+  color: #0080FF;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnSub .SeriesMenuContainer-seriesList .SeriesMenuContainer-currentSeries a {
+  color: #0080FF;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnSub .SeriesMenuContainer-seriesList .SeriesMenuContainer-seriesItem + .SeriesMenuContainer-seriesItem {
+  border-top: 1px solid #555555;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnMain .SeriesDetailContainer-description {
+  border-bottom: 1px solid #555555;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnMain .SeriesDetailContainer-description .DescriptionHTML {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnMain .SeriesDetailContainer-description .DescriptionHTML a:hover {
+  text-decoration: underline;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnMain .SeriesVideoListContainer .SeriesVideoListContainer-video {
+  border-bottom: 1px solid #555555;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnMain .SeriesVideoListContainer .SeriesVideoListContainer-video .VideoMediaObject-title a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnMain .SeriesVideoListContainer .SeriesVideoListContainer-video .VideoMediaObject-title a:hover {
+  color: #0080FF;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .Series-columnMain .SeriesVideoListContainer .SeriesVideoListContainer-emptyMessage {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-main .SeriesShareDialog-content .SeriesShareItem-label {
+  background: none !important;
   color: #F5F5F5 !important;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-billboard .Ads970x250Billboard {
-  background: #272727 !important;
-  border-top: 2px solid #272727 !important;
-  border-bottom: 2px solid #272727 !important;
+.niconico-darkmode-setting-true .BaseLayout-main .SeriesShareDialog-content .SeriesShareItem-text {
+  border-color: #555555;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .VideoIntroductionAreaContainer .VideoIntroductionPlayerContainer-main .VideoIntroductionPlayerContainer-description h2 {
-  color: #F5F5F5;
+.niconico-darkmode-setting-true .BaseLayout-main .SeriesShareDialog-content .SeriesShareItem-copy {
+  background-color: #333333;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .VideoIntroductionAreaContainer .VideoIntroductionPlayerContainer-main .VideoIntroductionPlayerContainer-description h3 {
-  color: #c4c4c4;
+.niconico-darkmode-setting-true .BaseLayout-main .SeriesShareDialog-content .SeriesShareItem-copy:hover {
+  background-color: #555555;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .Separator {
-  background: repeating-linear-gradient(-45deg, #555555, #555555 6px, transparent 0, transparent 12px);
+.niconico-darkmode-setting-true .SeriesMenuContainer-seriesList::-webkit-scrollbar {
+  width: 8px;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-icon {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-text {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-link {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-link .ColumnTitle-linkText {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-link:hover {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-link:hover > .ColumnTitle-linkText {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .TagWithVideoItem .TagWithVideoItem-nicopediaText {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .TagWithVideoItem .TagWithVideoItem-articleLink {
-  color: #F5F5F5;
-  background: linear-gradient(90deg, rgba(245, 245, 245, 0), #1A1B1C 20px);
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .TagWithVideoItem .TagWithVideoItem-articleLink:hover {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .NewsNotificationContainer .NewsNotificationList-item {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .NewsNotificationContainer .NewsNotificationList-item .timestamp {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .NewsNotificationContainer .NewsNotificationList-item + .NewsNotificationList-item {
-  border-top: 2px dotted #555555;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-footer {
-  background: #272727;
+.niconico-darkmode-setting-true .SeriesMenuContainer-seriesList::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border: 2px solid #555555;
 }

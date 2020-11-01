@@ -1,0 +1,265 @@
+@charset "UTF-8";
+.niconico-darkmode-setting-true #sideHeader a {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true #sideHeader #siteHeaderInner ul li ul {
+  background: #272727 !important;
+}
+
+.niconico-darkmode-setting-true #sideHeader #siteHeaderLeftMenuContainer li a :hover {
+  color: black !important;
+}
+
+.niconico-darkmode-setting-true #sideHeader #siteHeaderNotification .siteHeaderNotificationContainer #siteHeaderNotificationWithNotification dd a {
+  background: #35393B !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-15gxh1a,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-1cuw74j,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-5onxr7 {
+  background-color: #252525 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-1319btw {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-g0o5vq:hover,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-10swg38:hover {
+  text-decoration: none !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-5x0u19:hover,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-5onxr7:hover {
+  background-color: #555555 !important;
+  text-decoration: none !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-ibyxl4 {
+  background: none !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-g80xl3 {
+  background-color: #252525 !important;
+  border: solid 2px #333 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-g80xl3:hover {
+  background-color: #D1A437 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-g80xl3:hover .common-header-1iolkct svg g g,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-g80xl3:hover .common-header-1sypczf {
+  fill: #FFFFFF !important;
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-1sypczf {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-zz80x3 {
+  background-color: #252525 !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-zz80x3:hover {
+  background-color: #555555 !important;
+  text-decoration: none !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-430bj8 {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-cvcm83 > * {
+  border-top: 1px solid #333 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-1gq7o6w {
+  background-color: #252525 !important;
+  border-bottom: #333 1px solid !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-1gq7o6w:hover {
+  background-color: #555555 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-1u02t5o {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-xp52wl {
+  border: #333 2px solid !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-xp52wl:hover {
+  background-color: #CC0000 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-yrq9nc {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-juy1p4 {
+  background-color: #252525 !important;
+  border-bottom: 1px solid #555555 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-juy1p4:nth-child(2n) {
+  border-left: 1px solid #555555 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-11j62e9 {
+  background-color: #252525 !important;
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-juy1p4:hover, .niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-11j62e9:hover {
+  background-color: #555555 !important;
+  text-decoration: none !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-1l1lwin {
+  background-color: #252525 !important;
+  border-bottom: 1px solid #999 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-9wgpqv {
+  background-color: #252525 !important;
+  border-top: 1px solid #999 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-abyv5k {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-sig2g svg path {
+  fill: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-kolmxm,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-1swev0c {
+  background-color: #252525 !important;
+  border-bottom: 1px solid #555555 !important;
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-kolmxm div,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-1swev0c div {
+  color: #999 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-2cl2ey,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-uruoug,
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-18leufn {
+  background-color: #333333 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-105n2rz {
+  background-color: #252525 !important;
+}
+
+.niconico-darkmode-setting-true .nico-CommonHeaderRoot .common-header-6zywm .common-header-g0cqhq {
+  border-bottom: none !important;
+}
+
+/*設定ボタン*/
+.common-header-nicodarksetting-but:hover {
+  background-color: #555555;
+}
+
+.common-header-nicodarksetting-but:hover > .nicodark-setting-menupanel {
+  display: block !important;
+}
+
+.common-header-nicodarksetting-but::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 0px;
+  height: 14px;
+  border-right: 1px solid #555555;
+}
+
+.nicodark-setting-menupanel {
+  display: none;
+  position: absolute;
+  width: 250px;
+  right: 0;
+  background: #252525;
+}
+
+.nicodark-setting-menupanel .nicodark-logo {
+  width: 100%;
+}
+
+.nicodark-setting-menupanel .nicodark-setting-menu {
+  padding: 8px 16px;
+}
+
+.nicodark-setting-menupanel .nicodark-setting-menu .nicodark-label01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 40px;
+  padding: 0px 8px;
+  cursor: pointer;
+  background-color: #252525;
+}
+
+.nicodark-setting-menupanel .nicodark-setting-menu .nicodark-label01 .nicodark-span01 {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+  color: #F5F5F5;
+}
+
+.nicodark-setting-menupanel .nicodark-setting-menu .nicodark-label01 .nicodark-label02 {
+  position: relative;
+  display: inline-block;
+  background-color: #cccccc;
+  width: 40px;
+  height: 24px;
+  border-radius: 12px;
+  -webkit-transition: background-color 0.2s ease 0s;
+  transition: background-color 0.2s ease 0s;
+  cursor: pointer;
+}
+
+.nicodark-setting-menupanel .nicodark-setting-menu .nicodark-label01 .nicodark-label02 .nicodark-cb {
+  display: none;
+}
+
+.nicodark-setting-menupanel .nicodark-setting-menu .nicodark-label01 .nicodark-label02 .nicodark-span02 {
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: white;
+  -webkit-transition: left 0.2s ease 0s;
+  transition: left 0.2s ease 0s;
+}
+
+.nicodark-setting-menupanel .nicodark-setting-menu .nicodark-label01 .nicodark-label02[aria-checked="true"] {
+  background-color: #0080FF;
+}
+
+.nicodark-setting-menupanel .nicodark-setting-menu .nicodark-label01 .nicodark-label02[aria-checked="true"] .nicodark-span02 {
+  left: 18px;
+}

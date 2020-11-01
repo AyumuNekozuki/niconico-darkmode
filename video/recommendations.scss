@@ -1,0 +1,57 @@
+@import '../parts/_default';
+@import '../parts/_serchbox';
+@import '../parts/_button';
+
+.niconico-darkmode-setting-true{
+  background-color:$main-background-color;
+  color: $main-text-color;
+
+  .BaseLayout-header{
+    .NicovideoLogo{
+      filter: $invert;
+    }
+  }
+
+  .BaseLayout-main{
+    .TagItem{
+      .TagItem-link{
+        background: $sub2-background-color;
+        border: none;
+      }
+    }
+    .RecommendTagListContainer{
+      .RecommendationsHeading{
+        aside{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+    .RecommendVideoListContainer{
+      .RecommendationsHeading{
+        aside{
+          color: $sub-1-text-color;
+        }
+      }
+      .RecommendVideoListContainer-videos{
+        .VideoCard{
+          .Card-link:visited{
+            color: $sub-1-text-color;
+          }
+        }
+      }
+      .RecommendVideoListContainer-more{
+        background: $sub2-background-color;
+        color: $main-text-color;
+        border-color: $border-background-color;
+      }
+      .RecommendVideoListContainer-more:hover{
+        background: $main-url-color;
+        border-color: $main-url-color;
+      }
+    }
+  }
+
+  .BaseLayout-footer{
+    background: $nico-default-bg;
+  }
+}

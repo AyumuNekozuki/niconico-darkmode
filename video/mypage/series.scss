@@ -1,0 +1,102 @@
+@import '../../parts/_default';
+@import '../../parts/_serchbox';
+@import '../../parts/_textarea';
+@import '../../parts/_modal';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  .BaseLayout-header{
+    .NicovideoLogo{
+      filter: $invert;
+    }
+  }
+  
+  .BaseLayout-main{
+    .SeriesAdditionalContainer{
+      background: $nico-default-bg !important;
+      .SeriesAdditionalContainer-ownerArea{
+        color: $main-text-color !important;
+        .SeriesAdditionalContainer-ownerName{
+          color: $main-text-color !important;
+          border-bottom: 2px solid $border-background-color;
+        }
+        .SeriesAdditionalContainer-ownerName:hover{
+          color: $main-url-color !important;
+        }
+      }
+    }
+
+    .Series-columnSub{
+      .SeriesMenuContainer-seriesList{
+        background: $nico-default-bg !important;
+        .SeriesMenuContainer-seriesItem{
+          a{
+            color: $main-text-color;
+          }
+          a:hover{
+            color: $main-url-color;
+          }
+        }
+        .SeriesMenuContainer-currentSeries a{
+          color: $main-url-color;
+        }
+        .SeriesMenuContainer-seriesItem+.SeriesMenuContainer-seriesItem{
+          border-top: 1px solid $border-background-color;
+        }
+      }
+    }
+
+    .Series-columnMain{
+      .SeriesDetailContainer-description{
+        border-bottom: 1px solid $border-background-color;
+        .DescriptionHTML{
+          color: $main-text-color;
+          a:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+      .SeriesVideoListContainer{
+        .SeriesVideoListContainer-video{
+          border-bottom: 1px solid $border-background-color;
+          .VideoMediaObject-title{
+            a{
+              color: $main-text-color;
+            }
+            a:hover{
+              color: $main-url-color;
+            }
+          }
+        }
+        .SeriesVideoListContainer-emptyMessage{
+          color: $main-text-color;
+        }
+      }
+    }
+
+    .SeriesShareDialog-content{
+      .SeriesShareItem-label{
+        background: none !important;
+        color: $main-text-color !important;
+      }
+      .SeriesShareItem-text{
+        border-color: $border-background-color;
+      }
+      .SeriesShareItem-copy{
+        background-color: $sub2-background-color;
+      }
+      .SeriesShareItem-copy:hover{
+        background-color: $hover-background-color;
+      }
+    }
+  }
+
+  .SeriesMenuContainer-seriesList::-webkit-scrollbar{
+    width: 8px;
+  }
+  .SeriesMenuContainer-seriesList::-webkit-scrollbar-thumb{
+    background-color: $border-background-color;
+    border:2px solid $border-background-color;
+  }
+}

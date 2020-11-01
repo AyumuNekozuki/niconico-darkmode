@@ -1,0 +1,58 @@
+@import '_default';
+
+.niconico-darkmode-setting-true{
+  .contents{
+    .pager{
+      a,span{
+        border: none !important;
+        background-color: $sub2-background-color !important;
+      }
+      .active{
+        border: none !important;
+        background-color: $main-url-color !important;
+      }
+    }
+  }
+
+  //総合マイページ
+  .Pagination{
+    .PaginationItem{
+      border-color: $sub2-background-color;
+      background: $sub2-background-color;
+      color: $main-text-color;
+    }
+    .PaginationItem:hover{
+      color: $main-url-color;
+    }
+    .PaginationItem_selected{
+      color: $main-text-color !important;
+      border-color: $main-url-color;
+      background: $main-url-color;
+    }
+  }
+
+  //マイリスト検索
+  #PAGECONTAINER{
+    #PAGEBODY{
+      .content_672{
+        table.pager{
+          span.here{
+            background: $main-url-color;
+            border: 5px solid $main-url-color;
+            border-radius: 2.5px;
+          }
+          a{
+            background: $border-background-color;
+            border: 5px solid $border-background-color;
+            border-radius: 2.5px;
+            color: $main-text-color;
+          }
+          a:hover{
+            background: $sub-2-text-color;
+            border-color: $sub-2-text-color;
+          }
+        }
+      }
+    }
+  }
+}

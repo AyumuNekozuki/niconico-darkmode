@@ -1,0 +1,49 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  .TopPage-stageArea{
+    .AuroraVisionCard{
+      background-color: $nico-default-bg;
+      .AuroraVisionCard-meta{
+        .AuroraVisionCard-metaCatch{
+          color: $main-text-color;
+        }
+      }
+      .AuroraVisionCard-uploader{
+        color: $main-text-color;
+      }
+      .AuroraVisionCard-uploader[data-is-hover="true"]{
+        color: $main-url-color;
+      }
+    }
+    .AuroraVisionCard[data-is-hover="true"]{
+      .AuroraVisionCard-meta{
+        .AuroraVisionCard-metaCatch{
+          color: $main-url-color;
+        }
+      }
+    }
+    .ContentsPickupContainer{
+      .ContentsPickupCard{
+        background-color: $nico-default-bg;
+        .ContentsPickupCard-content{
+          color: $main-text-color;
+          .ContentsPickupCard-metaPickupComment{
+            color: $sub-1-text-color;
+          }
+        }
+        .ContentsPickupCard-content:hover{
+          color: $main-url-color;
+        }
+        .ContentsPickupCard-footerUploader{
+          color: $main-text-color;
+        }
+        .ContentsPickupCard-footerUploader:hover{
+          color: $main-url-color;
+        }
+      }
+    }
+  }
+}
+
+

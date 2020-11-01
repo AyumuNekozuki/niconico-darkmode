@@ -1,0 +1,404 @@
+@import '../parts/_default';
+@import '../parts/_serchbox';
+@import '../parts/_textarea';
+@import '../parts/_footer';
+@import '_social-top-card';
+
+.niconico-darkmode-setting-true{
+  background-color:$main-background-color !important;
+  color: $main-text-color !important;
+
+  .BaseLayout-main{
+    background-color:$main-background-color !important;
+
+    //Reリニューアル
+    .TopPage{
+      .TopPage-section{
+        .TopPage-header{
+          .NiconicoLogo{
+            filter: $invert;
+          }
+          .HeaderContainer_Re-mainLower{
+            .OneLineLinkContainer-link{
+              color: $main-text-color;
+            }
+            .OneLineLinkContainer-link:hover{
+              color: $main-url-color;
+            }
+          }
+        }
+      }
+      .TopPage-wideSection{
+        .PersonalFrameContainer{ //おすすめ情報
+          background: $main-background-color;
+          border: none;
+          .PersonalFrameContainer-body{
+            background: $nico-default-bg;
+            .PersonalFrameContainer-link{
+              color: $main-text-color;
+            }
+            .PersonalFrameContainer-link:hover{
+              color: $nico-personal-topics;
+            }
+            .PersonalFrameContainer-close{
+              svg{
+                fill: $main-text-color;
+              }
+            }
+            .PersonalFrameContainer-close:hover{
+              svg{
+                fill: $nico-personal-topics;
+              }
+            }
+          }
+        }
+        .TopPage-stageArea{ //ステージエリア
+          filter: $invert;
+          section{
+            filter: $invert;
+            .AuroraVisionCard-metaContentTitle{
+              color: $sub-1-text-color;
+            }
+          }
+          .LEDMessageBoard::after{
+            background-image: linear-gradient($main-background-color,transparent),linear-gradient(0deg,$main-background-color,transparent);
+          }
+        }
+        .LiveWindowContainer{
+          border: none;
+          background: $sub2-background-color;
+          .LiveWindowContainer-meta{
+            .LiveWindowContainer-metaLink{
+              .LiveWindowContainer-metaTitle{
+                color: $main-text-color;
+              }
+              .LiveWindowContainer-metaDescription{
+                color: $sub-1-text-color;
+              }
+            }
+            .LiveWindowContainer-metaLink:hover{
+              .LiveWindowContainer-metaTitle{
+                color: $main-url-color;
+              }
+            }
+          }
+        }
+      }
+      .TopPage-section{
+        .ThemeContainer{
+          .FrameTitleLink{
+            .FrameTitleLink-titleText{
+              color: $main-text-color;
+            }
+          }
+          .FrameTitleLink:hover{
+            .FrameTitleLink-titleText{
+              color: $main-url-color;
+            }
+          }
+          .ContentsDigestFrame-description{
+            color: $sub-1-text-color;
+          }
+          .SeeMoreLink{
+            .SeeMoreLink-text{
+              background-color: $sub2-background-color;
+              color: $main-text-color;
+              border-color: $border-background-color;
+              svg{
+                fill: $main-text-color;
+              }
+            }
+          }
+          .SeeMoreLink:hover{
+            .SeeMoreLink-text{
+              background-color: $main-url-color;
+              border-color: $main-url-color;
+            }
+          }
+          .ContentsDigestFrame-body{
+            .ContentsDigestFrame-card{
+              .ContentsDigestFrame-cardMetaTitle{
+                color: $main-text-color;
+              }
+            }
+            .ContentsDigestFrame-card:hover{
+              .ContentsDigestFrame-cardMetaTitle{
+                color: $main-url-color;
+              }
+            }
+          }
+        }
+        .ThemeContainer>.ContentsDigestFrame+.ContentsDigestFrame:before{
+          border-color: $border-background-color;
+        }
+        .NicoAdContainer{
+          .NicoAdContainer-header{
+            .FrameTitleLink{
+              .FrameTitleLink-titleText{
+                color: $main-text-color;
+              }
+            }
+            .FrameTitleLink:hover{
+              .FrameTitleLink-titleText{
+                color: $main-url-color;
+              }
+            }
+            .SeeMoreLink{
+              .SeeMoreLink-text{
+                background-color: $sub2-background-color;
+                color: $main-text-color;
+                border-color: $border-background-color;
+                svg{
+                  fill: $main-text-color;
+                }
+              }
+            }
+            .SeeMoreLink:hover{
+              .SeeMoreLink-text{
+                background-color: $main-url-color;
+                border-color: $main-url-color;
+              }
+            }
+          }
+
+        }
+        .NicoNewsContainer{
+          .NicoNewsContainer-header{
+            .FrameTitleLink{
+              .FrameTitleLink-titleText{
+                color: $main-text-color;
+              }
+            }
+            .FrameTitleLink:hover{
+              .FrameTitleLink-titleText{
+                color: $main-url-color;
+              }
+            }
+            .SeeMoreLink{
+              .SeeMoreLink-text{
+                background-color: $sub2-background-color;
+                color: $main-text-color;
+                border-color: $border-background-color;
+                svg{
+                  fill: $main-text-color;
+                }
+              }
+            }
+            .SeeMoreLink:hover{
+              .SeeMoreLink-text{
+                background-color: $main-url-color;
+                border-color: $main-url-color;
+              }
+            }
+          }
+          .NicoNewsContainer-main{
+            #NicoNewsContainer-tabs{
+              .Tabs-tab{
+                background-color: $sub-background-color;
+                color: $sub-1-text-color;
+              }
+              .Tabs-tab:hover{
+                color: $nico-news;
+              }
+              .Tabs-tab.is-active{
+                background-color: $nico-news;
+                color: $main-text-color;
+              }
+            }
+            .NicoNewsContainer-articles{
+              .NicoNewsContainer-textNews{
+                li+li{
+                  border-color: $border-background-color;
+                }
+              }
+              .NicoNewsContainer-photoNews{
+                background: $sub2-background-color;
+              }
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
+              }
+              .NicoNewsContainer-commentCount{
+                background-color: $sub2-background-color;
+                border-color: $sub2-background-color;
+              }
+            }
+          }
+        }
+        .ContentsInformationAreaContainer{
+          .ContentsDigestFrame-header{
+            .FrameTitleLink{
+              .FrameTitleLink-titleText{
+                color: $main-text-color;
+              }
+            }
+            .FrameTitleLink:hover{
+              .FrameTitleLink-titleText{
+                color: $main-url-color;
+              }
+            }
+            .SeeMoreLink{
+              .SeeMoreLink-text{
+                background-color: $sub2-background-color;
+                color: $main-text-color;
+                border-color: $border-background-color;
+                svg{
+                  fill: $main-text-color;
+                }
+              }
+            }
+            .SeeMoreLink:hover{
+              .SeeMoreLink-text{
+                background-color: $main-url-color;
+                border-color: $main-url-color;
+              }
+            }
+          }
+          .ContentsDigestFrame-body{
+            .ContentsDigestFrame-card{
+              .ContentsDigestFrame-cardMetaTitle{
+                color: $main-text-color;
+              }
+            }
+            .ContentsDigestFrame-card:hover{
+              .ContentsDigestFrame-cardMetaTitle{
+                color: $main-url-color;
+              }
+            }
+          }
+        }
+        .ContentsInformationAreaContainer>*+:before{
+          border-color: $border-background-color;
+        }
+        .RealEventInformationAreaContainer{
+          section{
+            border-color: $border-background-color;
+            h1{
+              color: $main-text-color;
+            }
+            .RealEventInformationAreaContainer-contents{
+              .TicketNoticeContainer-title{
+                color: inherit;
+                .TicketNoticeContainer-titleLink{
+                  color: $main-text-color;
+                }
+                .TicketNoticeContainer-titleLink:hover{
+                  color: $main-url-color;
+                }
+              }
+              .TicketNoticeContainer-title+:before{
+                border-color: $border-background-color;
+              }
+            }
+          }
+        }
+      }
+      .TopPage-middleBillboardAdSection{
+        border: none;
+        background: $sub2-background-color;
+      }
+      .TopPage-footer{
+        border: none;
+        background: $sub2-background-color;
+        .FooterAreaContainer{
+          .FooterAreaContainer-upper{
+            .NicoNoticeContainer{
+              .TextListFrame-header{
+                .FrameTitleLink{
+                  .FrameTitleLink-titleText{
+                    color: $main-text-color;
+                  }
+                }
+                .FrameTitleLink:hover{
+                  .FrameTitleLink-titleText{
+                    color: $main-url-color;
+                  }
+                }
+                .SeeMoreLink{
+                  .SeeMoreLink-text{
+                    background-color: $sub2-background-color;
+                    color: $main-text-color;
+                    border-color: $border-background-color;
+                    svg{
+                      fill: $main-text-color;
+                    }
+                  }
+                }
+                .SeeMoreLink:hover{
+                  .SeeMoreLink-text{
+                    background-color: $main-url-color;
+                    border-color: $main-url-color;
+                  }
+                }
+              }
+              .TextListFrame-contents{
+                .TextListFrame-item{
+                  a{
+                    color: $main-text-color;
+                  }
+                  a:hover{
+                    color: $main-url-color;
+                  }
+                }
+                .TextListFrame-item+:before{
+                  border-color: $border-background-color;
+                }
+              }
+            }
+          }
+          .FooterAreaContainer-lower{
+            .FooterAreaContainer-contents:before{
+              border-color: $border-background-color;
+            }
+            .TextListFrame{
+              .TextListFrame-header{
+                .FrameTitleLink{
+                  .FrameTitleLink-titleText{
+                    color: $main-text-color;
+                  }
+                }
+                .FrameTitleLink:hover{
+                  .FrameTitleLink-titleText{
+                    color: $main-url-color;
+                  }
+                }
+                .SeeMoreLink{
+                  .SeeMoreLink-text{
+                    background-color: $sub2-background-color;
+                    color: $main-text-color;
+                    border-color: $border-background-color;
+                    svg{
+                      fill: $main-text-color;
+                    }
+                  }
+                }
+                .SeeMoreLink:hover{
+                  .SeeMoreLink-text{
+                    background-color: $main-url-color;
+                    border-color: $main-url-color;
+                  }
+                }
+              }
+              .TextListFrame-contents{
+                .TextListFrame-item+:before{
+                  border-color: $border-background-color
+                }
+                .TextListFrame-item{
+                  a{
+                    color: $main-text-color;
+                  }
+                  a:hover{
+                    color: $main-url-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

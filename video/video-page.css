@@ -310,6 +310,129 @@
   color: #F5F5F5 !important;
 }
 
+.niconico-darkmode-setting-true textarea {
+  background: #333333;
+  color: #F5F5F5;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true input[type=text],
+.niconico-darkmode-setting-true input[type=date], .niconico-darkmode-setting-true input[type=time],
+.niconico-darkmode-setting-true .AddingMylistModal-nameInput,
+.niconico-darkmode-setting-true .AddingMylistModal-descriptionInput,
+.niconico-darkmode-setting-true .ichiba_search_form_query {
+  background: #333333;
+  color: #F5F5F5;
+  border-color: #555555;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.niconico-darkmode-setting-true select {
+  background-color: #333333;
+  color: #F5F5F5;
+  border-color: #555555;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.niconico-darkmode-setting-true .EditorMenuContainer-menuBox-menu-child {
+  border: none !important;
+}
+
+.niconico-darkmode-setting-true .EditorMenuContainer-menuBox-menu-child .menuItem {
+  background: #333333;
+}
+
+.niconico-darkmode-setting-true .EditorMenuContainer-menuBox-menu-child .menuItem a {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .EditorMenuContainer-menuBox-menu-child .menuItem a:hover {
+  background: #555555;
+}
+
+.niconico-darkmode-setting-true .TagRankingCustomEditor-tag .TagSuggestionList {
+  background: #333333;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .TagRankingCustomEditor-tag .TagSuggestionList .TagSuggestionList-list .TagSuggestionList-item {
+  color: #F5F5F5;
+  border-color: #555555;
+}
+
+.niconico-darkmode-setting-true .TagRankingCustomEditor-tag .TagSuggestionList .TagSuggestionList-list .TagSuggestionList-item:hover {
+  background: #555555;
+}
+
+.niconico-darkmode-setting-true .OtherMypageLinks,
+.niconico-darkmode-setting-true .ThreePointMenu {
+  background: #333333;
+}
+
+.niconico-darkmode-setting-true .OtherMypageLinks .OtherMypageLinks-link,
+.niconico-darkmode-setting-true .OtherMypageLinks .UserDetailsMenu-item,
+.niconico-darkmode-setting-true .OtherMypageLinks .NicorepoItemMenu-item,
+.niconico-darkmode-setting-true .OtherMypageLinks .MylistHeaderMenu-item,
+.niconico-darkmode-setting-true .ThreePointMenu .OtherMypageLinks-link,
+.niconico-darkmode-setting-true .ThreePointMenu .UserDetailsMenu-item,
+.niconico-darkmode-setting-true .ThreePointMenu .NicorepoItemMenu-item,
+.niconico-darkmode-setting-true .ThreePointMenu .MylistHeaderMenu-item {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .OtherMypageLinks .OtherMypageLinks-link:hover,
+.niconico-darkmode-setting-true .OtherMypageLinks .UserDetailsMenu-item:hover,
+.niconico-darkmode-setting-true .OtherMypageLinks .NicorepoItemMenu-item:hover,
+.niconico-darkmode-setting-true .OtherMypageLinks .MylistHeaderMenu-item:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .OtherMypageLinks-link:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .UserDetailsMenu-item:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .NicorepoItemMenu-item:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .MylistHeaderMenu-item:hover {
+  background-color: #555555;
+}
+
+.niconico-darkmode-setting-true .Selectbox, .niconico-darkmode-setting-true .ThreePointMenu {
+  background: #333333;
+}
+
+.niconico-darkmode-setting-true .Selectbox .SortSelectbox-item,
+.niconico-darkmode-setting-true .Selectbox .MylistSelectbox-item,
+.niconico-darkmode-setting-true .Selectbox .VideoMenuButtonItem,
+.niconico-darkmode-setting-true .Selectbox .VideoMenuLinkItem,
+.niconico-darkmode-setting-true .Selectbox .MymemoryContainer-menuOrderSelectorItem,
+.niconico-darkmode-setting-true .Selectbox .NicoruHistoryActiveItem-deleteButton,
+.niconico-darkmode-setting-true .Selectbox .MylistsSortSelectbox-item,
+.niconico-darkmode-setting-true .Selectbox .VideoContainer-headerMenuSortSelectboxItem, .niconico-darkmode-setting-true .ThreePointMenu .SortSelectbox-item,
+.niconico-darkmode-setting-true .ThreePointMenu .MylistSelectbox-item,
+.niconico-darkmode-setting-true .ThreePointMenu .VideoMenuButtonItem,
+.niconico-darkmode-setting-true .ThreePointMenu .VideoMenuLinkItem,
+.niconico-darkmode-setting-true .ThreePointMenu .MymemoryContainer-menuOrderSelectorItem,
+.niconico-darkmode-setting-true .ThreePointMenu .NicoruHistoryActiveItem-deleteButton,
+.niconico-darkmode-setting-true .ThreePointMenu .MylistsSortSelectbox-item,
+.niconico-darkmode-setting-true .ThreePointMenu .VideoContainer-headerMenuSortSelectboxItem {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .Selectbox .SortSelectbox-item:hover,
+.niconico-darkmode-setting-true .Selectbox .MylistSelectbox-item:hover,
+.niconico-darkmode-setting-true .Selectbox .VideoMenuButtonItem:hover,
+.niconico-darkmode-setting-true .Selectbox .VideoMenuLinkItem:hover,
+.niconico-darkmode-setting-true .Selectbox .MymemoryContainer-menuOrderSelectorItem:hover,
+.niconico-darkmode-setting-true .Selectbox .NicoruHistoryActiveItem-deleteButton:hover,
+.niconico-darkmode-setting-true .Selectbox .MylistsSortSelectbox-item:hover,
+.niconico-darkmode-setting-true .Selectbox .VideoContainer-headerMenuSortSelectboxItem:hover, .niconico-darkmode-setting-true .ThreePointMenu .SortSelectbox-item:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .MylistSelectbox-item:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .VideoMenuButtonItem:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .VideoMenuLinkItem:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .MymemoryContainer-menuOrderSelectorItem:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .NicoruHistoryActiveItem-deleteButton:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .MylistsSortSelectbox-item:hover,
+.niconico-darkmode-setting-true .ThreePointMenu .VideoContainer-headerMenuSortSelectboxItem:hover {
+  background-color: #555555;
+}
+
 .niconico-darkmode-setting-true .contents .pager a, .niconico-darkmode-setting-true .contents .pager span {
   border: none !important;
   background-color: #333333 !important;
@@ -358,405 +481,151 @@
   background-color: #1A1B1C;
 }
 
-.niconico-darkmode-setting-true .tagCaption {
-  background: none;
-  border: none;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch {
-  background: none;
-  border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch .seachFormA .tab1 {
-  color: #F5F5F5;
-  background: #252525;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch .seachFormA .tab1 .dataValue {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .mb8p4 h1 {
   color: #F5F5F5;
 }
 
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch .seachFormA .tab1:after {
-  border-top: 0px;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .mb8p4 p.font12 {
+  color: #c4c4c4;
 }
 
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch .seachFormA .tab1:hover {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY form[name="filter"] .font12 {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY form[name="filter"] input.submit {
   background: #555555;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .searchFormB {
-  border-color: #555555;
-  background: none;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .searchFormB .bInput #search_united {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: #F5F5F5;
-  background: #252525;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .searchFormB .bInput .clear-button-search .clear-button-inner-search {
-  background: #333333;
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .searchFormB .bInput .suggestBox {
-  border-color: #555555;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .searchFormB .bInput .suggestBox .suggestBoxInner li {
-  color: inherit;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .searchFormB .bInput .suggestBox .suggestBoxInner li a {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .searchFormB .bInput .suggestBox .suggestBoxInner li.active {
-  background-color: #555555 !important;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .searchFormB .bInput .suggestBox .suggestBoxInner li.active a {
-  background: none !important;
-  color: #F5F5F5 !important;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .message p, .niconico-darkmode-setting-true .tagCaption .inner .formSearch #search_united_form .message p span {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .tagListBox {
-  background: #252525;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .tagListBox .contentHeader .title {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .tagListBox .contentHeader .edit a {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .tagListBox .contentHeader .edit a:hover {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .tagListBox .tags .tag {
-  background-color: #555555;
   border-color: #555555;
   color: #F5F5F5;
+  padding: 4px 6px;
 }
 
-.niconico-darkmode-setting-true .tagCaption .inner .tagListBox .tags .tag:visited {
-  color: #c4c4c4;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY form[name="filter"] input#filtertext {
+  border: solid 2px #555555 !important;
 }
 
-.niconico-darkmode-setting-true .tagCaption .inner .tagListBox .tags .tag:hover {
-  text-decoration: underline;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 .thumb_num {
+  color: #999999;
 }
 
-.niconico-darkmode-setting-true .tagCaption .inner .contentHeader h1 span {
-  color: #F5F5F5;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 .thumb_num.new {
+  color: red;
 }
 
-.niconico-darkmode-setting-true .tagCaption .inner .contentBody .contentsData .dataValue {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .contentBody .contentsData .tagFollowArea a {
-  background-color: #252525;
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .contentBody .contentsData .button-tagrepo {
-  background-color: #ff6f6f;
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .contentBody .contentsData .tagFollowArea a:hover, .niconico-darkmode-setting-true .tagCaption .inner .contentBody .contentsData .button-tagrepo:hover {
-  text-decoration: underline;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .contentBody .itemDescription p {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .contentBody .itemDescription a {
-  color: #0080FF;
-  text-decoration: none;
-}
-
-.niconico-darkmode-setting-true .tagCaption .inner .contentBody .itemDescription a:hover {
-  text-decoration: underline;
-}
-
-.niconico-darkmode-setting-true .billboard_ad {
-  background: #1A1B1C !important;
-  border-bottom: none !important;
-}
-
-.niconico-darkmode-setting-true .container .column.main {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .container .column.main p {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .toolbar .switchingBtn {
-  color: #F5F5F5;
-  background-color: #252525;
-  border-color: #252525;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .toolbar .switchingBtn:hover {
-  background-color: #555555;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .toolbar .columnChange .columnChangeList li {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 table p.thumb_cols {
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
 
-.niconico-darkmode-setting-true .container .column.main .contentsBox .toolbar .pager .active {
-  background-color: #0080FF;
-  font-weight: bold;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .searchOption {
-  border-color: #555555;
-  background-color: #252525;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .searchOption .unavailable .optionList .title {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .searchOption .unavailable .optionList li a {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .searchOption .unavailable .optionList li a:hover {
-  text-decoration: underline;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .searchOption .unavailable .optionList li.active .search-option-sort-item-label {
-  background-color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .searchOption .unavailable .optionList .more {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentsBox .searchOption .search-option-links p, .niconico-darkmode-setting-true .container .column.main .contentsBox .searchOption .search-option-links p a {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentBody .videoListSkeleton .item .itemTime,
-.niconico-darkmode-setting-true .container .column.main .contentBody .videoListSkeleton .item .uadWrap .thumb,
-.niconico-darkmode-setting-true .container .column.main .contentBody .videoListSkeleton .item .itemContent .itemTitle {
-  background: #252525;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemTime {
-  color: #999999;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemContent .itemTitle a {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemContent .itemTitle a:visited {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemData .count .value, .niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemData .count .value a {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .container .column.sub {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_4 .uad_thumbfrm {
   background: none;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentHeader {
-  background: #252525;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentHeader .title {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentHeader .time {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentBody .exTxt, .niconico-darkmode-setting-true .container .column.sub .list .contentBody .supplement {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentBody .item .itemTitle a {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentBody .item .itemTitle a:hover {
-  text-decoration: underline;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentBody .item .itemDescription {
-  color: #999999;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentBody .buttonWrap .button.default {
-  background: #252525;
-  border-color: #252525;
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentBody .buttonWrap .button.default:hover {
-  background: #555555;
-  border-color: #555555;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list .contentBody #related_community_list .item .itemContent .itemData p {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item {
   border: none;
 }
 
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item .tagWrap .itemTitle {
-  border-color: #252525;
-  background-color: #252525;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_4 .uad_thumbfrm .font10 {
+  color: #999999;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_4 a.watch {
   color: #F5F5F5;
 }
 
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item .tagWrap .itemTitle .tagName {
-  border: none;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item .discriptionBox {
-  background: #252525;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item .discriptionBox .itemDescription a {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item .discriptionBox .videoComment {
-  background-color: #555555;
-  border-color: #555555;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_4 a.watch:visited {
   color: #c4c4c4;
 }
 
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item .discriptionBox .videoRcolumn .itemTitle a {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_2 .uad_thumbfrm {
+  background: none;
+  border: none;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_2 .uad_thumbfrm .font10 {
+  color: #999999;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_2 a.watch {
   color: #F5F5F5;
 }
 
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item:hover {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_2 a.watch:visited {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_2 p.vinfo_description {
+  color: #999999;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_1 .uad_thumbfrm {
   background: none;
+  border: none;
 }
 
-.niconico-darkmode-setting-true .container .column.sub .list.trendtag .item:hover .itemTitle {
-  background: #555555;
-  color: #0080FF;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_1 .uad_thumbfrm .font10 {
+  color: #999999;
 }
 
-.niconico-darkmode-setting-true .leadBanner {
-  background: none;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_a {
-  background: none;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_a table a {
-  background: none;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_a table .tab_0 {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_1 a.watch {
   color: #F5F5F5;
-  background-color: #252525;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_a table .tab_0:hover {
-  background-color: #555555;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_1 a.watch:visited {
+  color: #c4c4c4;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_a table .tab_1 {
-  background-color: #555555;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 div.thumb_col_1 p.vinfo_description {
+  color: #999999;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b {
-  background: none;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b #b_input #search_united {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 table[style="color:#666;"] a {
   color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_672 table[style="color:#666;"] a:visited {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer {
   background: #252525;
-  border-color: #555555;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b #b_input .clear-button .clear-button-inner {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner {
+  background: none;
+  border: none;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner p.font10 {
+  color: #999999;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner p.font12 {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner #related_nicopedia_body {
+  border: solid 1px #FFAF19;
   background: #333333;
-  color: #c4c4c4;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b #b_input .suggestBox {
-  border-color: #555555;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b #b_input .suggestBox .suggestBoxInner li {
-  color: inherit;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b #b_input .suggestBox .suggestBoxInner li a {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner #related_nicopedia_body div a {
   color: #F5F5F5;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b #b_input .suggestBox .suggestBoxInner li.active {
-  background-color: #555555 !important;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b #b_input .suggestBox .suggestBoxInner li.active a {
-  background: none !important;
-  color: #F5F5F5 !important;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY #form_search #search_frm_b #b_message td {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner #related_nicopedia_body div a:visited {
   color: #c4c4c4;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY p.font12 {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY p.font12 a {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner #related_nicopedia_body div a:hover {
   color: #0080FF;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY div.content_672 p.font12 a {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner #related_nicopedia_body div p.font10 {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner #related_nicopedia_footer a {
   color: #F5F5F5;
 }
 
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY div.content_672 p.font12 a:visited {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY div.content_672 p.font12 a:hover {
+.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY .content_312 .related_pedia_outer .related_pedia_inner #related_nicopedia_footer a:hover {
   color: #0080FF;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY div.content_672 .group_description {
-  color: #999999;
-}
-
-.niconico-darkmode-setting-true #PAGECONTAINER #PAGEBODY div.content_672 .dotline_2 {
-  border-color: #555555;
 }

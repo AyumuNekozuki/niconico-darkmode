@@ -1,0 +1,16 @@
+@import '_default';
+
+.niconico-darkmode-setting-true{
+  .Modal-content{
+    background: $nico-default-bg !important;
+    header{
+      background: $nico-default-bg !important;
+      h1{
+        color: $main-text-color !important;
+      }
+    }
+    .Modal-close{
+      filter: $invert;
+    }
+  }
+}

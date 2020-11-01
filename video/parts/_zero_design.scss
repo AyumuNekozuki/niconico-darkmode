@@ -1,0 +1,59 @@
+@import '../../parts/_default';
+
+.niconico-darkmode-setting-true{
+  .header{
+    background-color:$main-background-color;
+  }
+  .logo a svg path{
+    fill :$main-text-color !important;
+  }
+  #nicodou a img{
+    filter: $invert !important;
+  }
+  
+  
+  /*serch*/
+  #search_tab a.head_ssw_0{
+    background-color: $main-background-color !important;
+  }
+  #search_input{
+    background: $nico-black !important;
+    border: $nico-black solid 1px !important;
+  }
+  #bar_search{
+    background-color: $nico-black !important;
+    color: $main-text-color !important;
+  }
+  
+  /*footer*/
+  #footerWrap{
+    background: $main-background-color !important;
+    border-top: none !important;
+  }
+  #footerWrap #footerNav .outer h3{
+    border-bottom: $border-background-color solid 1px !important;
+    color: $main-text-color !important;
+  }
+  #footerWrap #footerNav ul li{
+    background: none !important;
+  }
+  .figureWrap span,.figureWrap small{
+    color: $main-text-color !important;
+  }
+  .toPageTopWrap{
+    background: $nico-black !important;
+  }
+  
+  .toPageTopBtn:hover{
+    background: none !important;
+  }
+  
+  /*serchbox suggest*/
+  .suggestBox{
+    background-color: $main-background-color !important; 
+  }
+  .suggestBoxInner{
+    border: 1px solid $border-background-color;
+    background-color: $main-background-color !important;
+  }
+}

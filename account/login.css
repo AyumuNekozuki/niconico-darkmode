@@ -1,23 +1,22 @@
-body{
+.niconico-darkmode-setting-true {
   background: #1A1B1C !important;
 }
 
-
-/*header logo*/
-.header .header__title img {
-  filter: invert();
+.niconico-darkmode-setting-true header .header__title img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
-/*login*/
-.main.login .login-form{
+.niconico-darkmode-setting-true .main.login .login-form {
   background: none !important;
-  color: white !important;
-}
-.text-link:link{
-  color: #0080ff !important;
+  color: #FEFEFE !important;
 }
 
-.main .sns-group .text-description,
-.main .sns-group .button-wrap > p{
+.niconico-darkmode-setting-true .main.login .text-link {
+  color: #0080FF !important;
+}
+
+.niconico-darkmode-setting-true .main.login .sns-group .text-description,
+.niconico-darkmode-setting-true .main.login .button-wrap > p {
   color: #999 !important;
 }

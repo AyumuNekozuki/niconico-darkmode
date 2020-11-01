@@ -1,0 +1,51 @@
+@import '_default';
+
+.niconico-darkmode-setting-true{
+  .FooterContainer{
+    a{
+      color: $main-text-color !important;
+    }
+    a:hover{
+      color: $main-url-color !important;
+    }
+    .FooterContainer-column{
+      border-top: 2px solid $main-text-color;
+    }
+    .FooterContainer-feedback{
+      background-color: $sub2-background-color;
+      border: 1px solid $sub2-background-color;
+    }
+  }
+}
+
+.toPageTopWrap{
+  background: $sub2-background-color !important;
+
+  .inner a:hover,.inner a:active{
+    background: $sub2-background-color !important;
+    border: none !important;
+    color: $main-text-color !important;
+  }
+}
+#footerWrap{
+  background: $main-background-color !important;
+  a{
+    color: $main-text-color !important;
+  }
+  a:hover{
+    color: $main-url-color !important;
+  }
+
+  #footerNav{
+    .outer h3{
+      border-bottom: $border-background-color solid 1px !important;
+      color: $main-text-color !important;
+    }
+    ul li{
+      background: none !important;
+    }
+  }
+  .figureWrap span,.figureWrap small{
+    color: $main-text-color !important;
+  }
+}

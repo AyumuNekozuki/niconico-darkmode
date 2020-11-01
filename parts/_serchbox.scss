@@ -1,0 +1,237 @@
+@import '_default';
+
+.niconico-darkmode-setting-true{
+  .TopPage,.UserPageHeader{
+    .SearchContainer{
+      .CrossSearch_Re{
+        .CrossSearch_Re-rowSelector{
+          border-color: $sub2-background-color;
+          background: $sub2-background-color;
+          .CrossSearch_Re-rowService{
+            color: $main-text-color;
+          }
+          .CrossSearch_Re-rowService.active,
+          .CrossSearch_Re-rowService:hover{
+            background: $hover-background-color;
+          }
+        }
+        .CrossSearch_Re-form{
+          background: $sub2-background-color;
+          box-shadow: inset 0 0 0 1px $sub2-background-color;
+          .suggestBox{
+            border-color: $border-background-color;
+            background-color: $sub2-background-color;
+            .suggestBoxInner{
+              border-color: $border-background-color;
+              background-color: $sub2-background-color;
+              .favTagEditBox{
+                p{
+                  color: $sub-1-text-color;
+                }
+              }
+              ul{
+                li{
+                  color: inherit;
+                  a{
+                    color: $main-text-color;
+                  }
+                  a:hover{
+                    background: none !important;
+                    color: $main-text-color !important;
+                  }
+                }
+                li:hover,li.active{
+                  a{
+                    color: $main-text-color;
+                  }
+                  background-color: $hover-background-color !important;
+                }
+              }
+              .favTagItem.active+.suggestItem{
+                border-color: $border-background-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .BaseLayout-header{
+    .HeaderContainer-searchBox{
+      .SearchBox-option{
+        background-color: $nico-default-bg !important;
+      }
+      .SearchBox-form{
+        background-color: $nico-default-bg !important;
+        box-shadow: none !important;
+      }
+      .SearchBox-query{
+        color: $main-text-color !important;
+      }
+      .suggestBox{
+        background-color: $main-background-color !important;
+        .suggestBoxInner{
+          border: 1px solid $border-background-color;
+          background-color: $main-background-color !important;
+          a{
+            color: $main-text-color !important;
+          }
+          li:hover{
+            background-color: $hover-background-color !important;
+            color: $main-text-color !important;
+          }
+        }
+      }
+    }
+  }
+  .WatchAppContainer{
+    //動画watchページ
+    //TODO 移植のみ／SCSSへ書き直し
+    .HeaderContainer-searchBox{
+      .SearchBox{
+        border: none;
+        background: $nico-default-bg;
+        .TagEditForm-input{
+          box-shadow: none;
+        }
+        .TagSuggestionInput-input{
+          background-color: $nico-default-bg;
+          color: $main-text-color;
+          box-shadow: none;
+        }
+        .TagSuggestionList{
+          border: none;
+          box-shadow: none;
+        }
+        .TagSuggestionList-item,
+        .TagSuggestionList-favoriteTag,
+        .SearchBox-optionMenu{
+          background-color: $nico-default-bg;
+          color: $main-text-color;
+          border-top: 1px dotted $nico-default-bg;
+        }
+        .TagSuggestionList-item.is-active, 
+        .TagSuggestionList-item:hover,
+        .SearchBox-optionMenuItem:hover{
+          background-color: $sub2-background-color;
+        }
+      }
+    }
+  }
+
+  #head_search{
+    //zero-design
+    #search_tab{
+      a.head_ssw_0{
+        background-color: $nico-default-bg;
+        color: $sub-1-text-color;
+      }
+    } 
+    #search_input{
+      background: $nico-default-bg;
+      border: $border-background-color solid 1px;
+      #bar_search{
+        background-color: $nico-default-bg;
+        color: $main-text-color;
+      }
+      .suggestBox{
+        background-color: $nico-default-bg; 
+        .suggestBoxInner{
+          border: 1px solid $border-background-color;
+          background-color: $nico-default-bg;
+          .favTagEditBox p{
+            color: $main-text-color;
+          }
+          border-color: $border-background-color;
+          li a{
+            color: $main-text-color;
+          }
+          li.active{
+            background-color: $hover-background-color !important;
+            a{
+              background: none !important;
+              color: $main-text-color !important;
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .header{ //zero ヘッダー
+    .siteHeader{
+      .videoSearch{
+        .videoSearchOption{
+          .tab{
+            background-color: $nico-black;
+            a{
+              color: $main-text-color;
+            }
+          }
+          .active{
+            background-color: $hover-background-color;
+          }
+        }
+        .videoSearchInput{
+          border-color: $hover-background-color;
+          background: $hover-background-color;
+          form{
+            background: $hover-background-color;
+            .inputText{
+              input{
+                background: $hover-background-color;
+                color: $main-text-color;
+              }
+              .clear-button-tag{
+                .clear-button-inner-tag{
+                  color: $main-text-color;
+                  background: $sub-2-text-color;
+                }
+              }
+              .suggestBox{
+                background-color: $nico-default-bg; 
+                .suggestBoxInner{
+                  border: 1px solid $border-background-color;
+                  background-color: $nico-default-bg;
+                  .favTagEditBox p{
+                    color: $main-text-color;
+                  }
+                  .favTagItem{
+                    border-color: $border-background-color;
+                    li a{
+                      color: $main-text-color;
+                    }
+                    li.active{
+                      background-color: $hover-background-color !important;
+                      a{
+                        background: none !important;
+                        color: $main-text-color !important;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .suggestBox{
+    .suggestItem{
+      li{
+        a{
+          color: $main-text-color;
+        }
+      }
+      li.active{
+        background: $hover-background-color !important;
+        a{
+          color: $main-text-color !important;
+        }
+      }
+    }
+  }
+}

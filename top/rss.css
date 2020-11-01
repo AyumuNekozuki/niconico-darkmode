@@ -1,15 +1,85 @@
-.RssListPage-caption{
+.niconico-darkmode-setting-true .FooterContainer a {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .FooterContainer a:hover {
+  color: #0080FF !important;
+}
+
+.niconico-darkmode-setting-true .FooterContainer .FooterContainer-column {
+  border-top: 2px solid #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .FooterContainer .FooterContainer-feedback {
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+
+.toPageTopWrap {
+  background: #333333 !important;
+}
+
+.toPageTopWrap .inner a:hover, .toPageTopWrap .inner a:active {
+  background: #333333 !important;
+  border: none !important;
+  color: #F5F5F5 !important;
+}
+
+#footerWrap {
+  background: #1A1B1C !important;
+}
+
+#footerWrap a {
+  color: #F5F5F5 !important;
+}
+
+#footerWrap a:hover {
+  color: #0080FF !important;
+}
+
+#footerWrap #footerNav .outer h3 {
+  border-bottom: #555555 solid 1px !important;
+  color: #F5F5F5 !important;
+}
+
+#footerWrap #footerNav ul li {
   background: none !important;
 }
-.RssListPage-caption h2{
-  color: white !important;
+
+#footerWrap .figureWrap span, #footerWrap .figureWrap small {
+  color: #F5F5F5 !important;
 }
-.RssListPage-message,.RssListPage-itemUpdateAt{
-  color: whitesmoke !important;
+
+.niconico-darkmode-setting-true {
+  background-color: #1A1B1C !important;
+  color: #F5F5F5;
 }
-.NiconicoLogo{
-  filter: invert();
+
+.niconico-darkmode-setting-true a {
+  color: #F5F5F5 !important;
 }
-.FooterContainer-column{
-  border-top: 2px solid white !important;
+
+.niconico-darkmode-setting-true a:hover {
+  color: #0080FF !important;
+}
+
+.niconico-darkmode-setting-true .NiconicoLogo {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.niconico-darkmode-setting-true .RssListPage-caption {
+  background: none !important;
+}
+
+.niconico-darkmode-setting-true .RssListPage-caption h2 {
+  color: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .RssListPage-message, .niconico-darkmode-setting-true .RssListPage-itemUpdateAt {
+  color: #c4c4c4 !important;
+}
+
+.niconico-darkmode-setting-true .RssListPage-item {
+  border-bottom: 1px solid #555555 !important;
 }

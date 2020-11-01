@@ -322,109 +322,62 @@
   background-color: #1A1B1C !important;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-header {
-  /*videotop-genre*/
+.niconico-darkmode-setting-true .BaseLayout-block {
+  /*genretop*/
 }
 
-.niconico-darkmode-setting-true .BaseLayout-header .NicovideoLogo {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer {
-  background-color: #1A1B1C !important;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer a {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer a:hover {
-  color: #0080FF;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer .VideoTopGenreListContainer-item {
+.niconico-darkmode-setting-true .BaseLayout-block .GenreTopPageHeader {
   background-color: #252525 !important;
-  border: none !important;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer .is-current {
-  background-color: #0080FF !important;
+.niconico-darkmode-setting-true .BaseLayout-block .GenreTopPageHeader .GenreTopPageHeader-prefix {
+  color: #c4c4c4 !important;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-block .GenreTopPageHeader h1 {
   color: #F5F5F5 !important;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-header .VideoTopGenreListContainer .is-current a:hover {
-  color: #F5F5F5 !important;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-billboard .Ads970x250Billboard {
+.niconico-darkmode-setting-true .BaseLayout-block .RepresentedTagsContainer .RepresentedTag {
+  color: #F5F5F5;
   background: #272727 !important;
-  border-top: 2px solid #272727 !important;
-  border-bottom: 2px solid #272727 !important;
+  border: 1px solid #272727;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .VideoIntroductionAreaContainer .VideoIntroductionPlayerContainer-main .VideoIntroductionPlayerContainer-description h2 {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .VideoIntroductionAreaContainer .VideoIntroductionPlayerContainer-main .VideoIntroductionPlayerContainer-description h3 {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .Separator {
-  background: repeating-linear-gradient(-45deg, #555555, #555555 6px, transparent 0, transparent 12px);
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-icon {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-text {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-link {
-  color: #F5F5F5;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-link .ColumnTitle-linkText {
-  color: #c4c4c4;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-link:hover {
+.niconico-darkmode-setting-true .BaseLayout-block .RepresentedTagsContainer .RepresentedTag:hover {
   color: #0080FF;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .ColumnTitle .ColumnTitle-link:hover > .ColumnTitle-linkText {
-  color: #0080FF;
+.niconico-darkmode-setting-true .BaseLayout-block .RepresentedTagsContainer .RepresentedTag_active {
+  background: #0080FF !important;
+  color: #F5F5F5 !important;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .TagWithVideoItem .TagWithVideoItem-nicopediaText {
-  color: #c4c4c4;
+.niconico-darkmode-setting-true .BaseLayout-block .TrendyTagAreaContainer .TrendyTagsContainer-expands {
+  background-image: linear-gradient(180deg, rgba(26, 27, 28, 0.4), #1A1B1C 18px);
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .TagWithVideoItem .TagWithVideoItem-articleLink {
+.niconico-darkmode-setting-true .BaseLayout-block .TrendyTagAreaContainer .TrendyTagsContainer-expands .TrendyTagsContainer-expand {
+  color: #F5F5F5;
+}
+
+.niconico-darkmode-setting-true .BaseLayout-block .TrendyTagsWithVideosContainer .TrendyTagsWithVideosContainer-more {
   color: #F5F5F5;
   background: linear-gradient(90deg, rgba(245, 245, 245, 0), #1A1B1C 20px);
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .TagWithVideoItem .TagWithVideoItem-articleLink:hover {
+.niconico-darkmode-setting-true .BaseLayout-block .TrendyTagsWithVideosContainer .TrendyTagsWithVideosContainer-more:hover {
   color: #0080FF;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .NewsNotificationContainer .NewsNotificationList-item {
+.niconico-darkmode-setting-true .BaseLayout-block .TrendyTagsWithVideosContainer .TrendyTagsWithVideosContainer-createArticleLink {
   color: #F5F5F5;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .NewsNotificationContainer .NewsNotificationList-item .timestamp {
-  color: #c4c4c4;
+.niconico-darkmode-setting-true .BaseLayout-block .TrendyTagsWithVideosContainer .TrendyTagsWithVideosContainer-createArticleLink:hover {
+  color: #0080FF;
 }
 
-.niconico-darkmode-setting-true .BaseLayout-main .BaseLayout-block .NewsNotificationContainer .NewsNotificationList-item + .NewsNotificationList-item {
+.niconico-darkmode-setting-true .BaseLayout-block .TrendyTagsWithVideosContainer-area + .TrendyTagsWithVideosContainer-area {
   border-top: 2px dotted #555555;
-}
-
-.niconico-darkmode-setting-true .BaseLayout-footer {
-  background: #272727;
 }

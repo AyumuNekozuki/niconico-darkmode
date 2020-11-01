@@ -134,6 +134,23 @@ input[name="command"]{
   background-color: #35393B !important;
 }
 
+/*side konomi-tag*/
+.___heading___1vszk{
+  color: #F5F5F5 !important;
+}
+.___item___yXTcT{
+  border-color: #555555 !important;
+}
+.___toolbar___hwtOi:not(:empty):before{
+  background-color: #555555 !important;
+}
+.___quote-request-button___2ecQW>svg{
+  fill: #F5F5F5 !important;
+}
+.___quote-request-button___2ecQW:hover>svg{
+  fill: #0080ff !important;
+}
+
 /*side osusume*/
 .___item___3VvT9{
   border-bottom: 1px solid #333 !important;
