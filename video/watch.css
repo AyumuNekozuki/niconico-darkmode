@@ -930,15 +930,6 @@
   color: #F5F5F5;
 }
 
-.niconico-darkmode-setting-true .WatchAppContainer .WatchAppContainer-main .MainContainer .MainContainer-playerPanel .ContextMenu .CommentPanelContextMenuContainer {
-  border: 1px solid #555555;
-  background: #252525;
-}
-
-.niconico-darkmode-setting-true .WatchAppContainer .WatchAppContainer-main .MainContainer .MainContainer-playerPanel .ContextMenu .CommentPanelContextMenuContainer-menuItem:hover {
-  background: #555555;
-}
-
 .niconico-darkmode-setting-true .WatchAppContainer .WatchAppContainer-main .MainContainer .MainContainer-playerPanel .OwnerEditPanelContainer .OwnerEditPanel {
   background: #333333 !important;
 }
@@ -1147,6 +1138,15 @@
 
 .niconico-darkmode-setting-true .WatchAppContainer .WatchAppContainer-main .BottomContainer .BottomSideContainer .WatchRelatedContentsContainer a:hover {
   color: #0080FF;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .ContextMenu .CommentPanelContextMenuContainer {
+  border: 1px solid #555555;
+  background: #252525;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .ContextMenu .CommentPanelContextMenuContainer-menuItem:hover {
+  background: #555555;
 }
 
 .niconico-darkmode-setting-true #ichibaDisplayContent a {

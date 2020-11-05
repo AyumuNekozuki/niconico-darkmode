@@ -341,15 +341,6 @@
               }
             }
           }
-          .ContextMenu{
-            .CommentPanelContextMenuContainer{
-              border: 1px solid $border-background-color;
-              background: $nico-default-bg;
-            }
-            .CommentPanelContextMenuContainer-menuItem:hover{
-              background: $border-background-color;
-            }
-          }
           .OwnerEditPanelContainer{
             //TODO 移植のみ／SCSS書き直し
             .OwnerEditPanel{
@@ -550,6 +541,15 @@
             }
           }
         }
+      }
+    }
+    .ContextMenu{
+      .CommentPanelContextMenuContainer{
+        border: 1px solid $border-background-color;
+        background: $nico-default-bg;
+      }
+      .CommentPanelContextMenuContainer-menuItem:hover{
+        background: $border-background-color;
       }
     }
   }
