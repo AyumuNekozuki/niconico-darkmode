@@ -234,6 +234,16 @@
                   color: $sub-1-text-color;
                 }
               }
+              .wrap{
+                p.itemDescription{
+                  color: $sub-1-text-color;
+                }
+                p.itemComment{
+                  background-color: $nico-black;
+                  border-color: $nico-black;
+                  color: $sub-1-text-color;
+                }
+              }
             }
             .itemData{
               .count{

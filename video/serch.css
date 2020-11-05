@@ -574,6 +574,16 @@
   color: #c4c4c4;
 }
 
+.niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemContent .wrap p.itemDescription {
+  color: #c4c4c4;
+}
+
+.niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemContent .wrap p.itemComment {
+  background-color: #252525;
+  border-color: #252525;
+  color: #c4c4c4;
+}
+
 .niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemData .count .value, .niconico-darkmode-setting-true .container .column.main .contentBody ul[data-video-list] .item .itemData .count .value a {
   color: #c4c4c4;
 }

@@ -821,7 +821,11 @@
   border: 2px solid #555555 !important;
 }
 
-.niconico-darkmode-setting-true .WatchAppContainer .WatchAppContainer-main .MainContainer .PlayerContainer .ControllerBoxContainer .ControllerBoxCommentAreaContainer .LikeContainer .LikeButton .LikeIcon.LikeButton-icon svg svg defs #LikeIcon_svg__frame-0 path {
+.niconico-darkmode-setting-true .WatchAppContainer .WatchAppContainer-main .MainContainer .PlayerContainer .ControllerBoxContainer .ControllerBoxCommentAreaContainer .LikeContainer .LikeButton .LikeIcon.LikeButton-icon use #LikeIcon_svg__frame-0 > path {
+  fill: #F5F5F5 !important;
+}
+
+.niconico-darkmode-setting-true .WatchAppContainer .WatchAppContainer-main .MainContainer .PlayerContainer .ControllerBoxContainer .ControllerBoxCommentAreaContainer .LikeContainer .LikeButton .LikeIcon.LikeButton-icon svg svg defs #LikeIcon_svg__frame-0 > path {
   fill: #F5F5F5 !important;
 }
 

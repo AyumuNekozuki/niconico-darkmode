@@ -239,9 +239,14 @@
                   background: $nico-default-bg !important;
                   color: $main-text-color !important;
                   border: 2px solid $border-background-color !important;
-                  .LikeIcon.LikeButton-icon svg svg defs #LikeIcon_svg__frame-0 path{
-                    fill: $main-text-color !important;
-                  }
+                  .LikeIcon.LikeButton-icon{
+                    use #LikeIcon_svg__frame-0>path{
+                      fill: $main-text-color !important;
+                    }
+                    svg svg defs #LikeIcon_svg__frame-0>path{
+                      fill: $main-text-color !important;
+                    }
+                  } 
                 }
               }
             }
