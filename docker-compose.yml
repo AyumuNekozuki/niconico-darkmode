@@ -1,0 +1,12 @@
+version: '3'
+
+services: 
+  compile:
+    build: 
+        context: ./etc/gulp
+        dockerfile: Dockerfile
+    image: compile
+    restart: always
+    volumes:
+        - ./src:/app/src
+        - ${DEST_ABSOLUTE_PATH}:/app/dest
