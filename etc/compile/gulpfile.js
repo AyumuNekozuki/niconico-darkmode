@@ -207,4 +207,4 @@ function watch() {
 	gulp.watch(['src/**/*.json'], json);
 }
 /**初期動作 */
-exports.default = gulp.series(styles, php, images, js,json, watch);
+exports.default = gulp.series(styles, php, images, js ,json, watch);
