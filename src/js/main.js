@@ -1,13 +1,11 @@
 //URL取得
 var host = location.hostname;
 var path = location.pathname;
-var now_location = host + path;
+var now_location = host + path + "";
+console.log(now_location)
 
 //ヘッダ除外ネーム
-const login = "account.nicovideo.jp/login";
-const feedback = "www.nicovideo.jp/feedback"
-const live_create = "live2.nicovideo.jp/create";
-
+const noheader = ["account.nicovideo.jp/login","www.nicovideo.jp/feedback","live2.nicovideo.jp/create"]
 
 function setting_true() {
   var true_do = setInterval(function () {
@@ -70,85 +68,88 @@ chrome.storage.local.get(["setting"], function (items) {
 });
 
 
-
 /*first start*/
 var first_check_count = 0;
 $(function () {
-  //TODO ヘッダ除外処理
+  function headercheck(){
+    console.error("ugoiteru")
+    if (!$('.staticHeader').length) {
+      var first_check = setInterval(function () {
+        if (first_check_count == 0) {
+          if (!$('.common-header-nicodarksetting-but').length) {
+            $('.common-header-wb7b82').eq(0).prepend('<div class="common-header-nicodarksetting-but" style="position: relative;text-decoration: none;padding: 0px 8px;height: 36px;width: 60px;line-height: 36px;color: rgb(255, 255, 255);font-size: 12px;">🌙設定<div class="nicodark-setting-menupanel"><img class="nicodark-logo" src="https://github.com/AyumuNekozuki/niconico-darkmode/blob/master/lib/ss/ss1.png?raw=true"><div class="nicodark-setting-menu"><label for="nicodark_setting_cb" class="nicodark-label01"><span class="nicodark-span01">ダークモード</span><label for="nicodark_setting_cb" id="nicodark-aria" class="nicodark-label02" aria-checked="false"><input type="checkbox" id="nicodark_setting_cb" class="nicodark-cb"><span class="nicodark-span02"></span></label></label><label for="nicodark_s_top-setting_cb" class="nicodark-label01"><span class="nicodark-span01">総合TOP（イベント時用）</span><label for="nicodark_s_top-setting_cb" id="nicodark-aria-s_top" class="nicodark-label02"><input type="checkbox" id="nicodark_s_top-setting_cb" class="nicodark-cb"><span class="nicodark-span02"></span></label></label></div></div></div>');
 
-  if (!$('.staticHeader').length) {
-    var first_check = setInterval(function () {
-      if (first_check_count == 0) {
-        if (!$('.common-header-nicodarksetting-but').length) {
-          $('.common-header-wb7b82').eq(0).prepend('<div class="common-header-nicodarksetting-but" style="position: relative;text-decoration: none;padding: 0px 8px;height: 36px;width: 60px;line-height: 36px;color: rgb(255, 255, 255);font-size: 12px;">🌙設定<div class="nicodark-setting-menupanel"><img class="nicodark-logo" src="https://github.com/AyumuNekozuki/niconico-darkmode/blob/master/lib/ss/ss1.png?raw=true"><div class="nicodark-setting-menu"><label for="nicodark_setting_cb" class="nicodark-label01"><span class="nicodark-span01">ダークモード</span><label for="nicodark_setting_cb" id="nicodark-aria" class="nicodark-label02" aria-checked="false"><input type="checkbox" id="nicodark_setting_cb" class="nicodark-cb"><span class="nicodark-span02"></span></label></label><label for="nicodark_s_top-setting_cb" class="nicodark-label01"><span class="nicodark-span01">総合TOP（イベント時用）</span><label for="nicodark_s_top-setting_cb" id="nicodark-aria-s_top" class="nicodark-label02"><input type="checkbox" id="nicodark_s_top-setting_cb" class="nicodark-cb"><span class="nicodark-span02"></span></label></label></div></div></div>');
-
-          //ダークモード
-          $('#nicodark_setting_cb').click(function () {
-            var cb = $('#nicodark_setting_cb').prop('checked');
-            if (cb) {
-              $('#nicodark-aria').removeAttr('aria-checked');
-              $('#nicodark-aria').attr('aria-checked', 'true');
-              chrome.storage.local.set({
-                "setting": "true"
-              });
-              setting_true();
-            } else {
-              $('#nicodark-aria').removeAttr('aria-checked');
-              $('#nicodark-aria').attr('aria-checked', 'false');
-              chrome.storage.local.set({
-                "setting": "false"
-              });
-              setting_false();
-            }
-          })
-
-          //総合TOP
-          $('#nicodark_s_top-setting_cb').click(function () {
-            var cb = $('#nicodark_s_top-setting_cb').prop('checked');
-            if (cb) {
-              $('#nicodark-aria-s_top').removeAttr('aria-checked');
-              $('#nicodark-aria-s_top').attr('aria-checked', 'true');
-              chrome.storage.local.set({
-                "social_top": "true"
-              });
-              if (now_location == "www.nicovideo.jp/") {
+            //ダークモード
+            $('#nicodark_setting_cb').click(function () {
+              var cb = $('#nicodark_setting_cb').prop('checked');
+              if (cb) {
+                $('#nicodark-aria').removeAttr('aria-checked');
+                $('#nicodark-aria').attr('aria-checked', 'true');
+                chrome.storage.local.set({
+                  "setting": "true"
+                });
                 setting_true();
-              }
-            } else {
-              $('#nicodark-aria-s_top').removeAttr('aria-checked');
-              $('#nicodark-aria-s_top').attr('aria-checked', 'false');
-              chrome.storage.local.set({
-                "social_top": "false"
-              });
-
-              var host = location.hostname;
-              var path = location.pathname;
-              if ((host == "www.nicovideo.jp") && ((path == "/") || (path == "/*"))) {
+              } else {
+                $('#nicodark-aria').removeAttr('aria-checked');
+                $('#nicodark-aria').attr('aria-checked', 'false');
+                chrome.storage.local.set({
+                  "setting": "false"
+                });
                 setting_false();
               }
-            }
-          })
+            })
 
-          chrome.storage.local.get(["setting"], function (items) {
-            if (items.setting == "true") {
-              document.getElementById("nicodark_setting_cb").checked = true;
-              $('#nicodark-aria').removeAttr('aria-checked');
-              $('#nicodark-aria').attr('aria-checked', 'true');
-            }
-          });
-          chrome.storage.local.get(["social_top"], function (items) {
-            if (items.social_top == "true") {
-              document.getElementById("nicodark_s_top-setting_cb").checked = true;
-              $('#nicodark-aria-s_top').removeAttr('aria-checked');
-              $('#nicodark-aria-s_top').attr('aria-checked', 'true');
-            }
-          });
+            //総合TOP
+            $('#nicodark_s_top-setting_cb').click(function () {
+              var cb = $('#nicodark_s_top-setting_cb').prop('checked');
+              if (cb) {
+                $('#nicodark-aria-s_top').removeAttr('aria-checked');
+                $('#nicodark-aria-s_top').attr('aria-checked', 'true');
+                chrome.storage.local.set({
+                  "social_top": "true"
+                });
+                if (now_location == "www.nicovideo.jp/") {
+                  setting_true();
+                }
+              } else {
+                $('#nicodark-aria-s_top').removeAttr('aria-checked');
+                $('#nicodark-aria-s_top').attr('aria-checked', 'false');
+                chrome.storage.local.set({
+                  "social_top": "false"
+                });
+
+                var host = location.hostname;
+                var path = location.pathname;
+                if ((host == "www.nicovideo.jp") && ((path == "/") || (path == "/*"))) {
+                  setting_false();
+                }
+              }
+            })
+
+            chrome.storage.local.get(["setting"], function (items) {
+              if (items.setting == "true") {
+                document.getElementById("nicodark_setting_cb").checked = true;
+                $('#nicodark-aria').removeAttr('aria-checked');
+                $('#nicodark-aria').attr('aria-checked', 'true');
+              }
+            });
+            chrome.storage.local.get(["social_top"], function (items) {
+              if (items.social_top == "true") {
+                document.getElementById("nicodark_s_top-setting_cb").checked = true;
+                $('#nicodark-aria-s_top').removeAttr('aria-checked');
+                $('#nicodark-aria-s_top').attr('aria-checked', 'true');
+              }
+            });
+          } else {
+            first_check_count = 1;
+          }
         } else {
-          first_check_count = 1;
+          clearTimeout(first_check);
         }
-      } else {
-        clearTimeout(first_check);
-      }
-    }, 500);
+      }, 500);
+    }
+  }
+  if(!(noheader.includes(now_location))){
+    headercheck();
   }
 });

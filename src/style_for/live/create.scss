@@ -1,8 +1,117 @@
+@import '../parts/_default';
+@import '../parts/_textarea';
+@import '../parts/_dropdown';
+@import '../parts/_serchbox';
+
+.niconico-darkmode-setting-true{
+  .___local-page___1DHEc{
+    background-color: $main-background-color;
+
+    .___page-title___1UNz0{ //pagetitle
+      color: $main-text-color;
+    }
+    .___user-card___C6Bhx{ //user
+      .___konomi-tag-setting-button___3PbzY{
+        border-color: $main-url-color;
+      }
+      .___name-label___2Kmb-{
+        color: $main-text-color;
+      }
+    }
+
+    .___program-title-field___1V31O{ //番組タイトル
+      .___caption___21JSt{
+        color: $main-text-color;
+      }
+      .___length-score___2EUB-{
+        color: $sub-1-text-color;
+      }
+
+    }
+
+    .___detail-setting-expanded-toggle-button___8_yOp{ //詳細設定OPEN
+      color: $main-text-color;
+    }
+
+    .___detail-setting-area___2jznU{ //詳細設定
+      .___local-section___QL3u6{ //background
+        background: none;
+      }
+      .___field___2Yhjd:not(:last-of-type){ //border
+        border-color: $border-background-color;
+      }
+      .___caption___21JSt{ //title
+        color: $main-text-color;
+      }
+      .___length-score___2EUB-{ // 文字数
+        color: $sub-1-text-color;
+      }
+      .___target___1efqo+.___label___3czAu,.___label___qYitz{ //selectlavel
+        color: $main-text-color;
+      }
+
+      .___tag-widget___1XSZ3{
+        background: none;
+      }
+
+      .___field-area___yeR7a{
+        border-color: $border-background-color;
+        .___caption___1a8tY,.___caption___1IfTM,.___separator___9pr3w{
+          color: $main-text-color;
+        }
+      }
+      .___end-time___BlzrM{
+        color: $main-text-color;
+      }
+      .___register-form___2kuUD{
+        border-color: $border-background-color;
+      }
+      
+    }
+    .___symbol-mark___3l18V{ //help
+      fill: $main-text-color;
+      path{
+        fill: $main-text-color;
+      }
+    }
+    .___message___1rFFH{
+      color: $main-text-color;
+    }
+  }
+
+  .___konomi-tag-promotion-panel___3FBdN,
+  .___konomi-tag-setting-panel___2H4_y{ //konomitag modal
+    background-color: $main-background-color;
+    .___heading___RrWT8{
+      color: $main-text-color;
+    }
+    .___tag-registration-count-indicator___3nJCl{
+      color: $sub-1-text-color;
+    }
+    .___tag-list___u_42c{
+      background: none;
+    }
+    .___tag___3Q0cb{
+      background-color: $nico-black;
+      .___name-anchor___1Y9Wk{
+        color: $main-text-color;
+      }
+    }
+    .___no-tag-information___3gmB8{
+      background: none;
+    }
+  }
+
+}
+
+
+/*
 .___local-page___1DHEc,.___local-section___QL3u6{
   background-color: #252525 !important;
 }
 
-.___page-title___1UNz0,.___caption___21JSt [class*=___label___]{
+.___page-title___1UNz0,
+.___caption___21JSt [class*=___label___]{
   color: white !important;
 }
 .___detail-setting-expanded-toggle-button___8_yOp,.___target___1efqo+.___label___3czAu,.___label___qYitz{
@@ -39,3 +148,5 @@ input[type="text"],textarea,select{
 .___length-score___2EUB-.___length-score___2MjP3 span{
   color: #999 !important;
 }
+
+*/

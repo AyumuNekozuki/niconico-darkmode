@@ -234,4 +234,16 @@
       }
     }
   }
+
+  /*live create tag*/
+  ul.___suggest___1GWLd,ul.___suggest___29TND{
+    background-color: $nico-black;
+    li{
+      color: $main-text-color;
+      border-color: $border-background-color;
+    }
+    li:hover{
+      background-color: $hover-background-color;
+    }
+  }
 }
