@@ -250,8 +250,9 @@
                 }
               }
             }
-            .CommentShutter:empty{
+            .CommentShutter{
               background-color: rgba(0, 0, 0, 0.6) !important;
+              color: $main-text-color;
             }
           }
         }
