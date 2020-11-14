@@ -157,87 +157,87 @@
   }
 }
 
-
-/*設定ボタン*/
-.common-header-nicodarksetting-but:hover{
-  background-color: rgb(85, 85, 85);
-}
-.common-header-nicodarksetting-but:hover > .nicodark-setting-menupanel{
-  display: block !important;
-}
-.common-header-nicodarksetting-but::after{
-  content: "";
-  position: absolute;
-  right: 0px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0px;
-  height: 14px;
-  border-right: 1px solid rgb(85, 85, 85);
-}
-.nicodark-setting-menupanel{
-  display: none;
-  position: absolute;
-  width: 250px;
-  right: 0;
-  background: #252525;
-
-  .nicodark-logo{
-    width: 100%;
+.nico-CommonHeaderRoot{
+  .common-header-nicodarksetting-but:hover{
+    background-color: rgb(85, 85, 85);
   }
-  .nicodark-setting-menu{
-    padding: 8px 16px;
-
-    .nicodark-label01{
-      display: flex;
-      -webkit-box-align: center;
-      align-items: center;
-      height: 40px;
-      padding: 0px 8px;
-      cursor: pointer;
-      background-color: $nico-default-bg;
-
-      .nicodark-span01{
-        font-family: sans-serif;
-        font-size: 13px;
-        font-weight: bold;
-        flex: 1 1 0%;
-        color: $main-text-color;
-      }
-      .nicodark-label02{
-        position: relative;
-        display: inline-block;
-        background-color: rgb(204, 204, 204);
-        width: 40px;
-        height: 24px;
-        border-radius: 12px;
-        transition: background-color 0.2s ease 0s;
+  .common-header-nicodarksetting-but:hover > .nicodark-setting-menupanel{
+    display: block !important;
+  }
+  .common-header-nicodarksetting-but::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0px;
+    height: 14px;
+    border-right: 1px solid rgb(85, 85, 85);
+  }
+  .nicodark-setting-menupanel{
+    display: none;
+    position: absolute;
+    width: 250px;
+    right: 0;
+    background: #252525;
+  
+    .nicodark-logo{
+      width: 100%;
+    }
+    .nicodark-setting-menu{
+      padding: 8px 16px;
+  
+      .nicodark-label01{
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        height: 40px;
+        padding: 0px 8px;
         cursor: pointer;
-
-        .nicodark-cb{
-          display: none;
+        background-color: $nico-default-bg;
+  
+        .nicodark-span01{
+          font-family: sans-serif;
+          font-size: 13px;
+          font-weight: bold;
+          flex: 1 1 0%;
+          color: $main-text-color;
         }
-        .nicodark-span02{
+        .nicodark-label02{
+          position: relative;
           display: inline-block;
-          position: absolute;
-          top: 2px;
-          left: 2px;
-          width: 20px;
-          height: 20px;
-          border-radius: 20px;
-          background-color: rgb(255, 255, 255);
-          transition: left 0.2s ease 0s;
+          background-color: rgb(204, 204, 204);
+          width: 40px;
+          height: 24px;
+          border-radius: 12px;
+          transition: background-color 0.2s ease 0s;
+          cursor: pointer;
+  
+          .nicodark-cb{
+            display: none;
+          }
+          .nicodark-span02{
+            display: inline-block;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255);
+            transition: left 0.2s ease 0s;
+          }
+        }
+        .nicodark-label02[aria-checked="true"]{
+          background-color: $main-url-color;
+  
+          .nicodark-span02{
+            left: 18px;
+          }
         }
       }
-      .nicodark-label02[aria-checked="true"]{
-        background-color: $main-url-color;
-
-        .nicodark-span02{
-          left: 18px;
-        }
-      }
+      
     }
     
   }
-  
 }

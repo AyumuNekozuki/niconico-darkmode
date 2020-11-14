@@ -1,3 +1,5 @@
+@import '../../parts/default';
+
 /*sec1*/
 .namagame-PlayerWantedProgram,.namagame-GamePlayProgram,.namagame-Introduction{
   background: #1A1B1C !important;
@@ -7,7 +9,7 @@
   color: white !important;
 }
 .namagame-PlayerWantedProgram_Header::before,.namagame-GamePlayProgram_Header::before{
-  filter: invert();
+  filter: $invert;
 }
 
 

@@ -1,3 +1,5 @@
+@import '../parts/default';
+
 /*BG*/
 .___page___1G6yH{
   background: #1A1B1C !important;
@@ -206,7 +208,7 @@ input[name="command"]{
   color: #999 !important;
 }
 .___popup-toggle-button___1UajY,.___popup-toggle-button___31Okx{
-  filter: invert();
+  filter: $invert;
 }
 .___list___280fl,.___list___3Tgas{
   background-color: #252525 !important;
