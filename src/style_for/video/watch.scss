@@ -545,6 +545,11 @@
               color: $main-url-color;
             }
           }
+          .TagRelatedBannerContainer{
+            .TagRelatedBanner-title a{
+              color: $main-url-color;
+            }
+          }
         }
       }
     }
@@ -624,7 +629,6 @@
       border: 1px solid $border-background-color !important;
     }
   }
-
 
   //削除動画
   #PAGECONTAINER{
