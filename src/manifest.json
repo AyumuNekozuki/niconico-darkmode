@@ -13,6 +13,14 @@
     "content_scripts": [
         {
             "matches": [
+                "https://live.nicovideo.jp/*",
+                "https://live2.nicovideo.jp/*"
+            ],
+            "js":["js/jquery-3.5.1.min.js","js/maintenance.js"],
+            "css":["style_for/parts/maintenance.css"]
+        },
+        {
+            "matches": [
                 "https://www.nicovideo.jp/*",
                 "https://live2.nicovideo.jp/create*"
             ],
