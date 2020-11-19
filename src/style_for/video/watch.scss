@@ -631,6 +631,15 @@
     }
   }
 
+  //ユーザーフォロー時WebPushダイアログ
+  .Dialog.HeaderContainer-webPushPRDialog{
+    background-color: $nico-black;
+    box-shadow: 0 2px 8px rgba(255,255,255,.4);
+    .ActionButton.HeaderContainer-webPushPRDialogCloseButton,a{
+      color: $main-url-color;
+    }
+  }
+
   //削除動画
   #PAGECONTAINER{
     #PAGEMAIN{
