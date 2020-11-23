@@ -93,17 +93,4 @@
       }
     }
   }
-  
-  [class*="___footer-area___"]{
-    background-color: $main-background-color;
-    [class*="___site-footer-utility___"]{
-      [class*="___page-top-anchor___"]{
-        background-color: $livetop-content-bg2;
-        color: $sub-2-text-color;
-      }
-      [class*="___page-top-anchor___"]:hover{
-        color: $sub-1-text-color;
-      }
-    }
-  }
 }

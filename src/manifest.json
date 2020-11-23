@@ -171,13 +171,12 @@
         },
         {
             "matches": [
+                "https://live.nicovideo.jp/focus",
+                "https://live.nicovideo.jp/focus?*",
                 "https://live2.nicovideo.jp/focus",
                 "https://live2.nicovideo.jp/focus?*"
             ],
             "css": [
-                "style_for/parts/header.css",
-                "style_for/live/parts/live_parts.css",
-                "style_for/live/parts/card.css",
                 "style_for/live/forcus.css"
             ]
         },

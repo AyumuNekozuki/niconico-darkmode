@@ -1,18 +1,49 @@
 @import '../parts/_default';
 @import 'parts/_card';
+@import 'parts/_parts';
 
-.___heading___2-lmr,.___feature-program-section-title___9mrGb,.___heading___7qIor{
-  color: white !important;
-}
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
 
-.___contents-card___l30EK{
-  background-color: #35393B !important;
-  border: none !important;
-}
+  [class*="___section___"],section{
+    [class*="___feature-program-section-title___"],[class*="___heading___"]{
+      color: $main-text-color;
+    }
+    [class*="___header___"]{
+      [class*="___heading___"]{ //section header
+        color: $main-text-color;
+      }
+      [class*="___description___"]{
+        color: $sub-1-text-color;
+      }
+    }
+  }
 
-.___contents-title___1esdp{
-  color: white !important;
-}
-.___description___30cxJ{
-  color: #999 !important;
+  [class*="___recent-program-status-axis-contents-area___"]{ //常設
+    background-color: $main-background-color;
+  }
+  [class*="___middle-ad___"]{ 
+    background-color: $main-background-color;
+  }
+
+  [class*="___feature-program-section___"]{ // 特集
+    background-color: $livetop-content-bg3;
+  }
+
+  [class*="___pickup-contents-list-section___"]{ // PICKUP
+    background-color: $main-background-color;
+    [class*="___contents-card___"]{
+      background-color: $nico-black;
+      border-color: $nico-black;
+      [class*="___detail___"]{
+        [class*="___contents-title___"]{
+          color: $main-text-color;
+        }
+        [class*="___description___"]{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+  }
+
 }
