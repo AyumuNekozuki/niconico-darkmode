@@ -1,5 +1,4 @@
 var getPageTitle = document.title;
-console.log(getPageTitle);
 
 const maintenance = ["ただいまメンテナンス中です。 - ニコニコ生放送"];
 

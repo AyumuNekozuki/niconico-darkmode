@@ -1,53 +1,109 @@
-/*BG*/
-.___focus-axis-contents-area___iobXj,.___online-viewing-banner___2fAaR,.___contents-area___36GBL,#informationArea{
-  background-color:#1A1B1C !important;
-}
-/*title*/
-header a{
-  color: white !important;
-}
-.___heading___29ime svg>path,.___heading___29ime svg>rect{
-  fill: white !important;
-}
+@import '../parts/_default';
+@import 'parts/_card';
+@import 'parts/_parts';
 
-/*head info*/
-.___subject___1xC_J,.___message___3QdNF, .___visit-anchor___3UmQE,.___item___2UlkV{
-  background-color: #35393B !important;
-  color: whitesmoke !important;
-}
-.___visit-anchor___3UmQE:after{
-  border-color: whitesmoke !important;
-}
-.___message-anchor___1olWf{
-  color: black !important;
-}
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
 
+  [class*="___billboard-ad___"]{
+    background-color: $nico-black;
+    #billboard-ad-close{
+      a{
+        color: $sub-2-text-color;
+      }
+    }
+  }
 
-/*info*/
-.___heading___1ZfRu,.___item-list___1miSk,.___item___3DvIG{
-  background-color: #737373 !important;
-  color: white !important;
-}
-.___heading___1ZfRu:hover,.___item___3DvIG:hover{
-  text-decoration: underline !important;
-}
+  [class*="___contents-head-area___"]{
+    [class*="___information-bar___"]{
+      [class*="___subject___"]{
+        background-color: $nico-black;
+        color: $main-text-color;
+      }
+      [class*="___message___"]{
+        background-color: $nico-black;
+        [class*="___item___"]{
+          background: none;
+          color: $main-text-color;
+        }
+        [class*="___item___"]:hover{
+          color: $main-url-color;
+        }
+      }
+      [class*="___visit-anchor___"]{
+        background-color: $nico-black;
+      }
+    }
+  }
 
-.___billboard-ad___2f-2_{
-  background-color: #252527 !important;
-}
+  [class*="___contents-area___"]{
+    [class*="___section___"]{
+      [class*="___header___"]{
+        [class*="___heading___"]{ //section header
+          color: $main-text-color;
+          svg{
+            path,rect{
+              fill: $main-text-color;
+            }
+          }
+        }
+        [class*="___heading___"]:hover{
+          color: $main-url-color;
+          svg{
+            path,rect{
+              fill: $main-url-color;
+            }
+          }
+        }
+      }
+    }
+    [class*="___focus-axis-contents-area___"]{ //放送中の注目番組
+      background-color: $livetop-content-bg1;
+    }
+    [class*="___online-viewing-banner___"]{ //バナー
+      background-color: $livetop-content-bg2;
+    }
+    [class*="___contents-area___"],[class*="___middle-ad___"]{ //常設
+      background-color: $main-background-color;
+    }
+    [class*="___program-status-axis-contents-area___"]{//予約・見逃し
+      background-color: $livetop-content-bg3;
+    }
+  }
 
-
-/*follow*/
-.___program-list-section___tu0rX{
-  background-color: #35393B !important;
-  color: white !important;
-}
-.___program-card___3lP8g:hover{
-  background-color: #737373 !important;
-}
-.___program-provider-name___2nXc3{
-  color: whitesmoke !important;
-}
-.___duration___1DqL4{
-  color: #999 !important;
+  [class*="___information-area___"]{
+    background-color: $main-background-color;
+    [class*="___information-list-section___"]{
+      [class*="___heading___"]{
+        background-color: $nico-black;
+        color: $main-text-color;
+      }
+      [class*="___heading___"]:hover{
+        color: $main-url-color;
+      }
+      [class*="___item-list___"]{
+        background-color: $nico-black;
+        [class*="___item___"]{
+          border-color: $border-background-color;
+          color: $main-text-color;
+        }
+        [class*="___item___"]:hover{
+          color: $main-url-color;
+        }
+      }
+    }
+  }
+  
+  [class*="___footer-area___"]{
+    background-color: $main-background-color;
+    [class*="___site-footer-utility___"]{
+      [class*="___page-top-anchor___"]{
+        background-color: $livetop-content-bg2;
+        color: $sub-2-text-color;
+      }
+      [class*="___page-top-anchor___"]:hover{
+        color: $sub-1-text-color;
+      }
+    }
+  }
 }

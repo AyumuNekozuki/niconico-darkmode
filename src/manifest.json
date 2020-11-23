@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "niconico Darkmode",
-    "version": "1.1.3",
+    "version": "0.1.2.0",
     "description": "ニコニコサイトをダークモード化する拡張機能",
     "icons": {
         "16": "images/icon16.png",
@@ -22,7 +22,8 @@
         {
             "matches": [
                 "https://www.nicovideo.jp/*",
-                "https://live2.nicovideo.jp/create*"
+                "https://live.nicovideo.jp/*",
+                "https://live2.nicovideo.jp/*"
             ],
             "js":["js/jquery-3.5.1.min.js","js/main.js"],
             "css":["style_for/parts/v120_header.css"],
@@ -165,9 +166,6 @@
                 "https://live2.nicovideo.jp/?*"
             ],
             "css": [
-                "style_for/parts/header.css",
-                "style_for/live/parts/live_parts.css",
-                "style_for/live/parts/card.css",
                 "style_for/live/live_top.css"
             ]
         },

@@ -1,0 +1,78 @@
+@import '../../parts/_default';
+
+.niconico-darkmode-setting-true{
+
+  [class*="___program-card-list___"]{ // カード
+    [class*="___item___"]{
+      [class*="___program-card___"]{
+        background-color: $nico-black;
+        [class*=".___program-preview___"]{ //サムネ
+          background: none;
+        }
+        [class*="___content-area___"]{
+          [class*="___program-summary___"]{ //枠タイトル
+            color: $main-text-color;
+          }
+          [class*="___program-summary___"]:hover{ //枠タイトル
+            color: $main-url-color;
+          }
+          [class*="___program-provider-card___"]{ //コミュタイトル
+            [class*="___information___"]{
+              [class*="___name-label___"]{
+                color: $sub-1-text-color;
+              }
+            }
+          }
+          [class*="___program-provider-card___"]:hover{ //コミュタイトル
+            [class*="___information___"]{
+              [class*="___name-label___"]{
+                color: $main-url-color;
+              }
+            }
+          }
+          [class*="___menu-area___"]{ //メニュー
+            box-shadow: 0 1px 0 $border-background-color;
+            [class*="___status-bar___"]{
+              [class*="___duration___"]{ //経過時間
+                color: $sub-1-text-color;
+              }
+              [class*="___program-statistics___"]{ //コメント数
+                [class*="___content___"]{
+                  color: $sub-2-text-color;
+                }
+              }
+
+            }
+            [class*="___menu-popup-control___"]{
+              [class*="___toggle-button___"]{
+                background-color: $nico-black;
+                [class*="___symbol-mark___"]>path{
+                  fill: $main-text-color;
+                }
+              }
+              [class*="___toggle-button___"]:hover{
+                background-color: $hover-background-color;
+              }
+              [class*="___program-menu___"]{
+                background-color: $nico-black;
+                [class*="___timeshift-reservation-button___"]{
+                  background: none;
+                  color: $main-text-color;
+                }
+                [class*="___timeshift-reservation-button___"]:hover{
+                  background: $hover-background-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  [class*="___navigation___"]{ //前後
+    [class*="___page-selector___"]{
+      background-color: $nico-black;
+    }
+  }
+}
