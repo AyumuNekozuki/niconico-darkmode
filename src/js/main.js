@@ -5,7 +5,12 @@ var now_location = host + path + "";
 console.log(now_location)
 
 //ヘッダ除外ネーム
-const noheader = ["account.nicovideo.jp/login","www.nicovideo.jp/feedback","live2.nicovideo.jp/create"]
+const noheader = [
+  "account.nicovideo.jp/login",
+  "www.nicovideo.jp/feedback",
+  "live2.nicovideo.jp/create",
+  "site.live.nicovideo.jp/recent/namagame.html"
+]
 
 function setting_true() {
   var true_do = setInterval(function () {

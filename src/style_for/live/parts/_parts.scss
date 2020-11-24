@@ -53,6 +53,15 @@
     }
   }
 
+  [class*="___billboard-ad___"]{ //広告
+    background-color: $nico-black;
+    #billboard-ad-close{
+      a{
+        color: $sub-2-text-color;
+      }
+    }
+  }
+
   [class*="___footer-area___"]{ //footer
     background-color: $main-background-color;
     [class*="___site-footer-utility___"]{

@@ -1,37 +1,82 @@
 @import '../../parts/default';
+@import '../parts/_card';
+@import '../parts/_parts';
 
-/*sec1*/
-.namagame-PlayerWantedProgram,.namagame-GamePlayProgram,.namagame-Introduction{
-  background: #1A1B1C !important;
-}
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
 
-.namagame-PlayerWantedProgram_Header,.namagame-GamePlayProgram_Header{
-  color: white !important;
-}
-.namagame-PlayerWantedProgram_Header::before,.namagame-GamePlayProgram_Header::before{
-  filter: $invert;
-}
+  .namagame-Empty{
+    background: none;
+    .namagame-Empty_Text{
+      color: $main-text-color;
+    }
+  }
 
+  .namagame-PlayerWantedProgram{
+    background: $livetop-content-bg1;
+    .namagame-PlayerWantedProgram_Header{
+      color: $main-text-color;
+    }
+    .namagame-PlayerWantedProgram_Header::before{
+      filter: $invert;
+    }
 
-/*card*/
-.namagame-PlayerWantedProgram_TitleText,.namagame-GamePlayProgram_TitleText{
-  color: white !important;
-}
-.namagame-PlayerWantedProgram_Detail:hover{
-  color: white !important;
-}
-.namagame-PlayerWantedProgram_Item:hover,.namagame-GamePlayProgram_Item:hover{
-  background: #35393B;
-  border-radius: 5px;
-}
-.namagame-PlayerWantedProgram_UserName,.namagame-PlayerWantedProgram_Time,.namagame-PlayerWantedProgram_DataText{
-  color: whitesmoke !important;
-}
+    .namagame-PlayerWantedProgram_Item{
+      .namagame-PlayerWantedProgram_Detail{
+        .namagame-PlayerWantedProgram_TitleText{
+          color: $main-text-color;
+        }
+        .namagame-PlayerWantedProgram_Time,
+        .namagame-PlayerWantedProgram_DataText{
+          color: $sub-2-text-color;
+        }
+        .namagame-PlayerWantedProgram_UserName{
+          color: $sub-1-text-color;
+        }
+      }
+      .namagame-PlayerWantedProgram_Detail:hover{
+        .namagame-PlayerWantedProgram_TitleText{
+          color: $main-url-color;
+        }
+      }
+    }
+  }
 
-.namagame-GamePlayProgram_UserName,.namagame-GamePlayProgram_Time,.namagame-GamePlayProgram_DataText{
-  color: whitesmoke !important;
-}
+  .namagame-GamePlayProgram{
+    background: none;
+    .namagame-GamePlayProgram_Header{
+      color: $main-text-color;
+    }
+    .namagame-GamePlayProgram_Header::before{
+      filter: $invert;
+    }
 
-.namagame-GamePlayProgram_LabelItem-play{
-  background: #333 !important;
+    .namagame-GamePlayProgram_Item{
+      .namagame-GamePlayProgram_Detail{
+        .namagame-GamePlayProgram_TitleText{
+          color: $main-text-color;
+        }
+        .namagame-GamePlayProgram_UserName{
+          color: $sub-1-text-color;
+        }
+        .namagame-GamePlayProgram_Time,
+        .namagame-GamePlayProgram_DataText{
+          color: $sub-2-text-color;
+        }
+        .namagame-GamePlayProgram_LabelItem-play{
+          background-color: #333333;
+        }
+      }
+      .namagame-GamePlayProgram_Detail:hover{
+        .namagame-GamePlayProgram_TitleText{
+          color: $main-url-color;
+        }
+      }
+    }
+  }
+
+  .namagame-Introduction{
+    background-color: $sub2-background-color;
+  }
+
 }
