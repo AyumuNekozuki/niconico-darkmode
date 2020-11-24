@@ -16,17 +16,28 @@
           [class*="___program-summary___"]:hover{ //枠タイトル
             color: $main-url-color;
           }
-          [class*="___program-provider-card___"]{ //コミュタイトル
-            [class*="___information___"]{
+          [class*="___program-provider-card___"]{ 
+            [class*="___information___"]{//コミュタイトル
               [class*="___name-label___"]{
                 color: $sub-1-text-color;
               }
             }
-          }
-          [class*="___program-provider-card___"]:hover{ //コミュタイトル
-            [class*="___information___"]{
+            [class*="___information___"]:hover{//コミュタイトル
               [class*="___name-label___"]{
                 color: $main-url-color;
+              }
+            }
+            [class*="___konomi-tag-list___"]{ //好みタグ
+              [class*="___item___"]{
+                [class*="___tag___"]{
+                  background-color: $sub2-background-color;
+                  [class*="___name-anchor___"]{
+                    color: $sub-1-text-color;
+                  }
+                }
+                [class*="___tag___"]:hover{
+                  text-decoration: underline;
+                }
               }
             }
           }

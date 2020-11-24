@@ -183,12 +183,11 @@
         {
             "matches": [
                 "https://live.nicovideo.jp/recent",
-                "https://live.nicovideo.jp/recent?*"
+                "https://live.nicovideo.jp/recent?*",
+                "https://live2.nicovideo.jp/recent",
+                "https://live2.nicovideo.jp/recent?*"
             ],
             "css": [
-                "style_for/parts/header.css",
-                "style_for/live/parts/live_parts.css",
-                "style_for/live/parts/card.css",
                 "style_for/live/recent.css"
             ]
         },

@@ -1,69 +1,65 @@
 @import '../parts/_default';
+@import '../parts/_dropdown';
 @import 'parts/_card';
+@import 'parts/_parts';
 
-.___tag-widget___4DxtD{
-  background-color:#1A1B1C !important;
-}
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
 
-.___counter___2VAbI,.___expand-button___3PwgX{
-  background: #35393B !important;
-  border: none !important;
-  color: white !important;
-}
+  [class*="___konomi-tag-recent-page___"],[class*="___recent-page___"]{
+    background-color: $main-background-color;
+  }
 
-.___label___3E6WS{
-  color: white !important;
-}
+  [class*="___big-banner___"]{ //バナー
+    background-color: $main-background-color;
+  }
+  [class*="___tag-widget___"]{ //タグ一覧
+    background-color: $livetop-content-bg1;
+    [class*="___tag-list___"]{
+      [class*="___item___"]{ //好みタグ
+        [class*="___tag___"]{
+          background-color: $nico-black;
+          [class*="___label___"]{
+            color: $main-text-color;
+          }
+          [class*="___number___"]{
+            color: $sub-1-text-color;
+          }
+        }
+        [class*="___tag___"]:hover{
+          background-color: $hover-background-color;
+        }
+      }
+    }
+    [class*="___expand-button___"]{ //もっと見るボタン
+      color: $main-text-color;
+      background-color: $nico-black;
+    }
+    [class*="___expand-button___"]:hover{ //もっと見るボタン
+      background-color: $hover-background-color;
+    }
+    [class*="___expander___"][aria-expanded=false] [class*="___expand-button___"]:before{
+      background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,$nico-black);
+    }
+  }
 
-.___caption___33oIS{
-  color: whitesmoke !important;
-}
-.___target___1pW1J{
-  background: #35393B !important;
-  color: white !important;
-}
+  [class*="___section___"]{
+    [class*="___header___"]{
+      [class*="___heading___"]{
+        color: $main-text-color;
+      }
+      [class*="___sort-field___"]{
+        [class*="___caption___"]{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+    [class*="___load-button___"]{ //もっと見る
+      color: $main-text-color;
+    }
+    [class*="___load-button___"]:hover{ //もっと見る
+      background-color: $hover-background-color;
+    }
+  }
 
-.___load-button___28Qcd{
-  background: #35393B !important;
-  color: white !important;
-}
-
-.___heading___BYXKM{
-  color: white !important;
-}
-
-
-/*好みタグ*/
-.___big-banner___1EkFF{
-  background: none !important;
-}
-.___tag-widget___3N4L8{
-  background: none !important;
-}
-.___counter___g2o1l{
-  background-color: #252525 !important;
-}
-.___counter___g2o1l:hover{
-  background-color: #555555 !important;
-}
-.___counter___g2o1l .___label___2JS3t,
-.___tag-widget___1ZJ2x [class*=___number___]{
-  color: #F5F5F5 !important;
-}
-.___expand-button___2TWkz{
-  background-color: #252525 !important;
-  color: #F5F5F5 !important;
-}
-.___expand-button___2TWkz:hover{
-  background-color: #555555 !important;
-}
-.___heading___3Vck6{
-  color: #F5F5F5 !important;
-}
-.___caption___xME9V{
-  color: #c4c4c4 !important;
-}
-.___target___3aD2V{
-  background-color: #252525 !important;
-  color: #F5F5F5 !important;
 }
