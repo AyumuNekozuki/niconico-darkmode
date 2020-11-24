@@ -202,11 +202,10 @@
         },
         {
             "matches": [
-                "https://live.nicovideo.jp/timetable*"
+                "https://live.nicovideo.jp/timetable*",
+                "https://live2.nicovideo.jp/timetable*"
             ],
             "css": [
-                "style_for/parts/header.css",
-                "style_for/live/parts/live_parts.css",
                 "style_for/live/timetable.css"
             ]
         },

@@ -53,6 +53,59 @@
     }
   }
 
+  #live_header{ //生放送旧ヘッダー
+    #live_header_operation{
+      .score_search{ //検索
+        #header_search_form_input{
+          background: $sub2-background-color;
+          color: $main-text-color;
+        }
+        .suggestion_list_for_live{
+          ul{
+            background: none;
+            li{
+              background: $nico-black;
+              color: $main-text-color;
+            }
+            li:hover{
+              background: $hover-background-color;
+            }
+          }
+        }
+        #header_search_form_submit_button{
+          background: $sub2-background-color;
+          svg path{
+            fill: $main-text-color;
+          }
+        }
+      }
+      #FollowedProgramNotificationReader{ //フォロー中番組
+        [class*="___popup-control___"]{ //フォロー中番組
+          [class*="___menu-panel___"]{
+            [class*="___program-list-section___"]{
+              [class*="___program-card___"]{
+                [class*="___program-summary-area___"]{
+                  [class*="___program-provider-name___"]{
+                    color: $sub-1-text-color;
+                  }
+                  [class*="___program-title___"]{
+                    color: $main-text-color;
+                  }
+                  [class*="___duration___"]{
+                    color: $sub-1-text-color;
+                  }
+                }
+              }
+              [class*="___program-card___"]:hover{
+                background-color: $hover-background-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   [class*="___billboard-ad___"]{ //広告
     background-color: $nico-black;
     #billboard-ad-close{

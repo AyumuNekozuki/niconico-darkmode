@@ -1,61 +1,87 @@
-@import '../parts/default';
+@import '../parts/_default';
+@import 'parts/_card';
+@import 'parts/_parts';
 
-.container table#timeline .item{
-  background: #252525 !important;
-}
-.container table#timeline .item td.item_image, .container table#timeline .item_score,.container table#timeline .item_text{
-  background: none !important;
-}
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
 
-/**/
-
-.item_description{
-  color: #999 !important;
-}
-.timetablePage-TimeshiftButton{
-  border: none !important;
-  background-color: #999 !important;
-}
-.timetablePage-TimeshiftButton_Icon{
-  filter: $invert;
-}
-
-/*table*/
-.ui-datepicker-calendar{
-  background: #252525 !important;
-}
-.ui-widget-content{
-  color: white !important;
-}
-.ui-datepicker td{
-  border: #252525 1px solid !important;
-}
-
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
-  background: #35393B !important;
-  color: white !important;
-}
-.ui-datepicker-week-end:nth-last-child(2) a.ui-state-default{
-  color: #0080ff !important;
-}
-.ui-datepicker-week-end:last-child a.ui-state-default{
-  color: #f33 !important;
-}
-
-
-#calendar .ui-datepicker-calendar a:hover, #calendar .ui-widget-content .ui-state-active {
-  color: white !important;
-  background: #0080ff !important;
-}
-
-/*but*/
-#SideNavigation .timetablePage-SideNavigation_Link{
-  background: none !important;
-}
-#SideNavigation .timetablePage-SideNavigation_Link{
-  color: white !important;
-}
-
-.feedback_link a{
-  background: none !important;
+  #page_cover{
+    .search_box{
+      #calendar_area{
+        #calendar{
+          .ui-datepicker-calendar{
+            thead{
+              background: $nico-black;
+              color: $main-text-color;
+              span[title="土"]{
+                color: #379CFF;
+              }
+              span[title="日"]{
+                color: #FF3333;
+              }
+            }
+          }
+        }
+        #SideNavigation{
+          .timetablePage-SideNavigation_Link{
+            background: $nico-black;
+            color: $main-text-color;
+          }
+          .timetablePage-SideNavigation_Link:hover{
+            background: $hover-background-color;
+          }
+        }
+      }
+    }
+    .main{
+      .timetable_day{
+        .timetable_content{
+          background: none;
+          #timeline{
+            .item{
+              background: $nico-black;
+              border-color: $border-background-color;
+              .item_status{
+                border-color: $border-background-color;
+                .time{
+                  text-shadow: none;
+                  .start_date,.start_time{
+                    color: $sub-1-text-color;
+                  }
+                  .schedule_time{
+                    color: $sub-2-text-color;
+                  }
+                }
+              }
+              .item_image{
+                background: $nico-black;
+              }
+              .item_text{
+                background: $nico-black;
+                .item_title{
+                  a{
+                    color: $main-text-color;
+                  }
+                  a:hover{
+                    color: $main-url-color;
+                  }
+                }
+                .item_description{
+                  color: $sub-1-text-color;
+                }
+              }
+              .item_score{
+                background-color: $nico-black;
+              }
+            }
+            .item.ts_end{
+              *{
+                background-color: $main-background-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
