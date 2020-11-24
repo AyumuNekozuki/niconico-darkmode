@@ -8,6 +8,7 @@ console.log(now_location)
 const noheader = [
   "account.nicovideo.jp/login",
   "www.nicovideo.jp/feedback",
+  "live.nicovideo.jp/create",
   "live2.nicovideo.jp/create",
   "site.live.nicovideo.jp/recent/namagame.html"
 ]

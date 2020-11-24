@@ -1,30 +1,71 @@
-.rk-Title p{
-  color: #999 !important;
-}
-.rk-Navigation_List li a.active{
-  background-color: #0080ff !important;
-}
-.rk-Navigation_List li a:not(.active):hover{
-  background-color: #666 !important;
-}
+@import '../parts/_default';
+@import '../parts/_dropdown';
+@import 'parts/_parts';
 
-.rk-RankingList_Header{
-  background-color: #333 !important;
-  color: white !important;
-}
-.rk-ProgramCard{
-  border-bottom: solid 1px #333 !important;
-}
-.rk-ProgramCard_DetailTitle svg{
-  fill: #258D8D !important;
-}
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
 
-.rk-Navigation_Date.active::after{
-  background-color: #0080ff !important;
-}
+  main{
+    .rk-Title{
+      h2{
+        color: $main-text-color;
+      }
+      p{
+        color: $sub-1-text-color;
+      }
+    }
+    .rk-Navigation{
+      .rk-Navigation_List{
+        a{
+          color: $main-text-color;
+          background-color: $nico-black;
+        }
+        a:hover{
+          background-color: $hover-background-color;
+        }
+        a.active{
+          background-color: $main-url-color;
+        }
+      }
+    }
+    .rk-Navigation_DateList{
+      a{
+        color: $main-text-color;
+        opacity: 1;
+      }
+    }
+    .rk-Navigation_Date.active::after{
+      background-color: $main-url-color;
+    }
+    .rk-Navigation_Date.last::before{
+      color: red;
+    }
 
-.rk-RankingList_Header_GenreSelector{
-  background-color: #252525 !important;
-  border: 1px solid #666 !important;
-  color: white !important;
+    #wrapper{
+      .rk-RankingList_Header{
+        background-color: $nico-black;
+        color: $main-text-color;
+      }
+      .rk-ProgramCard{
+        border-color: $border-background-color;
+        .rk-ProgramCard_Detail{
+          .rk-ProgramCard_DetailTitle{
+            color: $main-text-color;
+          }
+          .rk-ProgramCard_DetailTitle:hover{
+            color: $main-url-color;
+          }
+          .rk-ProgramCard_DetailUserName,.rk-ProgramCard_DetailChName{
+            color: $sub-1-text-color;
+          }
+          .rk-ProgramCard_DetailUserName:hover,.rk-ProgramCard_DetailChName:hover{
+            color: $main-url-color;
+          }
+        }
+        .rk-ProgramCard_DetailTitle svg{
+          fill: $nico-com;
+        }
+      }
+    }
+  }
 }

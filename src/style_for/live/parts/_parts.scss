@@ -82,6 +82,7 @@
       #FollowedProgramNotificationReader{ //フォロー中番組
         [class*="___popup-control___"]{ //フォロー中番組
           [class*="___menu-panel___"]{
+            background-color: $nico-black;
             [class*="___program-list-section___"]{
               [class*="___program-card___"]{
                 [class*="___program-summary-area___"]{
@@ -125,6 +126,16 @@
       [class*="___page-top-anchor___"]:hover{
         color: $sub-1-text-color;
       }
+    }
+  }
+
+  #footer_ads{ //旧footer
+    background: none;
+  }
+  #utility_link{
+    background-color: $livetop-content-bg2;
+    .page_top a{
+      color: $sub-2-text-color;
     }
   }
 

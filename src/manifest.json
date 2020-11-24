@@ -172,10 +172,8 @@
         },
         {
             "matches": [
-                "https://live.nicovideo.jp/focus",
-                "https://live.nicovideo.jp/focus?*",
-                "https://live2.nicovideo.jp/focus",
-                "https://live2.nicovideo.jp/focus?*"
+                "https://live.nicovideo.jp/focus*",
+                "https://live2.nicovideo.jp/focus*"
             ],
             "css": [
                 "style_for/live/forcus.css"
@@ -183,10 +181,8 @@
         },
         {
             "matches": [
-                "https://live.nicovideo.jp/recent",
-                "https://live.nicovideo.jp/recent?*",
-                "https://live2.nicovideo.jp/recent",
-                "https://live2.nicovideo.jp/recent?*"
+                "https://live.nicovideo.jp/recent*",
+                "https://live2.nicovideo.jp/recent*"
             ],
             "css": [
                 "style_for/live/recent.css"
@@ -214,8 +210,6 @@
                 "https://live.nicovideo.jp/ranking*"
             ],
             "css": [
-                "style_for/parts/header.css",
-                "style_for/live/parts/live_parts.css",
                 "style_for/live/ranking.css"
             ]
         },
@@ -250,6 +244,7 @@
             ]
         },{
             "matches": [
+                "https://live.nicovideo.jp/create*",
                 "https://live2.nicovideo.jp/create*"
             ],
             "css": [
