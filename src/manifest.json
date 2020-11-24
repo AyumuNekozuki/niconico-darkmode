@@ -207,7 +207,8 @@
         },
         {
             "matches": [
-                "https://live.nicovideo.jp/ranking*"
+                "https://live.nicovideo.jp/ranking*",
+                "https://live2.nicovideo.jp/ranking*"
             ],
             "css": [
                 "style_for/live/ranking.css"
