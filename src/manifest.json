@@ -219,8 +219,6 @@
                 "https://live2.nicovideo.jp/watch/*"
             ],
             "css": [
-                "style_for/parts/header.css",
-                "style_for/live/parts/live_parts.css",
                 "style_for/live/watch.css"
             ]
         },
@@ -246,7 +244,9 @@
         },{
             "matches": [
                 "https://live.nicovideo.jp/create*",
-                "https://live2.nicovideo.jp/create*"
+                "https://live2.nicovideo.jp/create*",
+                "https://live.nicovideo.jp/edit*",
+                "https://live2.nicovideo.jp/edit*"
             ],
             "css": [
                 "style_for/live/create.css"

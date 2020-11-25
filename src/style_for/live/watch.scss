@@ -1,400 +1,592 @@
 @import '../parts/default';
+@import '../parts/_serchbox';
+@import '../parts/_textarea';
+@import '../parts/_dropdown';
+@import 'parts/_parts';
 
-/*BG*/
-.___page___1G6yH{
-  background: #1A1B1C !important;
-}
-.___program-information-area___3Y_YG{
-  background: #252525 !important;
-}
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
+  #root>[class*="___page___"]{
+    background-color: $main-background-color;
+  }
+  
 
+  [class*="___player-area___"]{ //放送ビュー
+    background-color: $livetop-content-bg1;
 
-/*ads banner*/
-.___billboard-ad___2WPwn{
-  background: none !important;
-  border-bottom: #666 1px solid !important;
-}
+    [class*="___player-head-area___"]{ //別枠案内
+      [class*=".___program-announcement-bar___"]{
+        background-color: $nico-black;
+        [class*="___message___"]{
+          color: $main-text-color;
+        }
+      }
+    }
 
-
-/*counter*/
-.___broadcast-participation-area___2_M2S{
-  border: none !important;
-  background: none !important;
-}
-.___disabled-message___gyrKQ a{
-  color: black !important;
-}
-.___broadcast-participation-area-disabled-message-area___24J5E{
-  background: #00000099 !important;
-}
-.___broadcast-participation-area-disabled-message-area___24J5E span{
-  color: white !important;
-}
-
-/*comment*/
-.___comment-post-form___6EUf5 input{
-  background: #252525 !important;
-  color: white !important;
-  border:none !important;
-}
-input[name="command"]{
-  border-right: #555 2px solid !important;
-}
-.___command-palette___2gp0H{
-  background-color: hsla(0,0%,100%,.9);
-}
-.___command-palette___c692n.___command-palette___2gp0H{
-  background: #252525 !important;
-}
-.___message___2r1zv{
-  color: #999 !important;
-}
-.___item___1Ez9-.___control___3F6-e input,.___item___R78sZ.___control___Qtpvm input{
-  background: none !important;
-}
-.___overlay___34ni-{
-  background-color: #262626cc !important;
-}
-.___disabled-message___gyrKQ{
-  color: white !important;
-}
-.___disabled-message___gyrKQ a{
-  color: #0080ff !important;
-}
-
-/*side panel*/
-.___program-information-panel___INufH.___ga-ns-program-information-panel___21IJ1.___program-information-panel___L2N5e ul li span span,
-.___program-information-panel___INufH.___ga-ns-program-information-panel___21IJ1.___program-information-panel___L2N5e ul li button span{
-  color: whitesmoke !important;
-}
-.___symbol-mark___27-28 rect, .___symbol-mark___27-28>path{
-  fill: whitesmoke !important;
-}
-.___count___3x8ZI>svg>path:last-child{
-  fill: none !important;
-}
-.___count___1OjQV[type=button]:enabled:not([aria-busy=true]):before{
-  background-color: #555555 !important;
-}
-
-
-.___player-status___BQ7B7{
-  background-color: #1A1B1C !important;
-  border: none !important;
-}
-.___promotion-balloon___UsNYE{
-  background-color: #1A1B1C !important;
-  border: 1px solid #666;
-}
-.___close-button___2ZJVz:hover{
-  background: #1A1B1C !important;
-}
-.___promotion-balloon___UsNYE:before{
-  background: none !important;
-}
-.___program-statistics-menu___NOQCW{
-  border: none !important;
-}
-.___tab-area___3ACye{
-  background-color: #1A1B1C !important;
-  border-bottom: #999 2px solid !important;
-}
-.___ng-setting-popup-button___yBxaP>svg{
-  fill: white !important;
-}
-.___ng-setting-popup-button___yBxaP:hover>svg{
-  fill: #0080ff !important;
-  transition: fill .12s ease;
-}
-
-.___tab___1OVyJ{
-  color: white !important;
-  background: none !important;
-}
-.___tab___1OVyJ[aria-selected=true]:after{
-  background-color: #0080ff !important;
-}
-
-.___banner-panel___XbLIX{
-  border: solid #666;
-}
-.___close-button___1AMBC{
-  background-color: #1A1B1C !important;
-}
-
-/*side comment*/
-.___comment-number___2Qws3,.___table-row___27ghe[data-comment-type=cruise] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=nicoad] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=programExtend] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=quote] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=ranking] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=spi] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=transparent] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=userFollow] .___comment-text___2cPL0, .___table-row___27ghe[data-comment-type=userLevelup] .___comment-text___2cPL0{
-  color: #999 !important;
-}
-.___table-row___27ghe[data-comment-type=operator] .___comment-text___2cPL0{
-  color: rgb(255, 0, 0) !important;
-}
-.___table-cell___3E0rV{
-  color: white;
-}
-.___table-row___27ghe:hover, .___table-row___27ghe[aria-selected=true]{
-  background-color: #35393B !important;
-}
-
-/*side konomi-tag*/
-.___heading___1vszk{
-  color: #F5F5F5 !important;
-}
-.___item___yXTcT{
-  border-color: #555555 !important;
-}
-.___toolbar___hwtOi:not(:empty):before{
-  background-color: #555555 !important;
-}
-.___quote-request-button___2ecQW>svg{
-  fill: #F5F5F5 !important;
-}
-.___quote-request-button___2ecQW:hover>svg{
-  fill: #0080ff !important;
-}
-
-/*side osusume*/
-.___item___3VvT9{
-  border-bottom: 1px solid #333 !important;
-}
-.___program-card___x3vdg:hover{
-  background-color: #35393B !important;
-}
-.___program-title___3kSQv{
-  color: white !important;
-}
-.___duration___1JLRl, .___start-at___3ynDg,.___content___1pUhn{
-  color: #999 !important;
-}
-
-/*NG*/
-.___ng-panel___2Dau-{
-  background-color: #252525 !important;
-  color: white !important;
-}
-.___heading___Ej5Kv,.___header-cell___Cg80J{
-  color: white !important;
-}
-.___header___3lx6k{
-  border: solid #252525 1px;
-  background-color: #252525 !important;
-}
-.___table-row___ptvPu:hover, .___table-row___ptvPu[aria-selected=true], .___tooltip___2GW8j{
-  background-color: #35393B !important;
-}
-.___ng-delete-button___2I-AE{
-  color: white !important;
-}
-.___symbol-mark___3ahYk>path{
-  fill: white !important;
-}
-
-/*title*/
-.___program-information-header-area___1iPxh{
-  background-color: #252525 !important;
-  border-bottom: 1px solid #1A1B1C !important;
-  box-shadow: 0 4px 8px 0 #1A1B1C !important;
-}
-.___program-summary___2BVKN{
-  background-color: #252525 !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
-
-.___title___1aYd0{
-  color: white !important;
-}
-.___onair-time___ezyFY,.___level___2Pj85{
-  color: #999 !important;
-}
-.___popup-toggle-button___1UajY,.___popup-toggle-button___31Okx{
-  filter: $invert;
-}
-.___list___280fl,.___list___3Tgas{
-  background-color: #252525 !important;
-}
-.___item___2ZLjH a:hover,.___item___2DzBr a:hover{
-  background-color: #35393B !important;
-}
-
-.___supplier-name___1snUG{
-  color: #999 !important;
-}
-
-/*tag*/
-.___tag___1B5lq{
-  background-color: #555555 !important;
-}
-.___edit-mode-toggle-button___2IVDx{
-  border: 2px solid #555555 !important;
-  background-color: #555555 !important;
-  color: white !important;
-}
-.___edit-mode-toggle-button___Sc2B_.___edit-mode-toggle-button___2IVDx svg path{
-  fill: white !important;
-}
-
-.___tag-widget___1BlLq:before,.___tag-register-form___2-_53{
-  background-color: #333333 !important;
-}
-.___score___1f3eV{
-  color: #666 !important;
-}
-.___faq-anchor___13OrB:after{
-  color: #0080FF !important;
-}
-.___text-box___3YfFm{
-  background-color: #555555 !important;
-  color: white !important;
-}
-
-/*description*/
-.___description___1jHOS,.___content___79Cu5{
-  color: white !important;
-}
-.___description___1jHOS a{
-  color: #0080ff !important;
-}
-
-/*underbt*/
-.___contents-tree-anchor___CPjDe, .___creator-promotion-program-anchor___21_7w, .___download-button___3x7UG{
-  border: 1px solid #555555 !important;
-  background-color: #555555 !important;
-}
-.___contents-tree-anchor___CPjDe svg path, .___creator-promotion-program-anchor___21_7w svg path, .___download-button___3x7UG svg path{
-  fill: white !important;
-}
-
-.___follow-anchor___1PaWU{
-  color: black !important;
-}
-
-/*community*/
-.___social-group-information___3Vwle{
-  border: 2px solid #258D8D !important;
-}
-.___header-area___FLBI2{
-  border-bottom: 2px solid #258D8D !important;
-}
-.___social-group-information___3Vwle[data-group-type=community] .___footer-area___294Um{
-  background-color: #258D8D !important;
-}
-.___community-message___fWBhe{
-  color: white !important;
-}
-.___community-page-anchor___3BT8W{
-  color: #258D8D !important;
-}
-.___description___3aLzk[aria-expanded=false] .___expand-button___S8O-B{
-  background:none !important;
-}
-.___description___3aLzk[aria-expanded=false]{
-  color: #999 !important;
-}
-
-/*channnel*/
-.___social-group-information___3Vwle[data-group-type="channel"]{
-  border: 2px solid #D9A300 !important;
-}
-.___social-group-information___3Vwle[data-group-type="channel"] .___header-area___FLBI2{
-  border-bottom: 2px solid #D9A300 !important;
-}
-.___social-group-information___3Vwle[data-group-type="channel"] .___footer-area___294Um{
-  border-top: none !important;
-}
-.___channel-page-anchor___MM9Ik{
-  border: none !important;
-  background-color: #D9A300 !important;
-  color: white !important;
-}
-
-/*kanren contents*/
-.___heading___14I8Y,.___content-title___uHN8q{
-  color: white !important;
-}
-.___related-content-card___cf8E8:hover{
-  background-color: #555555 !important;
-}
-
-/*footer*/
-.___page-top-anchor___9sr8C{
-  background-color: #1A1B1C !important;
-}
-
-
-
-
-/*nicoad-ex*/
-#iframePanel-header h1{
-  color: white !important;
-  background: #252525 !important;
-}
-.___rich-view-status___3mt-b{
-  border: 1px solid #252525 !important;
-}
-
-/*--v103 fix--*/
-
-  /*unkome url*/
-  .___announcement-renderer___3f4Bt.___ga-ns-announcement-renderer___3T9uf.___announcement-renderer___MpHXY a{
-    color: #0080FF !important;
+    [class*="___player-body-area___"]{ //放送プレイヤー
+      [class*="___player-section___"]{
+        [class*="___player-display___"]{ //プレイヤー左側
+          [class*="___player-display-footer___"]{ //プレイヤーフッター
+            [class*="___player-controller___"]{ //コントロールバー
+              [class*="___control-area___"]{
+                [class*="___time-status-area___"]{
+                  [class*="___elapsed-time___"]{
+                    [class*="___time-text-box___"]{
+                      background: none;
+                      opacity: 0;
+                    }
+                    [class*="___time-text-box___"]:focus{
+                      background: $nico-black;
+                      opacity: 1;
+                    }
+                  }
+                }
+              }
+            }
+            [class*="___broadcast-participation-area___"]{ //新市場・コメント入力
+              background-color: black;
+              border-color: black;
+              [class*="___comment-post-panel___"]{ //コメント入力欄
+                [class*="___command-tool___"]{ //コマンド
+                  [class*="___command-palette___"]{ //コマンドパレット
+                    background-color: $nico-black;
+                    [class*="___anonymous-comment-post-toggle-button-field___"]{ //コメント投稿設定
+                      [class*="___label___"]{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                }
+  
+                [class*="___overlay___"]{ //コメント禁止
+                  background-color: $nico-black;
+                  opacity: 0.8;
+                }
+                [class*="___disabled-message___"]{ //コメント禁止
+                  color: $main-text-color;
+                }
+              }
+              [class*="___emotion-button___"]:disabled:before{ //エモーション禁止時
+                background-color: $nico-black;
+                opacity: 0.8;
+              }
+              [class*="___broadcast-participation-area-disabled-message-area___"]{
+                [class*="___broadcast-participation-area-disabled-message___"]{
+                  color: $main-text-color;
+                }
+              }
+            }
+          }
+        }
+        [class*="___player-setting-view___"]{ //プレイヤー詳細設定
+          background-color: $main-background-color;
+          border-color: $main-background-color;
+          [class*="___header___"]{
+            background-color: $nico-black;
+            [class*="___heading___"]{
+              color: $main-text-color;
+            }
+            [class*="___close-button___"]{ //閉じるボタン
+              [class*="___symbol-mark___"] path{
+                fill: $main-text-color;
+              }
+            }
+          }
+          [class*="___content___"]{
+            color: $main-text-color;
+            section{
+              [class*="___header___"]{
+                color: $main-text-color;
+              }
+              [class*="___content___"]{
+                border-color: $border-background-color;
+                [class*="___player-screen-size-menu-button-field___"]{
+                  color: $main-text-color;
+                  svg{
+                    color: $main-text-color;
+                  }
+                }
+                [class*="___player-screen-size-menu-button-field___"]:hover{
+                  background-color: $hover-background-color;
+                }
+                [class*="___toggle-button-field___"]:hover,[class*="___item___"]:hover{
+                  background-color: $hover-background-color;
+                }
+              }
+            }
+          }
+        }
+        [class*="___player-status___"]{ //ステータス・コメント・おすすめ
+          background-color: $main-background-color;
+          border-color: $main-background-color;
+          [class*="___program-information-panel___"]{ //ステータス
+            [class*="___program-statistics-menu___"]{
+              border-color: $main-background-color;
+              [class*="___item___"]{
+                [class*="___count___"]{
+                  [class*="___symbol-mark___"]{
+                    *{
+                      fill: $sub-1-text-color;
+                    }
+                    [fill="none"]{
+                      fill: none !important;
+                    }
+                  }
+                  [class*="___content___"]{
+                    color: $sub-1-text-color;
+                  }
+                }
+                [class*="___count___"][type=button]:enabled:not([aria-busy=true]):before{
+                  background-color: $hover-background-color;
+                }
+                [class*="___promotion-balloon___"]{
+                  background-color: $nico-black;
+                  [class*="___promotion-anchor___"]{
+                    color: $main-text-color;
+                  }
+                  [class*="___promotion-anchor___"]:hover{
+                    text-decoration: underline;
+                  }
+                }
+                [class*="___promotion-balloon___"]::before{
+                  background-color: $nico-black;
+                }
+              }
+            }
+          }
+          [class*="___contents-tab-panel___"]{ //コンテンツタブパネル
+            [class*="___tab-area___"]{
+              background: none;
+              border-color: $border-background-color;
+              [class*="___ng-setting-controller___"]{ //NG設定ボタン
+                svg{
+                  fill: $main-text-color;
+                }
+              }
+              [class*="___ng-setting-controller___"]:hover{ //NG設定ボタン
+                svg{
+                  fill: $main-url-color;
+                }
+              }
+              [class*="___ng-setting-controller___"]::after{
+                background-color: $border-background-color;
+              }
+              [class*="___tab-list___"]{ //tab
+                [class*="___tab___"]{
+                  background: none;
+                  color: $main-text-color;
+                }
+                [class*="___tab___"][aria-selected="true"]::after{
+                  background-color: $main-url-color;
+                }
+                [class*="___tab___"]:not([aria-selected=true]):hover{
+                  color: $main-url-color;
+                }
+                [class*="___tab___"]:not([aria-selected=true]):hover:after{
+                  background: none;
+                }
+              }
+            }
+            [class*="___comment-panel___"]{ //コメントパネル
+              [class*="___table___"]{
+                [class*="___table-row___"]{ //システムコメント
+                  [class*="___table-cell___"]{
+                    [class*="___comment-text___"]{ //コメント
+                      color: $sub-2-text-color;
+                    }
+                  }
+                }
+                [class*="___table-row___"][data-comment-type="normal"]{ //通常コメント
+                  [class*="___table-cell___"]{
+                    [class*="___comment-number___"]{ //コメント番号
+                      color: $sub-2-text-color;
+                    }
+                    [class*="___comment-text___"]{ //コメント
+                      color: $main-text-color;
+                    }
+                  }
+                }
+                [class*="___table-row___"][data-comment-type="operator"]{ //運営コメント
+                  [class*="___table-cell___"]{
+                    [class*="___comment-text___"]{ //コメント
+                      color: red;
+                    }
+                  }
+                }
+                [class*="___table-row___"]:hover{ //ホバー時
+                  background-color: $hover-background-color;
+                }
+              }
+              [class*="___comment-context-menu___"]{
+                background-color: $nico-black;
+                color: $main-text-color;
+                [class*="___menu-item___"]{
+                  color: inherit;
+                  background-color: inherit;
+                }
+                [class*="___menu-item___"]:hover{
+                  background-color: $hover-background-color;
+                }
+              }
+            }
+            [class*="___program-recommend-panel___"]{ //オススメ生放送パネル
+              [class*="___item___"]{
+                border-color: $border-background-color;
+                [class*="___program-card___"]{
+                  [class*="___content-area___"]{
+                    [class*="___program-title___"]{
+                      color: $main-text-color;
+                    }
+                    [class*="___status-bar___"]{
+                      [class*="___duration___"],[class*="___content___"]{
+                        color: $sub-1-text-color;
+                      }
+                    }
+                  }
+                }
+                [class*="___program-card___"]:hover{
+                  background-color: $hover-background-color;
+                }
+              }
+            }
+          }
+          [class*="___ng-panel___"]{ //NG設定パネル
+            background-color: $nico-black;
+            color: $main-text-color;
+            [class*="___header___"]{
+              [class*="___heading___"]{
+                color: $main-text-color;
+              }
+              [class*="___close-button___"]{ //閉じるボタン
+                [class*="___symbol-mark___"] path{
+                  fill: $main-text-color;
+                }
+              }
+            }
+            [class*="___ng-delete-form___"]{
+              [class*="___ng-data-grid___"]{
+                border-color: $border-background-color;
+                [class*="___header___"]{
+                  border-color: $border-background-color;
+                  background-color: $sub2-background-color;
+                  [class*="___header-table___"]{
+                    [class*="___header-cell___"]{
+                      color: $main-text-color;
+                    }
+                  }
+                }
+                [class*="___body___"]{
+                  [class*="___table___"]{
+                    [class*="___table-row___"]:hover{
+                      background-color: $hover-background-color;
+                    }
+                  }
+                }
+                [class*="___tooltip___"]{
+                  border-color: $border-background-color;
+                  background-color: $nico-black;
+                  color: $main-text-color;
+                }
+              }
+              [class*="___data-grid-controller___"]{
+                [class*="___ng-delete-button___"]{
+                  border-color: red;
+                  color: $main-text-color;
+                }
+                [class*="___ng-delete-button___"]:hover{
+                  background-color: $hover-background-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
-  /*gentei yuuryou*/
-  .___limited-program-label___2Am1g{
-    color: #258D8D !important;
-    border: 1px solid #258D8D !important;
-  }
-  .___pay-program-label___1_Kcn{
-    border: 1px solid #d9a300 !important;
-    color: #d9a300 !important;
+  [class*="___program-information-area___"]{ //概要欄
+    background: $main-background-color;
+
+    [class*="___program-information-header-area___"]{ //ヘッダータイトル
+      background: $nico-black;
+      box-shadow: 0 4px 8px 0 $nico-black;
+      [class*="___program-summary___"]{
+        background-color: $nico-black;
+        border-color: $nico-black;
+        box-shadow: none;
+        [class*="___primary-information-area___"]{ //枠タイトル・開始時間
+          [class*="___title___"]{ //枠タイトル
+            color: $main-text-color;
+            a{
+              color: inherit;
+            }
+            a::after{
+              filter: $invert;
+            }
+            a:hover{
+              color: $main-url-color;
+            }
+            a:hover::after{
+              filter: none;
+            }
+          }
+          [class*="___program-detail-area___"]{ //枠開始時間
+            [class*="___onair-time___"],[class*="___airtime___"]{
+              color: $sub-2-text-color;
+            }
+          }
+          [class*="___program-label-view___"][data-provider-type="channel"]{ //CHラベル
+            [class*="___limited-program-label___"]{
+              border-color: $nico-ch;
+              color: $nico-ch;
+            }
+          }
+          [class*="___program-label-view___"][data-provider-type="community"]{ //コミュラベル
+            [class*="___limited-program-label___"]{
+              border-color: $nico-com;
+              color: $nico-com;
+            }
+          }
+        }
+        [class*="___menu-dock___"]{ //Share
+          [class*="___popup-toggle-button___"]{
+            filter: $invert;
+          }
+          [class*="___list___"]{
+            background-color: $nico-black;
+            border-color: $border-background-color;
+            [class*="___item___"]{
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                background-color: $hover-background-color;
+              }
+            } 
+            
+          }
+        }
+        [class*="___user-summary___"],
+        [class*="___channel-summary___"]{ //user
+          [class*="___user-information-area___"],
+          [class*="___channel-information-area___"]{
+            [class*="___user-name___"],
+            [class*="___channel-name-anchor___"]{
+              color: $main-text-color;
+            }
+            [class*="___user-name___"]:hover,
+            [class*="___channel-name-anchor___"]:hover{
+              color: $main-url-color;
+            }
+            [class*="___level___"],
+            [class*="___supplier-name___"]{
+              color: $sub-1-text-color;
+            }
+          }
+        }
+      }
+    }
+    [class*="___program-information-body-area___"]{
+      [class*="___program-information-main-area___"]{ //左側
+        [class*="___tag-widget___"]{ //タグ
+          [class*="___tag-list___"]{
+            [class*="___item___"]{
+              [class*="___tag___"]{
+                background-color: $sub2-background-color;
+                [class*="___name-anchor___"]{
+                  color: $sub-1-text-color;
+                }
+                [class*="___name-anchor___"]:hover{
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+          [class*="___edit-mode-toggle-button___"]{ //タグ編集ボタン
+            border-color: $border-background-color;
+            background-color: $sub2-background-color;
+            color: $main-text-color;
+            svg path{
+              fill: $main-text-color;
+            }
+          }
+        }
+        [class*="___tag-widget"][data-editing=true]{
+          background: none;
+          [class*="___tag-register-form___"]{
+            background-color: $livetop-content-bg1;
+            [class*="___name-text-box___"]{
+              ul{
+                li{
+                  background-color: $nico-black;
+                  color: $main-text-color;
+                  border-color: $border-background-color;
+                }
+                li:hover{
+                  background-color: $hover-background-color;
+                }
+              }
+            }
+            [class*="___score___"]{
+              color: $sub-1-text-color;
+            }
+            [class*="___faq-anchor___"]::after{
+              color: $main-url-color;
+            }
+          }
+        }
+        [class*="___tag-widget___"]:before{
+          background-color: $nico-black;
+        }
+        [class*="___program-information___"]{ //概要欄
+          [class*="___description___"]{
+            color: $main-text-color;
+            [style*="background"]{
+              color: black;
+            }
+          }
+
+          [class*="___contents-tree-anchor___"]{
+            background-color: $nico-black;
+            color: $main-text-color;
+            border-color: $nico-tree;
+            [class*="___tree-graph-icon___"] path{
+              fill: $nico-tree;
+            }
+          }
+          [class*="___creator-promotion-program-anchor___"]{
+            background-color: $nico-black;
+            color: $main-text-color;
+            border-color: $nico-cresyo;
+            [class*="___creator-promotion-program-icon___"] path{
+              fill: $nico-cresyo;
+            }
+          }
+          [class*="___download-button___"]{
+            background-color: $nico-black;
+            color: $main-text-color;
+            border-color: $border-background-color;
+            svg path{
+              fill: $main-text-color;
+            }
+          }
+        }
+        [class*="___social-group-information___"][data-group-type="community"]{ //コミュ
+          border-color: $nico-com;
+          [class*="___header-area___"]{
+            border-color: $nico-com;
+            [class*="___group-name-anchor___"]{
+              color: $main-text-color;
+            }
+          }
+          [class*="___body-area___"]{
+            [class*="___description___3aLzk"]{
+              color: $main-text-color;
+            }
+          }
+          [class*="___footer-area___"]{
+            background-color: $nico-com;
+            [class*="___community-message___"]{
+              color: $main-text-color;
+            }
+          }
+        }
+        [class*="___social-group-information___"][data-group-type="channel"]{ //CH
+          border-color: $nico-ch;
+          [class*="___header-area___"]{
+            border-color: $nico-ch;
+            [class*="___group-name-anchor___"]{
+              color: $main-text-color;
+            }
+          }
+          [class*="___body-area___"]{
+            [class*="___description___3aLzk"]{
+              color: $main-text-color;
+              [class*="___expand-button___"]{
+                background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,$main-background-color 16%);
+              }
+            }
+          }
+          [class*="___footer-area___"]{
+            border-color: $nico-ch;
+            [class*="___community-message___"]{
+              color: $main-text-color;
+            }
+          }
+        }
+
+      }
+      [class*="___program-information-side-area___"]{ //右側
+        [class*="___konomi-tag-list-section___"]{ //好みタグ
+          [class*="___heading___"]{
+            color: $main-text-color;
+          }
+          [class*="___tag-list___"]{
+            [class*="___item___"]{
+              border-color: $border-background-color;
+              [class*="___tag-card___"]{
+                [class*="___information___"]{
+                  [class*="___name-label___"]{
+                    color: $main-text-color;
+                  }
+                  [class*="___name-label___"]:hover{
+                    color: $main-url-color;
+                  }
+                }
+                [class*="___toolbar___"]{
+                  [class*="___quote-request-button___"]{
+                    svg{
+                      fill: $main-text-color;
+                    }
+                  }
+                  [class*="___quote-request-button___"]:hover{
+                    svg{
+                      fill: $main-url-color;
+                    }
+                  }
+                }
+                [class*="___toolbar___"]::before{
+                  background-color: $border-background-color;
+                }
+              }
+            }
+          }
+        }
+        [class*="___related-content-panel___"]{ //関連コンテンツ
+          [class*="___heading___"]{
+            color: $main-text-color;
+          }
+          [class*="___content-card-list___"]{
+            [class*="___item___"]{
+              border-color: $border-background-color;
+              [class*="___content-card___"]{
+                [class*="___content-preview___"]{
+                  background: none;
+                }
+                [class*="___content-area___"]{
+                  [class*="___content-summary___"]{
+                    [class*="___pay-content-label___"]{
+                      border-color: $nico-point;
+                      color: $nico-point;
+                    }
+                    [class*="___content-title___"]{
+                      color: $main-text-color;
+                    }
+                  }
+                }
+              }
+              [class*="___content-card___"]:hover{
+                background-color: $hover-background-color;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
-  /*kanren*/
-  .___content-preview___1ShLa{
-    background-color: #1A1B1C !important;
+  [class*="___page-top-anchor___"]{
+    background: none;
+    color: $sub-1-text-color;
   }
-
-  /*nyukai*/
-  .___visit-anchor___2Yf1E{
-    color: black !important;
-  }
-  .___payment-information___2xFqv{
-    background-color: #333333 !important;
-  }
-  .___payment-information___2xFqv .___message___3RPvj{
-    color: whitesmoke !important;
-  }
-  .___net-ticket-purchase-anchor___2EVYl{
-    background-color: #d9a300 !important;
-    color: white !important;
-    border: 1px solid #d9a300 !important;
-  }
-
-  /*com in*/
-  .___follow-anchor___U_Edx{
-    color: white !important;
-    background-color: #39f !important;
-  }
-
-  /*follow*/
-  .___follow-anchor___1_jPc{
-    color: #0080ff !important;
-  }
-
-  /*comment migi*/
-  .___comment-context-menu___1nzl_{
-    background-color: #35393B !important; 
-    border: 1px solid #35393B !important;
-    color: whitesmoke !important;
-  }
-  .___comment-context-menu___1nzl_ .___menu-item___XRf5G{
-    color: whitesmoke !important;
-    background-color: #35393B !important; 
-  }
-  .___comment-context-menu___1nzl_ .___menu-item___XRf5G:hover{
-    background-color: #737373 !important; 
-  }
-  .___menu___2E9GD+.___menu___2E9GD:before{
-    background-color: #35393B !important;
-  }
+}

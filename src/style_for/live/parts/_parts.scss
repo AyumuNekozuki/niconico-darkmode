@@ -29,6 +29,7 @@
         }
         [class*="___popup-control___"]{ //フォロー中番組
           [class*="___menu-panel___"]{
+            background-color: $nico-black;
             [class*="___program-list-section___"]{
               [class*="___program-card___"]{
                 [class*="___program-summary-area___"]{
@@ -47,8 +48,25 @@
                 background-color: $hover-background-color;
               }
             }
+            [class*="___main-message___"]{
+              color: $main-text-color;
+            }
+            [class*="___description-message___"]{
+              color: $sub-1-text-color;
+            }
           }
         }
+      }
+      [class*="___program-navigation___"], //watchページ
+        [class*="___search-form___"]{ //検索box
+          [class*="___text-box___"]{
+            background-color: $sub2-background-color;
+          }
+        }
+        [class*="___search-form___"]:hover{ //検索box
+          [class*="___text-box___"]{
+            background-color: $sub2-background-color;
+          }
       }
     }
   }
@@ -101,13 +119,19 @@
                 background-color: $hover-background-color;
               }
             }
+            [class*="___main-message___"]{
+              color: $main-text-color;
+            }
+            [class*="___description-message___"]{
+              color: $sub-1-text-color;
+            }
           }
         }
       }
     }
   }
 
-  [class*="___billboard-ad___"]{ //広告
+  [class*="___billboard-ad___"],[class*="___billboard-banner___"]{ //広告
     background-color: $nico-black;
     #billboard-ad-close{
       a{
@@ -147,10 +171,15 @@
       [class*="___program-information___"]{ //TS予約時:枠タイトル
         background-color: $nico-black;
       }
-
       [class*="___control-area___"]{
         [class*="___list-view-button___"]{ //TSリスト確認ボタン
           background-color: $main-url-color;
+          color: $main-text-color;
+        }
+      }
+
+      [class*="___elapsed-time-area___"]{ //share 番組開始位置指定
+        [class*="___label___"]{
           color: $main-text-color;
         }
       }
