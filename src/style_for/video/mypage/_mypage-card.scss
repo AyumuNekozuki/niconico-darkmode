@@ -13,7 +13,7 @@
     }
   }
   .NicorepoItem-item:hover{
-    background-color: $hover-background-color;
+    box-shadow: inset 0px 0px 20px 7.5px #555;
   }
 
   //フォロー：ユーザー
@@ -81,7 +81,7 @@
       color: $sub-1-text-color;
     }
     .MylistMediaObject-linkArea:hover{
-      background: $hover-background-color;
+      box-shadow: inset 0px 0px 20px 7.5px #555;
     }
   }
   .MylistMediaObject:hover{
@@ -105,7 +105,7 @@
   .ChannelItem:hover{
     box-shadow: none;
     .ChannelItem-content{
-      background: $hover-background-color;
+      box-shadow: inset 0px 0px 20px 7.5px #555;
       .ChannelItem-name{
         color: $main-text-color;
       }
@@ -129,7 +129,7 @@
   .CommunityItem:hover{
     box-shadow: none;
     .CommunityItem-content{
-      background: $hover-background-color;
+      box-shadow: inset 0px 0px 20px 7.5px #555;
       .CommunityItem-name{
         color: $main-text-color;
       }
@@ -164,6 +164,11 @@
   }
 
   //マイリスト
+  .MylistContainer{
+    .VideoMediaObjectList>*+*{
+      border-color: $border-background-color;
+    }
+  }
   .MylistItem{
     .VideoMediaObject-item{
       .VideoMediaObject-linkArea{
@@ -371,6 +376,15 @@
 
   //公開ユザペ
     //動画
+    .UserPage{
+      .VideoPage{
+        .VideoContainer{
+          .VideoMediaObjectList>*+*{
+            border-color: $border-background-color;
+          }
+        }
+      }
+    }
     .VideoContainer-item{
       .VideoMediaObject-item{
         .VideoMediaObject-linkArea{
