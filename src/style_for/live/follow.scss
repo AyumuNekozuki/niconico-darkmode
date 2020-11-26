@@ -1,35 +1,58 @@
 @import '../parts/_default';
+@import '../parts/_dropdown';
+@import 'parts/_parts';
 @import 'parts/_card';
 
-.___heading___2uxEn{
-  color: white !important;
-}
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
 
-.___label___3_cDE{
-  color: #999 !important;
-}
-.___target___ajljm[aria-pressed=true]+.___label___3_cDE{
-  color: white !important;
-}
+  [class*="___followed-programs-page___"]{
+    background-color: $main-background-color;
 
-.___program-card___3lP8g:hover,.___label___3KD2C:hover{
-  background-color: #555555 !important;
-}
-
-.___radio-group-field___3gwJ7{
-  background-color: #252525 !important;
-}
-.___label___njX1h, .___toggle-button___2VOaL,.___label___3KD2C{
-  color: white !important;
-}filter
-.___target___3rM3p[type=radio]:checked~.___label___3KD2C{
-  color: #0080ff !important;
-}
-
-.___toggle-button___2VOaL{
-  background-color: #252525 !important;
-}
-
-.___symbol-mark___2uryc g{
-  fill:white !important;
+    [class*="___program-menu-section___"]{
+      [class*="___heading___"]{
+        color: $main-text-color;
+      }
+      [class*="___anchor-list-field___"]{
+        [class*="___list___"]{
+          [class*="___control___"]{
+            [class*="___counter-anchor___"]{
+              color: $main-text-color;
+              background-color: $nico-black;
+            }
+            [class*="___counter-anchor___"]:hover{
+              background-color: $hover-background-color;
+            }
+            [class*="___counter-anchor___"][aria-selected="true"]{
+              color: $main-text-color;
+              background-color: $main-url-color;
+            }
+          }
+        }
+      }
+    }
+    [class*="___contents-area___"]{
+      [class*="___section___"]{
+        [class*="___header___"]{
+          [class*="___heading___"]{
+            color: $main-text-color;
+          }
+          [class*="___sort-field___"]{
+            [class*="___caption___"]{
+              color: $sub-1-text-color;
+            }
+          }
+        }
+        [class*="___more-anchor___"]{
+          color: $main-url-color;
+        }
+        [class*="___more-anchor___"]::before{
+          background-color: $main-url-color;
+        }
+        [class*="___more-anchor___"]:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
