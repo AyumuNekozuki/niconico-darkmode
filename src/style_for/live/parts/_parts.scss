@@ -131,7 +131,9 @@
     }
   }
 
-  [class*="___billboard-ad___"],[class*="___billboard-banner___"]{ //広告
+  [class*="___billboard-ad___"],
+  [class*="___billboard-banner___"],
+  .billboard-ad-section{ //広告
     background-color: $nico-black;
     #billboard-ad-close{
       a{

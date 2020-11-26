@@ -1,106 +1,179 @@
+@import '../parts/_default';
+@import '../parts/_dropdown';
+@import '../parts/_page-next';
+@import 'parts/_parts';
 
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
+  main{
+    background-color: $main-background-color;
+    #page_cover{
+      .search-input-area{
+        background: none;
+        box-shadow: none;
+        border-color: $border-background-color;
+        .search-tab-list{
+          .search-tab-item{
+            .search-tab-anchor{
+              background-color: $nico-black;
+              color: $main-text-color;
+            }
+            .search-tab-anchor::before{
+              border-top-color: $nico-black;
+            }
+            .search-tab-anchor:hover{
+              background-color: $hover-background-color;
+            }
+            .search-tab-anchor.active{
+              background-color: $main-url-color;
+              color: $main-text-color;
+            }
+          }
+        }
+        .search-form{
+          #search_form_word{
+            box-shadow: none;
+          }
+          .suggestion_list_for_live{
+            ul{
+              li{
+                color: $main-text-color;
+                background-color: $nico-black;
+                border-color: $border-background-color;
+              }
+              li:hover{
+                background-color: $hover-background-color;
+              }
+            }
+          }
+        }
+        .search-result-summary{
+          color: $sub-1-text-color;
+        }
+      }
 
-#billboard_ad{
-  background-color: #1A1B1C !important;
-  border-bottom: 1px solid #999;
-}
+      .searchPage-Layout{
+        .searchPage-Layout_Main{
+          .searchPage-Layout_Section{
+            background-color: $nico-black;
+            border-color: $border-background-color;
+            .searchPage-SearchHeader{
+              box-shadow: 0 -1px 0 0 $border-background-color inset;
+              .searchPage-SearchHeader_List{
+                .searchPage-SearchHeader_Button{
+                  .searchPage-SearchHeader_ButtonContent{
+                    color: $main-text-color;
+                  }
+                  .searchPage-SearchHeader_ButtonInput:checked+.searchPage-SearchHeader_ButtonContent{
+                    color: $main-url-color;
+                  }
+                }
+                .searchPage-SearchHeader_Button:hover{
+                  .searchPage-SearchHeader_ButtonContent{
+                    color: $main-url-color;
+                  }
+                }
+              }
+            }
+            .searchPage-SearchFilter{
+              .searchPage-SearchFilter_Provider{
+                .searchPage-SearchFilter_ProviderType{
+                  .searchPage-SearchFilter_ProviderCaption{
+                    background-color: $sub2-background-color;
+                    color: $main-text-color;
+                    border-color: $border-background-color;
+                  }
+                  .searchPage-SearchFilter_ProviderCaption:hover{
+                    background-color: $hover-background-color;
+                  }
+                  .searchPage-SearchFilter_ProviderInput:checked+.searchPage-SearchFilter_ProviderCaption{
+                    background-color: $main-url-color;
+                    color: $main-text-color;
+                    border-color: $main-url-color;
+                  }
+                }
+              }
+            }
+            .searchPage-ProgramList{
+              .searchPage-ProgramList_Item{
+                .searchPage-ProgramList_ThumbnailLink{
+                  background-color: $sub2-background-color;
+                }
+                .searchPage-ProgramList_Detail{
+                  .searchPage-ProgramList_Title{
+                    .searchPage-ProgramList_TitleIcon-pay{
+                      border-color: $nico-point;
+                      color: $nico-point;
+                    }
+                    .searchPage-ProgramList_TitleIcon-private{
+                      border-color: $nico-com;
+                      color: $nico-com;
+                    }
+                    .searchPage-ProgramList_TitleLink{
+                      color: $main-text-color;
+                    }
+                    .searchPage-ProgramList_TitleLink:visited{
+                      color: $sub-1-text-color;
+                    }
+                    .searchPage-ProgramList_TitleLink:hover{
+                      color: $main-url-color;
+                    }
+                  }
+                  .searchPage-ProgramList_Description{
+                    color: $sub-1-text-color;
+                  }
+                  .searchPage-ProgramList_Data{
+                    .searchPage-ProgramList_DataItem{
+                      .searchPage-ProgramList_DataText{
+                        color: $sub-2-text-color;
+                      }
+                    }
+                  }
+                  .searchPage-ProgramList_User{
+                    .searchPage-ProgramList_UserDetail{
+                      .searchPage-ProgramList_UserName{
+                        .searchPage-ProgramList_UserNameLink{
+                          color: $main-text-color;
+                        }
+                        .searchPage-ProgramList_UserNameLink:hover{
+                          color: $main-url-color;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              .searchPage-ProgramEmpty{ //結果なし
+                .searchPage-ProgramEmpty_Text{
+                  color: $sub-1-text-color;
+                  .searchPage-ProgramEmpty_Icon{
+                    opacity: 1;
+                  }
+                  .searchPage-ProgramEmpty_Keyword{
+                    color: $main-text-color;
+                  }
+                }
+              }
+            }
 
-/*input serch*/
-.search-input-area{
-  background: none !important;
-}
-.search-input-area .search-tab-anchor{
-  background-color: #1A1B1C !important;
-  border: 1px #666 solid;
-}
-#search_form_word{
-  background-color: #35393B !important;
-  color: white !important;
-}
-
-/*結果*/
-.searchPage-Layout_Section{
-  background-color: #252525 !important;
-  border: 1px solid #666 !important;
-}
-.searchPage-SearchHeader_ButtonContent{
-  color: white !important;
-}
-.searchPage-SearchHeader_ButtonInput:checked+.searchPage-SearchHeader_ButtonContent{
-  color: #0080ff !important;
-  -webkit-box-shadow: 0 -2px 0 0 #0080ff inset !important;
-}
-
-/*sort*/
-.searchPage-SearchFilter_ProviderCaption{
-  background-color: #252525 !important;
-  border: 1px solid #666 !important;
-  color: white !important;
-}
-.searchPage-SearchFilter_ProviderInput:checked+.searchPage-SearchFilter_ProviderCaption{
-  background-color: #0080ff !important;
-  border: 1px solid #0080ff !important;
-}
-.searchPage-SearchFilter_Sort{
-  background-color: #252525 !important;
-  border: 1px solid #666 !important;
-  color: white !important;
-}
-
-/*option*/
-.searchPage-SearchOption{
-  background-color: #555 !important;
-}
-.searchPage-Switch_Caption{
-  color: white !important;
-}
-
-/*live*/
-.searchPage-ProgramList_Description{
-  color: #999 !important;
-}
-.searchPage-ProgramList_Data li span{
-  color: #999 !important;
-}
-.searchPage-ProgramList_TimeShift{
-  background-color: #252525 !important;
-  border: 1px solid #666 !important;
-  color: white !important;
-}
-
-/*コミュ限*/
-.searchPage-ProgramList_TitleIcon-pay, .searchPage-ProgramList_TitleIcon-private{
-  border-color: #258D8D !important;
-  color: #258D8D !important;
-}
-
-
-/*next*/
-.searchPage-Pager_Item-next[data-disabled=true], .searchPage-Pager_Item-prev[data-disabled=true], .searchPage-Pager_Item[data-disabled=true]{
-  background-color: #666 !important;
-  border-color: #666 !important;
-  color: #999 !important;
-}
-.searchPage-Pager_Item, .searchPage-Pager_Item-next, .searchPage-Pager_Item-prev{
-  background-color: #404040 !important;
-  border-color: #404040 !important;
-  color: white !important;
-}
-.searchPage-Pager_Item-next[data-active=true], .searchPage-Pager_Item-prev[data-active=true], .searchPage-Pager_Item[data-active=true]{
-  background-color: #0080ff !important;
-  border-color: #0080ff !important;
-  color: white !important;
-}
-
-/*midashi*/
-.searchPage-SearchSubHeader_LinkContent{
-  color: white !important;
-}
-
-/*ads feedback*/
-#footer_ads{
-  background: none !important;
-}
-.feedback_link a{
-  background: none !important;
+            .searchPage-SearchSubHeader{
+              box-shadow: 0 -1px 0 0 $border-background-color inset;
+              .searchPage-SearchSubHeader_List{
+                .searchPage-SearchSubHeader_Link{
+                  .searchPage-SearchSubHeader_LinkContent{
+                    color: $main-text-color;
+                  }
+                }
+                .searchPage-SearchSubHeader_Link:hover{
+                  .searchPage-SearchSubHeader_LinkContent{
+                    color: $main-url-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

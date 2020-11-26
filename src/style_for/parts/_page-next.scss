@@ -55,4 +55,41 @@
       }
     }
   }
+
+  //生放送検索
+  main{
+    #page_cover{
+      .searchPage-Layout{
+        .searchPage-Layout_Main{
+          .searchPage-Layout_Section{
+            .searchPage-Pager{
+              .searchPage-Pager_Item,
+              .searchPage-Pager_Item-next,
+              .searchPage-Pager_Item-prev{
+                color: $main-text-color;
+                border-color: $border-background-color;
+                background-color: $sub2-background-color;
+              }
+              .searchPage-Pager_Item:hover,
+              .searchPage-Pager_Item-next:hover,
+              .searchPage-Pager_Item-prev:hover{
+                background-color: $hover-background-color;
+              }
+              .searchPage-Pager_Item[data-active=true]{
+                color: $main-text-color;
+                border-color: $main-url-color;
+                background-color: $main-url-color;
+              }
+              .searchPage-Pager_Item-next[data-disabled=true],
+              .searchPage-Pager_Item-prev[data-disabled=true]{
+                background-color: $sub2-background-color;
+                color: $sub-2-text-color;
+                border-color: $sub2-background-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

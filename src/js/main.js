@@ -34,9 +34,9 @@ chrome.storage.local.get(["version"], function (items) {
   console.log("niconico-Darkmode: version: " + items.version);
 
   //v1.2.1以降更新時、versionのsocial_topのset指定を消すこと
-  if ((items.version != "1.1.3")) {
+  if ((items.version != "1.1.4")) {
     chrome.storage.local.set({
-      "version": "1.1.3"
+      "version": "1.1.4"
     })
     chrome.storage.local.get(["setting"], function (items) {
       if (items.setting == undefined) {
