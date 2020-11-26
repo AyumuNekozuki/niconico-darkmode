@@ -267,8 +267,6 @@
                 "https://live2.nicovideo.jp/history*"
             ],
             "css": [
-                "style_for/parts/header.css",
-                "style_for/live/parts/live_parts.css",
                 "style_for/live/history.css"
             ]
         },

@@ -1,3 +1,24 @@
-.Bltxt{
-  color: #999 !important;
+@import '../parts/_default';
+@import 'parts/_parts';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
+
+  .container{
+    color: $main-text-color;
+    h3{
+      a{
+        color: $main-text-color;
+      }
+      a:hover{
+        color: $main-url-color;
+      }
+    } 
+
+    .Bltxt{
+      color: $sub-1-text-color;
+    }
+  }
+
+
 }
