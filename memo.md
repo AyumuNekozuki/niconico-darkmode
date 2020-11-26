@@ -10,7 +10,7 @@
 ---
 
 ## niconico
-- [ ] TOP（基本時OK/イベント時の除外処理未実装）
+- [x] TOP
 - [x] daily topics
 - [x] メインheader
 - [x] RSS

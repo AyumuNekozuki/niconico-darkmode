@@ -86,9 +86,6 @@ AyumuNekozuki / [@nekozuki_dev](https://twitter.com/nekozuki_dev) / https://port
 ## SpecialThanks
 [@hiyakake](https://github.com/hiyakake) 
 
-### 不具合報告協力
-[@momoirodouhu](https://twitter.com/momoirodouhu) / [@suo_nico](https://twitter.com/suo_nico)
-
 ---
 
 [作業メモ](memo.md)
