@@ -237,8 +237,6 @@
                 "https://live2.nicovideo.jp/my*"
             ],
             "css": [
-                "style_for/parts/header.css",
-                "style_for/live/parts/live_parts.css",
                 "style_for/live/my.css"
             ]
         },{
