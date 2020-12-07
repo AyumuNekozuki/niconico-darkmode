@@ -163,6 +163,15 @@
                         }
                     }
                 }
+                .NicorepoSideContainer{
+                    .NicorepoPageSubMenu-types{
+                        .NicorepoPageSubMenu-subMenuItem{
+                            .SubMenuLink-link_active{
+                                border-left: none;
+                            }
+                        }
+                    }
+                }
                 .NicorepoPage-content{
                     .TimelineContainer{
                         .NicorepoItem-item{

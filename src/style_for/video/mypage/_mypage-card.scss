@@ -11,6 +11,14 @@
     a{
       color: $main-text-color;
     }
+    .NicorepoItem-activity{
+      .NicorepoItem-activityCreatedAt{
+        color: $sub-1-text-color;
+      }
+      .NicorepoItem-activityCreatedAt_new{
+        color: #d0021b;
+      }
+    }
   }
   .NicorepoItem-item:hover{
     box-shadow: inset 0px 0px 20px 7.5px #555;
