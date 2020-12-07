@@ -19,11 +19,13 @@
             filter: $invert;
           }
           .HeaderContainer_Re-mainLower{
-            .OneLineLinkContainer-link{
-              color: $main-text-color;
-            }
-            .OneLineLinkContainer-link:hover{
-              color: $main-url-color;
+            .OneLineLinkContainer-item{
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
+              }
             }
           }
         }
