@@ -66,6 +66,7 @@ $ tree -L 3
 3. [拡張機能の管理](chrome://extensions/)からデベロッパーモードを有効化
 4. gitのルートディレクトリで`docker-compose up [-d]`を実行しコンパイルを実行
 5. `dest`を読み込み編集
+6. 終了させる場合は、`docker-compose down`
 
 ### 環境構築(Firefox)
 1. 最新のリポジトリをDL
@@ -73,6 +74,7 @@ $ tree -L 3
 3. [デバッグメニュー](about:debugging#/runtime/this-firefox)へ移動
 4. gitのルートディレクトリで`docker-compose up [-d]`を実行しコンパイルを実行
 5. `dest`を読み込み編集
+6. 終了させる場合は、`docker-compose down`
 
 ### 注意事項
 同じファイルでChrome/Firefoxどちらも動作する必要があります。
