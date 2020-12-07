@@ -71,13 +71,13 @@
               color: $main-url-color;
             }
             .VideoDescription-html{
-              span[style="color: #262626;"]{
+              span[style*="color: #262626;"]{
                 color: $main-text-color !important;
               }
-              span[style="color: #ffffff;"],span[style="color: white;"]{
+              span[style*="color: #ffffff;"],span[style*="color: white;"]{
                 color: #000000 !important;
               }
-              span[style="color: #000000;"],span[style="color: black;"]{
+              span[style*="color: #000000;"],span[style*="color: black;"]{
                 color: #ffffff !important;
               }
             }
@@ -479,9 +479,14 @@
             a{
               color: $main-text-color;
             }
-            .ContentTree-parentSummary .Link{
-              background: $hover-background-color;
-            }
+            .ContentTree-summary{
+              .Link{
+                background: $hover-background-color;
+              }
+              .Link:hover{
+                background: $main-url-color;
+              }
+            } 
           }
           .UadVideosContainer{
             a{
