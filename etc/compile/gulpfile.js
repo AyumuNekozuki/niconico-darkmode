@@ -200,11 +200,11 @@ function json() {
 
 /**変更の追跡 */
 function watch() {
-	gulp.watch(['src/style_for/**/*.scss'], styles);
-	gulp.watch(['src/**/*.php', 'src/**/*.html'], php);
-	gulp.watch(['src/images/**/*'], images);
-	gulp.watch(['src/js/**/*.js'], js);
-	gulp.watch(['src/**/*.json'], json);
+	gulp.watch(['src/style_for/**/*.scss'],{ usePolling: true }, styles);
+	gulp.watch(['src/**/*.php', 'src/**/*.html'],{ usePolling: true }, php);
+	gulp.watch(['src/images/**/*'],{ usePolling: true }, images);
+	gulp.watch(['src/js/**/*.js'],{ usePolling: true }, js);
+	gulp.watch(['src/**/*.json'],{ usePolling: true }, json);
 }
 /**初期動作 */
 exports.default = gulp.series(styles, php, images, js ,json, watch);
