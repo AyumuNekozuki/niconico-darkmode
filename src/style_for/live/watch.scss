@@ -347,6 +347,12 @@
               color: $nico-com;
             }
           }
+          [class*="___program-label-view___"]{ //有料生放送
+            [class*="___pay-program-label___"]{
+              border-color: $nico-point;
+              color: $nico-point;
+            }
+          }
         }
         [class*="___menu-dock___"]{ //Share
           [class*="___popup-toggle-button___"]{
@@ -439,10 +445,42 @@
           background-color: $nico-black;
         }
         [class*="___program-information___"]{ //概要欄
+          [class*="___payment-information___"]{ //ネチケ
+            background-color: $nico-black;
+            [class*="___message___"]{
+              color: $main-text-color;
+            }
+            [class*="___payment-action-menu___"]{
+              [class*="___net-ticket-purchase-anchor___"],
+              [class*="___serial-code-use-button___"]{
+                color: $main-text-color;
+                border-color: $border-background-color;
+                background-color: $sub2-background-color;
+                [class*="___content___"]{
+                  color: $main-text-color;
+                }
+              }
+              [class*="___net-ticket-purchase-anchor___"]:hover,
+              [class*="___serial-code-use-button___"]:hover{
+                background-color: $hover-background-color;
+              }
+              [class*="___net-ticket-purchase-anchor___"]::after{
+                border-color: $main-text-color;
+              }
+              [class*="___serial-code-use-button___"]{
+                [class*="___symbol-mark___"]>path{
+                  fill: $main-text-color;
+                }
+              }
+            }
+          }
           [class*="___description___"]{
             color: $main-text-color;
             [style*="background"]{
               color: black;
+            }
+            font[color*="#808080"]{
+              color: $sub-1-text-color;
             }
           }
 
@@ -588,5 +626,21 @@
   [class*="___page-top-anchor___"]{
     background: none;
     color: $sub-1-text-color;
+  }
+
+  /*modal*/
+  [class*="___program-watch-serial-code-apply-form___"]{ //シリアル入力
+    background-color: $main-background-color;
+    [class*="___message___"]{
+      color: $main-text-color;
+    }
+    [class*="___action-menu___"]{
+      [class*="___close-button___"]{
+        color: $sub-2-text-color;
+      }
+      button:hover{
+        background-color: $hover-background-color !important;
+      }
+    }
   }
 }
