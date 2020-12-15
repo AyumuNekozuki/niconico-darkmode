@@ -44,7 +44,7 @@
           [class*="___menu-area___"]{ //メニュー
             box-shadow: 0 1px 0 $border-background-color;
             [class*="___status-bar___"]{
-              [class*="___duration___"]{ //経過時間
+              [class*="___duration___"],[class*="__start-at___"]{ //経過時間
                 color: $sub-1-text-color;
               }
               [class*="___program-statistics___"]{ //コメント数
