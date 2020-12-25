@@ -69,6 +69,11 @@
                     .ExpandBoxButton-overlay{
                         background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,$nico-default-bg);
                     }
+                    .ExpandBox-expanded{
+                        div span{
+                            color: $main-text-color;
+                        }
+                    }
                 }
                 .UserDetailsHeader:after{
                     background-color: $border-background-color;
@@ -282,8 +287,13 @@
                     .MylistHeader:after{
                         background-color: $border-background-color;
                     }
-                    .MylistDescription .ExpandBox_is-expanded{
-                        color: $sub-1-text-color;
+                    .MylistDescription{
+                        .ExpandBox_is-expanded{
+                            color: $sub-1-text-color;
+                        }
+                        .ExpandBoxButton-overlay{
+                            background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,$main-background-color);
+                        }
                     }
                     .MylistHeaderAction{
                         .ShareButton,.ThreePointMenu-button{
