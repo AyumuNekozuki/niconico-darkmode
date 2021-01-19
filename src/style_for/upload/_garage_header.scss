@@ -1,0 +1,60 @@
+@import '../parts/_default';
+
+body{
+  #root{
+    header.css-1qgkgen{ //ヘッダー
+      background: $nico-black;
+      .css-19wh4e9{ //ロゴ
+        a svg g{
+          fill: $main-text-color !important;
+        }
+      }
+      .css-ltttum{ //ヘッダーメニュー 中央
+        .css-1fms4np{
+          .css-v6gc3.css-v6gc3{
+            color: $main-text-color;
+          }
+          .css-v6gc3.css-v6gc3:hover{
+            background: $hover-background-color;
+          }
+        }
+        .active{
+          .css-v6gc3.css-v6gc3{
+            color: $main-url-color;
+          }
+        }
+      }
+      .css-yv00jc{ //ヘッダーメニュー 右
+        .css-xqpk81.css-xqpk81{
+          color: $sub-1-text-color;
+        }
+        .css-xqpk81.css-xqpk81:hover{
+          background: rgba(255, 255, 255, 0.25);
+        }
+      }
+
+      .css-ioo85u{ //ヘッダ 編集 右側
+        .css-16rvsbe{
+          color: $main-text-color;
+        }
+        .MuiIconButton-root{ // x ボタン
+          .MuiIconButton-label{
+            svg{
+              fill: $main-text-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .MuiPaper-root{
+    background: $nico-black;
+    color: $main-text-color;
+    .MuiList-root{
+      .MuiListItem-button:hover{
+        background-color: $hover-background-color;
+      }
+    }
+  }
+}

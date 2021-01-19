@@ -275,6 +275,14 @@
             "css": [
                 "style_for/account/login.css"
             ]
+        },
+        {
+            "matches": [
+                "https://www.upload.nicovideo.jp/garage*"
+            ],
+            "css": [
+                "style_for/upload/garage_master.css"
+            ]
         }
     ]
     ,

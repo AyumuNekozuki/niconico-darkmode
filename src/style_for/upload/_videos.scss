@@ -1,0 +1,111 @@
+@import '../parts/_default';
+
+body{
+  background-color: $main-background-color !important;
+
+  #root{
+    .css-11oexn1{
+      .css-81qgnv{ //投稿動画一覧
+        nav.css-4uknxx{
+          background: none;
+          .css-1nkfu0y{ //ソート
+            .MuiInputBase-root{ //検索ボックス
+              background: $sub2-background-color;
+              color: $main-text-color;
+            }
+            .css-1eju6js.css-1eju6js > div{ //ソート
+              background: $sub2-background-color;
+              border-color: $border-background-color;
+            }
+            .css-141qn3v.css-141qn3v{ //ソートボタン
+              background: $sub2-background-color;
+              border-color: $border-background-color;
+              .MuiIconButton-label{
+                svg{
+                  fill: $main-text-color;
+                }
+              }
+            }
+          }
+          .css-1tkgnx7{ //総投稿数
+            .css-1ujflls{
+              color: $main-text-color;
+            }
+          }
+        }
+        #UploadedInfiniteScrollTarget{ //動画一覧
+          border-color: $border-background-color;
+          background: $main-background-color;
+          .css-i2vhkp{ //item
+            background: $main-background-color;
+            .css-h1csmh{ //動画情報
+              .css-1ih34rs{ //title
+                color: $main-text-color;
+              }
+              .css-jy3g4o{ //コメント
+                .css-is9qkb, .css-178hfsg{
+                  color: $sub-1-text-color;
+                }
+                .css-is9qkb > span,.css-178hfsg > span{
+                  background-color: $nico-black
+                }
+              }
+            }
+            .css-cssveg{ //縦3点
+              .MuiIconButton-root:hover{
+                background-color: $hover-background-color;
+              }
+            }
+            .css-192ylmc{ //公開非公開
+              .css-19krv40.css-19krv40:hover{
+                background: $hover-background-color;
+              }
+            }
+            .css-1j8g6vn{ //投稿途中
+              .css-b3ywll{
+                color: $main-text-color;
+              }
+              .css-b3ywll:hover{
+                color: $main-url-color;
+              }
+            }
+          }
+          .css-i2vhkp::after{
+            background: $border-background-color;
+          }
+        }
+
+        /*動画なし*/
+        img.css-12z3hny{
+          background: $main-text-color;
+          padding: 5px;
+          border-radius: 15px;
+        }
+        h2.css-148wlgb{
+          color: $main-text-color;
+        }
+      }
+    }
+  }
+
+  .MuiDialog-container{
+    .MuiDialog-paper{
+      .MuiDialogContent-root{
+        .MuiDialogContentText-root{
+          color: $main-text-color;
+        }
+        .css-vfrlwi{
+          background: none;
+        }
+      }
+      .MuiDialogActions-root{
+        .MuiButton-textPrimary{
+          color: $main-url-color;
+        }
+        .MuiButton-textPrimary:hover{
+          background-color: $hover-background-color;
+        }
+      }
+    }
+  }
+}
