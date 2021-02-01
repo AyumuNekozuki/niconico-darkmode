@@ -1,0 +1,53 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  #root{
+    .css-81qgnv{ 
+      .css-84foqp{ //シリーズ
+        .css-exhu38{
+          .css-16l27hi{
+            color: $main-text-color;
+          }
+        }
+      }
+      .css-1km75w5{ //アナリティクス
+        .css-yedo6c{
+          .css-1q2925z{
+            background-color: $nico-black;
+            .css-ro2p94{
+              h1{
+                color: $main-text-color;
+              }
+              .css-e4vrok{
+                color: $sub-1-text-color;
+              }
+            }
+          }
+        }
+        .css-1153irv{
+          color: $main-text-color;
+        }
+        .css-o9mw6f{
+          h2{
+            color: $main-text-color;
+          }
+          p{
+            color: $sub-1-text-color;
+          }
+        }
+        .css-12ytzr2{
+          background-color: $nico-black;
+          .css-11hsdgh{
+            .css-11a9jvo{
+              p{
+                color: $main-text-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/*
+  このファイルはガレージのCSS読み込み用ファイルです。
+  ガレージは他部分と違い、CSSを一括で読み込むため纏める必要があります。
+
+  manifest.jsonにはこのファイルだけを記述し、
+  このファイルにimport形式で読み込むようにしてください。
+*/
+
+@import '../parts/_default'; //全配色
+@import '_garage_header'; //ガレージヘッダー
+@import '_garage_footer'; //ガレージフッター
+
+@import '_videos'; //投稿動画一覧
+@import '_upload'; //動画ファイル選択
+@import '_edit'; //動画情報入力・編集
+
+@import '_series'; //シリーズ
+@import '_analytics'; //アナリティクス
+
+@import '_nopost'; //動画未投稿

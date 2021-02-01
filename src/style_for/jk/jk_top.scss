@@ -1,0 +1,75 @@
+@import '../parts/_default';
+@import '../parts/header';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  header.header{
+    .header__inner{
+      .header__link{
+        .header__logo img{
+          filter: $invert;
+        }
+      }
+      .header__text{
+        background: $nico-black;
+        border-color: $border-background-color;
+        color: $main-text-color;
+      }
+      .header__text:after{
+        border-right-color: $border-background-color;
+      }
+    }
+  }
+  main.main{
+    div.comment-bg.js-comment-bg{
+      opacity: .25;
+    }
+    section.tv{
+      h2.tv__head{
+        color: $main-text-color;
+        svg>path{
+          fill: $main-text-color !important;
+        }
+      }
+    }
+    section.live{
+      h2.live__head{
+        color: $main-text-color;
+        svg>path{
+          fill: $main-text-color !important;
+        }
+      }
+      div.live__banner{
+        width: 100%;
+        background: -moz-linear-gradient(left, transparent, $nico-white 5%, $nico-white 55%, transparent 80%);
+        background: -webkit-linear-gradient(left, transparent, $nico-white 5%, $nico-white 55%, transparent 80%);
+        background: linear-gradient(to right, transparent, $nico-white 5%, $nico-white 55%, transparent 80%);
+      }
+      ul.live__list{
+        li.live__item{
+          .livecard{
+            background: $nico-black;
+            .livecard__meta{
+              color: $sub-1-text-color;
+              border-color: $border-background-color;
+            }
+            .livecard__title{
+              color: $main-text-color;
+            }
+            .livecard__user{
+              .livecard__user-name{
+                color: $sub-1-text-color;
+              }
+            }
+          }
+          .livecard:hover{
+            .livecard__title{
+              color: $main-url-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

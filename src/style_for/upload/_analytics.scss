@@ -1,0 +1,1062 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  #root{
+    .css-81qgnv{
+      nav.css-mmkjmf{ //サイドバー
+        background: $nico-black;
+        .css-ku9e1g{
+          background: none;
+          span{
+            .MuiButtonBase-root.MuiIconButton-root{
+              .MuiIconButton-label{
+                filter: $invert;
+              }
+            }
+            span{
+              color: $main-text-color;
+            }
+          } 
+        }
+        ul.css-t4s6o7{
+          .css-14i17n8{
+            color: $main-text-color;
+          }
+          .css-14i17n8:hover{
+            background: $hover-background-color;
+          }
+          .css-14i17n8.active{
+            background: none;
+            color: $main-url-color;
+            svg{
+              fill: $main-url-color;
+            }
+          }
+        }
+        .css-8skca7{ //最近投稿した動画 
+          p{
+            color: $sub-2-text-color;
+          }
+          ul{
+            .css-1tre5jn{ //item
+              .css-ov1ktg{
+                .css-11zhy3w .css-t2xekm{
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+            .css-1tre5jn:hover{ //item
+              background: $hover-background-color;
+            }
+            .css-1tre5jn.active{ //item
+              background: none;
+              border: 2px solid $main-url-color;
+              .css-ov1ktg{
+                .css-11zhy3w .css-t2xekm{
+                  color: $main-url-color;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+      }
+      nav.mini.css-mmkjmf{ //サイドバーmini
+        .css-nur4ki{
+          background: none;
+          span .MuiButtonBase-root.MuiIconButton-root{
+            filter: $invert;
+          }
+        }
+      }
+      .css-2iwlav{ //サマリーレポート
+        .css-vb3iwc{//header
+          background: $nico-black;
+          .css-zbqfsi{
+            .css-1n8vn2q h1{
+              color: $main-text-color;
+            }
+            .css-1mwn02k{
+              .css-11o4wdc{ //検索box
+                .css-xw0iqe{
+                  .css-10jt4ez{
+                    .MuiInputBase-root{
+                      color: $main-text-color;
+                      background: $sub2-background-color;
+                    }
+                  }
+                }
+                .css-qpnp9l{ //予測
+                  background: $nico-black;
+                  .css-1toxmt6{//item
+                    .css-1ww7k40{
+                      .css-1cja6wp{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                  .css-1toxmt6::after{
+                    border-color: $border-background-color;
+                  }
+                }
+              }
+              .css-7dqwih{ //集計期間
+                color: $main-text-color;
+              }
+            }
+          }
+        }
+        .css-8fuf7y{
+          .css-1nb3ibx{
+            section.css-1rhbhpi{ //描画エリア
+              .css-ffipe{
+                h1{
+                  color: $sub-1-text-color;
+                }
+                .css-cssveg{//help
+                  .css-e66b5{
+                    .css-54kdcn{
+                      background: $sub2-background-color;
+                      h1{
+                        color: $sub-1-text-color;
+                      }
+                      p{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+              .css-dxui33{ //グラフ
+                background: black;
+                .css-48qih1{ //統計数値
+                  .css-med6ft{
+                    .css-c159n5{
+                      border-color: $border-background-color;
+                      .css-1qb35ad{
+                        .css-yd1h2j{
+                          color: $sub-2-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+                .css-xf18ah{
+                  border-color: $border-background-color;
+                  .css-exhu38{ //checkbox
+                    .MuiFormControl-root{
+                      .MuiFormControlLabel-root{
+                        .MuiTypography-body1{
+                          color: $sub-2-text-color;
+                        }
+                      }
+                    }
+                  }
+                  .css-1grovqi{ //popupdata
+                    .css-zllu7x{
+                      background-color: $nico-black;
+                      .css-1tnmm89{
+                        color: $main-text-color;
+                      }
+                      .css-13u1y5e{
+                        .css-19imaa1{
+                          color: $sub-1-text-color;
+                        }
+                      }
+                    }
+                    .css-1pwymte{ //下
+                      div[class*="css-"]{
+                        .css-1jr4onc{
+                          background-color: $nico-black;
+                          .css-1cja6wp{
+                            color: $main-text-color;
+                          }
+                          .css-y8k0pa{
+                            color: $sub-1-text-color;
+                          }
+                        }
+                      }
+                      div[class*="css-"]:hover{
+                        background-color: $nico-black;
+                      }
+                    }
+                  }
+                  .css-lggqlp{ //下
+                    color: $sub-1-text-color;
+                  }
+                }
+                .css-10c208t{
+                  border-color: $border-background-color;
+                  ul li{
+                    span{
+                      color: $main-text-color;
+                    }
+                    a{
+                      color: $main-url-color;
+                    }
+                  }
+                }
+              }
+            }
+            .css-12ttm9s{
+              section.css-x4ttnl{ //再生数が伸びている動画
+                .css-ffipe{
+                  h1{
+                    color: $main-text-color;
+                  }
+                  .css-cssveg{
+                    .css-54kdcn{
+                      background-color: $nico-black;
+                      h1, p{
+                        color: $main-text-color;
+                      }
+                      a{
+                        color: $main-url-color;
+                      }
+                    }
+                  }
+                }
+                .css-1nt7e7f{
+                  background-color: black;
+                  .css-1w5dyxl{
+                    .css-14832zm{
+                      .css-1onla1f{
+                        border-color: $border-background-color;
+                        .css-1ocapm5{
+                          color: $sub-1-text-color;
+                        }
+                      }
+                      .css-lwuepq{
+                        .css-10nkm7z{
+                          .css-42h5o3{
+                            color: $main-text-color;
+                          }
+                        }
+                      }
+                    }
+                    .css-vf2kyr::after{
+                      background-color: $border-background-color;
+                    }
+                  }
+                }
+              }
+              section.css-ur21qy{ //最近投稿した動画
+                .css-ffipe{
+                  h1{
+                    color: $main-text-color;
+                  }
+                  .css-cssveg{
+                    .css-54kdcn{
+                      background-color: $nico-black;
+                      h1, p{
+                        color: $main-text-color;
+                      }
+                      a{
+                        color: $main-url-color;
+                      }
+                    }
+                  }
+                }
+                .css-ac0i4c{
+                  background-color: black;
+                  .css-1toxmt6{ //item
+                    .css-47rul3{
+                      .css-11g9kr1{
+                        .css-1ww7k40{
+                          .css-1haohc6{
+                            .css-1cja6wp{
+                              color: $sub-1-text-color;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  .css-1toxmt6::after{
+                    border-color: $border-background-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .css-1ova14c{ //全動画レポート
+        .css-vb3iwc{//header
+          background: $nico-black;
+          .css-zbqfsi{
+            .css-1n8vn2q h1{
+              color: $main-text-color;
+            }
+            .css-1mwn02k{
+              .css-11o4wdc{ //検索box
+                .css-xw0iqe{
+                  .css-10jt4ez{
+                    .MuiInputBase-root{
+                      color: $main-text-color;
+                      background: $sub2-background-color;
+                    }
+                  }
+                }
+                .css-qpnp9l{ //予測
+                  background: $nico-black;
+                  .css-1toxmt6{//item
+                    .css-1ww7k40{
+                      .css-1cja6wp{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                  .css-1toxmt6::after{
+                    border-color: $border-background-color;
+                  }
+                }
+              }
+              .css-1bvn73x{
+                background-color: $nico-black;
+                .css-12socs5{
+                  color: $sub-1-text-color;
+                }
+                .css-j0iosi{
+                  div{
+                    color: $main-text-color;
+                  }
+                }
+              }
+              .css-1bvn73x:hover{
+                background-color: $hover-background-color;
+              }
+              .css-fbhamp{ //カスタムカレンダー
+                .css-1iyoj2o{
+                  .css-kknodv{
+                    .css-w225zo{
+                      color: $sub-2-text-color;
+                    }
+                  }
+                  .MuiPickersStaticWrapper-root{
+                    background: none;
+                    .MuiPickersCalendar-weekDayLabel{
+                      color: $sub-2-text-color;
+                    }
+                    .MuiPickersDay-root{
+                      color: $sub-1-text-color;
+                    }
+                    .MuiPickersDay-root.Mui-disabled{
+                      color: $hover-background-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .css-2g7krq{
+          .css-wdqk7u{
+            h1,h2{
+              color: $main-text-color;
+            }
+            .css-cssveg{//help
+              .css-e66b5{
+                .css-54kdcn{
+                  background: $sub2-background-color;
+                  h1{
+                    color: $sub-1-text-color;
+                  }
+                  p{
+                    color: $main-text-color;
+                  }
+                }
+              }
+            }
+          }
+          .css-dxui33{ //グラフ
+            background: black;
+            .css-48qih1{ //統計数値
+              .css-med6ft{
+                .css-c159n5{
+                  border-color: $border-background-color;
+                  .css-1qb35ad{
+                    .css-yd1h2j{
+                      color: $sub-2-text-color;
+                    }
+                  }
+                }
+              }
+            }
+            .css-xf18ah{
+              border-color: $border-background-color;
+              .css-exhu38{ //checkbox
+                .MuiFormControl-root{
+                  .MuiFormControlLabel-root{
+                    .MuiTypography-body1{
+                      color: $sub-2-text-color;
+                    }
+                  }
+                }
+              }
+              .css-1grovqi{ //popupdata
+                .css-zllu7x{
+                  background-color: $nico-black;
+                  .css-1tnmm89{
+                    color: $main-text-color;
+                  }
+                  .css-13u1y5e{
+                    .css-19imaa1{
+                      color: $sub-1-text-color;
+                    }
+                  }
+                }
+                .css-1pwymte{ //下
+                  div[class*="css-"]{
+                    .css-1jr4onc{
+                      background-color: $nico-black;
+                      .css-1cja6wp{
+                        color: $main-text-color;
+                      }
+                      .css-y8k0pa{
+                        color: $sub-1-text-color;
+                      }
+                    }
+                  }
+                  div[class*="css-"]:hover{
+                    background-color: $nico-black;
+                  }
+                }
+              }
+              .css-lggqlp{ //下
+                color: $sub-1-text-color;
+              }
+            }
+            .css-10c208t{
+              border-color: $border-background-color;
+              ul li{
+                span{
+                  color: $main-text-color;
+                }
+                a{
+                  color: $main-url-color;
+                }
+              }
+            }
+          }
+          .css-1axfe0n{ //視聴者
+            .css-10n3ob8{ 
+              background-color: black;
+              .css-x3diix{ //性別
+                h1{
+                  color: $main-text-color;
+                }
+                .css-cssveg{//help
+                  .css-e66b5{
+                    .css-54kdcn{
+                      background: $sub2-background-color;
+                      h1{
+                        color: $sub-1-text-color;
+                      }
+                      p{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+              .css-haw22i{
+                fieldset.MuiFormControl-root{
+                  .MuiTypography-body1{
+                    color: $sub-1-text-color;
+                  }
+                }
+              }
+              .css-rmbh6a,.css-1q6g9xo{
+                .css-1xdbi2n,.css-tucop2{
+                  color: $sub-1-text-color;
+                }
+              }
+              .css-16b6mr1{ //年齢
+                h1{
+                  color: $main-text-color;
+                }
+                .css-cssveg{//help
+                  .css-e66b5{
+                    .css-54kdcn{
+                      background: $sub2-background-color;
+                      h1{
+                        color: $sub-1-text-color;
+                      }
+                      p{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                }
+                .css-nzwf7h{
+                  background: none;
+                  .css-1b2iovn.css-1b2iovn{
+                    background-color: $nico-black;
+                    color: $sub-1-text-color;
+                  }
+                  .css-1b2iovn.css-1b2iovn.Mui-selected{
+                    background-color: $main-url-color;
+                    color: $main-text-color;
+                  }
+                }
+              }
+            }
+            .css-u3l8rv{ //アクセス元
+              background-color: black;
+              .css-16b6mr1{ 
+                h1{
+                  color: $main-text-color;
+                }
+                .css-cssveg{//help
+                  .css-e66b5{
+                    .css-54kdcn{
+                      background: $sub2-background-color;
+                      h1{
+                        color: $sub-1-text-color;
+                      }
+                      p{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            .css-7kp13n{ //性別,デバイスグラフ
+              svg.recharts-surface{
+                g>text[fill="#666"]{
+                  fill: $sub-1-text-color;
+                }
+                g>text[fill="#525252"]{
+                  fill: $sub-2-text-color;
+                }
+                g>path[fill-opacity="0.2"]{
+                  fill-opacity: 0.4;
+                }
+              }
+            }
+            .css-9dy8wb{
+              svg.recharts-surface{
+                g>text[fill="#666"]{
+                  fill: $sub-1-text-color;
+                }
+                g>text[fill="#525252"]{
+                  fill: $sub-2-text-color;
+                }
+                g>path[fill-opacity="0.2"]{
+                  fill-opacity: 0.4;
+                }
+              }
+            }
+            .css-82hi4x{ //アクセス元グラフ
+              svg.recharts-surface{
+                g>text[fill="#666"]{
+                  fill: $sub-1-text-color;
+                }
+                g>text[fill="#525252"]{
+                  fill: $sub-2-text-color;
+                }
+                g>path[fill="#eee"]{
+                  fill: black;
+                }
+              }
+            }
+          }
+        }
+      }
+      .css-iim4vw{ //動画別レポート 一覧
+        .css-vb3iwc{//header
+          background: $nico-black;
+          .css-zbqfsi{
+            .css-1n8vn2q h1{
+              color: $main-text-color;
+            }
+            .css-1mwn02k{
+              .css-11o4wdc{ //検索box
+                .css-xw0iqe{
+                  .css-10jt4ez{
+                    .MuiInputBase-root{
+                      color: $main-text-color;
+                      background: $sub2-background-color;
+                    }
+                  }
+                }
+                .css-qpnp9l{ //予測
+                  background: $nico-black;
+                  .css-1toxmt6{//item
+                    .css-1ww7k40{
+                      .css-1cja6wp{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                  .css-1toxmt6::after{
+                    border-color: $border-background-color;
+                  }
+                }
+              }
+              .css-7dqwih{ //集計期間
+                color: $main-text-color;
+              }
+            }
+          }
+        }
+        .css-qga3pf{
+          .css-1lkp1wm{ //ソート
+            background: none;
+            border-color: $border-background-color;
+            .css-1knbux5{ //ソート
+              .MuiInputBase-root{ //検索ボックス
+                background: $sub2-background-color;
+                color: $main-text-color;
+              }
+              .css-1eju6js.css-1eju6js > div{ //ソート
+                background: $sub2-background-color;
+                border-color: $border-background-color;
+              }
+              .css-141qn3v.css-141qn3v{ //ソートボタン
+                background: $sub2-background-color;
+                border-color: $border-background-color;
+                .MuiIconButton-label{
+                  svg{
+                    fill: $main-text-color;
+                  }
+                }
+              }
+            }
+            .css-10417x{ //総投稿数
+              span{
+                color: $main-text-color;
+              }
+            }
+          }
+          .css-r648py{
+            border-color: $border-background-color;
+            background: none;
+            color: $sub-2-text-color;
+          }
+          #AnalyticsUploadedInfiniteScrollTarget{
+            background: none;
+            .css-ccgi7w{ //item
+              background: none;
+              .css-kyj8v9{
+                color: $main-text-color;
+                .css-1vsd2th{
+                  .css-1w1zr0x{
+                    .css-1xy9abr{ //コメント
+                      .css-is9qkb,.css-178hfsg{
+                        color: $sub-1-text-color;
+                      }
+                      .css-is9qkb>span,.css-178hfsg>span{
+                        background-color: $nico-black;
+                      }
+                    }
+                  }
+                }
+              }
+              .css-kyj8v9:hover{
+                color: $main-url-color;
+              }
+            }
+            .css-ccgi7w::after{
+              background: $border-background-color;
+            }
+          }
+        }
+      }
+      .css-akfzv8{ //動画別レポート
+        .css-vb3iwc{//header
+          background: $nico-black;
+          .css-zbqfsi{
+            .css-1n8vn2q h1{
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
+              }
+            }
+            .css-1mwn02k{
+              .css-11o4wdc{ //検索box
+                .css-xw0iqe{
+                  .css-10jt4ez{
+                    .MuiInputBase-root{
+                      color: $main-text-color;
+                      background: $sub2-background-color;
+                    }
+                  }
+                }
+                .css-qpnp9l{ //予測
+                  background: $nico-black;
+                  .css-1toxmt6{//item
+                    .css-1ww7k40{
+                      .css-1cja6wp{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                  .css-1toxmt6::after{
+                    border-color: $border-background-color;
+                  }
+                }
+              }
+              .css-1bvn73x{
+                background-color: $nico-black;
+                .css-12socs5{
+                  color: $sub-1-text-color;
+                }
+                .css-j0iosi{
+                  div{
+                    color: $main-text-color;
+                  }
+                }
+              }
+              .css-1bvn73x:hover{
+                background-color: $hover-background-color;
+              }
+              .css-fbhamp{ //カスタムカレンダー
+                .css-1iyoj2o{
+                  .css-kknodv{
+                    .css-w225zo{
+                      color: $sub-2-text-color;
+                    }
+                  }
+                  .MuiPickersStaticWrapper-root{
+                    background: none;
+                    .MuiPickersCalendar-weekDayLabel{
+                      color: $sub-2-text-color;
+                    }
+                    .MuiPickersDay-root{
+                      color: $sub-1-text-color;
+                    }
+                    .MuiPickersDay-root.Mui-disabled{
+                      color: $hover-background-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .css-2g7krq{
+          .css-imy4df{ 
+            .css-19vrevk{ //見出し
+              color: $main-text-color;
+            }
+            .css-pk2zmw{
+              .css-dxui33{ //グラフ
+                background: black;
+                .css-48qih1{ //統計数値
+                  .css-med6ft{
+                    .css-c159n5{
+                      border-color: $border-background-color;
+                      .css-1qb35ad{
+                        .css-yd1h2j{
+                          color: $sub-2-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+                .css-xf18ah{
+                  border-color: $border-background-color;
+                  .css-exhu38{ //checkbox
+                    .MuiFormControl-root{
+                      .MuiFormControlLabel-root{
+                        .MuiTypography-body1{
+                          color: $sub-2-text-color;
+                        }
+                      }
+                    }
+                  }
+                  .css-1grovqi{ //popupdata
+                    .css-zllu7x{
+                      background-color: $nico-black;
+                      .css-1tnmm89{
+                        color: $main-text-color;
+                      }
+                      .css-13u1y5e{
+                        .css-19imaa1{
+                          color: $sub-1-text-color;
+                        }
+                      }
+                    }
+                    .css-1pwymte{ //下
+                      div[class*="css-"]{
+                        .css-1jr4onc{
+                          background-color: $nico-black;
+                          .css-1cja6wp{
+                            color: $main-text-color;
+                          }
+                          .css-y8k0pa{
+                            color: $sub-1-text-color;
+                          }
+                        }
+                      }
+                      div[class*="css-"]:hover{
+                        background-color: $nico-black;
+                      }
+                    }
+                  }
+                  .css-lggqlp{ //下
+                    color: $sub-1-text-color;
+                  }
+                }
+                .css-10pvozg{
+                  border-color: $border-background-color;
+                  ul li{
+                    span{
+                      color: $main-url-color;
+                    }
+                    a{
+                      color: $main-url-color;
+                    }
+                  }
+                }
+              }
+              .css-s704b7{ //コメント分布
+                background-color: black;
+                .css-rwwhv7{ //left
+                  .css-1bn1nza{ //見出し
+                    h1{
+                      color: $main-text-color;
+                    }
+                    .css-cssveg{//help
+                      .css-e66b5{
+                        .css-54kdcn{
+                          background: $sub2-background-color;
+                          h1{
+                            color: $sub-1-text-color;
+                          }
+                          p{
+                            color: $main-text-color;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  .css-zllu7x{ //popupdata
+                    background-color: $nico-black;
+                  }
+                }
+                .css-ax5da{ //right
+                  .css-1bn1nza{
+                    h1{
+                      color: $main-text-color;
+                    }
+                    .css-cssveg{//help
+                      .css-e66b5{
+                        .css-54kdcn{
+                          background: $sub2-background-color;
+                          h1{
+                            color: $sub-1-text-color;
+                          }
+                          p{
+                            color: $main-text-color;
+                          }
+                        }
+                      }
+                    }
+                    .css-nzwf7h{
+                      background: none;
+                      .css-178dflq{
+                        background-color: $nico-black;
+                        color: $sub-1-text-color;
+                      }
+                      .css-178dflq.Mui-selected{
+                        background-color: $main-url-color;
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                  .css-43x4zv{ //コメント表
+                    .css-1iyoj2o{
+                      .css-jo3cob{
+                        background-color: $nico-black;
+                        .css-o9mbwq{
+                          .css-1hcvbsl,.css-d6kfji,.css-1mpb3ac{
+                            color: $sub-1-text-color;
+                          }
+                        }
+                      }
+                      .css-o9mbwq{
+                        .css-1hcvbsl,.css-d6kfji,.css-1mpb3ac{
+                          color: $main-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              .css-10n3ob8{ 
+                background-color: black;
+                .css-x3diix{ //性別
+                  h1{
+                    color: $main-text-color;
+                  }
+                  .css-cssveg{//help
+                    .css-e66b5{
+                      .css-54kdcn{
+                        background: $sub2-background-color;
+                        h1{
+                          color: $sub-1-text-color;
+                        }
+                        p{
+                          color: $main-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+                .css-haw22i{
+                  fieldset.MuiFormControl-root{
+                    .MuiTypography-body1{
+                      color: $sub-1-text-color;
+                    }
+                  }
+                }
+                .css-rmbh6a,.css-1q6g9xo{
+                  .css-1xdbi2n,.css-tucop2{
+                    color: $sub-1-text-color;
+                  }
+                }
+                .css-16b6mr1{ //年齢
+                  h1{
+                    color: $main-text-color;
+                  }
+                  .css-cssveg{//help
+                    .css-e66b5{
+                      .css-54kdcn{
+                        background: $sub2-background-color;
+                        h1{
+                          color: $sub-1-text-color;
+                        }
+                        p{
+                          color: $main-text-color;
+                        }
+                      }
+                    }
+                  }
+                  .css-nzwf7h{
+                    background: none;
+                    .css-1b2iovn.css-1b2iovn{
+                      background-color: $nico-black;
+                      color: $sub-1-text-color;
+                    }
+                    .css-1b2iovn.css-1b2iovn.Mui-selected{
+                      background-color: $main-url-color;
+                      color: $main-text-color;
+                    }
+                  }
+                }
+              }
+              .css-u3l8rv{ //アクセス元
+                background-color: black;
+                .css-16b6mr1{ 
+                  h1{
+                    color: $main-text-color;
+                  }
+                  .css-cssveg{//help
+                    .css-e66b5{
+                      .css-54kdcn{
+                        background: $sub2-background-color;
+                        h1{
+                          color: $sub-1-text-color;
+                        }
+                        p{
+                          color: $main-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+  
+              .css-7kp13n{ //性別,デバイスグラフ
+                svg.recharts-surface{
+                  g>text[fill="#666"]{
+                    fill: $sub-1-text-color;
+                  }
+                  g>text[fill="#525252"]{
+                    fill: $sub-2-text-color;
+                  }
+                  g>path[fill-opacity="0.2"]{
+                    fill-opacity: 0.4;
+                  }
+                }
+              }
+              .css-9dy8wb{
+                svg.recharts-surface{
+                  g>text[fill="#666"]{
+                    fill: $sub-1-text-color;
+                  }
+                  g>text[fill="#525252"]{
+                    fill: $sub-2-text-color;
+                  }
+                  g>path[fill-opacity="0.2"]{
+                    fill-opacity: 0.4;
+                  }
+                }
+              }
+              .css-82hi4x{ //アクセス元グラフ
+                svg.recharts-surface{
+                  g>text[fill="#666"]{
+                    fill: $sub-1-text-color;
+                  }
+                  g>text[fill="#525252"]{
+                    fill: $sub-2-text-color;
+                  }
+                  g>path[fill="#eee"]{
+                    fill: black;
+                  }
+                }
+              }
+            }
+            .css-xkz59h{ //動画を見た人が見た動画
+              background-color: black;
+              .css-i9ufud{
+                h1{
+                  color: $main-text-color;
+                }
+                .css-cssveg{//help
+                  .css-e66b5{
+                    .css-54kdcn{
+                      background: $sub2-background-color;
+                      h1{
+                        color: $sub-1-text-color;
+                      }
+                      p{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+              .css-1ituv1x{
+                .css-1xjw9rh{ //item
+                  .css-chlrcu{
+                    color: $sub-1-text-color;
+                  }
+                }
+                .css-1xjw9rh:visited{ //item
+                  .css-chlrcu{
+                    color: $sub-2-text-color;
+                  }
+                }
+                .css-1xjw9rh:hover{ //item
+                  .css-chlrcu{
+                    color: $main-url-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

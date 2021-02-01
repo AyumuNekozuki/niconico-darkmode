@@ -1,0 +1,54 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  #root{
+    .css-115o6j6{
+      .css-uahybi{ //お知らせ
+        .css-177k7d8{
+          border-color: $border-background-color;
+          h2.css-175ltjs{
+            color: $main-text-color;
+          }
+        }
+      }
+      .css-12krktm{
+        background-color: $nico-black;
+        border-color: $nico-black;
+        .css-omndbj{
+          border-color: $border-background-color;
+        }
+      }
+    }
+  }
+
+  .MuiDialog-container{
+    .MuiDialogTitle-root{
+      color: $main-text-color;
+      .MuiIconButton-root{
+        .MuiIconButton-label{
+          svg{
+            fill: $main-text-color;
+          }
+        }
+      }
+    }
+    .MuiDialogContent-root{
+      .css-2vvef1{
+        color: $sub-2-text-color;
+      }
+      table.css-pum02d{
+        border-color: $border-background-color;
+        color: $main-text-color;
+        th.css-8u3zm8{
+          background: $sub2-background-color;
+          border-color: $border-background-color;
+        }
+        td.css-y0n0nh{
+          border-color: $border-background-color;
+        }
+      }
+    }
+  }
+}

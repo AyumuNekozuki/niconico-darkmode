@@ -1,0 +1,176 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  #root{
+    .css-81qgnv{
+      .css-eibcov{ //左カラム
+        background-color: $nico-black;
+
+        h2.css-11awcao{
+          color: $main-text-color;
+        }
+        .MuiButtonBase-root.MuiIconButton-root.css-u8apef{
+          .MuiIconButton-label svg{
+            fill: $main-text-color;
+          }
+        }
+        .css-h0jaj6.css-16sorb8{
+          .css-1ygssgd{
+            .css-1qukhd0{
+              .css-9aqx6g.css-9aqx6g{
+                color: $sub-1-text-color;
+              }
+              .css-9aqx6g.css-9aqx6g:hover{
+                background: $hover-background-color;
+              }
+              .css-9aqx6g.css-9aqx6g[data-is-active="true"]{
+                background: none;
+                border-left: 10px solid $main-url-color;
+                padding-left: 14px;
+                color: $main-url-color !important;
+              }
+            }
+          }
+        }
+        .css-187b4xu.css-16sorb8{
+          .css-1ygssgd{
+            .css-1qukhd0{
+              .css-9aqx6g.css-9aqx6g{
+                color: $sub-1-text-color;
+              }
+              .css-9aqx6g.css-9aqx6g:hover{
+                background: $hover-background-color;
+              }
+            }
+          }
+        }
+      }
+      .css-v3wew.css-1km75w5{ //シリーズTOP
+        .css-1obkzmr{
+          .css-1y8lzt7.css-1y8lzt7>div{ //item
+            border: none;
+          }
+        }
+      }
+      .css-d9vz5r.css-1km75w5{ //各シリーズ
+        .css-1u2h736{ //説明文
+          .css-1qowlxp{
+            .css-1rneg6r.css-n9uqzh{
+              color: $main-text-color;
+            }
+          }
+        }
+        .css-1bpf0bk{ //ソート
+          border-color: $border-background-color;
+          background: $main-background-color;
+          .MuiButton-root.css-ne31eb{
+            color: $sub-1-text-color;
+          }
+        }
+        .css-hg73ef{ //動画一覧
+          background: $main-background-color;
+          .css-ncfq84.css-1qtup9n{ //item
+            background: $main-background-color;
+            .css-12u1bsw{ //動画情報
+              .css-ta1ar2.css-ta1ar2{
+                color: $main-text-color;
+              }
+              .css-112jqer .css-zguxnc{ //統計情報
+                .css-gspmg9 svg{
+                  fill: $sub-1-text-color;
+                }
+                .css-8iymes.css-y8k0pa{
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+          }
+          .css-ncfq84.css-1qtup9n::after{
+            background: $border-background-color;
+          }
+        }
+      }
+      .css-d9vz5r.css-1mk31bf{ //右カラム
+        background: $nico-black;
+        header.css-1vesbo9{
+          background:none;
+          .css-1dy9mpm>div{ //検索box
+            background: $sub2-background-color;
+            color: $main-text-color;
+          }
+        }
+        #AddBoxInfiniteScrollTarget{
+          .css-vfrlwi{//item
+            background: none;
+            color: $main-text-color;
+          }
+        }
+        footer.css-jd9lmn{
+          background: none;
+          .css-yuztxf{
+            background: $sub2-background-color;
+            color: $main-text-color;
+          }
+        }
+      }
+    }
+  }
+
+  .MuiDialog-container{ //共有モーダル
+    .MuiDialogContent-root{
+      div{
+        .MuiFormControl-root.MuiTextField-root.css-dg7it9{
+          .MuiInputBase-root{
+            color: $main-text-color;
+          }
+        }
+        .css-19krv40.css-19krv40{
+          color: $main-url-color;
+        }
+      }
+    }
+  }
+  .css-94o8cd{ //マイリストから作成
+    .css-v0gl06.css-1gzkpo5{
+      background: $nico-black;
+      svg.css-pejc99{
+        fill: $main-url-color;
+      }
+      h2.css-9rko98{
+        color: $main-url-color;
+      }
+      .MuiButtonBase-root.MuiIconButton-root.css-1eexoni{ //xボタン
+        .MuiIconButton-label svg{
+          fill: $sub-1-text-color;
+        }
+      }
+      .css-env1z2{
+        .css-pn19xl{
+          color: $sub-1-text-color;
+        }
+        .css-sn9ll3{
+          background: $hover-background-color;
+          color: $main-text-color;
+        }
+        .css-sn9ll3::after{
+          background: $hover-background-color;
+        }
+      }
+      .css-il1drd.css-t2geax{ //item
+        .MuiButtonBase-root.MuiIconButton-root.css-1cp1997{
+          .MuiIconButton-label svg{
+            fill: $main-url-color;
+          }
+        }
+        .css-gca2rp{
+          color: $main-text-color;
+        }
+        .css-duu9iw.css-y8k0pa{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+  }
+}
