@@ -1,0 +1,286 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+
+  #root{
+    .css-81qgnv{
+      nav.css-mmkjmf{ //サイドバー
+        background: $nico-black;
+        .css-ku9e1g{
+          background: none;
+          span{
+            .MuiButtonBase-root.MuiIconButton-root{
+              .MuiIconButton-label{
+                filter: $invert;
+              }
+            }
+            span{
+              color: $main-text-color;
+            }
+          } 
+        }
+        ul.css-t4s6o7{
+          .css-14i17n8{
+            color: $main-text-color;
+          }
+          .css-14i17n8:hover{
+            background: $hover-background-color;
+          }
+          .css-14i17n8.active{
+            background: none;
+            color: $main-url-color;
+            svg{
+              fill: $main-url-color;
+            }
+          }
+        }
+        .css-8skca7{ //最近投稿した動画 
+          p{
+            color: $sub-2-text-color;
+          }
+          ul{
+            .css-1tre5jn{ //item
+              .css-ov1ktg{
+                .css-11zhy3w .css-t2xekm{
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+            .css-1tre5jn:hover{ //item
+              background: $hover-background-color;
+            }
+            .css-1tre5jn.active{ //item
+              background: none;
+              border: 2px solid $main-url-color;
+              .css-ov1ktg{
+                .css-11zhy3w .css-t2xekm{
+                  color: $main-url-color;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+      }
+      nav.mini.css-mmkjmf{ //サイドバーmini
+        .css-nur4ki{
+          background: none;
+          span .MuiButtonBase-root.MuiIconButton-root{
+            filter: $invert;
+          }
+        }
+      }
+      .css-2iwlav{ //サマリーレポート
+        .css-vb3iwc{//header
+          background: $nico-black;
+          .css-zbqfsi{
+            .css-1n8vn2q h1{
+              color: $main-text-color;
+            }
+            .css-1mwn02k{
+              .css-11o4wdc{ //検索box
+                .css-xw0iqe .css-10jt4ez{
+                  .MuiInputBase-root{
+                    color: $main-text-color;
+                    background: $sub2-background-color;
+                  }
+                  .css-qpnp9l{ //予測
+                    background: $nico-black;
+                    .css-1toxmt6{//item
+                      .css-1ww7k40{
+                        .css-1cja6wp{
+                          color: $main-text-color;
+                        }
+                      }
+                    }
+                    .css-1toxmt6::after{
+                      border-color: $border-background-color;
+                    }
+                  }
+                }
+              }
+              .css-7dqwih{ //集計期間
+                color: $main-text-color;
+              }
+            }
+          }
+        }
+        .css-8fuf7y{
+          .css-1nb3ibx{
+            section.css-1rhbhpi{ //描画エリア
+              .css-ffipe{
+                h1{
+                  color: $sub-1-text-color;
+                }
+                .css-cssveg{//help
+                  .css-e66b5{
+                    .css-54kdcn{
+                      background: $sub2-background-color;
+                      h1{
+                        color: $sub-1-text-color;
+                      }
+                      p{
+                        color: $main-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+              .css-dxui33{ //グラフ
+                background: black;
+                .css-48qih1{ //統計数値
+                  .css-med6ft{
+                    .css-c159n5{
+                      border-color: $border-background-color;
+                      .css-1qb35ad{
+                        .css-yd1h2j{
+                          color: $sub-2-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+                .css-xf18ah{
+                  border-color: $border-background-color;
+                  .css-exhu38{ //checkbox
+                    .MuiFormControl-root{
+                      .MuiFormControlLabel-root{
+                        .MuiTypography-body1{
+                          color: $sub-2-text-color;
+                        }
+                      }
+                    }
+                  }
+                  .css-1grovqi{ //popupdata
+                    .css-zllu7x{
+                      background-color: $nico-black;
+                      .css-1tnmm89{
+                        color: $main-text-color;
+                      }
+                      .css-13u1y5e{
+                        .css-19imaa1{
+                          color: $sub-1-text-color;
+                        }
+                      }
+                    }
+                    .css-1pwymte{ //下
+                      div[class*="css-"]{
+                        .css-1jr4onc{
+                          background-color: $nico-black;
+                          .css-1cja6wp{
+                            color: $main-text-color;
+                          }
+                          .css-y8k0pa{
+                            color: $sub-1-text-color;
+                          }
+                        }
+                      }
+                      div[class*="css-"]:hover{
+                        background-color: $nico-black;
+                      }
+                    }
+                  }
+                  .css-lggqlp{ //下
+                    color: $sub-1-text-color;
+                  }
+                }
+                .css-10c208t{
+                  border-color: $border-background-color;
+                  ul li{
+                    span{
+                      color: $main-text-color;
+                    }
+                    a{
+                      color: $main-url-color;
+                    }
+                  }
+                }
+              }
+            }
+            .css-12ttm9s{
+              section.css-x4ttnl{ //再生数が伸びている動画
+                .css-ffipe{
+                  h1{
+                    color: $main-text-color;
+                  }
+                  .css-cssveg{
+                    .css-54kdcn{
+                      background-color: $nico-black;
+                      h1, p{
+                        color: $main-text-color;
+                      }
+                      a{
+                        color: $main-url-color;
+                      }
+                    }
+                  }
+                }
+                .css-1nt7e7f{
+                  background-color: black;
+                  .css-1w5dyxl{
+                    .css-14832zm{
+                      .css-1onla1f{
+                        border-color: $border-background-color;
+                        .css-1ocapm5{
+                          color: $sub-1-text-color;
+                        }
+                      }
+                      .css-lwuepq{
+                        .css-10nkm7z{
+                          .css-42h5o3{
+                            color: $main-text-color;
+                          }
+                        }
+                      }
+                    }
+                    .css-vf2kyr::after{
+                      background-color: $border-background-color;
+                    }
+                  }
+                }
+              }
+              section.css-ur21qy{ //最近投稿した動画
+                .css-ffipe{
+                  h1{
+                    color: $main-text-color;
+                  }
+                  .css-cssveg{
+                    .css-54kdcn{
+                      background-color: $nico-black;
+                      h1, p{
+                        color: $main-text-color;
+                      }
+                      a{
+                        color: $main-url-color;
+                      }
+                    }
+                  }
+                }
+                .css-ac0i4c{
+                  background-color: black;
+                  .css-1toxmt6{ //item
+                    .css-47rul3{
+                      .css-11g9kr1{
+                        .css-1ww7k40{
+                          .css-1haohc6{
+                            .css-1cja6wp{
+                              color: $sub-1-text-color;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  .css-1toxmt6::after{
+                    border-color: $border-background-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
