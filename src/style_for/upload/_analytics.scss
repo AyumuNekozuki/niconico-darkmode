@@ -1059,4 +1059,38 @@
       }
     }
   }
+
+  .MuiDialog-container{
+    .MuiPaper-root{
+      .MuiDialogTitle-root{
+        .css-5pyofj > div:first-of-type{
+          color: $main-text-color;
+        }
+        .css-cssveg{//help
+          .css-e66b5{
+            .css-54kdcn{
+              background: $sub2-background-color;
+              h1{
+                color: $sub-1-text-color;
+              }
+              p{
+                color: $main-text-color;
+              }
+            }
+          }
+        }
+      }
+      #LikedUsersInfiniteScrollTarget{
+        .css-1ayfzd2{
+          .infinite-scroll-component__outerdiv{
+            .css-pq48dh{
+              .css-rmensh{
+                color: $sub-1-text-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

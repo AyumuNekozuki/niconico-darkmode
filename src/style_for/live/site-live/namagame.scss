@@ -43,7 +43,7 @@
   }
 
   .namagame-GamePlayProgram{
-    background: none;
+    background-color: $main-background-color !important;
     .namagame-GamePlayProgram_Header{
       color: $main-text-color;
     }
