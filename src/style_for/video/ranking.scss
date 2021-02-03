@@ -191,8 +191,24 @@
                 .Dropdown-button{
                   color: $main-text-color;
                 }
+                .Dropdown-list{
+                  .DropdownItem{
+                    color: $sub-1-text-color;
+                  }
+                }
               }
             }
+          }
+        }
+        .RepresentedTagsContainer{
+          .RankingFilterTag{
+            color: $sub-1-text-color;
+          }
+          .RankingFilterTag:hover{
+            color: $main-url-color;
+          }
+          .RankingFilterTag.RankingFilterTag_active{
+            color: $main-text-color;
           }
         }
       }
