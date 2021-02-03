@@ -229,17 +229,17 @@
                   }
                 }
                 .EasyCommentButton{
-                  background: $nico-default-bg !important;
+                  background: $nico-black !important;
                   color: $main-text-color !important;
                   border: none !important;
                 }
               }
-              .LikeContainer{
-                .LikeButton{
-                  background: $nico-default-bg !important;
+              .LikeFieldContainer{
+                .LikeActionButton{
+                  background: $nico-black !important;
                   color: $main-text-color !important;
                   border: 2px solid $border-background-color !important;
-                  .LikeIcon.LikeButton-icon{
+                  .LikeIcon.LikeActionButton-icon{
                     use #LikeIcon_svg__frame-0>path{
                       fill: $main-text-color !important;
                     }
