@@ -646,11 +646,52 @@
   }
 
   //削除動画
-  #PAGECONTAINER{
-    #PAGEMAIN{
-      #nicodou{
+  .BaseLayout-header{
+    .HeaderContainer {
+      .NicovideoLogo.LogoContainer-nicovideoLogo{
         filter: $invert;
       }
+    }
+  }
+  .BaseLayout-main{
+    .WatchExceptionPage{
+      .ErrorMessage.WatchExceptionPage-message{ //エラー文
+        border-color: $nico-black;
+        background-color: $nico-black;
+        color: $main-text-color;
+      }
+      .RecommendVideosContainer{ //おすすめ動画
+        .RecommendVideosContainer-items{
+          .RecommendVideosContainer-item{
+            .Card.VideoCard{
+              .Card-main{
+                .Card-mainHeader{
+                  .Link.Card-mainHeaderTitle{
+                    .CardTitle{
+                      color: $main-text-color;
+                    }
+                  }
+                  .Link.Card-mainHeaderTitle:visited{
+                    .CardTitle{
+                      color: $sub-2-text-color;
+                    }
+                  }
+                  .Link.Card-mainHeaderTitle:hover{
+                    .CardTitle{
+                      color: $main-url-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .BaseLayout-footer{
+    .Ads728x90WebPcFooter{
+      background: none;
     }
   }
 }
