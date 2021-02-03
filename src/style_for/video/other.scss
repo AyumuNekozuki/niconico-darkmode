@@ -2,7 +2,7 @@
 @import 'parts/_zero_design';
 
 .niconico-darkmode-setting-true{
-  background-color:$main-background-color;
+  background-color:$main-background-color !important;
 
   .video_catalog{
     color: $main-text-color;
