@@ -1,0 +1,39 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+
+  div.content-wrap.error-page{
+    p.error-description{
+      color: $sub-1-text-color;
+      a{
+        color: $main-url-color;
+      }
+    }
+    .link-box{
+      a.txt-arrow{
+        color: $main-url-color;
+      }
+    }
+  }
+
+  .footer-wrap{
+    border-color: $nico-black;
+    background: $nico-black;
+    .footer ul li{
+      a{
+        color: $main-text-color;
+      }
+      a:hover{
+        color: $main-url-color;
+      }
+    }
+    .center{
+      p.address{
+        color: $main-text-color;
+      }
+    }
+  }
+  .footer-wrap::before{
+    border-color: $nico-black;
+  }
+}
