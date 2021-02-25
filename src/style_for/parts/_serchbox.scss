@@ -61,7 +61,8 @@
                 }
                 li:hover,li.active{
                   a{
-                    color: $main-text-color;
+                    color: $main-text-color !important;
+                    background: none !important;
                   }
                   background-color: $hover-background-color !important;
                 }
