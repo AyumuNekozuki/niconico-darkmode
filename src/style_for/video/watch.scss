@@ -644,6 +644,13 @@
       color: $main-url-color;
     }
   }
+  //一般会員時プレミアム導線
+  .Dialog.PremiumRequirer-dialog{
+    background: $nico-black;
+    .PremiumRequirer-dialogMessage:last-of-type{
+      border-color: $border-background-color;
+    }
+  }
 
   //削除動画
   .BaseLayout-header{
