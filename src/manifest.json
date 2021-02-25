@@ -41,6 +41,31 @@
         },
         {
             "matches": [
+                "https://live.nicovideo.jp/embed/watch-histories/*"
+            ],
+            "js":["js/jquery-3.5.1.min.js","js/iframe_action.js"],
+            "css":["style_for/video/mypage/iframe/live-history.css"],
+            "run_at": "document_start",
+            "all_frames": true
+        },
+        {
+            "matches": [
+                "https://site.nicovideo.jp/badge/*"
+            ],
+            "js":["js/jquery-3.5.1.min.js","js/iframe_action.js"],
+            "css":["style_for/video/mypage/iframe/badge.css"],
+            "all_frames": true
+        },
+        {
+            "matches": [
+                "https://site.nicovideo.jp/userlevel/user*"
+            ],
+            "js":["js/jquery-3.5.1.min.js","js/iframe_action.js"],
+            "css":["style_for/video/mypage/iframe/user-level.css"],
+            "all_frames": true
+        },
+        {
+            "matches": [
                 "https://www.nicovideo.jp/",
                 "https://www.nicovideo.jp/?*"
             ],

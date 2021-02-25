@@ -1,0 +1,23 @@
+/*総合マイページ内バッジ一覧*/
+
+@import '../../../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background: $main-background-color;
+
+  .t-badge-wrapper--list{
+    background: $main-background-color;
+    .o-badge-list {
+      .o-badge-list__item.m-badge-card{
+        background: $nico-black;
+        border-color: $border-background-color;
+        .a-badge-list__link{
+          color: $main-text-color;
+          .m-badge-card__title:after{
+            background: $border-background-color;
+          }
+        }
+      }
+    }
+  }
+}

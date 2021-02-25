@@ -1,0 +1,60 @@
+/*総合マイページ内生放送履歴*/
+
+@import '../../../parts/_default';
+@import '../../../parts/_dropdown';
+
+.niconico-darkmode-setting-true{
+  #root{
+    .___watch-histories-page___1rz4w{
+      background: $main-background-color;
+      .___contents-area___3dJrn{
+        .___watch-history-program-list-section___2Di7s{
+          .___header___1rjqB{
+            .___heading___1xhHH{
+              .viewed_number_per_max{ //残り件数
+                color: $sub-1-text-color;
+              }
+            }
+            .___watch-histories-delete-all-button___2neIf{
+              color: $main-text-color;
+              background: $sub2-background-color;
+              border-radius: 4px;
+              border-color: $border-background-color;
+            }
+            .___watch-histories-delete-all-button___2neIf:hover{
+              background: red;
+          }
+          }
+          .___program-card-list____60QJ{
+            .___item___2OQ-z{
+              .___program-card___2odkl{
+                .___content-area___RrvFO{
+                  .___program-title___2uTj4{
+                    color: $main-text-color;
+                  }
+                }
+              }
+            }
+            .___item___2OQ-z:not(:first-child){
+              border-color: $border-background-color;
+            }
+          }
+        }
+      }
+      .___menu-popup-control___Zpq5v{
+        .___toggle-button___csABc{
+          filter: $invert;
+        }
+        .___target___7YMWK.___program-menu___2xZq9{
+          background: $sub2-background-color;
+          .___delete-watch-history-button___O4tgC{
+            color: $main-text-color;
+          }
+          .___delete-watch-history-button___O4tgC:hover{
+            background-color: $hover-background-color;
+          }
+        }
+      }
+    }
+  }
+}
