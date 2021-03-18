@@ -234,7 +234,18 @@
                   border: none !important;
                 }
               }
-              .LikeFieldContainer{
+            }
+            .CommentShutter{
+              background-color: rgba(0, 0, 0, 0.6) !important;
+              color: $main-text-color;
+            }
+          }
+        }
+        .MainContainer-playerPanel{
+          .VideoMenuContainer{
+            .VideoMenuContainer-areaLeft{
+              background: $main-background-color;
+              .VideoMenuLikeFieldContainer{
                 .LikeActionButton{
                   background: $nico-black !important;
                   color: $main-text-color !important;
@@ -249,17 +260,6 @@
                   } 
                 }
               }
-            }
-            .CommentShutter{
-              background-color: rgba(0, 0, 0, 0.6) !important;
-              color: $main-text-color;
-            }
-          }
-        }
-        .MainContainer-playerPanel{
-          .VideoMenuContainer{
-            .VideoMenuContainer-areaLeft{
-              background: $main-background-color;
               .VideoMenuContainer-button{
                 fill: $main-text-color !important;
               }
@@ -284,6 +284,12 @@
             }
             .VideoMenuContainer-areaRight{
               background: $main-background-color;
+
+              .SharePanelVisibleActionButton{
+                svg{
+                  fill: $main-text-color;
+                }
+              }
             }
           }
           .VideoMenuContainer:after{
@@ -443,6 +449,12 @@
           }
           .SharePanelContainer{
             background-color: $nico-default-bg;
+            .SharePanelContainer-title{
+              color: $sub-1-text-color;
+            }
+            .SharePanelContainer-socialButtons{
+              border-color: $border-background-color;
+            }
             .SharePanelContainer-content{
               color: $main-text-color;
               .SharePanelContainer-linkTimeText{
@@ -452,14 +464,17 @@
               }
             }
           }
-          .AddingMylistPanelContainer{
-            .AddingMylistPanel-mylist{
+          .AddVideoListPanelContainer{
+            .AddVideoListPanel-mylist{
               background: $nico-default-bg;
-              .AddingMylistPanel-content{
+              .AddVideoListPanel-content{
                 color: $main-text-color;
               }
+              .AddVideoListPanel-itemGroup:not(:first-child){
+                border-color: $border-background-color;
+              }
             }
-            .AddingMylistModal{
+            .AddMylistModal{
               background: $nico-default-bg;
             }
           }
