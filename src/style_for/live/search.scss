@@ -17,6 +17,14 @@
             .search-tab-anchor{
               background-color: $nico-black;
               color: $main-text-color;
+              .search-count.strong{
+                &::before{
+                  color: $nico-white;
+                }
+                &::after{
+                  color: $nico-white;
+                }
+              }
             }
             .search-tab-anchor::before{
               border-top-color: $nico-black;
@@ -47,7 +55,7 @@
             }
           }
         }
-        .search-result-summary{
+        .searchPage-SearchInputArea_ResultSummary{
           color: $sub-1-text-color;
         }
       }
