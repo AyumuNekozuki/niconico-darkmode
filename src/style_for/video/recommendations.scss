@@ -13,45 +13,66 @@
   }
 
   .BaseLayout-main{
+    .Recommendations-recommend{
+      .BaseLayout-block{
+        .RecommendTagListContainer{
+          .RecommendationsHeading{
+            h1{
+              color: $main-text-color;
+            }
+            aside{
+              color: $sub-1-text-color;
+            }
+          }
+        }
+        .RecommendVideoListContainer{
+          .RecommendationsHeading{
+            h1{
+              color: $main-text-color;
+            }
+            aside{
+              color: $sub-1-text-color;
+            }
+          }
+          .RecommendVideoListContainer-videos{
+            .VideoCard{
+              .Card-link{
+                color: $main-text-color;
+              }
+              .Card-link:visited{
+                color: $sub-1-text-color;
+              }
+            }
+          }
+          .RecommendVideoListContainer-more{
+            background: $sub2-background-color;
+            color: $main-text-color;
+            border-color: $border-background-color;
+          }
+          .RecommendVideoListContainer-more:hover{
+            background: $main-url-color;
+            border-color: $main-url-color;
+          }
+        }
+      }
+
+    }
+
     .TagItem{
       .TagItem-link{
+        color: $main-text-color;
         background: $sub2-background-color;
         border: none;
       }
     }
-    .RecommendTagListContainer{
-      .RecommendationsHeading{
-        aside{
-          color: $sub-1-text-color;
-        }
-      }
-    }
-    .RecommendVideoListContainer{
-      .RecommendationsHeading{
-        aside{
-          color: $sub-1-text-color;
-        }
-      }
-      .RecommendVideoListContainer-videos{
-        .VideoCard{
-          .Card-link:visited{
-            color: $sub-1-text-color;
-          }
-        }
-      }
-      .RecommendVideoListContainer-more{
-        background: $sub2-background-color;
-        color: $main-text-color;
-        border-color: $border-background-color;
-      }
-      .RecommendVideoListContainer-more:hover{
-        background: $main-url-color;
-        border-color: $main-url-color;
-      }
-    }
+    
+
   }
 
   .BaseLayout-footer{
     background: $nico-default-bg;
+    .Ads728x90WebPcFooter{
+      background: none;
+    }
   }
 }
