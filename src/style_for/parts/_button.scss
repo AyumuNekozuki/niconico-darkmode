@@ -5,25 +5,29 @@
 
   //cansel
   .ViewerNGRegister-cancelButton,
-  .AddingMylistModal-cancel{
+  .AddingMylistModal-cancel,
+  .AddMylistModal-cancel{
     color: $main-text-color;
     background: $sub2-background-color;
     border-color: $border-background-color;
   }
   .ViewerNGRegister-cancelButton:hover,
-  .AddingMylistModal-cancel:hover{
+  .AddingMylistModal-cancel:hover,
+  .AddMylistModal-cancel:hover{
     background: $border-background-color;
   }
 
   //yes
   .ViewerNGRegister-submitButton,
-  .AddingMylistModal-submit{
+  .AddingMylistModal-submit,
+  .AddMylistModal-submit{
     color: $main-url-color;
     border-color: $main-url-color;
     background: $sub2-background-color;
   }
   .ViewerNGRegister-submitButton:hover,
-  .AddingMylistModal-submit:hover{
+  .AddingMylistModal-submit:hover,
+  .AddMylistModal-submit:hover{
     background: $main-url-color;
   }
 

@@ -216,17 +216,23 @@
               }
               .EasyCommentContainer{
                 background: none !important;
-                .EasyCommentContainer-nextButton{
+                .EasyCommentContainer-nextButtonBox{
                   background: linear-gradient(90deg,hsla(0,0%,100%,0),rgba(0, 0, 0, 0.94),black) !important;
-                  svg{
-                    fill: $main-text-color;
+                  .EasyCommentContainer-nextButton{
+                    background: none;
+                    svg{
+                      fill: $main-text-color;
+                    }
                   }
                 }
-                .EasyCommentContainer-prevButton{
+                .EasyCommentContainer-prevButtonBox{
                   background: linear-gradient(270deg,hsla(0,0%,100%,0),rgba(0, 0, 0, 0.94),black) !important;
-                  svg{
-                    fill: $main-text-color;
-                  }
+                  .EasyCommentContainer-prevButton{
+                    background: none;
+                    svg{
+                      fill: $main-text-color;
+                    }
+                  } 
                 }
                 .EasyCommentButton{
                   background: $nico-black !important;
@@ -568,6 +574,9 @@
           }
           .TagRelatedBannerContainer{
             .TagRelatedBanner-title a{
+              color: $main-url-color;
+            }
+            .TagRelatedBanner-description a{
               color: $main-url-color;
             }
           }
