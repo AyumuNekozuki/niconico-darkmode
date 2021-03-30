@@ -530,8 +530,17 @@
             }
           }
           [class*="___body-area___"]{
-            [class*="___description___3aLzk"]{
+            [class*="___description___"]{
               color: $main-text-color;
+              [class*="___expand-button___"] span{
+                color: $main-text-color;
+              }
+            }
+            [class*="___description___"][aria-expanded=false] [class*="___expand-button___"]{
+              background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,$main-background-color 16%);
+              span{
+                color: $main-text-color;
+              }
             }
           }
           [class*="___footer-area___"]{
@@ -550,10 +559,16 @@
             }
           }
           [class*="___body-area___"]{
-            [class*="___description___3aLzk"]{
+            [class*="___description___"]{
               color: $main-text-color;
-              [class*="___expand-button___"]{
-                background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,$main-background-color 16%);
+              [class*="___expand-button___"] span{
+                color: $main-text-color;
+              }
+            }
+            [class*="___description___"][aria-expanded=false] [class*="___expand-button___"]{
+              background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,$main-background-color 16%);
+              span{
+                color: $main-text-color;
               }
             }
           }
@@ -571,7 +586,16 @@
           [class*="___heading___"]{
             color: $main-text-color;
           }
+          [class*="___setting-button___"]{
+            svg>path{
+              fill: $main-text-color;
+            }
+          }
+          [class*="___setting-button___"]:hover{
+            background-color: $hover-background-color;
+          }
           [class*="___tag-list___"]{
+            border: none;
             [class*="___item___"]{
               border-color: $border-background-color;
               [class*="___tag-card___"]{
@@ -590,6 +614,7 @@
                     }
                   }
                   [class*="___quote-request-button___"]:hover{
+                    background-color: $hover-background-color;
                     svg{
                       fill: $main-url-color;
                     }
