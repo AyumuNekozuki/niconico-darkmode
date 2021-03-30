@@ -13,6 +13,77 @@
   [class*="___big-banner___"]{ //バナー
     background-color: $main-background-color;
   }
+
+  [class*="___contents-area___"]{ //好みタグ検索
+    [class*="___main-contents-area___"]{
+      [class*="___main-contents-search-area___"]{ //検索エリア
+        background: $livetop-content-bg1;
+        [class*="___konomi-tag-search-form-wrapper___"]{
+          [class*="___search-text-box___"]{
+            ul[class*="___suggest___"]{
+              background: none;
+              li{
+                background-color: $nico-black;
+                color: $main-text-color;
+              }
+              li:hover{
+                background-color: $hover-background-color;
+              }
+            }
+          }
+
+        }
+        [class*="___expand-absorber___"]{
+          [class*="___heading___"]{
+            color: $main-text-color;
+          }
+        }
+      }
+    }
+    [class*="___side-contents-area___"]{
+      [class*="___user-follow-konomi-tag-list-section___"]{
+        background-color: $livetop-content-bg1;
+        [class*="___header___"]{
+          background-color: $livetop-content-bg1;
+          border-color: $border-background-color;
+          [class*="___registration-counter___"]{
+            color: $sub-2-text-color;
+          }
+          [class*="___setting-button___"]{
+            svg > path{
+              fill: $main-text-color;
+            }
+          }
+          [class*="___setting-button___"]:hover{
+            background-color: $hover-background-color;
+          }
+        }
+        [class*="___tag-list___"]{
+          [class*="___item___"]{
+            border-color: $border-background-color;
+            [class*="___tag-card___"]{
+              background-color: $nico-black;
+              [class*="___information___"]{
+                [class*="___name-label___"]{
+                  color: $main-text-color;
+                }
+              }
+              [class*="___statistics-information___"]{
+                [class*="___number___"]{
+                  color: $sub-2-text-color;
+                }
+              }
+            }
+            [class*="___tag-card___"]:hover{
+              background-color: $hover-background-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
   [class*="___tag-widget___"]{ //タグ一覧
     background-color: $livetop-content-bg1;
     [class*="___tag-list___"]{
@@ -59,6 +130,67 @@
     }
     [class*="___load-button___"]:hover{ //もっと見る
       background-color: $hover-background-color;
+    }
+  }
+
+  [class*="___konomi-tag-follow-tool___"]{ //好みタグツール
+    [class*="___tab-panel___"]{
+      background-color: $nico-black;
+      [class*="___tab-list___"]{
+        [class*="___edit-tab___"],
+        [class*="___register-tab___"]{
+          color: $main-text-color;
+          background-color: $main-background-color;
+          border-color: $border-background-color
+        }
+        [aria-selected=true][class*="___edit-tab___"],
+        [aria-selected=true][class*="___register-tab___"]{
+          border-bottom-color: $main-url-color;
+        }
+      }
+    }
+    [class*="___register-panel___"]{ //探す
+      [class*="___description-message___"]{
+        color: $sub-2-text-color;
+      }
+      [class*="___search-area___"]{
+        [class*="___suggest-text-box___"]{
+          ul[class*="___suggest___"]{
+            background: none;
+            li{
+              background-color: $nico-black;
+              color: $main-text-color;
+            }
+            li:hover{
+              background-color: $hover-background-color;
+            }
+          }
+        }
+      }
+      [class*="___konomi-tag-list-section___"]{
+        border-top-color: $border-background-color;
+        [class*="___tag-list___"]{
+          [class*="___item___"]{
+            [class*="___name-label___"]{
+              color: $main-text-color;
+            }
+            [class*="___toggle-button___"]{
+              background-color: $livetop-content-bg2;
+              border-color: $livetop-content-bg2;
+            }
+          }
+        }
+      }
+    } 
+    [class*="___edit-panel___"]{ //フォロー中
+      [class*="___tag-list___"]{
+        [class*="___item___"]{
+          border-color: $border-background-color;
+          [class*="___name-label___"]{
+            color: $main-text-color;
+          }
+        }
+      }
     }
   }
 
