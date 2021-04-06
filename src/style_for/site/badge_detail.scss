@@ -1,0 +1,21 @@
+@import '../parts/_default';
+@import '../video/mypage/iframe/badge';
+
+.niconico-darkmode-setting-true{
+  .o-badge-detail{
+    background: none;
+    color: $main-text-color;
+    .m-badge-base .m-badge-base__info{
+      .m-badge-base__grade{
+        color: $sub-1-text-color;
+      }
+      .m-badge-base__disp{
+        color: $sub-2-text-color;
+      }
+    }
+  }
+  .t-badge-footer{
+    background: none;
+    border-color: $border-background-color;
+  }
+}
