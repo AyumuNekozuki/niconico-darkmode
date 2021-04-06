@@ -85,4 +85,34 @@
       background-color: $hover-background-color;
     }
   }
+
+  //動画ランキング
+  .ThreePointMenu.RankingVideoMenu,
+  .Card-action .ThreePointMenu{
+    background: none;
+    .ThreePointMenu-button:hover{
+      background: $hover-background-color;
+    }
+    .ThreePointMenu-menu{
+      background: $sub2-background-color;
+      .RankingVideoMenu-item{
+        color: $main-text-color;
+      }
+      .RankingVideoMenu-item:hover{
+        background-color: $hover-background-color;
+      }
+    }
+  }
+  .WheelStopper{
+    .ThreePointMenu-menu{
+      background: $sub2-background-color;
+      *{
+        color: $main-text-color;
+      }
+      *:hover{
+        background-color: $hover-background-color;
+      }
+    }
+  }
+
 }

@@ -164,6 +164,9 @@
 
   .BaseLayout-footer{
     background: $nico-default-bg;
+    .Ads728x90WebPcFooter{
+      background: none;
+    }
   }
 
 }
@@ -212,6 +215,52 @@
             color: $main-text-color;
           }
         }
+
+        //videolist
+        .RankingVideoListContainer{
+          .MediaObject{
+            background: $nico-default-bg;
+            padding: .5rem;
+            .MediaObject-main{
+              .MediaObject-contents{
+                .MediaObject-body{
+                  .MediaObjectTitle{
+                    color: $main-text-color;
+                  }
+                  .VideoMediaObject-description{
+                    color: $sub-1-text-color;
+                  }
+                }
+              }
+              .MediaObject-contents:visited{
+                .MediaObject-body{
+                  .MediaObjectTitle{
+                    color: $sub-1-text-color;
+                  }
+                }
+              }
+              .MediaObject-contents:hover{
+                .MediaObject-body{
+                  .MediaObjectTitle{
+                    color: $main-url-color;
+                  }
+                }
+              }
+            }
+          }
+          .MediaObject.RankingMainNicoad[data-nicoad-grade=gold]{
+            background: $nico-default-bg;
+            border: 2.5px solid $nicoad-gold;
+          }
+          .MediaObject.RankingMainNicoad[data-nicoad-grade=silver]{
+            background: $nico-default-bg;
+            border: 1.5px solid $nicoad-silver;
+          }
+          .MediaObject.RankingMainNicoad[data-nicoad-grade=bronze]{
+            background: $nico-default-bg;
+            border: 1px solid $nicoad-bronze;
+          }
+        }
       }
     }
   }
@@ -234,22 +283,6 @@
   }
   .DropdownItem[data-is-selected]{
     background: $main-url-color !important;
-  }
-
-  .MediaObject.RankingMainVideo,.MediaObject.RankingMainNicoad{
-    background: $nico-default-bg !important;
-  }
-  .MediaObject.RankingMainNicoad[data-nicoad-grade=gold]{
-    background: $nico-default-bg !important;
-    border: 3px solid gold !important;
-  }
-  .MediaObject.RankingMainNicoad[data-nicoad-grade=silver]{
-    background: $nico-default-bg !important;
-    border: 2px solid silver !important;
-  }
-  .MediaObject.RankingMainNicoad[data-nicoad-grade=bronze]{
-    background: $nico-default-bg !important;
-    border: 1px solid #a36b21 !important;
   }
 
   .RankingFilterTag{

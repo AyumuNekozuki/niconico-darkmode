@@ -1,12 +1,16 @@
 @import '_default';
 
 .niconico-darkmode-setting-true{
-  .VideoCard,
-  .NicoadVideoItem{
-    a{
+  .VideoItem.VideoCard,
+  .NicoadItem.NicoadCard{
+    background: $nico-black;
+    a .CardTitle{
       color: $main-text-color;
     }
-    a:hover{
+    a:visited .CardTitle{
+      color: $sub-1-text-color;
+    }
+    a:hover .CardTitle{
       color: $main-url-color;
     }
   }
