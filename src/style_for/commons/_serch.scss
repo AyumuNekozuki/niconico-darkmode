@@ -1,0 +1,54 @@
+@import "../parts/default";
+@import "parts/library_card";
+
+.niconico-darkmode-setting-true{
+
+  .p-searchResultPage{
+    background: none;
+
+    .searchVueArea{
+      .searchFilterArea{
+        .searchFormOrder, .searchFormLicense{
+          border-color: $border-background-color;
+          background-color: $sub2-background-color;
+          color: $main-text-color;
+        }
+        .searchTagOrKeyword{
+          input[type=radio]+label span{
+            background-color: $nico-black;
+          }
+          input[type=radio]:checked+label span{
+            background-color: $main-url-color;
+          }
+        }
+      }
+      .c-pagination{
+        .previousIcon,.nextIcon{
+          .prevAnchor, .nextAnchor{
+            svg path{
+              fill: $main-text-color;
+            }
+          }
+        }
+        .previousIcon[aria-disabled=true],.nextIcon[aria-disabled=true]{
+          svg{
+            fill: $nico-black;
+          }
+        } 
+        .pageNumber{
+          color: $main-text-color;
+          background-color: $nico-black;
+          a{
+            color: $main-text-color;
+          }
+        }
+        .pageNumber:hover{
+          background-color: $hover-background-color;
+        }
+        .pageNumber[aria-disabled=true]{
+          background-color: $main-url-color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+@import "../parts/default";
+
+@import "_top"; //コモンズTOP
+@import "_materials"; //作品ライブラリ
+@import "_material"; //作品ページ
+@import "_material_agree"; //検索
+@import "_serch"; //検索
+
+@import "_gw"; //ページ移動確認
+
+//以下共通
+.niconico-darkmode-setting-true{
+  background: $main-background-color;
+
+  .c-globalHeader{
+    h1 a svg g path{
+      fill: $main-text-color;
+    }
+  }
+  .c-globalMenuArea{
+    li a{
+      color: $main-text-color;
+      span svg{
+        path:not([fill="none"]){
+          fill: $main-text-color;
+        }
+      }
+    }
+    li[data-is-active=true]{
+      border-bottom-color: $main-url-color;
+      a{
+        color: $main-url-color;
+        span svg{
+          path:not([fill="none"]){
+            fill: $main-url-color;
+          }
+        }
+      }
+    }
+    li:hover{
+      a{
+        color: $main-url-color;
+        span svg{
+          path:not([fill="none"]){
+            fill: $main-url-color;
+          }
+        }
+      }
+    }
+    li[data-is-active=true]:hover{
+      border-bottom-color: $main-url-color;
+    }
+  }
+
+  .c-SearchMenu{ //検索バー
+    .SearchMenuInner{
+      .searchForm{
+        .searchFormSelecter{
+          border-color: $border-background-color;
+          background-color: $sub2-background-color;
+          color: $main-text-color;
+        }
+        .searchFormInput{
+          border-color: $border-background-color;
+          background-color: $sub2-background-color;
+          color: $main-text-color;
+        }
+        .searchFormButtonIcon{
+          border-color: $border-background-color;
+          background-color: $sub2-background-color;
+          svg{
+            fill: $border-background-color;
+          }
+        }
+      }
+      .worksList{
+        .worksListInner{
+          color: $main-text-color;
+          border-color: $border-background-color;
+          .worksLinkArea{
+            .worksIcon svg path{
+              fill: $main-text-color;
+            }
+            .worksLink{
+              background: $nico-black;
+              li a{
+                color: $main-text-color;
+              }
+            }
+          }
+        }
+      }
+      .myPageLink{
+        .myPageLinkInner{
+          border-color: $border-background-color;
+          span a{
+            color: $main-text-color;
+          }
+        }
+      }
+      .myPageLink:hover{
+        opacity: 1;
+        .myPageLinkInner{
+          span a{
+            opacity: .6;
+          }
+        }
+      }
+    }
+  }
+
+  .c-pageTop{ //サイト上部へ戻る
+    .pageTopArea span{
+      color: $sub-2-text-color;
+      .icon svg path{
+        fill: $sub-2-text-color;
+      }
+    }
+  }
+}

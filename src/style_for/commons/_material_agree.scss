@@ -1,0 +1,55 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+
+  .p-agreementPage{
+    background: none;
+    .agreementContentsArea{
+      .licenseNotice{
+        color: $main-text-color;
+      }
+      .agreementContents{
+        .agreementContentsInner{
+          border-color: $border-background-color;
+          .licenseDescriptionArea{
+            border-color: $border-background-color;
+            .permissionRangeAllLabel,.commercialUseAvailableLabel{
+              border-color: $border-background-color;
+              color: $main-text-color;
+              span{
+                color: $main-text-color;
+                border-color: $border-background-color;
+              }
+              span:first-child{
+                background-color: $border-background-color;
+              }
+            }
+            .licenseDescription{
+              color: $main-text-color;
+            }
+          }
+        }
+      }
+      .license_download{
+        .licenseDescription{
+          color: $main-text-color;
+          a{
+            color: $main-text-color;
+          }
+          a:hover{
+            color: $main-url-color;
+          }
+        }
+        
+      }
+      .license_back{
+        a{
+          color: $main-text-color;
+        }
+        a:hover{
+          color: $main-url-color;
+        }
+      }
+    }
+  }
+}

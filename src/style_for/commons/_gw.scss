@@ -1,0 +1,16 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  #index_content{
+    div:first-child{
+      border-color: $border-background-color;
+      color: $main-text-color;
+      a{
+        color: $main-url-color;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}

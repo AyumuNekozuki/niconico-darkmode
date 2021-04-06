@@ -1,0 +1,150 @@
+@import "../parts/default";
+@import "parts/library_card";
+
+.niconico-darkmode-setting-true{
+
+  .p-materialsPage{
+    background: none;
+
+    .materialsContentsArea{
+      .c-materialsInfoHeadFeedArea{ //ライブラリ お知らせ
+        .materialsInfoHeadList{
+          background: $nico-black;
+          .materialsInfoHead{
+            .materialsInfoHeadDate{
+              color: $sub-2-text-color;
+            }
+            .materialsInfoHeadTitle{
+              a{
+                color: $main-text-color;
+              }
+              a:visited{
+                color: $sub-1-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
+              }
+            }
+          }
+        }
+      }
+      .c-materialsTagListArea{ //ライブラリ 人気の検索ワード
+        .materialsTagListAreaInner{
+          background: $nico-black;
+          h3{
+            color: $sub-1-text-color;
+          }
+          .materialsTagList{
+            .materialsTag{
+              a{
+                background-color: $sub2-background-color;
+                border-color: $sub2-background-color;
+                color: $main-text-color;
+              }
+              a:hover{
+                border-color: $main-url-color;
+                color: $main-url-color;
+              }
+            }
+          }
+        }
+      }
+      .c-materialsCardArea{ //カードエリア
+        .materialsTitleArea{
+          h2{
+            color: $main-text-color;
+          }
+          .moreReadAnchor{
+            background-color: $sub2-background-color;
+            border-color: $sub2-background-color;
+            .moreReadText{
+              color: $main-text-color;
+            }
+            .moreReadIcon svg{
+              fill: $main-text-color;
+            }
+          }
+        }
+        .itemCardListArea{
+          background: none;
+          //_library_card.scssを参照
+        }
+        .arrowLeftIconArea,.arrowRightIconArea{
+          .arrowLeftIcon,.arrowRightIcon{
+            svg{
+              fill: $hover-background-color;
+            }
+          }
+          .arrowLeftIcon[aria-disabled=true],.arrowRightIcon[aria-disabled=true]{
+            svg{
+              fill: $nico-black;
+            }
+          }
+        }
+      }
+      .c-materialsInfo{ //カード型インフォ
+        h2{
+          color: $main-text-color;
+        }
+        .materialsInfoArea{
+          .infoArea{
+            background-color: $nico-black;
+            border-color: $nico-black;
+            ul{
+              .infoTitle{
+                color: $main-text-color;
+              }
+              .infoDescription{
+                color: $sub-1-text-color;
+              }
+              .infoAnchor{
+                a{
+                  color: $main-text-color;
+                  border: none;
+                  span svg path{
+                    fill: $main-text-color;
+                  }
+                }
+                a:hover{
+                  color: $main-url-color;
+                  span svg path{
+                    fill: $main-url-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .c-materialsInfoFootFeedArea{ //お知らせ
+        .materialsInfoFootTitleArea{
+          h2{
+            color: $main-text-color;
+          }
+        }
+        .materialsInfoFootList{
+          background-color: $nico-black;
+          .materialsInfoFoot{
+            .materialsInfoFootDate{
+              color: $sub-2-text-color;
+            }
+            .materialsInfoFootTitle{
+              a{
+                color: $main-text-color;
+              }
+              a:visited{
+                color: $sub-1-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+}

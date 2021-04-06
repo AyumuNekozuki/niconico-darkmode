@@ -1,0 +1,83 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  .p-topPage{
+    background: none;
+
+    .topContentsArea{
+      margin: 10px auto;
+
+      .topContentsInner{
+        .contentLeft{
+          .mainInfo{ //クリエイター向けのポータルサイト「ニコニ・コモンズ」
+            border-color: $border-background-color;
+            background: linear-gradient(to right, transparent, transparent 32.5%, $nico-black 40%),url(https://commons.nicovideo.jp/images/index/bg_main.png) no-repeat 0 0;
+
+            .mainInfoCaption span{
+              color: $main-text-color;
+            }
+            .mainInfoTxt{
+              color: $sub-1-text-color;
+            }
+          }
+          .infoList{ //お知らせ
+            .infoListInner{
+              border-color: $border-background-color;
+              background-color: $nico-black;
+              .topInfoListArea{
+                dt{
+                  color: $sub-2-text-color;
+                }
+                dd{
+                  a{
+                    color: $main-text-color;
+                  }
+                  a:visited{
+                    color: $sub-1-text-color;
+                  }
+                  a:hover{
+                    color: $main-url-color
+                  }
+                }
+              }
+            }
+          }
+          .newUploads{ //自分が投稿したコモンズ作品
+            .newUploadsMain{
+              border-color: $border-background-color;
+              background-color: $nico-black;
+              table{
+                .newArrivalItem{
+                  .titleArea{
+                    a{
+                      color: $main-text-color;
+                    }
+                  }
+                  .topTreeButton .topTreeButtonAnchor{
+                    border-color: $border-background-color;
+                    background-color: $sub2-background-color;
+                    .treeIcon svg{
+                      fill: $nico-tree;
+                    }
+                    .treeText{
+                      color: $nico-tree;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .contentRight{
+          #HelpLinks{
+            border: none;
+            background: none;
+            *{
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

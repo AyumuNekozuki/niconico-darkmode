@@ -1,0 +1,28 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  .itemCard,.searchItemCardArea{
+    .materialsItemCard,.searchItemCard{
+      background-color: $nico-black !important;
+      .contentArea{
+        .programSummary,.materialSummary,.searchSummary{
+          .materialTitle,.searchTitle{
+            color: $main-text-color;
+          }
+        }
+        .searchDescription{
+          color: $sub-1-text-color;
+        }
+        .tagList .tagListInner{
+          .tag{
+            color: $sub-1-text-color;
+            background-color: $hover-background-color;
+          }
+        }
+        .menuArea{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+  }
+}

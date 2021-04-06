@@ -1,0 +1,304 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  .p-materialPage{
+    background: none;
+
+    .materialContentsArea{
+      .materialLeft{
+        .materialHeadTitleArea{
+          .materialHeadTitle{
+            color: $main-text-color;
+          }
+        }
+        .materialHeadRegistrationDate{
+          color: $sub-1-text-color;
+        }
+        .materialHeadMetaArea{
+          .materialHeadMeta{
+            color: $sub-2-text-color;
+            span{
+              color: $sub-1-text-color;
+            }
+          }
+        }
+        .materialHeadDescription{
+          margin-top: 15px;
+          margin-bottom: 15px;
+          color: $main-text-color;
+          a{
+            color: $main-text-color;
+            text-decoration: underline;
+          }
+          a:hover{
+            text-decoration: none;
+          }
+        }
+        .materialHeadTagArea{
+          .materialHeadTagForm{
+            input.submit{
+              border-color: $border-background-color;
+              background: $nico-black;
+              color: $main-text-color;
+            }
+            input.submit:hover{
+              background-color: $hover-background-color;
+            }
+            #tag_add_form{
+              #tag_text_add{
+                background-color: $nico-black;
+                color: $main-text-color;
+              }
+            }
+            #tag_edit_list{
+              color: $main-text-color;
+            }
+          }
+          .materialHeadTag{
+            a{
+              color: $main-text-color;
+              background-color: $nico-black;
+              border-color: $nico-black;
+            }
+          }
+          .materialHeadTagEditAnchor{
+            color: $sub-1-text-color;
+          }
+        }
+        .materialPreviewSection{
+          .materialPreviewThumbArea{
+            border-color: $nico-black;
+            background-color: $nico-black;
+          }
+          .materialPreviewDownload{
+            .materialPreviewMetaData{
+              border-color: $border-background-color;
+              ul{
+                border-color: $border-background-color;
+                li{
+                  color: $main-text-color;
+                }
+                li:first-child{
+                  background-color: $border-background-color;
+                  border-color: $border-background-color;
+                }
+              } 
+            }
+          }
+        }
+        .materialDerivationSection{
+          border: none;
+          .materialDerivationArea{
+            background-color: $nico-black;
+            border-color: $nico-black;
+            .commonsParents{
+              .materialDerivationBodyParents{
+                .materialDerivationTitle{
+                  color: $main-text-color;
+                }
+                .materialDerivationDescription{
+                  color: $sub-1-text-color
+                }
+                .materialDerivationTotalCount{
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+            .materialDerivationChildren{
+              border-color: $border-background-color;
+              .materialDerivationBodyChildren{
+                .materialDerivationTitle{
+                  color: $main-text-color;
+                }
+                .materialDerivationDescription{
+                  color: $sub-1-text-color;
+                }
+                .materialDerivationItems{
+                  .materialDerivationThum{
+                    background: $sub2-background-color;
+                  }
+                  .materialDerivationThum:hover{
+                    opacity: .6;
+                  }
+                  .materialDerivationTreeIconArea{
+                    .materialDerivationTreeBtnAnchor{
+                      border-color: $border-background-color;
+                      background-color: $sub2-background-color;
+                      .materialTreeIcon svg path{
+                        fill: $nico-tree;
+                      }
+                      .materialTreeText{
+                        color: $nico-tree;
+                      }
+                    }
+                    .materialDerivationTreeBtnAnchor:hover{
+                      opacity: .6;
+                    }
+                  }
+                }
+                .materialDerivationTotalCount{
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+          }
+          .materialDerivationTreeAnchor{
+            border-color: $nico-tree;
+            background-color: $nico-black;
+            a{
+              color: $nico-tree;
+            }
+          }
+          .materialDerivationTreeAnchor:hover{
+            opacity: .6;
+          }
+        }
+        .materialHistoryLicense{
+          border-color: $nico-black;
+          background-color: $nico-black;
+          .materialHistoryLicenseTitle{
+            color: $main-text-color;
+          }
+          .materialHistoryTermsDate{
+            color: $sub-1-text-color;
+          }
+          .materialHistoryTerms{
+            color: $main-text-color;
+            .permissionRangeAllLabel span,.commercialUseAvailableLabel span{
+              color: $main-text-color !important;
+              border-color: $border-background-color !important;
+            }
+          }
+        }
+        .materialCommentSection{
+          .materialCommentBody{
+            background-color: $nico-black;
+            border-color: $nico-black;
+            .materialCommentTitle{
+              color: $main-text-color;
+            }
+            .materialCommentForm{
+              border-color: $border-background-color;
+              color: $main-text-color;
+              background-color: $sub2-background-color;
+            }
+            .postCommentArea>label{
+              background-color: $main-url-color;
+              color: $main-text-color;
+            }
+            #box_comment{
+              .materialCommentTable{
+                tr+tr{
+                  border-color: $border-background-color;
+                }
+                td{
+                  .materialCommentUserName{
+                    color: $main-text-color;
+                  }
+                  .comment_text{
+                    color: $main-text-color;
+                  }
+                }
+              }
+            }
+            #comment_command_base{
+              .materialCommentInfoArea{
+                border-color: $border-background-color;
+                .materialCommentInfo{
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+          }
+        }
+        .materialReport{
+          background-color: $nico-black;
+          border-color: $nico-black;
+          p{
+            color: $main-text-color;
+            a{
+              color: $main-text-color;
+            }
+            a:hover{
+              color: $main-url-color;
+            }
+          }
+          .materialReportSelect{
+            border-color: $border-background-color;
+            background-color: $sub2-background-color;
+            color: $main-text-color;
+          }
+          .materialReportBtnArea>label{
+            color: $main-text-color;
+            background-color: $main-url-color;
+          }
+        }
+      }
+      .materialRight{
+        background: none;
+        .materialProfileArea{
+          background-color: $nico-black;
+          .materialUserTitle{
+            color: $main-text-color;
+            border-color: $border-background-color;
+          }
+          .mBody{
+            background: none;
+            .mUserProfile{
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
+              }
+              .materialProfileWorkNum{
+                h3{
+                  color: $main-text-color;
+                }
+                span{
+                  color: $sub-1-text-color;
+                }
+              }
+              
+            }
+            .mUserSeparator{
+              color: $main-text-color;
+            }
+            .userAnchor{
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
+              }
+            }
+          }
+        }
+        .materialInfoArea{
+          background-color: $nico-black;
+          .materialTitle{
+            color: $main-text-color;
+            border-color: $border-background-color
+          }
+          .mBody{
+            background: none;
+            .mInfoType{
+              p{
+                color: $main-text-color;
+              }
+            }
+            table{
+              td{
+                border-color: $border-background-color;
+                color: $main-text-color;
+              }
+              .minfoCaption{
+                background-color: $border-background-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
