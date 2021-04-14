@@ -353,6 +353,7 @@
     ]
     ,
     "permissions": [
+        "*://*.nicovideo.jp/",
         "storage"
     ]
 }
