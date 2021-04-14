@@ -169,6 +169,17 @@
     }
   }
 
+  .ShareModal-modal{
+    background: $nico-black;
+    .ShareModal-modalTitle{
+      background: none;
+      color: $main-text-color;
+    }
+    .CopyForm-copy:hover{
+      background-color: $hover-background-color;
+    }
+  }
+
 }
 
 //ジャンルランキング
