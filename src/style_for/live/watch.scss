@@ -79,6 +79,43 @@
               }
             }
           }
+          [class*="___player-display___"]{ //フルスクリーン時
+            [class*="___player-display-footer___"]{
+              [class*="___broadcast-participation-area___"]{ //新市場・コメント入力
+                background: none;
+                border: none;
+                [class*="___comment-post-panel___"]{ //コメント入力欄
+                  [class*="___command-tool___"]{ //コマンド
+                    [class*="___command-palette___"]{ //コマンドパレット
+                      background-color: $nico-black;
+                      [class*="___anonymous-comment-post-toggle-button-field___"]{ //コメント投稿設定
+                        [class*="___label___"]{
+                          color: $main-text-color;
+                        }
+                      }
+                    }
+                  }
+    
+                  [class*="___overlay___"]{ //コメント禁止
+                    background-color: $nico-black;
+                    opacity: 0.8;
+                  }
+                  [class*="___disabled-message___"]{ //コメント禁止
+                    color: $main-text-color;
+                  }
+                }
+                [class*="___emotion-button___"]:disabled:before{ //エモーション禁止時
+                  background-color: $nico-black;
+                  opacity: 0.8;
+                }
+                [class*="___broadcast-participation-area-disabled-message-area___"]{
+                  [class*="___broadcast-participation-area-disabled-message___"]{
+                    color: $main-text-color;
+                  }
+                }
+              }
+            }
+          }
           [class*="___player-setting-view___"]{ //プレイヤー詳細設定
             background-color: $main-background-color;
             border-color: $main-background-color;
