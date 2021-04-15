@@ -1,8 +1,13 @@
+//browser-extention
+let manifestData = chrome.runtime.getManifest();
+
+//バージョン
+var ex_version = manifestData.version + "";
+
 //URL取得
 var host = location.hostname;
 var path = location.pathname;
 var now_location = host + path + "";
-console.log(now_location)
 
 //ヘッダ除外ネーム
 const noheader = [
@@ -33,10 +38,9 @@ function setting_false() {
 chrome.storage.local.get(["version"], function (items) {
   console.log("niconico-Darkmode: version: " + items.version);
 
-  //v1.2.1以降更新時、versionのsocial_topのset指定を消すこと
-  if ((items.version != "2.1.1")) {
+  if ((items.version != ex_version)) {
     chrome.storage.local.set({
-      "version": "2.1.1"
+      "version": ex_version
     })
     chrome.storage.local.get(["setting"], function (items) {
       if (items.setting == undefined) {

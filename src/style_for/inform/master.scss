@@ -1,0 +1,33 @@
+@import "../parts/default";
+
+@import "_oshirase_list";
+@import "_oshirase_settings";
+
+.niconico-darkmode-setting-true{
+
+  #root{
+    .iJCYNH{ //左タブ
+      .cRwlCs{
+        ul.list{
+          li.item{
+            a.settings:hover{
+              color: $main-text-color;
+            }
+            a.settings:hover::before{
+              filter: $invert;
+            }
+          } 
+        }
+      }
+    }
+    footer.sc-htpNat{
+      background: $nico-black;
+      border-color: $border-background-color;
+      p{
+        color: $sub-1-text-color;
+      }
+    }
+  }
+}
+
+

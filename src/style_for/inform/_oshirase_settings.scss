@@ -1,0 +1,35 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  #root{
+    header.sc-iRbamj{
+      border-color: $border-background-color;
+      .head{
+        color: $main-text-color;
+      }
+      .text{
+        color: $sub-1-text-color;
+        a{
+          color: $main-url-color;
+        }
+        a:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    .sc-Rmtcm{
+      .sc-gipzik.setting-item{
+        border-color: $border-background-color;
+        background: $nico-black;
+        .text{
+          .main{
+            color: $main-text-color;
+          }
+          .sub{
+            color: $sub-1-text-color;
+          }
+        }
+      }
+    }
+  }
+}
