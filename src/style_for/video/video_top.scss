@@ -55,6 +55,18 @@
           }
         }
       }
+      .VideoIntroductionAreaContainer-columnRight{
+        .RightSideAdContainer-banner{
+          .BunsContainer-info{
+            a{
+              color: $main-url-color;
+            }
+            a:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
     }
     .BaseLayout-block{
       .Separator{
@@ -90,6 +102,12 @@
         }
         .TagWithVideoItem-articleLink:hover{
           color: $main-url-color;
+        }
+      }
+      .NicoadVideosContainer{
+        .NicoadVideosContainer-emptyMessage,
+        .NicoadVideosContainer-failMessage{
+          color: $main-text-color;
         }
       }
       .NewsNotificationContainer{

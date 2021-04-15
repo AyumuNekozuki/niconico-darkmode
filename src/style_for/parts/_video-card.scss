@@ -2,16 +2,23 @@
 
 .niconico-darkmode-setting-true{
   .VideoCard,
+  .VideoItem.VideoCard,
   .NicoadItem.NicoadCard{
     background: $nico-black;
-    a .Card-title{
+    a .Card-title,
+    a .CardTitle{
       color: $main-text-color;
     }
-    a:visited .Card-title{
+    a:visited .Card-title,
+    a:visited .CardTitle{
       color: $sub-1-text-color;
     }
-    a:hover .Card-title{
+    a:hover .Card-title,
+    a:hover .CardTitle{
       color: $main-url-color;
+    }
+    .Card-secondary{
+      color: $sub-1-text-color;
     }
   }
   .TagItem{
