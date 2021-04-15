@@ -321,14 +321,6 @@
         },
         {
             "matches": [
-                "*://account.nicovideo.jp/login*"
-            ],
-            "css": [
-                "style_for/account/login.css"
-            ]
-        },
-        {
-            "matches": [
                 "*://www.upload.nicovideo.jp/garage*"
             ],
             "css": [
