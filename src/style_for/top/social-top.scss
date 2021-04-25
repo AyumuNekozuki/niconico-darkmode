@@ -404,3 +404,206 @@
   }
 }
 
+.niconico-darkmode-setting-true{ //chokaigi2021
+  .TopPage-section{
+    .OneLineNewsContainer{
+      background: $nico-black;
+    }
+    .OneLineNewsContainer:hover{
+      background: $main-url-color;
+    }
+    .BreakingNewsContainer{ //超速報
+      .BreakingNewsContainer-inner{
+        background: $nico-black;
+        border: 3px solid $chokaigi;
+
+        .BreakingNewsContainer-header{
+          background: $nico-black;
+        }
+        .BreakingNewsCard,
+        .BreakingNewsCardNicoAd-cardInner{
+          .BreakingNewsCard-name,.BreakingNewsCardNicoAd-title{
+            color: $main-text-color;
+          }
+          .BreakingNewsCard-updateDate{
+            color: $sub-1-text-color;
+          }
+          .ContentThumbnailOnlySmarty{
+            border-radius: 5px;
+          }
+        }
+        .BreakingNewsCard:hover,
+        .BreakingNewsCardNicoAd-cardInner:hover{
+          .BreakingNewsCard-name,.BreakingNewsCardNicoAd-title{
+            color: $main-url-color;
+          }
+        }
+      }
+    }
+  }
+  .ThemeContainer-content>.ContentsDigestFrame+.ContentsDigestFrame:before{
+    border-color: $border-background-color;
+  }
+
+  .VocaloidCollectionContainer{ //vocacolle
+    background-image: none;
+
+    .RankingContainer{
+      .ContentsDigestFrame{
+        .FrameTitleLink{
+          .FrameTitleLink-titleText{
+            color: $main-text-color;
+          }
+        }
+        .FrameTitleLink:hover{
+          .FrameTitleLink-titleText{
+            color: $main-url-color;
+          }
+        }
+        .ContentsDigestFrame-description{
+          color: $sub-1-text-color;
+        }
+        .SeeMoreLink{
+          .SeeMoreLink-text{
+            background-color: $sub2-background-color;
+            color: $main-text-color;
+            border-color: $border-background-color;
+            svg{
+              fill: $main-text-color;
+            }
+          }
+        }
+        .SeeMoreLink:hover{
+          .SeeMoreLink-text{
+            background-color: $main-url-color;
+            border-color: $main-url-color;
+          }
+        }
+        .ContentsDigestFrame-body{
+          .ContentsDigestFrame-card{
+            .ContentsDigestFrame-cardMetaTitle{
+              color: $main-text-color;
+            }
+          }
+          .ContentsDigestFrame-card:hover{
+            .ContentsDigestFrame-cardMetaTitle{
+              color: $main-url-color;
+            }
+          }
+        }
+      }
+    }
+    .CreatorSupportContainer{
+      .CreatorSupportContainer-header{
+        .FrameTitleLink{
+          .FrameTitleLink-titleText{
+            color: $main-text-color;
+          }
+        }
+        .FrameTitleLink:hover{
+          .FrameTitleLink-titleText{
+            color: $main-url-color;
+          }
+        }
+        .CreatorSupportContainer-description{
+          color: $sub-1-text-color;
+        }
+        .SeeMoreLink{
+          .SeeMoreLink-text{
+            background-color: $sub2-background-color;
+            color: $main-text-color;
+            border-color: $border-background-color;
+            svg{
+              fill: $main-text-color;
+            }
+          }
+        }
+        .SeeMoreLink:hover{
+          .SeeMoreLink-text{
+            background-color: $main-url-color;
+            border-color: $main-url-color;
+          }
+        }
+        .ContentsDigestFrame-body{
+          .ContentsDigestFrame-card{
+            .ContentsDigestFrame-cardMetaTitle{
+              color: $main-text-color;
+            }
+          }
+          .ContentsDigestFrame-card:hover{
+            .ContentsDigestFrame-cardMetaTitle{
+              color: $main-url-color;
+            }
+          }
+        }
+      }
+      .CreatorSupportContainer-items{
+        .CreatorSupportItem{
+          background: $nico-black;
+          header{
+            border-bottom: 1px solid $border-background-color;
+          }
+          .CreatorSupportItem-ranking{
+            color: $main-text-color;
+          }
+          footer{
+            .CreatorSupportItem-footerLink{
+              color: $nicoad-gold;
+            }
+            .CreatorSupportItem-footerLink:before{
+              filter: $invert;
+            }
+          }
+          
+        }
+      }
+    }
+    .RankingContainer>.ContentsDigestFrame+.ContentsDigestFrame:before,
+    .CreatorSupportContainer:before{
+      border-color: $border-background-color;
+    }
+  }
+
+  .PublishedEventArticlesContainer{ //keisai
+    border-color: $border-background-color;
+    background: $nico-black;
+
+    .PublishedEventArticlesContainer-title{
+      color: $main-text-color;
+    }
+    .PublishedEventArticlesContainer-articleList{
+      .PublishedEventArticlesContainer-article{
+        .PublishedEventArticlesContainer-articleTitle{
+          color: $main-text-color;
+        }
+        .PublishedEventArticlesContainer-articleTitle:hover{
+          color: $main-url-color;
+        }
+      }
+      .PublishedEventArticlesContainer-article+.PublishedEventArticlesContainer-article{
+        border-color: $border-background-color;
+      }
+    }
+    .PublishedEventArticlesContainer-seeMore{
+      color: $sub-1-text-color;
+      border-color: $border-background-color;
+      background: $nico-black;
+    }
+    .PublishedEventArticlesContainer-seeMore:hover{
+      color: $main-url-color;
+    }
+  }
+  .SponsorsContainer{ //sponser
+    border-color: $border-background-color;
+    background: $nico-black;
+    .SponsorsBoard-titleText{
+      color: $main-text-color;
+      background: $nico-black
+    }
+    .SponsorText{
+      color: $main-text-color;
+    }
+  }
+
+}
+

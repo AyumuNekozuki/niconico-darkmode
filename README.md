@@ -1,3 +1,22 @@
+## 超ダークモード
+ネット超会議2021に合わせてダークモードもできるだけ対応します。
+
+### 導入手順
+
+
+### 開発者向け
+以下のファイルを編集しています。
+ソースファイルのコメント文で `//chokaigi2021` が付いているところが超会議仕様の部分です。
+
+- `manifest.json`: バージョンのみ変更
+- `js/main.js`: ボタン周りを追加
+- `style_for/parts/_default.scss`: 超会議の配色を追加
+- `style_for/top/social-top.scss`
+- `style_for/top/_social-top-card.scss`
+- `style_for/live/watch.scss`
+
+---
+
 ![](https://img.shields.io/github/license/AyumuNekozuki/niconico-darkmode) 
 
 ![](https://img.shields.io/chrome-web-store/v/gihjpgjpgofigjcckobchfchlfbhenjl) ![](https://img.shields.io/chrome-web-store/users/gihjpgjpgofigjcckobchfchlfbhenjl) ![](https://img.shields.io/amo/v/niconico-darkmode) ![](https://img.shields.io/amo/users/niconico-darkmode)

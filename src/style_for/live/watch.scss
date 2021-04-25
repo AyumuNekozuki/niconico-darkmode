@@ -718,3 +718,13 @@
     }
   }
 }
+
+.niconico-darkmode-setting-true{ //chokaigi2021
+  [class*="___planning-event-participation-program-list-section___"]{
+    [class*="___header___"]{
+      background: $nico-white;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  }
+}
