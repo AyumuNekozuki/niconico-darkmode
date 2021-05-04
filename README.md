@@ -9,7 +9,7 @@
 ▼ DLはこちらから
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/niconico-darkmode/gihjpgjpgofigjcckobchfchlfbhenjl)
 - [Firefox Add-ons](https://addons.mozilla.org/ja/firefox/addon/niconico-darkmode/)
-- [Edgeアドオン](https://addons.mozilla.org/ja/firefox/addon/niconico-darkmode/)
+- [Edgeアドオン](https://microsoftedge.microsoft.com/addons/detail/niconico-darkmode/gblbengmjlopiihejjfimdcbcgmiccad)
 
 ## Preview
 

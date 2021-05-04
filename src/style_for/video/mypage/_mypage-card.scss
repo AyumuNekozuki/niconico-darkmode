@@ -37,7 +37,6 @@
   }
   .UserItem:hover{
     box-shadow: none;
-
   }
 
   //フォロー：タグ
@@ -144,30 +143,31 @@
     }
   }
 
-  //あとで見る
-  .WatchLaterList-item{
-    .VideoMediaObject-item{
-      .VideoMediaObject-linkArea{
-        .VideoMediaObject-bodyTitle{
-          color: $main-text-color;
-        }
-      }
-      .VideoMediaObject-linkArea:visited{
-        .VideoMediaObject-bodyTitle{
-          color: $sub-1-text-color;
-        }
-      }
-      .VideoMediaObject-linkArea:hover{
-        .VideoMediaObject-bodyTitle{
-          color: $main-url-color;
-        }
-      }
-      .VideoMediaObject-action{
-        filter: $invert;
+
+  //動画item
+  .VideoMediaObject{
+    .MediaObject-contents{
+      .VideoMediaObject-title{
+        color: $main-text-color;
       }
     }
+    .MediaObject-contents:visited{
+      .VideoMediaObject-title{
+        color: $sub-1-text-color;
+      }
+    }
+    .MediaObject-contents:hover{
+      .VideoMediaObject-title{
+        color: $main-url-color;
+      }
+    }
+    .VideoMediaObject-action{
+      filter: $invert;
+    }
   }
-  .WatchLaterList-item+.WatchLaterList-item{
+
+  //あとで見る
+  .WatchLaterList-item+.WatchLaterList-item{  
     border-color: $border-background-color;
   }
 
@@ -177,82 +177,11 @@
       border-color: $border-background-color;
     }
   }
-  .MylistItem{
-    .VideoMediaObject-item{
-      .VideoMediaObject-linkArea{
-        .VideoMediaObject-bodyTitle{
-          color: $main-text-color;
-        }
-      }
-      .VideoMediaObject-linkArea:visited{
-        .VideoMediaObject-bodyTitle{
-          color: $sub-1-text-color;
-        }
-      }
-      .VideoMediaObject-linkArea:hover{
-        .VideoMediaObject-bodyTitle{
-          color: $main-url-color;
-        }
-      }
-      .VideoMediaObject-action{
-        filter: $invert;
-      }
-    }
-  }
   .MylistItemList-item+.MylistItemList-item:before{
     background-color: $border-background-color;
   }
 
-  //マイメモリー
-  .MymemoryContainer-listItem{
-    .VideoMediaObject-item{
-      .VideoMediaObject-linkArea{
-        .VideoMediaObject-bodyTitle{
-          color: $main-text-color;
-        }
-      }
-      .VideoMediaObject-linkArea:visited{
-        .VideoMediaObject-bodyTitle{
-          color: $sub-1-text-color;
-        }
-      }
-      .VideoMediaObject-linkArea:hover{
-        .VideoMediaObject-bodyTitle{
-          color: $main-url-color;
-        }
-      }
-      .VideoMediaObject-action{
-        filter: $invert;
-      }
-    }
-  }
-  .MymemoryContainer-listItem+.MymemoryContainer-listItem:before{
-    background-color: $border-background-color;
-  }
-
   //履歴：動画
-  .VideoWatchHistoryContainer-item{
-    .VideoMediaObject-item{
-      .VideoMediaObject-linkArea{
-        .VideoMediaObject-bodyTitle{
-          color: $main-text-color;
-        }
-      }
-      .VideoMediaObject-linkArea:visited{
-        .VideoMediaObject-bodyTitle{
-          color: $sub-1-text-color;
-        }
-      }
-      .VideoMediaObject-linkArea:hover{
-        .VideoMediaObject-bodyTitle{
-          color: $main-url-color;
-        }
-      }
-      .VideoMediaObject-action{
-        filter: $invert;
-      }
-    }
-  }
   .VideoWatchHistoryContainer-item+.VideoWatchHistoryContainer-item:before{
     background-color: $border-background-color;
   }
@@ -260,26 +189,6 @@
   //履歴：いいね！
   .LikeHistoryContainer{
     .VideoMediaObject{
-      .VideoMediaObject-item{
-        .VideoMediaObject-linkArea{
-          .VideoMediaObject-bodyTitle{
-            color: $main-text-color;
-          }
-        }
-        .VideoMediaObject-linkArea:visited{
-          .VideoMediaObject-bodyTitle{
-            color: $sub-1-text-color;
-          }
-        }
-        .VideoMediaObject-linkArea:hover{
-          .VideoMediaObject-bodyTitle{
-            color: $main-url-color;
-          }
-        }
-        .VideoMediaObject-action{
-          filter: $invert;
-        }
-      }
       .LikeItemAfter{
         header{
           .LikeItemAfter-owner{
@@ -395,21 +304,6 @@
     }
     .VideoContainer-item{
       .VideoMediaObject-item{
-        .VideoMediaObject-linkArea{
-          .VideoMediaObject-bodyTitle{
-            color: $main-text-color;
-          }
-        }
-        .VideoMediaObject-linkArea:visited{
-          .VideoMediaObject-bodyTitle{
-            color: $sub-1-text-color;
-          }
-        }
-        .VideoMediaObject-linkArea:hover{
-          .VideoMediaObject-bodyTitle{
-            color: $main-url-color;
-          }
-        }
         .VideoMediaObject-action{
           filter: $invert;
         }
