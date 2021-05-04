@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "niconico Darkmode",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "ニコニコサイトをダークモード化する拡張機能",
     "icons": {
         "16": "images/icon16.png",

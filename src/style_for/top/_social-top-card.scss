@@ -52,3 +52,25 @@
 }
 
 
+.niconico-darkmode-setting-true{ //chokaigi2021
+  .LockedContentsPickupContainer{
+    .LockedContentsPickupContainer-card{
+      background-color: $nico-default-bg;
+      .LockedContentsPickupCard-content{
+        color: $main-text-color;
+        .LockedContentsPickupCard-metaPickupComment{
+          color: $sub-1-text-color;
+        }
+      }
+      .LockedContentsPickupCard-content:hover{
+        color: $main-url-color;
+      }
+      .LockedContentsPickupCard-footerUploader{
+        color: $main-text-color;
+      }
+      .LockedContentsPickupCard-footerUploader:hover{
+        color: $main-url-color;
+      }
+    }
+  }
+}
