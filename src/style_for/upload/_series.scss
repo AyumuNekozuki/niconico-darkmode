@@ -61,6 +61,9 @@
               color: $main-text-color;
             }
           }
+          .css-1rneg6r.isEditing textarea, .css-1b17zmo{ //edit
+            color: $main-text-color !important;
+          }
         }
         .css-1bpf0bk{ //ソート
           border-color: $border-background-color;
@@ -71,10 +74,10 @@
         }
         .css-hg73ef{ //動画一覧
           background: $main-background-color;
-          .css-ncfq84.css-1qtup9n{ //item
+          .css-ncfq84,.css-1qtup9n{ //item
             background: $main-background-color;
-            .css-12u1bsw{ //動画情報
-              .css-ta1ar2.css-ta1ar2{
+            .css-1nlflxo{ //動画情報
+              .css-kcipg0.css-8upqmn{
                 color: $main-text-color;
               }
               .css-112jqer .css-zguxnc{ //統計情報
@@ -87,7 +90,7 @@
               }
             }
           }
-          .css-ncfq84.css-1qtup9n::after{
+          .css-1qtup9n::after{
             background: $border-background-color;
           }
         }

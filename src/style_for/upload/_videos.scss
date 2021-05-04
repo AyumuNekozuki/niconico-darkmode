@@ -38,7 +38,7 @@
           background: $main-background-color;
           .css-i2vhkp{ //item
             background: $main-background-color;
-            .css-h1csmh{ //動画情報
+            .css-h1csmh,.css-1jzj00a{ //動画情報 fix-at-20210504
               .css-1ih34rs{ //title
                 color: $main-text-color;
               }
@@ -50,7 +50,7 @@
                   background-color: $nico-black;
                 }
               }
-              .css-1fm5ef4{ //コメント20210407fix
+              .css-1fm5ef4{ //コメント fix-at-20210407
                 .css-1ijun5s, .css-n5spk2{
                   color: $sub-1-text-color;
                   background-color: $nico-black;
@@ -94,7 +94,7 @@
     }
   }
 
-  .MuiDialog-container{
+  .MuiDialog-container{ 
     .MuiDialog-paper{
       .MuiDialogContent-root{
         .MuiDialogContentText-root{
@@ -114,4 +114,11 @@
       }
     }
   }
+
+  .MuiList-root{//縦3点ホバー
+    .css-t6l8vr svg{
+      fill: $main-text-color;
+    }
+  }
+
 }
