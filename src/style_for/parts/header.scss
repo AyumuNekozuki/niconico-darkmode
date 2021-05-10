@@ -99,11 +99,13 @@
       color: $main-text-color !important;
     }
 
-    .common-header-juy1p4{
+    .common-header-juy1p4,
+    .common-header-hgmb0z{
       background-color: $nico-default-bg !important;
       border-bottom: 1px solid $border-background-color !important;
     }
-    .common-header-juy1p4:nth-child(2n){
+    .common-header-juy1p4:nth-child(2n),
+    .common-header-hgmb0z:nth-child(2n){
       border-left: 1px solid $border-background-color !important;
     }
     .common-header-11j62e9{
@@ -157,7 +159,7 @@
   }
 }
 
-
+//nicodark settings
 .common-header-nicodarksetting-but:hover{
   background-color: rgb(85, 85, 85);
 }
