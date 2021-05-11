@@ -182,6 +182,7 @@
   width: 250px !important;
   right: 0 !important;
   background: #252525 !important;
+  box-shadow: rgb(0, 0, 0 / 20%) 0px 2px 8px;
 
   .nicodark-logo{
     width: 100%;
@@ -190,12 +191,20 @@
     color:white;
     font-weight: bold;
     text-align: center !important;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
-    margin-bottom: 5px !important;
+    margin-bottom: 1em;
+    a{
+      margin: auto auto auto 10px;
+      color: $main-url-color;
+      text-decoration: underline;
+    }
+    a:hover{
+      text-decoration: none;
+    }
   }
   .nicodark-setting-menu{
-    padding: 8px 16px;
+    padding: 0px 16px 8px 16px;
 
     .nicodark-label01{
       display: flex;
