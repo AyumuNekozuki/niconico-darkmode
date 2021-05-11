@@ -364,7 +364,7 @@
         border-color: $nico-black;
         box-shadow: none;
         [class*="___primary-information-area___"]{ //枠タイトル・開始時間
-          [class*="___title___"]{ //枠タイトル
+          [class*="___title___"],[class*="___program-title___"]{ //枠タイトル, fix210511
             color: $main-text-color;
             a{
               color: inherit;
