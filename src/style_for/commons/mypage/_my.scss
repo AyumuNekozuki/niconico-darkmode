@@ -1,0 +1,75 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  #index_content{
+    #index_left{
+      background: none;
+      overflow-x: hidden;
+
+      #info{
+        background: $nico-black;
+        padding: 10px;
+      }
+
+      .home_box{
+        border: none;
+        background: $nico-black;
+        padding: 10px;
+
+        .home_title,.home_dl{
+          .count_list{
+            color: $sub-2-text-color;
+          }
+        }
+
+        #message{
+          table{
+            tr,td{
+              background-color: $sub2-background-color;
+            }
+          }
+        }
+      }
+    }
+
+    #index_right{
+      .profile_image_box{
+        border: none;
+      }
+      .profile_strong{
+        color: $main-text-color;
+      }
+      .link-button,.link-button_end{
+        background: $nico-black;
+
+        a{
+          color: $main-text-color;
+        }
+        a::before{
+          content: "▶ ";
+        }
+        a:hover{
+          color: $main-url-color;
+        }
+      }
+
+      .mb16p4{
+        #user_tag_list{
+          background: $nico-black;
+
+          a{
+            color: $main-text-color;
+            background: none;
+          }
+          a:hover{
+            color: $main-url-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.niconico-darkmode-setting-true >div[style*="background-color: #fafafa;"]{
+  background: none !important;
+}

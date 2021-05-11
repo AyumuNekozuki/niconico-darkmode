@@ -1,0 +1,20 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  #index_left{
+    [data-commons-kind="my-downloaded-materials"]{
+      #index_box_ti{
+        .paginate{
+          span[style="color: rgb(102, 102, 102);"]{
+            color: $sub-2-text-color !important;
+          }
+        }
+      }
+      .center table{
+        .log_border{
+          border-color: $border-background-color !important;
+        }
+      }
+    }
+  }
+}

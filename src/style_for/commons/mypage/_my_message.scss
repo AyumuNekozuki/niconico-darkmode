@@ -1,0 +1,29 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+
+  #message_more{
+    #message_moremore{
+      table{
+        background: none;
+
+        .message_more_ti,.message_more_txt{
+          color: $main-text-color;
+          background: $nico-black;
+        }
+        #message_detail_body{
+          color: $main-text-color !important;
+        }
+      }
+    }
+  }
+
+  //`
+  [data-commons-kind="my-material-comments"]{
+    div.center table td div{
+      border: $border-background-color !important;
+      background: none !important;
+    }
+  }
+
+}

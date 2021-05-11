@@ -1,0 +1,31 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+
+  div[data-commons-kind="list-my-relatives-children"]{
+    td.log_border{
+      border-color: $border-background-color;
+      .cmn_thumb_frm{
+        background: none;
+        border: none;
+
+        .cmn_thumb_R{
+          img[src="https://commons.nicovideo.jp/images/ico/logo_nico_b.gif"]{
+            filter: $invert;
+          }
+          .TXT10{
+            color: $sub-2-text-color;
+          }
+        }
+      }
+
+      img[src="/images/ico/arrow_gray_left.gif"]{
+        display: none;
+      }
+    }
+    td.log_border[style="width: 50px; text-align: center;"]::before{
+      content: "◀";
+      color: $main-text-color;
+    }
+  }
+}

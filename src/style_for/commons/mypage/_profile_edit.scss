@@ -1,0 +1,15 @@
+@import "../parts/default";
+@import "../parts/textarea";
+
+.niconico-darkmode-setting-true{
+  #editform{
+    .tbl_profile{
+      .tbl_profile_cell_1{
+        background: none;
+      }
+      td,textarea{
+        border-color: $border-background-color;
+      }
+    }
+  }
+}

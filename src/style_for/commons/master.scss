@@ -1,13 +1,20 @@
 @import "../parts/default";
 
 @import "_top"; //コモンズTOP
-@import "_my"; //mypage
-@import "_materials"; //作品ライブラリ
-@import "_material"; //作品ページ
-@import "_material_agree"; //検索
-@import "_serch"; //検索
 
 @import "_gw"; //ページ移動確認
+
+@import "mypage/_my"; //mypage
+@import "mypage/_profile_edit"; //profileEdit
+@import "mypage/_my_dluser"; //ダウンロードしたユーザー一覧
+@import "mypage/_my_upload"; //登録した作品一覧・ダウンロード履歴
+@import "mypage/_my_message"; //メールボックス・コメント一覧
+@import "mypage/_my_use"; //登録作品利用一覧
+
+@import "library/_materials"; //作品ライブラリ
+@import "library/_material"; //作品ページ
+@import "library/_material_agree"; //検索
+@import "library/_serch"; //検索
 
 //以下共通
 .niconico-darkmode-setting-true{

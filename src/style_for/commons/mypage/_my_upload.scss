@@ -1,0 +1,45 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  [data-commons-kind="my-private-materials"],[data-commons-kind="my-download-materials"]{
+    #tab_navi{
+      border: none;
+      margin-bottom: 10px;
+      ul{
+        li{
+          background: none;
+          border-bottom: 2.5px solid $main-background-color;
+          a{
+            background: none;
+            color: $main-text-color;
+          }
+          a:hover{
+            background: none;
+            color: $main-url-color;
+          }
+        }
+        li.select{
+          color: $main-url-color;
+          border-bottom: 2.5px solid $main-url-color;
+        }
+      }
+    }
+    .center table{
+      .log_border{
+        border-color: $border-background-color !important;
+      }
+
+      tr{
+        .TXT10,.TXT12{
+          color: $sub-1-text-color;
+        }
+        h3{
+          a:hover{
+            background: none;
+            text-decoration: none !important;
+          }
+        }
+      }
+    }
+  }
+}
