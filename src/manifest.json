@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "niconico Darkmode",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "description": "ニコニコサイトをダークモード化する拡張機能",
     "icons": {
         "16": "images/icon16.png",
@@ -109,6 +109,15 @@
             ],
             "css": [
                 "style_for/video/video_top.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://www.nicovideo.jp/feedback/*",
+                "*://www.nicovideo.jp/feedback?*"
+            ],
+            "css": [
+                "style_for/video/feedback.css"
             ]
         },
         {

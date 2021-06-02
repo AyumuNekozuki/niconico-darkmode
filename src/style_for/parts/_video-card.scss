@@ -1,28 +1,39 @@
 @import '_default';
 
 .niconico-darkmode-setting-true{
+  /*fix 20210601*/
   .VideoCard,
   .VideoItem.VideoCard,
+  .VideoItem.NC-VideoCard,
   .NicoadVideoItem,
-  .NicoadItem.NicoadCard{
+  .NicoadItem.NicoadCard,
+  .NicoadItem.NC-NicoadCard{
     background: $nico-black;
+
     a.NicoadVideoItem-link,
     a .Card-title,
-    a .CardTitle{
+    a .CardTitle,
+    a .NC-CardTitle{
       color: $main-text-color;
     }
     a.NicoadVideoItem-link:visited,
     a:visited .Card-title,
-    a:visited .CardTitle{
+    a:visited .CardTitle,
+    a:visited .NC-CardTitle{
       color: $sub-1-text-color;
     }
     a.NicoadVideoItem-link:hover,
     a:hover .Card-title,
-    a:hover .CardTitle{
+    a:hover .CardTitle,
+    a:hover .NC-CardTitle{
       color: $main-url-color;
     }
-    .Card-secondary{
+    .Card-secondary,
+    .NC-Card-secondary{
       color: $sub-1-text-color;
+    }
+    .NC-ThreePointMenu-button:hover{
+      filter: $invert;
     }
   }
   .TagItem{

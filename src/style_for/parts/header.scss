@@ -160,6 +160,22 @@
 }
 
 //nicodark settings
+.common-header-nicodarksetting-but{
+  position: relative;
+  text-decoration: none;
+  padding: 0px 8px;
+  height: 36px;
+  width: 60px;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  text-align: center !important;
+}
+.common-header-nicodarksetting-but::before{
+  content: "\01F319";
+  font-size: 12px;
+  padding-right: 3px;
+}
 .common-header-nicodarksetting-but:hover{
   background-color: rgb(85, 85, 85);
 }
@@ -183,6 +199,7 @@
   right: 0 !important;
   background: #252525 !important;
   box-shadow: rgb(0, 0, 0 / 20%) 0px 2px 8px;
+  letter-spacing: normal;
 
   .nicodark-logo{
     width: 100%;
@@ -257,4 +274,9 @@
     }
     
   }
+}
+
+/* feedback page*/
+.nico-CommonHeaderRoot .common-header-142e200{
+  max-width: 960px !important;
 }

@@ -165,6 +165,28 @@
       filter: $invert;
     }
   }
+  /* 20210601 fix*/
+  .NC-MediaObject{
+    .NC-MediaObject-contents{
+      .NC-MediaObjectTitle{
+        color: $main-text-color;
+      }
+    }
+    .NC-MediaObject-contents:visited{
+      .NC-MediaObjectTitle{
+        color: $sub-1-text-color;
+      }
+    }
+    .NC-MediaObject-contents:hover{
+      .NC-MediaObjectTitle{
+        color: $main-url-color;
+      }
+    }
+    .NC-MediaObject-action{
+      filter: $invert;
+    }
+  }
+  /* 20210601 fix end */
 
   //あとで見る
   .WatchLaterList-item+.WatchLaterList-item{  

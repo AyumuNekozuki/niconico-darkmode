@@ -179,6 +179,16 @@
       background-color: $hover-background-color;
     }
   }
+  .NC-ThreePointMenu-menu{
+    background: $nico-black;
+    .NC-Link,button{
+      background: none;
+      color: $main-text-color;
+    }
+    .NC-Link:hover,button:hover{
+      background-color: $hover-background-color;
+    }
+  }
 
 }
 
@@ -228,34 +238,40 @@
         }
 
         //videolist
+        /*fix 20210601*/
         .RankingVideoListContainer{
-          .MediaObject{
+          .MediaObject, .NC-MediaObject{
             background: $nico-default-bg;
             padding: .5rem;
-            .MediaObject-main{
-              .MediaObject-contents{
-                .MediaObject-body{
-                  .MediaObjectTitle{
+            border-color: $border-background-color;
+
+            .MediaObject-main, .NC-MediaObject-main{
+              .MediaObject-contents, .NC-MediaObject-contents{
+                .MediaObject-body, .NC-MediaObject-body{
+                  .MediaObjectTitle, .NC-MediaObjectTitle{
                     color: $main-text-color;
                   }
-                  .VideoMediaObject-description{
+                  .VideoMediaObject-description, .NC-VideoMediaObject-description{
                     color: $sub-1-text-color;
                   }
                 }
               }
-              .MediaObject-contents:visited{
-                .MediaObject-body{
-                  .MediaObjectTitle{
+              .MediaObject-contents:visited, .NC-MediaObject-contents:visited{
+                .MediaObject-body, .NC-MediaObject-body{
+                  .MediaObjectTitle, .NC-MediaObjectTitle{
                     color: $sub-1-text-color;
                   }
                 }
               }
-              .MediaObject-contents:hover{
-                .MediaObject-body{
-                  .MediaObjectTitle{
+              .MediaObject-contents:hover, .NC-MediaObject-contents:hover{
+                .MediaObject-body, .NC-MediaObject-body{
+                  .MediaObjectTitle, .NC-MediaObjectTitle{
                     color: $main-url-color;
                   }
                 }
+              }
+              .NC-ThreePointMenu-button:hover{
+                filter: $invert;
               }
             }
           }
@@ -272,9 +288,23 @@
             border: 1px solid $nicoad-bronze;
           }
         }
+
+
       }
     }
   }
+
+  .NC-ThreePointMenu-menu{
+    .RankingVideoMenu-item{
+      color: $main-text-color;
+      background: none;
+    }
+    .RankingVideoMenu-item:hover{
+      background-color: $hover-background-color;
+    }
+  }
+
+
 
   //TODO 以下移植のみ／SCSSへの書き換え作業必要
   /*各ジャンル*/

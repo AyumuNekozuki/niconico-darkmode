@@ -1,0 +1,7 @@
+@import "../parts/default";
+@import "../parts/textarea";
+
+.niconico-darkmode-setting-true.BaseLayout{
+  background: $main-background-color;
+  color: $main-text-color;
+}
