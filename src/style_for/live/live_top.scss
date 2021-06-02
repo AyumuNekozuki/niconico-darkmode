@@ -64,13 +64,15 @@
 
   [class*="___information-area___"]{
     background-color: $main-background-color;
-    [class*="___information-list-section___"]{
+    [class*="___information-list-section___"],
+    [class*="___site-information-list-section___"]{
       [class*="___heading___"]{
         background-color: $nico-black;
         color: $main-text-color;
       }
       [class*="___heading___"]:hover{
         color: $main-url-color;
+        
       }
       [class*="___item-list___"]{
         background-color: $nico-black;

@@ -143,7 +143,9 @@
   }
 
   [class*="___footer-area___"]{ //footer
-    background-color: $main-background-color;
+    [class*="___footer-ad___"]{
+      background-color: $main-background-color;
+    }
     [class*="___site-footer-utility___"]{
       [class*="___page-top-anchor___"]{
         background-color: $livetop-content-bg2;
