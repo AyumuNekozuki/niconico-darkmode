@@ -17,7 +17,7 @@
               background: $sub2-background-color;
               border-color: $border-background-color;
             }
-            .css-141qn3v.css-141qn3v{ //ソートボタン
+            .css-141qn3v.css-141qn3v,.css-166rp6w.css-166rp6w{ //ソートボタン
               background: $sub2-background-color;
               border-color: $border-background-color;
               .MuiIconButton-label{
@@ -118,6 +118,16 @@
   .MuiList-root{//縦3点ホバー
     .css-t6l8vr svg{
       fill: $main-text-color;
+    }
+  }
+
+  .MuiDialog-paperScrollPaper{ //modalEdit
+    .css-a8udat{
+      .css-1k8anir.css-1k8anir{ //x but
+        .MuiIconButton-label > svg{
+          fill: $main-text-color;
+        }
+      }
     }
   }
 

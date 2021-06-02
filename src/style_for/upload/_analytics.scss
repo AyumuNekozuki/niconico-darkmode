@@ -168,7 +168,7 @@
                     }
                     .css-1pwymte{ //下
                       div[class*="css-"]{
-                        .css-1jr4onc{
+                        .css-1jr4onc,.css-qsknu0{
                           background-color: $nico-black;
                           .css-1cja6wp{
                             color: $main-text-color;
@@ -178,7 +178,7 @@
                           }
                         }
                       }
-                      div[class*="css-"]:hover{
+                      div[class*="css-"]:hover .css-qsknu0{
                         background-color: $nico-black;
                       }
                     }
@@ -228,11 +228,16 @@
                           color: $sub-1-text-color;
                         }
                       }
-                      .css-lwuepq{
-                        .css-10nkm7z{
-                          .css-42h5o3{
-                            color: $main-text-color;
-                          }
+                      .css-kyj8v9{
+                        color: $main-text-color;
+                        .css-42h5o3{
+                          color: $main-text-color;
+                        }
+                      }
+                      .css-kyj8v9:hover{
+                        color: $main-url-color;
+                        .css-42h5o3{
+                          color: $main-url-color;
                         }
                       }
                     }
@@ -410,7 +415,7 @@
                 }
                 .css-1pwymte{ //下
                   div[class*="css-"]{
-                    .css-1jr4onc{
+                    .css-1jr4onc,.css-qsknu0{
                       background-color: $nico-black;
                       .css-1cja6wp{
                         color: $main-text-color;
@@ -420,7 +425,7 @@
                       }
                     }
                   }
-                  div[class*="css-"]:hover{
+                  div[class*="css-"]:hover .css-qsknu0{
                     background-color: $nico-black;
                   }
                 }
@@ -618,7 +623,7 @@
                 background: $sub2-background-color;
                 border-color: $border-background-color;
               }
-              .css-141qn3v.css-141qn3v{ //ソートボタン
+              .css-141qn3v.css-141qn3v,.css-166rp6w{ //ソートボタン
                 background: $sub2-background-color;
                 border-color: $border-background-color;
                 .MuiIconButton-label{
@@ -645,6 +650,9 @@
               background: none;
               .css-kyj8v9{
                 color: $main-text-color;
+                .css-42h5o3{
+                  color: $main-text-color;
+                }
                 .css-1vsd2th{
                   .css-1w1zr0x{
                     .css-45lr7k{ //コメント
@@ -666,6 +674,15 @@
               }
               .css-kyj8v9:hover{
                 color: $main-url-color;
+                .css-42h5o3{
+                  color: $main-url-color;
+                }
+              }
+              .css-kyj8v9.css-1hjcsel{
+                .css-1ijun5s,.css-n5spk2{
+                  color: $sub-1-text-color;
+                  background: $nico-black;
+                }
               }
             }
             .css-ccgi7w::after{
@@ -793,7 +810,7 @@
                     }
                     .css-1pwymte{ //下
                       div[class*="css-"]{
-                        .css-1jr4onc{
+                        .css-1jr4onc,.css-qsknu0{
                           background-color: $nico-black;
                           .css-1cja6wp{
                             color: $main-text-color;
@@ -803,7 +820,7 @@
                           }
                         }
                       }
-                      div[class*="css-"]:hover{
+                      div[class*="css-"]:hover .css-qsknu0{
                         background-color: $nico-black;
                       }
                     }
