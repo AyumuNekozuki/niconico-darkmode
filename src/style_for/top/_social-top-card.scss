@@ -51,8 +51,22 @@
   }
 }
 
+/* skelton */
+.niconico-darkmode-setting-true{
+  .ContentItemSkeleton-thumbnail{
+    filter: $invert;
+  }
+  .SkeletonLine{
+    background-color: $nico-black;
+  }
+  .NicoAdCardSkeleton{
+    filter: $invert;
+  }
+}
 
-.niconico-darkmode-setting-true{ //chokaigi2021
+
+/* chokaigi 2021 */
+.niconico-darkmode-setting-true{
   .LockedContentsPickupContainer{
     .LockedContentsPickupContainer-card{
       background-color: $nico-default-bg;
