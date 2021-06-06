@@ -1,0 +1,240 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true{
+  #Contents.tree-contents{
+    .tree-view{
+      #CommonsHeader{
+        color: $sub-1-text-color;
+        .title{
+          padding-left: 10px;
+          text-shadow: none;
+        }
+      }
+      .tree-area{
+        background-color: $main-background-color;
+        .min-dsc{
+          color: $sub-2-text-color;
+          background-color: $sub2-background-color;
+          padding: 5px;
+          margin: -10px;
+          border-radius: 10px;
+        }
+        .inner{
+          #ParentBox{
+            background: $nico-black;
+            border: 2px solid $border-background-color;
+            border-radius: 5px;
+            h3{
+              background: none;
+              border-bottom: 1px solid $border-background-color;
+              padding-bottom: 10px;
+              padding-left: 15px;
+              width: auto;
+              height: auto;
+              .txt{
+                position: absolute;
+                top: auto;
+                bottom: 5px;
+              }
+            }
+            .item-list{
+              background: none;
+              ul li.item2{
+                img[src="https://commons.nicovideo.jp/images/ico/logo_nico_b.gif"],
+                img[src="https://commons.nicovideo.jp/images/ico/logo_game_b.png"]{
+                  filter: $invert;
+                }
+                a{
+                  color: $main-text-color;
+                }
+                a:hover{
+                  color: $nico-tree;
+                }
+                p{
+                  a.btn-tree-min{
+                    background: $sub2-background-color;
+                    text-decoration: none;
+                    color: $main-text-color;
+                    font-size: 75%;
+                    text-indent: 0;
+                    border-radius: 10px;
+                  }
+                  a.btn-tree-min:hover{
+                    color: $nico-tree;
+                  }
+                }
+              }
+              ul.more{
+                background: none;
+                border-color: $border-background-color;
+                color: $sub-1-text-color;
+                a{
+                  background-color: $sub2-background-color;
+                  border-radius: 20px;
+                  color: $sub-1-text-color
+                }
+                a:hover{
+                  background-color: $hover-background-color
+                }
+              }
+              p.txt{
+                color: $sub-1-text-color;
+              }
+              div.noitem {
+                color: $main-text-color;
+              }
+            }
+          }
+          #NowBox{
+            background: $nico-black;
+            border: 2px solid $border-background-color;
+            border-radius: 5px;
+            margin-top: 30px;
+            h3{
+              background: none;
+              border-bottom: 1px solid $border-background-color;
+              padding-top: 20px;
+              padding-bottom: 10px;
+              padding-left: 15px;
+              width: auto;
+              height: auto;
+              .txt{
+                position: absolute;
+                top: auto;
+                bottom: 5px;
+              }
+            }
+            .item-list{
+              background: none;
+              padding-bottom: 20px;
+            }
+          }
+          #ChildBox{
+            background: $nico-black;
+            border: 2px solid $border-background-color;
+            border-radius: 5px;
+            margin-top: 30px;
+            h3{
+              background: none;
+              border-bottom: 1px solid $border-background-color;
+              padding-top: 20px;
+              padding-bottom: 10px;
+              padding-left: 15px;
+              width: auto;
+              height: auto;
+              .txt{
+                position: absolute;
+                top: auto;
+                bottom: 5px;
+              }
+            }
+            .item-list{
+              background: none;
+              ul li.item2{
+                img[src="https://commons.nicovideo.jp/images/ico/logo_nico_b.gif"],
+                img[src="https://commons.nicovideo.jp/images/ico/logo_game_b.png"]{
+                  filter: $invert;
+                }
+                span.edit{
+                  background: none;
+                }
+                a{
+                  color: $main-text-color;
+                }
+                a:hover{
+                  color: $nico-tree;
+                }
+                p{
+                  a.btn-tree-min{
+                    background: $sub2-background-color;
+                    text-decoration: none;
+                    color: $main-text-color;
+                    font-size: 75%;
+                    text-indent: 0;
+                    border-radius: 10px;
+                  }
+                  a.btn-tree-min:hover{
+                    color: $nico-tree;
+                  }
+                }
+              }
+              ul.more{
+                background: none;
+                border-color: $border-background-color;
+                color: $sub-1-text-color;
+                a{
+                  background-color: $sub2-background-color;
+                  border-radius: 20px;
+                  color: $sub-1-text-color
+                }
+                a:hover{
+                  background-color: $hover-background-color
+                }
+              }
+              p.txt{
+                color: $sub-1-text-color;
+              }
+              div.noitem {
+                color: $main-text-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .tree-edit{
+      #CommonsHeader{
+        color: $sub-1-text-color;
+        .title{
+          padding-left: 10px;
+          text-shadow: none;
+        }
+      }
+      .submit-area{
+        background: $nico-black;
+        border-color: $nico-black;
+      }
+
+      /* content-tree submit tools */
+      #ista-auto-modal{
+        background: $main-background-color;
+        color: $main-text-color;
+        button.ista-button{
+          background: $nico-black;
+          color: $main-text-color;
+        }
+        button.ista-button:hover{
+          background-color: $hover-background-color;
+        }
+      }
+    }
+  }
+  #Contents.error{
+    .error-area{
+      background-color: $nico-black;
+      .error-msg{
+        text-shadow: none;
+        color: $main-text-color;
+      }
+      .btn-area{
+        a.btn-02{
+          background: $main-url-color;
+          border-color: $main-url-color;
+          color: $main-text-color;
+          text-shadow: none;
+        }
+        a.btn-02:hover{
+          background: $main-url-color;
+          opacity: .7;
+        }
+        li.ista-form-reserving{
+          color: $main-text-color;
+          > textarea{
+            background: $sub2-background-color;
+          }
+        }
+      }
+    }
+  }
+}

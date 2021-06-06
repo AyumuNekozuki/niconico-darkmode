@@ -1,0 +1,145 @@
+@import "../../parts/default";
+@import "../../parts/dropdown";
+
+.niconico-darkmode-setting-true{
+
+  #Contents{
+    #ContentsLeft{
+      #treeInfo{
+        background: none;
+        h3{
+          color: $main-text-color;
+        }
+      }
+      #MyArrival{
+        h2{
+          background: linear-gradient(to right, transparent, transparent 5%, $nico-black 7.5%),url(https://commons.nicovideo.jp/images/tree/index/my_tree_header.png) no-repeat 0 0;
+          color: $main-text-color;
+  
+          .nglist{
+            a{
+              color: $nico-tree;
+            }
+            a:hover{
+              opacity: .7;
+            }
+          } 
+        }
+        ul.category{
+          li.active{
+            background-color: $nico-tree;
+            a{
+              color: $main-text-color;
+            }
+          }
+        }
+        div.select_sort{
+          .tree_num{
+            color: $sub-2-text-color;
+            strong{
+              color: $sub-1-text-color;
+            }
+          }
+          .select_sort_label{
+            color: $sub-1-text-color;
+          }
+        }
+        #MyArrivalMain{
+          li.item4{
+            a{
+              border-color: $border-background-color;
+              box-shadow: 1px 1px 3px $border-background-color;
+              background: $nico-black;
+              color: $sub-1-text-color;
+              img[src="https://commons.nicovideo.jp/images/ico/logo_nico_b.gif"],
+              img[src="https://commons.nicovideo.jp/images/ico/logo_game_b.png"]{
+                filter: $invert;
+              }
+            }
+            a:hover{
+              background: $hover-background-color;
+            }
+          }
+          .pager{
+            ul{
+              background: $nico-black;
+              border-color: $border-background-color;
+              color: $main-text-color;
+              li{
+                border-color: $border-background-color;
+                a{
+                  color: $main-text-color;
+                }
+                a:hover{
+                  background-color: $hover-background-color;
+                }
+              }
+              li.active span{
+                color: $main-text-color;
+                background-color: $nico-tree;
+              }
+              li.disable span{
+                color: $hover-background-color;
+              }
+            }
+          }
+        }
+      }
+      #MyWorksLink{
+        background: $nico-black;
+        dt{
+          text-shadow: none;
+          color: $sub-1-text-color;
+        }
+        dd{
+          a{
+            border-color: $border-background-color;
+            color: $main-text-color;
+          }
+          a:hover{
+            color: $nico-tree;
+          }
+        }
+      }
+      #newArrival{
+        h3{
+          background: linear-gradient(to right, transparent, transparent 5%, $nico-black 7.5%),url(https://commons.nicovideo.jp/images/tree/index/my_tree_header.png) no-repeat 0 0;
+          color: $main-text-color;
+        }
+        #newArrivalMain{
+          border: none;
+          background-color: $sub2-background-color;
+          li.item4{
+            a{
+              border-color: $border-background-color;
+              box-shadow: 1px 1px 3px $border-background-color;
+              background: $nico-black;
+              color: $sub-1-text-color;
+              img[src="https://commons.nicovideo.jp/images/ico/logo_nico_b.gif"],
+              img[src="https://commons.nicovideo.jp/images/ico/logo_game_b.png"]{
+                filter: $invert;
+              }
+            }
+            a:hover{
+              background: $hover-background-color;
+            }
+          }
+        }
+      }
+  
+      .error-area{
+        background-color: $nico-black;
+        color: $main-text-color;
+      }
+    }
+    #ContentsRight{
+      #HelpLinks{
+        border: none;
+        background: none;
+        *{
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
