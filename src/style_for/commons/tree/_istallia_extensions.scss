@@ -1,0 +1,26 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true {
+
+  /* --- コモンズ20プレイヤー --- */
+  div.ista_cmn_player {
+    a {
+      color : #111 !important;
+    }
+  }
+
+  /* --- コンテンツツリー登録支援ツール --- */
+  div.ista-sidebar {
+    background-color : #222;
+    border-left      : 3px solid #777;
+    color            : white;
+    div.ista-sidebar-title, div.ista-sidebar-buttons {
+      border-bottom-color : #777;
+      button.ista-button.white {
+        background-color : #444;
+      }
+    }
+    div.ista-sidebar-list > div:hover { background-color : #960; }
+  }
+
+}
