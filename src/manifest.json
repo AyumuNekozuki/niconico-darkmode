@@ -13,15 +13,6 @@
     "content_scripts": [
         {
             "matches": [
-                "*://live.nicovideo.jp/*",
-                "*://live2.nicovideo.jp/*"
-            ],
-            "js":["js/jquery-3.5.1.min.js","js/maintenance.js"],
-            "css":["style_for/parts/maintenance.css"],
-            "run_at": "document_start"
-        },
-        {
-            "matches": [
                 "*://www.nicovideo.jp/*",
                 "*://live.nicovideo.jp/*",
                 "*://live2.nicovideo.jp/*",
@@ -35,11 +26,26 @@
         },
         {
             "matches": [
+                "*://live.nicovideo.jp/*",
+                "*://live2.nicovideo.jp/*"
+            ],
+            "js":["js/jquery-3.5.1.min.js","js/maintenance.js"],
+            "css":["style_for/parts/maintenance.css"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [
                 "*://www.upload.nicovideo.jp/garage*",
                 "*://jk.nicovideo.jp/*"
             ],
             "js":["js/jquery-3.5.1.min.js","js/single-page_action.js"],
             "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "*://commons.nicovideo.jp/cpp/private/receipt/*"
+            ],
+            "js":["js/jquery-3.5.1.min.js","js/darkmode_canceler.js"]
         },
         {
             "matches": [
@@ -89,11 +95,10 @@
         },
         {
             "matches": [
-                "*://www.nicovideo.jp/video_top*",
-                "*://www.nicovideo.jp/video_top?*"
+                "*://www.nicovideo.jp/rss*"
             ],
             "css": [
-                "style_for/video/video_top.css"
+                "style_for/top/rss.css"
             ]
         },
         {
@@ -107,10 +112,68 @@
         },
         {
             "matches": [
+                "*://www.nicovideo.jp/my*",
+                "*://www.nicovideo.jp/user/*"
+            ],
+            "css": [
+                "style_for/video/mypage/mypage.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://www.nicovideo.jp/series/*"
+            ],
+            "css": [
+                "style_for/video/mypage/series.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://inform.nicovideo.jp/oshirase/*"
+            ],
+            "css": [
+                "style_for/inform/master.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://www.nicovideo.jp/video_top*",
+                "*://www.nicovideo.jp/video_top?*"
+            ],
+            "css": [
+                "style_for/video/video_top.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://www.nicovideo.jp/recommendations*"
+            ],
+            "css": [
+                "style_for/video/recommendations.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://www.nicovideo.jp/video_catalog*"
+            ],
+            "css": [
+                "style_for/video/other.css"
+            ]
+        },
+        {
+            "matches": [
                 "*://www.nicovideo.jp/video_top/genre*"
             ],
             "css": [
                 "style_for/video/genre.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://www.nicovideo.jp/ranking*"
+            ],
+            "css": [
+                "style_for/video/ranking.css"
             ]
         },
         {
@@ -120,6 +183,22 @@
             ],
             "css": [
                 "style_for/video/watch.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://www.nicovideo.jp/openlist*"
+            ],
+            "css": [
+                "style_for/video/openlist.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://www.nicovideo.jp/ranking_graph*"
+            ],
+            "css": [
+                "style_for/video/ranking_graph.css"
             ]
         },
         {
@@ -144,67 +223,10 @@
         },
         {
             "matches": [
-                "*://www.nicovideo.jp/rss*"
+                "*://www.upload.nicovideo.jp/garage*"
             ],
             "css": [
-                "style_for/top/rss.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://www.nicovideo.jp/my*",
-                "*://www.nicovideo.jp/user/*"
-            ],
-            "css": [
-                "style_for/video/mypage/mypage.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://www.nicovideo.jp/series/*"
-            ],
-            "css": [
-                "style_for/video/mypage/series.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://www.nicovideo.jp/ranking*"
-            ],
-            "css": [
-                "style_for/video/ranking.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://www.nicovideo.jp/recommendations*"
-            ],
-            "css": [
-                "style_for/video/recommendations.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://www.nicovideo.jp/openlist*"
-            ],
-            "css": [
-                "style_for/video/openlist.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://www.nicovideo.jp/ranking_graph*"
-            ],
-            "css": [
-                "style_for/video/ranking_graph.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://www.nicovideo.jp/video_catalog*"
-            ],
-            "css": [
-                "style_for/video/other.css"
+                "style_for/upload/garage_master.css"
             ]
         },
         {
@@ -246,6 +268,15 @@
         },
         {
             "matches": [
+                "*://live.nicovideo.jp/follow*",
+                "*://live2.nicovideo.jp/follow*"
+            ],
+            "css": [
+                "style_for/live/follow.css"
+            ]
+        },
+        {
+            "matches": [
                 "*://live.nicovideo.jp/timetable*",
                 "*://live2.nicovideo.jp/timetable*"
             ],
@@ -273,38 +304,20 @@
         },
         {
             "matches": [
-                "*://live.nicovideo.jp/follow*",
-                "*://live2.nicovideo.jp/follow*"
+                "*://live.nicovideo.jp/search*",
+                "*://live2.nicovideo.jp/search*"
             ],
             "css": [
-                "style_for/live/follow.css"
+                "style_for/live/search.css"
             ]
-        },{
+        },
+        {
             "matches": [
                 "*://live.nicovideo.jp/my*",
                 "*://live2.nicovideo.jp/my*"
             ],
             "css": [
                 "style_for/live/my.css"
-            ]
-        },{
-            "matches": [
-                "*://live.nicovideo.jp/create*",
-                "*://live2.nicovideo.jp/create*",
-                "*://live.nicovideo.jp/edit*",
-                "*://live2.nicovideo.jp/edit*"
-            ],
-            "css": [
-                "style_for/live/create.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://live.nicovideo.jp/search*",
-                "*://live2.nicovideo.jp/search*"
-            ],
-            "css": [
-                "style_for/live/search.css"
             ]
         },
         {
@@ -318,18 +331,13 @@
         },
         {
             "matches": [
-                "*://www.upload.nicovideo.jp/garage*"
+                "*://live.nicovideo.jp/create*",
+                "*://live2.nicovideo.jp/create*",
+                "*://live.nicovideo.jp/edit*",
+                "*://live2.nicovideo.jp/edit*"
             ],
             "css": [
-                "style_for/upload/garage_master.css"
-            ]
-        },
-        {
-            "matches": [
-                "*://jk.nicovideo.jp/*"
-            ],
-            "css": [
-                "style_for/jk/jk_top.css"
+                "style_for/live/create.css"
             ]
         },
         {
@@ -342,10 +350,10 @@
         },
         {
             "matches": [
-                "*://inform.nicovideo.jp/oshirase/*"
+                "*://jk.nicovideo.jp/*"
             ],
             "css": [
-                "style_for/inform/master.css"
+                "style_for/jk/jk_top.css"
             ]
         }
     ]

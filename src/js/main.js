@@ -15,7 +15,8 @@ const noheader = [
   "www.nicovideo.jp/feedback",
   "live.nicovideo.jp/create",
   "live2.nicovideo.jp/create",
-  "site.live.nicovideo.jp/recent/namagame.html"
+  "site.live.nicovideo.jp/recent/namagame.html",
+  "commons.nicovideo.jp/cpp/private/receipt/"
 ]
 
 function setting_true() {
