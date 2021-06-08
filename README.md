@@ -83,11 +83,9 @@ $ tree -L 3
 MIT
 
 ## 作者
-AyumuNekozuki / [@nekozuki_dev](https://twitter.com/nekozuki_dev) / https://portfolio.nekozuki.me/
+AyumuNekozuki / [@nekozuki_dev](https://twitter.com/nekozuki_dev) 
 
 ## SpecialThanks
 [@hiyakake](https://github.com/hiyakake) 
 
----
 
-[作業メモ](memo.md)
