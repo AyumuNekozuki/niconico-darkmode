@@ -1,5 +1,7 @@
 @import "../parts/default";
 
+@import "_parts/_commons-parts"; //コモンズパーツ類
+
 @import "_top"; //コモンズTOP
 
 @import "_gw"; //ページ移動確認
@@ -19,7 +21,16 @@
 @import "upload/_upload"; //ライブラリアップロード
 
 @import "tree/_tree_top"; //コンテンツツリーTOP
-@import "tree/_tree_page"; //tree page
+@import "tree/_tree_page"; //コンテンツツリーページ
+
+@import "cpp/_cpp_top"; //クリエイター奨励プログラム TOP
+@import "cpp/_cpp_applied_list"; //登録作品一覧
+@import "cpp/_collaborator"; //コラボレーター登録
+@import "cpp/_message"; //メッセージ一覧
+@import "cpp/_cps_top"; //クリ奨スコアTOP
+@import "cpp/_cps_history"; //クリ奨交換履歴
+@import "cpp/_cps_exchange"; //スコア交換
+
 @import "tree/_istallia_extensions.scss"; //イスターリャの拡張機能関連
 
 //以下共通

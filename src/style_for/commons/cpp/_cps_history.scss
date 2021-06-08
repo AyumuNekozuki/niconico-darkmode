@@ -1,0 +1,67 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true{
+  #Contents.cp-contents{
+    background: none;
+
+    #Left{
+      #CpMenu{
+        background: none;
+        li{
+          background: $nico-black;
+          width: auto;
+        }
+        li:hover{
+          background: $hover-background-color;
+        }
+        li.active{
+          background: $main-url-color;
+        }
+      }
+      .tipbox{
+        background: $nico-black;
+        color: $sub-1-text-color;
+        box-shadow: none;
+      }
+    }
+    #Column02.cpsadmin.detail{
+      .back{
+        a{
+          color: $sub-1-text-color;
+        }
+        a:hover{
+          color: $nico-tree;
+        }
+      }
+      h4{
+        color: $main-text-color;
+      }
+      #CpsDetail{
+        .list-cps{
+          background: $nico-black;
+          box-shadow: none;
+          .item1{
+            .dsc{
+              img[src="https://commons.nicovideo.jp/images/ico/logo_nico_b.gif"],
+              img[src="https://commons.nicovideo.jp/images/ico/logo_game_b.png"]{
+                filter: $invert;
+              }
+            }
+          }
+          table{
+            background: $sub2-background-color;
+            border-color: $border-background-color;
+            color: $sub-1-text-color;
+            th{
+              background: $nico-black;
+              border-color: $border-background-color;
+            }
+            td{
+              border-color: $border-background-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@import "../../parts/default";
+@import "../../parts/dropdown";
+
+.niconico-darkmode-setting-true{
+  #Contents.cp-contents{
+    #Column02.message{
+      h3.midashi01{
+        background: $sub2-background-color;
+      }
+      form[name="message"]{
+        div.select_sort{
+          .celecter_outer{
+            #uniform-select_sort{
+              background: $nico-black;
+              color: $main-text-color;
+              border-radius: 5px;
+              span{
+                color: $main-text-color;
+                background: none;
+                text-shadow: none;
+              }
+            }
+          }
+        }
+      }
+      dl{
+        border-color: $border-background-color;
+        dt{
+          color: $sub-1-text-color;
+          background: $sub2-background-color;
+        }
+        dd{
+          border-color: $border-background-color;
+          color: $main-text-color;
+          a{
+            color: $main-text-color;
+            .ic_kakunin{
+              display: none;
+            }
+          }
+          a:visited{
+            color: $sub-1-text-color;
+          }
+          a:hover{
+            color: $nico-tree;
+          }
+          a::after{
+            content: "確認";
+            font-size: 10px;
+            padding: 0 5px;
+            background: $nico-black;
+            border: 1px solid $border-background-color;
+            border-radius: 10px;
+          }
+        }
+      }
+      .pager{
+        ul{
+          background: $nico-black;
+          border-color: $border-background-color;
+          color: $main-text-color;
+          li{
+            border-color: $border-background-color;
+            a{
+              color: $main-text-color;
+            }
+            a:hover{
+              background-color: $hover-background-color;
+            }
+          }
+          li.active span{
+            color: $main-text-color;
+            background-color: $nico-tree;
+          }
+          li.disable span{
+            color: $hover-background-color;
+          }
+        }
+      }
+    }
+  }
+}

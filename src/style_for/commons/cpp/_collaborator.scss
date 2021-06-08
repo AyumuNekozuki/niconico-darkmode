@@ -1,0 +1,87 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true{
+
+  #Contents.collabo{
+    #Column01{
+      .apply-msg{
+        text-shadow: none;
+      }
+      .apply-area{
+        background: $nico-black;
+        .item-area{
+          ul{
+            li.yosoku{
+              background: none;
+              border-radius: 40px;
+            }
+          }
+        }
+        #collabo.tutorial{
+          background: $sub2-background-color;
+          border-color: $border-background-color;
+          color: $main-text-color;
+          h3{
+            color: $sub-1-text-color;
+            text-shadow: none;
+          }
+          .collabo-table{
+            border-color: $border-background-color;
+            background: $sub2-background-color;
+            color: $sub-1-text-color;
+            th{
+              border-color: $border-background-color;
+              background: $nico-black;
+            }
+            th.sub{
+              border-color: $border-background-color;
+              background: $nico-black;
+            }
+            td{
+              border-color: $border-background-color;
+            }
+            .total{
+              background: $nico-black;
+            }
+            .message{
+              background: none;
+            }
+          }
+          .secret_word dt{
+            color: $sub-1-text-color;
+          }
+          .secret_word_desc p{
+            color: $sub-1-text-color;
+          }
+
+          .collabo_num{
+            border-color: $border-background-color;
+          }
+        }
+        .tutorial.message{
+          border-color: $border-background-color;
+          background: $sub2-background-color;
+          box-shadow: none;
+          color: $sub-1-text-color;
+          a{
+            color: $main-text-color;
+          }
+          a:hover{
+            color: $nico-tree;
+          }
+        }
+        .btn-area{
+          a.btn-02{
+            background: $nico-black;
+            border-color: $border-background-color;
+            color: $main-text-color;
+            text-shadow: none;
+          }
+          a:hover{
+            background: $hover-background-color;
+          }
+        }
+      }
+    }
+  }
+}

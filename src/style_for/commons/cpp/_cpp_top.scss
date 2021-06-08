@@ -1,0 +1,154 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true{
+  
+  div{
+    #CpHeader{
+      color: $main-text-color;
+      #ToukouHelp{
+        a{
+          color: $sub-1-text-color;
+        }
+        a:hover{
+          color: $nico-tree;
+        }
+      }
+      #CpsBox{
+        background: $sub2-background-color;
+        border-radius: 20px;
+        dt{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+    #Contents.cp-contents{
+      background: none;
+      #Left{
+        #CpMenu{
+          background: none;
+          li{
+            background: $nico-black;
+            width: auto;
+          }
+          li:hover{
+            background: $hover-background-color;
+          }
+          li.active{
+            background: $main-url-color;
+          }
+        }
+        .tipbox{
+          background: $nico-black;
+          color: $sub-1-text-color;
+          box-shadow: none;
+        }
+      }
+      #Column02{
+        #TopMainBox{
+          background: $nico-black;
+          h3{
+            color: $main-text-color;
+          }
+          p{
+            color: $sub-1-text-color;
+          }
+          .left-link{
+            li{
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                color: $nico-tree;
+              }
+            }
+          }
+        }
+        #TopScoreBox{
+          margin-top: 10px;
+          h3.midashi01{
+            background: $sub2-background-color;
+            margin: 0;
+          }
+          .yosoku{
+            background: $nico-black;
+            dl{
+              dt{
+                text-shadow: none;
+                color: $sub-1-text-color;
+              }
+              dd{
+                background: $sub2-background-color;
+                border-radius: 40px;
+                p{
+                  color: $sub-1-text-color;
+                }
+                p.cps{
+                  color: $nico-cresyo;
+                }
+              }
+            }
+          }
+          [data-commons-kind="cpp-my-forecast"]{
+            .highscore-item{
+              h4{
+                color: $sub-1-text-color;
+                border-color: $border-background-color;
+                padding-left: 40px;
+              }
+              ul li{
+                border-color: $border-background-color;
+                .item1{
+                  .dsc{
+                    a{
+                      color: $main-text-color;
+                    }
+                    a:hover{
+                      color: $nico-tree;
+                    }
+                  }
+                  .yosoku2{
+                    background: $sub2-background-color;
+                    color: $sub-1-text-color;
+                    box-shadow: none;
+                  }
+                }
+              }
+            }
+            .right-link{
+              a{
+                color: $sub-1-text-color;
+              }
+              a:hover{
+                color: $nico-tree;
+              }
+            }
+          }
+        }
+        #TopMessageBox{
+          h3.midashi01{
+            background: $sub2-background-color;
+          }
+          dl{
+            dt{
+              color: $sub-1-text-color;
+              background: $sub2-background-color;
+            }
+            dd{
+              border-color: $border-background-color;
+              color: $main-text-color;
+            }
+          }
+        }
+        .right-link{
+          a{
+            color: $sub-1-text-color;
+          }
+          a:hover{
+            color: $nico-tree;
+          }
+        }
+      }
+    }
+  }
+
+}

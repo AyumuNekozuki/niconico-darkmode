@@ -1,0 +1,78 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true{
+  #Column02.cpsadmin{
+    h3.midashi01{
+      background: $sub2-background-color;
+    }
+    #CpsPrivate{
+      .btn-03{
+        color: $main-text-color;
+      }
+      .btn-03:hover{
+        color: $nico-tree;
+      }
+    }
+    .btn-area{
+      .btn-ch-cps{
+        border-radius: 15px;
+      }
+    }
+    #CpsBox-long{
+      background: $sub2-background-color;
+      border-radius: 30px;
+      dt{
+        color: $sub-1-text-color;
+      }
+    }
+    .clearfix{
+      h4{
+        color: $sub-1-text-color;
+      }
+      a{
+        color: $sub-1-text-color;
+      }
+      a:hover{
+        color: $nico-tree;
+      }
+      div.select_sort{
+        .celecter_outer{
+          #uniform-select_sort{
+            background: $nico-black;
+            color: $main-text-color;
+            border-radius: 5px;
+            span{
+              color: $main-text-color;
+              background: none;
+              text-shadow: none;
+            }
+          }
+        }
+      }
+    }
+    #CpsDisTable, 
+    #CpsTable{
+      .list-item{
+        background: none;
+        box-shadow: none;
+        table{
+          border-color: $border-background-color;
+          color: $sub-1-text-color;
+          background: $nico-black;
+
+          th{
+            background: $sub2-background-color;
+            border-color: $border-background-color;
+          }
+          td{
+            background: none;
+            border-color: $border-background-color;
+            border-top: 1px dashed $border-background-color;
+          }
+
+        }
+      }
+    }
+
+  }
+}

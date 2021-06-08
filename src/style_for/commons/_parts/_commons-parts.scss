@@ -1,0 +1,62 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true{
+  .error-area{
+    background-color: $nico-black;
+    .error-msg{
+      text-shadow: none;
+      color: $main-text-color;
+    }
+    .txt{
+      color: $sub-1-text-color;
+      a{
+        color: $main-text-color;
+      }
+      a:hover{
+        color: $main-url-color;
+      }
+    }
+    .btn-area{
+      a.btn-02{
+        background: $nico-black;
+        border-color: $border-background-color;
+        color: $main-text-color;
+        text-shadow: none;
+      }
+      a.btn-02:hover{
+        background: $hover-background-color;
+      }
+      li.ista-form-reserving{
+        color: $main-text-color;
+        > textarea{
+          background: $sub2-background-color;
+        }
+      }
+    }
+  }
+
+  .pager{
+    ul{
+      background: $nico-black;
+      border-color: $border-background-color;
+      color: $main-text-color;
+      li{
+        border-color: $border-background-color;
+        a{
+          color: $main-text-color;
+        }
+        a:hover{
+          background-color: $hover-background-color;
+        }
+      }
+      li.active span{
+        color: $main-text-color;
+        background-color: $nico-tree;
+      }
+      li.disable span{
+        color: $hover-background-color;
+      }
+    }
+  }
+}
+

@@ -20,6 +20,9 @@
           border-radius: 10px;
         }
         .inner{
+          background: linear-gradient(to right, transparent, transparent 49.5%, $border-background-color 49.5%, $border-background-color 50.5%, transparent 50.5%, transparent);
+          padding-bottom: 0;
+          margin-bottom: 20px;
           #ParentBox{
             background: $nico-black;
             border: 2px solid $border-background-color;
@@ -206,33 +209,6 @@
         }
         button.ista-button:hover{
           background-color: $hover-background-color;
-        }
-      }
-    }
-  }
-  #Contents.error{
-    .error-area{
-      background-color: $nico-black;
-      .error-msg{
-        text-shadow: none;
-        color: $main-text-color;
-      }
-      .btn-area{
-        a.btn-02{
-          background: $main-url-color;
-          border-color: $main-url-color;
-          color: $main-text-color;
-          text-shadow: none;
-        }
-        a.btn-02:hover{
-          background: $main-url-color;
-          opacity: .7;
-        }
-        li.ista-form-reserving{
-          color: $main-text-color;
-          > textarea{
-            background: $sub2-background-color;
-          }
         }
       }
     }

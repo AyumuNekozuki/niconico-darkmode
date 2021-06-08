@@ -1,0 +1,126 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true{
+  #Contents.cp-contents{
+    #Column02.cpsadmin.change{
+
+      /* 交換TOP */
+      h4{
+        color: $main-text-color;
+      }
+      .exchangeBtnArea{
+        background: none;
+        border: none;
+        .exchangeNicopoBtnArea{
+          .exchangeNicopoLabel{
+            background: $nico-point;
+            color: $nico-black;
+          }
+          .exchangeNicopoBtn{
+            background: $nico-point;
+            color: $nico-black;
+            a{
+              color: $nico-black;
+              .exchangeNicopoLogo svg path{
+                fill: $nico-black;
+              }
+            }
+            .exchangeNicopoArrowIcon > svg{
+              fill: $nico-black;
+            }
+          }
+        }
+        .exchangeRegistrationAnchorArea{
+          a{
+            color: $main-text-color;
+          }
+          a:hover{
+            color: $main-url-color;
+          }
+          span svg path{
+            fill: $main-url-color;
+          }
+        }
+      }
+      .exchangeInfoArea{
+        background: none;
+        color: $main-text-color;
+        a{
+          color: $main-text-color;
+        }
+        a:hover{
+          color: $main-url-color;
+        }
+      }
+
+      /* スコア設定 */
+      ul.flow{
+        img{
+          border-radius: 5px;
+        }
+      }
+      .changedsc ul li{
+        color: $sub-1-text-color;
+      }
+      .yosoku{
+        background: $nico-black;
+        dl{
+          dt,dd{
+            text-shadow: none;
+            color: $sub-1-text-color;
+          }
+          dd input{
+            background: $sub2-background-color;
+            border-radius: 20px;
+          }
+        }
+      }
+      .cal-area.change-point{
+        border-color: $nico-black;
+        background: $nico-black;
+        .hav-point,.get-point{
+          dt{
+            color: $sub-1-text-color;
+            img[src="/images/common/icon/ic_cps_mono.png"]{
+              display: none;
+            }
+          }
+          dd{
+            box-shadow: none;
+            background: $sub2-background-color;
+          }
+        }
+      }
+      .attention{
+        color: $sub-1-text-color;
+        a{
+          color: $main-text-color;
+        }
+        a:hover{
+          color: $main-url-color;
+        }
+      }
+
+      /* スコア確認 */
+      .list-cps{
+        background: $nico-black;
+        box-shadow: none;
+        table{
+          background: $sub2-background-color;
+          color: $sub-1-text-color;
+          border-color: $border-background-color;
+          th{
+            background: $nico-black;
+            border-color: $border-background-color;
+          }
+          td{
+            border-color: $border-background-color;
+          }
+        }
+      }
+
+      /* 受付完了 */
+
+    }
+  }
+}
