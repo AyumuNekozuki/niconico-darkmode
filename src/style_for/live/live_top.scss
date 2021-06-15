@@ -28,6 +28,26 @@
   }
 
   [class*="___contents-area___"]{
+    [class*="___contents-area___"],
+    [class*="___middle-ad___"]{ //常設
+      background-color: $main-background-color;
+    }
+    [class*="___organization-area___"]{ //流れるコメント
+      [class*="___organization-program-list-carousel___"]{
+        background: $livetop-content-bg1;
+        [class*="___comment-area___"]{
+          [class*="___item___"]{
+            color: $nico-black;
+          }
+        }
+        [class*="___carousel-area___"]::before{
+          background: linear-gradient(90deg,$livetop-content-bg1,hsla(0,0%,100%,0));
+        }
+        [class*="___carousel-area___"]::after{
+          background: linear-gradient(-90deg,$livetop-content-bg1,hsla(0,0%,100%,0));
+        }
+      }
+    }
     [class*="___section___"]{
       [class*="___header___"]{
         [class*="___heading___"]{ //section header
@@ -38,27 +58,38 @@
             }
           }
         }
-        [class*="___heading___"]:hover{
-          color: $main-url-color;
-          svg{
-            path,rect{
-              fill: $main-url-color;
-            }
-          }
+        [class*="___description___"]{
+          color: $sub-1-text-color;
+        }
+        [class*="___related-anchor___"]{
+          background: $nico-black;
+          color: $main-text-color;
+          border-color: $border-background-color;
+        }
+        [class*="___related-anchor___"]:hover{
+          background: $main-url-color;
+          color: $main-text-color;
+          border-color: $main-url-color;
         }
       }
     }
     [class*="___focus-axis-contents-area___"]{ //放送中の注目番組
       background-color: $livetop-content-bg1;
+      [class*="___section___"]{
+        background-color: $livetop-content-bg1;
+      }
     }
     [class*="___online-viewing-banner___"]{ //バナー
       background-color: $livetop-content-bg2;
-    }
-    [class*="___contents-area___"],[class*="___middle-ad___"]{ //常設
-      background-color: $main-background-color;
+      [class*="___section___"]{
+        background-color: $livetop-content-bg2;
+      }
     }
     [class*="___program-status-axis-contents-area___"]{//予約・見逃し
       background-color: $livetop-content-bg3;
+      [class*="___section___"]{
+        background-color: $livetop-content-bg3;
+      }
     }
   }
 
@@ -81,8 +112,15 @@
           color: $main-text-color;
         }
         [class*="___item___"]:hover{
-          color: $main-url-color;
+          color: $main-text-color;
+          background: $hover-background-color;
         }
+      }
+      [class*="___more-anchor___"]{
+        color: $main-text-color;
+      }
+      [class*="___more-anchor___"]:hover{
+        color: $main-url-color;
       }
     }
   }
