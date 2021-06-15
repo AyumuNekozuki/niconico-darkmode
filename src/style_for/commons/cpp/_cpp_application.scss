@@ -1,0 +1,34 @@
+@import "../../parts/default";
+
+.niconico-darkmode-setting-true{
+  #Contents.apply{
+    border: none;
+
+    .apply-msg{
+      text-shadow: none;
+      color: $sub-1-text-color;
+    }
+    .apply-area{
+      background: $nico-black;
+      .tutorial{
+        background: $nico-black;
+        border: $border-background-color 1px solid;
+        border-color: $border-background-color;
+        color: $main-text-color;
+
+        h3{
+          text-shadow: none;
+          color: $sub-1-text-color;
+          border-color: $border-background-color;
+        }
+        [font="#585858"]{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+    .submit-area{
+      color: $main-text-color;
+    }
+  }
+
+}
