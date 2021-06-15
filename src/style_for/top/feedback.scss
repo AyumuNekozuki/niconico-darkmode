@@ -4,7 +4,14 @@
 .niconico-darkmode-setting-true{
   background-color: $main-background-color !important;
 
-  .feedbackBody{
-    color: $main-text-color;
+  .FeedbackPage{
+    .feedbackBody{
+      color: $main-text-color;
+      .confirmationDetails{
+        background: $nico-black;
+        border-color: $border-background-color;
+      }
+    }
   }
+
 }
