@@ -71,7 +71,8 @@
     .MymemoryContainer-menuOrderSelectorItem,
     .NicoruHistoryActiveItem-deleteButton,
     .MylistsSortSelectbox-item,
-    .VideoContainer-headerMenuSortSelectboxItem{
+    .VideoContainer-headerMenuSortSelectboxItem,
+    .TagrepoContainer-headerActionMenuItem{
       color: $main-text-color;
     }
     .SortSelectbox-item:hover,
@@ -81,7 +82,8 @@
     .MymemoryContainer-menuOrderSelectorItem:hover,
     .NicoruHistoryActiveItem-deleteButton:hover,
     .MylistsSortSelectbox-item:hover,
-    .VideoContainer-headerMenuSortSelectboxItem:hover{
+    .VideoContainer-headerMenuSortSelectboxItem:hover,
+    .TagrepoContainer-headerActionMenuItem:hover{
       background-color: $hover-background-color;
     }
   }
