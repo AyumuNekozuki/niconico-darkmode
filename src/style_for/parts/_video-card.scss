@@ -12,7 +12,6 @@
 
     a.NicoadVideoItem-link,
     a .Card-title,
-    a .CardTitle,
     a .NC-CardTitle{
       color: $main-text-color;
     }
@@ -31,6 +30,10 @@
     .Card-secondary,
     .NC-Card-secondary{
       color: $sub-1-text-color;
+      .NC-VideoCard-registeredAt_new{
+        color: $notice-red;
+        font-weight: bold;
+      }
     }
     .NC-ThreePointMenu-button:hover{
       filter: $invert;
