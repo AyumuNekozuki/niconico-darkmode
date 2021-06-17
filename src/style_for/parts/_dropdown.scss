@@ -6,6 +6,10 @@
     color: $main-text-color;
     border-color: $border-background-color;
     box-shadow: none;
+    option{
+      background-color: $sub2-background-color !important;
+      color: $main-text-color !important;
+    }
   }
 
   //hover-menu-item
