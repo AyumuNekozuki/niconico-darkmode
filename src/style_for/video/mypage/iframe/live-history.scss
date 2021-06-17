@@ -5,52 +5,52 @@
 
 .niconico-darkmode-setting-true{
   #root{
-    .___watch-histories-page___1rz4w{
+    [class*="___watch-histories-page___"]{
       background: $main-background-color;
-      .___contents-area___3dJrn{
-        .___watch-history-program-list-section___2Di7s{
-          .___header___1rjqB{
-            .___heading___1xhHH{
+      [class*="___contents-area___"]{
+        #watchHistoryProgramListSection{
+          header[class*="___header___"]{
+            [class*="___heading___"]{
               .viewed_number_per_max{ //残り件数
                 color: $sub-1-text-color;
               }
             }
-            .___watch-histories-delete-all-button___2neIf{
+            [class*="___watch-histories-delete-all-button___"]{
               color: $main-text-color;
               background: $sub2-background-color;
               border-radius: 4px;
               border-color: $border-background-color;
             }
-            .___watch-histories-delete-all-button___2neIf:hover{
+            [class*="___watch-histories-delete-all-button___"]:hover{
               background: red;
           }
           }
-          .___program-card-list____60QJ{
-            .___item___2OQ-z{
-              .___program-card___2odkl{
-                .___content-area___RrvFO{
-                  .___program-title___2uTj4{
+          ul[class*="___program-card-list___"]{
+            li[class*="___item___"]{
+              [class*="___program-card___"]{
+                [class*="___content-area___"]{
+                  [class*="___program-title___"]{
                     color: $main-text-color;
                   }
                 }
               }
             }
-            .___item___2OQ-z:not(:first-child){
+            [class*="___item___"]:not(:first-child){
               border-color: $border-background-color;
             }
           }
         }
       }
-      .___menu-popup-control___Zpq5v{
-        .___toggle-button___csABc{
+      [class*="___menu-popup-control___"]{
+        [class*="___toggle-button___"]{
           filter: $invert;
         }
-        .___target___7YMWK.___program-menu___2xZq9{
+        [class*="___target___"][class*="___program-menu___"]{
           background: $sub2-background-color;
-          .___delete-watch-history-button___O4tgC{
+          [class*="___delete-watch-history-button___"]{
             color: $main-text-color;
           }
-          .___delete-watch-history-button___O4tgC:hover{
+          [class*="___delete-watch-history-button___"]:hover{
             background-color: $hover-background-color;
           }
         }

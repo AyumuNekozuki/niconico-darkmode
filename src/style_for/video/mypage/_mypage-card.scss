@@ -15,8 +15,9 @@
       .NicorepoItem-activityCreatedAt{
         color: $sub-1-text-color;
       }
+      .NicorepoItem-activityDescription[style="color: rgb(208, 2, 27);"],
       .NicorepoItem-activityCreatedAt_new{
-        color: #d0021b;
+        color: $notice-red !important;
       }
     }
   }
