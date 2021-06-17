@@ -4,6 +4,8 @@
 @import '../parts/_dropdown';
 @import 'parts/_parts';
 
+@import 'extention/_nicoadex';
+
 .niconico-darkmode-setting-true{
   background-color: $main-background-color;
   #root>[class*="___page___"]{
@@ -45,8 +47,8 @@
                 }
               }
               [class*="___broadcast-participation-area___"]{ //新市場・コメント入力
-                background-color: black;
-                border-color: black;
+                background-color: $player-black;
+                border-color: $player-black;
                 [class*="___comment-post-panel___"]{ //コメント入力欄
                   [class*="___command-tool___"]{ //コマンド
                     [class*="___command-palette___"]{ //コマンドパレット
@@ -154,7 +156,7 @@
               }
             }
           }
-          [class*="___player-status___"]{ //ステータス・コメント・おすすめ
+          [class*="___player-status-panel___"]{ //ステータス・コメント・おすすめ
             background-color: $main-background-color;
             border-color: $main-background-color;
             [class*="___program-information-panel___"]{ //ステータス
@@ -247,12 +249,13 @@
                   [class*="___table-row___"][data-comment-type="operator"]{ //運営コメント
                     [class*="___table-cell___"]{
                       [class*="___comment-text___"]{ //コメント
-                        color: red;
+                        color: $notice-red;
+                        font-weight: bold;
                       }
                     }
                   }
                   [class*="___table-row___"]:hover{ //ホバー時
-                    background-color: $hover-background-color;
+                    background-color: $sub2-background-color;
                   }
                 }
                 [class*="___comment-context-menu___"]{
@@ -286,6 +289,16 @@
                     background-color: $hover-background-color;
                   }
                 }
+              }
+            }
+            [class*="___promotion-panel___"]{ //運営info
+              border-color: $border-background-color;
+              background-color: $main-background-color;
+              [class*="___message-anchor___"] > span{
+                color: $sub-1-text-color;
+              }
+              [class*="___message-anchor___"]:hover > span{
+                color: $main-url-color;
               }
             }
             [class*="___ng-panel___"]{ //NG設定パネル
@@ -404,21 +417,24 @@
           }
         }
         [class*="___menu-dock___"]{ //Share
-          [class*="___popup-toggle-button___"]{
+          [class*="___extra-popup-control___"],
+          [class*="___allegation-popup-control___"]{
             filter: $invert;
-          }
-          [class*="___list___"]{
-            background-color: $nico-black;
-            border-color: $border-background-color;
-            [class*="___item___"]{
-              a{
-                color: $main-text-color;
-              }
-              a:hover{
-                background-color: $hover-background-color;
-              }
-            } 
             
+            [class*="___target___"]{
+              background-color: $nico-black;
+              border-color: $border-background-color;
+              [class*="___item___"]{
+                a{
+                  color: $main-text-color;
+                  background-color: $nico-black;
+                  border-color: $border-background-color;
+                }
+                a:hover{
+                  background-color: $hover-background-color;
+                }
+              }
+            }
           }
         }
         [class*="___user-summary___"],

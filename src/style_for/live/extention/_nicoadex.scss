@@ -1,0 +1,17 @@
+@import '../../parts/default';
+
+.niconico-darkmode-setting-true{
+  [class*="___rich-view-status___"]{
+    background: $nico-black;
+    border-color: $nico-black;
+    #nicoadex_iframePanel_header{
+      h1{
+        color: $main-text-color;
+      }
+    }
+    #iframe-close-but{
+      filter: $invert;
+    }
+  }
+
+}
