@@ -75,7 +75,7 @@
         .css-vb3iwc{//header
           background: $nico-black;
           .css-zbqfsi{
-            .css-1n8vn2q h1{
+            .css-1n8vn2q h1,.css-k2ohf6{
               color: $main-text-color;
             }
             .css-1mwn02k{
@@ -292,7 +292,7 @@
         .css-vb3iwc{//header
           background: $nico-black;
           .css-zbqfsi{
-            .css-1n8vn2q h1{
+            .css-1n8vn2q h1,.css-k2ohf6{
               color: $main-text-color;
             }
             .css-1mwn02k{
@@ -577,7 +577,7 @@
         .css-vb3iwc{//header
           background: $nico-black;
           .css-zbqfsi{
-            .css-1n8vn2q h1{
+            .css-1n8vn2q h1,.css-k2ohf6{
               color: $main-text-color;
             }
             .css-1mwn02k{
@@ -1115,5 +1115,11 @@
         }
       }
     }
+  }
+
+  //TODO 適切な記述箇所へ移動
+  //アナリティクスの動画別ページのタイトル文字色
+  .css-k2ohf6{
+    color: $main-text-color;
   }
 }
