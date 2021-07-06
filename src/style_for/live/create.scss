@@ -4,100 +4,100 @@
 @import '../parts/_serchbox';
 
 .niconico-darkmode-setting-true{
-  .___local-page___1DHEc{
+  [class*="___local-page___"]{
     background-color: $main-background-color;
 
-    .___page-title___1UNz0{ //pagetitle
+    [class*="___page-title___"]{ //pagetitle
       color: $main-text-color;
     }
-    .___user-card___C6Bhx{ //user
-      .___konomi-tag-setting-button___3PbzY{
+    [class*="___user-card___"]{ //user
+      [class*="___konomi-tag-setting-button___"]{
         border-color: $main-url-color;
       }
-      .___name-label___2Kmb-{
+      [class*="___name-label___"]{
         color: $main-text-color;
       }
     }
 
-    .___program-title-field___1V31O{ //番組タイトル
-      .___caption___21JSt{
+    [class*="___program-title-field___"]{ //番組タイトル
+      [class*="___caption___"]{
         color: $main-text-color;
       }
-      .___length-score___2EUB-{
+      [class*="___length-score___"]{
         color: $sub-1-text-color;
       }
 
     }
 
-    .___detail-setting-expanded-toggle-button___8_yOp{ //詳細設定OPEN
+    [class*="___detail-setting-expanded-toggle-button___"]{ //詳細設定OPEN
       color: $main-text-color;
     }
 
-    .___detail-setting-area___2jznU{ //詳細設定
-      .___local-section___QL3u6{ //background
+    [class*="___detail-setting-area___"]{ //詳細設定
+      [class*="___local-section___"]{ //background
         background: none;
       }
-      .___field___2Yhjd:not(:last-of-type){ //border
+      [class*="___field___"]:not(:last-of-type){ //border
         border-color: $border-background-color;
       }
-      .___caption___21JSt{ //title
+      [class*="___caption___"]{ //title
         color: $main-text-color;
       }
-      .___length-score___2EUB-{ // 文字数
+      [class*="___length-score___"]{ // 文字数
         color: $sub-1-text-color;
       }
-      .___target___1efqo+.___label___3czAu,.___label___qYitz{ //selectlavel
+      [class*="___target___"]+[class*="___label___"],[class*="___label___"]{ //selectlavel
         color: $main-text-color;
       }
 
-      .___tag-widget___1XSZ3{
+      [class*="___tag-widget___"]{
         background: none;
       }
 
-      .___field-area___yeR7a{
+      [class*="___field-area___"]{
         border-color: $border-background-color;
-        .___caption___1a8tY,.___caption___1IfTM,.___separator___9pr3w{
+        [class*="___caption___"],[class*="___caption___"],[class*="___separator___"]{
           color: $main-text-color;
         }
       }
-      .___end-time___BlzrM{
+      [class*="___end-time___"]{
         color: $main-text-color;
       }
-      .___register-form___2kuUD{
+      [class*="___register-form___"]{
         border-color: $border-background-color;
       }
       
     }
-    .___symbol-mark___3l18V{ //help
+    [class*="___symbol-mark___"]{ //help
       fill: $main-text-color;
       path{
         fill: $main-text-color;
       }
     }
-    .___message___1rFFH{
+    [class*="___message___"]{
       color: $main-text-color;
     }
   }
 
-  .___konomi-tag-promotion-panel___3FBdN,
-  .___konomi-tag-setting-panel___2H4_y{ //konomitag modal
+  [class*="___konomi-tag-promotion-panel___"],
+  [class*="___konomi-tag-setting-panel___"]{ //konomitag modal
     background-color: $main-background-color;
-    .___heading___RrWT8{
+    [class*="___heading___"]{
       color: $main-text-color;
     }
-    .___tag-registration-count-indicator___3nJCl{
+    [class*="___tag-registration-count-indicator___"]{
       color: $sub-1-text-color;
     }
-    .___tag-list___u_42c{
+    [class*="___tag-list___"]{
       background: none;
     }
-    .___tag___3Q0cb{
+    [class*="___tag___"]{
       background-color: $nico-black;
-      .___name-anchor___1Y9Wk{
+      [class*="___name-anchor___"]{
         color: $main-text-color;
       }
     }
-    .___no-tag-information___3gmB8{
+    [class*="___no-tag-information___"]{
       background: none;
     }
   }
