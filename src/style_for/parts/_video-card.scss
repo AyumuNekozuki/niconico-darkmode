@@ -12,7 +12,8 @@
 
     a.NicoadVideoItem-link,
     a .Card-title,
-    a .NC-CardTitle{
+    a .NC-CardTitle,
+    a.FollowingVideosContainer-owner .FollowingVideosContainer-ownerName{
       color: $main-text-color;
     }
     a.NicoadVideoItem-link:visited,
@@ -24,7 +25,8 @@
     a.NicoadVideoItem-link:hover,
     a:hover .Card-title,
     a:hover .CardTitle,
-    a:hover .NC-CardTitle{
+    a:hover .NC-CardTitle,
+    a.FollowingVideosContainer-owner:hover .FollowingVideosContainer-ownerName{
       color: $main-url-color;
     }
     .Card-secondary,

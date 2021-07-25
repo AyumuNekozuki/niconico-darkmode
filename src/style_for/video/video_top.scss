@@ -92,7 +92,10 @@
           color: $main-url-color;
         }
       }
-      .TagWithVideoItem{
+      .TagPushVideosContainer-description{
+        color: $sub-1-text-color;
+      }
+      .TagWithVideoItem{ //オススメのタグ・トレンドタグ
         .TagWithVideoItem-nicopediaText{
           color: $sub-1-text-color;
         }
@@ -104,13 +107,13 @@
           color: $main-url-color;
         }
       }
-      .NicoadVideosContainer{
+      .NicoadVideosContainer{ //ニコニ広告
         .NicoadVideosContainer-emptyMessage,
         .NicoadVideosContainer-failMessage{
           color: $main-text-color;
         }
       }
-      .NewsNotificationContainer{
+      .NewsNotificationContainer{ //お知らせ
         .NewsNotificationList-item{
           color: $main-text-color;
           .timestamp{
