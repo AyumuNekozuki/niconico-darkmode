@@ -117,20 +117,25 @@
               border-color: $main-url-color;
             }
           }
-          .ContentsDigestFrame-body{
-            .ContentsDigestFrame-card{
-              .ContentsDigestFrame-cardMetaTitle{
-                color: $main-text-color;
+          .ContentsDigestFrame{
+            padding-bottom: 1.5em;
+            .ContentsDigestFrame-body{
+              .ContentsDigestFrame-card{
+                .ContentsDigestFrame-cardMetaTitle{
+                  color: $main-text-color;
+                }
               }
-            }
-            .ContentsDigestFrame-card:hover{
-              .ContentsDigestFrame-cardMetaTitle{
-                color: $main-url-color;
+              .ContentsDigestFrame-card:hover{
+                .ContentsDigestFrame-cardMetaTitle{
+                  color: $main-url-color;
+                }
               }
             }
           }
+
         }
-        .ThemeContainer>.ContentsDigestFrame+.ContentsDigestFrame:before{
+        .ThemeContainer>.ContentsDigestFrame+.ContentsDigestFrame::before,
+        .RankingContainer+.ThemeContainer:before{
           border-color: $border-background-color;
         }
         .NicoAdContainer{
@@ -230,43 +235,46 @@
           }
         }
         .ContentsInformationAreaContainer{
-          .ContentsDigestFrame-header{
-            .FrameTitleLink{
-              .FrameTitleLink-titleText{
-                color: $main-text-color;
+          .ContentsDigestFrame{
+            padding-bottom: 1.5em;
+            .ContentsDigestFrame-header{
+              .FrameTitleLink{
+                .FrameTitleLink-titleText{
+                  color: $main-text-color;
+                }
               }
-            }
-            .FrameTitleLink:hover{
-              .FrameTitleLink-titleText{
-                color: $main-url-color;
+              .FrameTitleLink:hover{
+                .FrameTitleLink-titleText{
+                  color: $main-url-color;
+                }
               }
-            }
-            .SeeMoreLink{
-              .SeeMoreLink-text{
-                background-color: $sub2-background-color;
-                color: $main-text-color;
-                border-color: $border-background-color;
-                svg{
-                  fill: $main-text-color;
+              .SeeMoreLink{
+                .SeeMoreLink-text{
+                  background-color: $sub2-background-color;
+                  color: $main-text-color;
+                  border-color: $border-background-color;
+                  svg{
+                    fill: $main-text-color;
+                  }
+                }
+              }
+              .SeeMoreLink:hover{
+                .SeeMoreLink-text{
+                  background-color: $main-url-color;
+                  border-color: $main-url-color;
                 }
               }
             }
-            .SeeMoreLink:hover{
-              .SeeMoreLink-text{
-                background-color: $main-url-color;
-                border-color: $main-url-color;
+            .ContentsDigestFrame-body{
+              .ContentsDigestFrame-card{
+                .ContentsDigestFrame-cardMetaTitle{
+                  color: $main-text-color;
+                }
               }
-            }
-          }
-          .ContentsDigestFrame-body{
-            .ContentsDigestFrame-card{
-              .ContentsDigestFrame-cardMetaTitle{
-                color: $main-text-color;
-              }
-            }
-            .ContentsDigestFrame-card:hover{
-              .ContentsDigestFrame-cardMetaTitle{
-                color: $main-url-color;
+              .ContentsDigestFrame-card:hover{
+                .ContentsDigestFrame-cardMetaTitle{
+                  color: $main-url-color;
+                }
               }
             }
           }
@@ -415,7 +423,6 @@
     .BreakingNewsContainer{ //超速報
       .BreakingNewsContainer-inner{
         background: $nico-black;
-        border: 3px solid $chokaigi;
 
         .BreakingNewsContainer-header{
           background: $nico-black;
