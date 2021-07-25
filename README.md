@@ -67,17 +67,17 @@ https://github.com/AyumuNekozuki/niconico-darkmode/wiki
 1. 最新のリポジトリをDL
 2. dockerとdocker-composeの実行環境を用意
 3. [拡張機能の管理](chrome://extensions/)からデベロッパーモードを有効化
-4. gitのルートディレクトリで`docker-compose up [-d]`を実行しコンパイルを実行
+4. gitのルートディレクトリで`docker compose up`を実行しコンパイルを実行
 5. `dest`を読み込み編集
-6. 終了させる場合は、`docker-compose down`
+6. 終了させる場合は、`docker compose down`
 
 ### 環境構築(Firefox)
 1. 最新のリポジトリをDL
 2. dockerとdocker-composeの実行環境を用意
 3. [デバッグメニュー](about:debugging#/runtime/this-firefox)へ移動
-4. gitのルートディレクトリで`docker-compose up [-d]`を実行しコンパイルを実行
+4. gitのルートディレクトリで`docker compose up`を実行しコンパイルを実行
 5. `dest`を読み込み編集
-6. 終了させる場合は、`docker-compose down`
+6. 終了させる場合は、`docker compose down`
 
 ### 注意事項
 同じファイルでChrome/Firefoxどちらも動作する必要があります。
@@ -88,7 +88,8 @@ MIT
 ## 作者
 AyumuNekozuki / [@nekozuki_dev](https://twitter.com/nekozuki_dev) 
 
-## SpecialThanks
+## Contributors
 [@hiyakake](https://github.com/hiyakake) 
-
+[@tearaikazuki](https://github.com/tearaikazuki) 
+[@istallia](https://github.com/istallia) 
 
