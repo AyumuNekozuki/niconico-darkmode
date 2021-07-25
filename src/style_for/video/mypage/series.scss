@@ -60,7 +60,23 @@
       .SeriesVideoListContainer{
         .SeriesVideoListContainer-video{
           border-bottom: 1px solid $border-background-color;
-          .VideoMediaObject-title{
+          .NC-MediaObject-contents{ //fix 202107
+            .NC-MediaObjectTitle{
+              color: $main-text-color;
+            }
+            &:visited{
+              .NC-MediaObjectTitle{
+                color: $sub-2-text-color;
+              }
+            }
+
+            &:hover{
+              .NC-MediaObjectTitle{
+                color: $main-url-color;
+              }
+            }
+          }
+          .VideoMediaObject-title{ //old
             a{
               color: $main-text-color;
             }
