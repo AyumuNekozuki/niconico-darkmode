@@ -1,123 +1,136 @@
 @import '_default';
 
 .niconico-darkmode-setting-true{
-  #sideHeader /*旧ヘッダー*/{
-    a{
-      color: $main-text-color !important;
-    }
-    #siteHeaderInner ul li ul{
-      background: $sub-background-color !important;
-    }
-    #siteHeaderLeftMenuContainer li a :hover{
-      color: black !important;
-    }
-    #siteHeaderNotification .siteHeaderNotificationContainer #siteHeaderNotificationWithNotification dd a{
-      background: #35393B !important;
-      box-shadow: none !important;
-    }
-  }
-
   .nico-CommonHeaderRoot /*新ヘッダー*/{
-    .common-header-15gxh1a,
-    .common-header-1cuw74j,
-    .common-header-5onxr7 /*ヘッダーメニュー*/{
-      background-color: $nico-default-bg !important;
-    }
 
-    .common-header-1319btw{
-      color: $main-text-color !important;
-    }
+    /* その他 */
+    .common-header-1yklp7i{
+      background-color: $nico-black;
 
-    .common-header-g0o5vq:hover,
-    .common-header-10swg38:hover{
-      text-decoration: none !important;
-    }
+      /*各サービス*/
+      .common-header-j1xbgx{
 
-    .common-header-5x0u19:hover,
-    .common-header-5onxr7:hover{
-      background-color: $hover-background-color !important;
-      text-decoration: none !important;
-    }
+        /*各パーツ*/
+        .common-header-3ow0uc{
+          background: none;
+          border-color: $sub2-background-color;
+          .common-header-19mflz9{
+            color: $main-text-color;
+          }
 
-    .common-header-ibyxl4{
-      background: none !important;
-    }
+          &:hover{
+            background-color: $hover-background-color;
+          }
+        }
+      }
 
-    .common-header-g80xl3 /*menu > nicopoint*/{
-      background-color: $nico-default-bg !important;
-      border: solid 2px #333 !important;
-    }
-    .common-header-g80xl3:hover{
-      background-color: #D1A437 !important;
+      /*もっと見る*/
+      .common-header-11j62e9{
+        background-color: $main-background-color;
+        color: $main-text-color;
 
-      .common-header-1iolkct svg g g,
-      .common-header-1sypczf{
-        fill: #FFFFFF !important;
-        color: $main-text-color !important;
+        &:hover{
+          background-color: $hover-background-color;
+          text-decoration: none;
+        }
       }
     }
-    .common-header-1sypczf{
-      color: $main-text-color !important;
+
+    /* 右上メニュー */
+    .common-header-1ivnjlh{
+      .common-header-15gxh1a{
+        background-color: $nico-black;
+
+        //ユーザー,ニコニコポイント
+        .common-header-1cuw74j{
+          background-color: $nico-black;
+
+          //ユーザー
+          .common-header-5x0u19{
+            .common-header-5onxr7{
+              background-color: $nico-black;
+
+              .common-header-1319btw{
+                color: $main-text-color;
+              }
+
+              &:hover{
+                background-color: $hover-background-color;
+              }
+            }
+          }
+
+          //ユーザー未ログイン
+          .common-header-ibyxl4{
+            background-color: $nico-black;
+            .common-header-15ct2og{
+              color: $main-text-color;
+            }
+          }
+
+          //ニコニコポイント
+          .common-header-1extteq{
+            .common-header-g80xl3{
+              background-color: $nico-black;
+              border: solid 2px $sub2-background-color;
+
+              .common-header-1sypczf{
+                color: $main-text-color;
+              }
+
+              &:hover{
+                background-color: $nico-point;
+
+                .common-header-1iolkct svg g g,
+                .common-header-1sypczf{
+                  fill: #FFFFFF;
+                  color: $main-text-color;
+                }
+              }
+            }
+          }
+        }
+
+        //メニュー
+        .common-header-cvcm83{
+
+          //各ボタン
+          .common-header-zz80x3,
+          .common-header-1gq7o6w{
+            background-color: $nico-black;
+            border-color: $sub2-background-color;
+            .common-header-19mflz9,
+            .common-header-1u02t5o{
+              color: $main-text-color;
+            }
+
+            &:hover{
+              background-color: $hover-background-color;
+            }
+          }
+
+          &> *{
+            border-color: $sub2-background-color;
+          }
+        }
+
+        //ログアウト
+        .common-header-xp52wl {
+          border: $sub2-background-color 2px solid;
+
+          .common-header-yrq9nc{
+            color: $main-text-color;
+          }
+          
+          &:hover{
+            background-color: $notice-red;
+          }
+        }
+
+      }
     }
 
-    .common-header-zz80x3{
-      background-color: $nico-default-bg !important;
-      border-bottom: 1px solid #333 !important;
-    }
-    .common-header-zz80x3:hover{
-      background-color: $hover-background-color !important;
-      text-decoration: none !important;
-    }
-
-    .common-header-430bj8{
-      color: $main-text-color !important;
-    }
-
-    .common-header-cvcm83 > *{
-      border-top: 1px solid #333 !important;
-    }
-
-    .common-header-1gq7o6w{
-      background-color: $nico-default-bg !important;
-      border-bottom: #333 1px solid !important
-    }
-    .common-header-1gq7o6w:hover{
-      background-color: $hover-background-color !important;
-    }
-
-    .common-header-1u02t5o{
-      color: $main-text-color !important;
-    }
-
-    .common-header-xp52wl /*logout*/{
-      border: #333 2px solid !important;
-    }
-    .common-header-xp52wl:hover{
-      background-color: #CC0000 !important;
-    }
-    .common-header-yrq9nc{
-      color: $main-text-color !important;
-    }
-
-    .common-header-juy1p4,
-    .common-header-hgmb0z{
-      background-color: $nico-default-bg !important;
-      border-bottom: 1px solid $border-background-color !important;
-    }
-    .common-header-juy1p4:nth-child(2n),
-    .common-header-hgmb0z:nth-child(2n){
-      border-left: 1px solid $border-background-color !important;
-    }
-    .common-header-11j62e9{
-      background-color: $nico-default-bg !important;
-      color: $main-text-color;
-    }
-
-    .common-header-juy1p4:hover, .common-header-11j62e9:hover{
-      background-color: $hover-background-color !important;
-      text-decoration: none !important;
-    }
-
+    /* お知らせ（ベルマーク） */
     .common-header-6zywm /*notice*/{
       .common-header-1l1lwin{
         background-color: $nico-default-bg !important;
