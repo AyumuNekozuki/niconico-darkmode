@@ -18,7 +18,8 @@
                 "*://live2.nicovideo.jp/*",
                 "*://site.live.nicovideo.jp/*",
                 "*://commons.nicovideo.jp/*",
-                "*://inform.nicovideo.jp/oshirase/*"
+                "*://inform.nicovideo.jp/oshirase/*",
+                "*://site.nicovideo.jp/service_list/*"
             ],
             "js":["js/jquery-3.5.1.min.js","js/main.js"],
             "css":["style_for/parts/header.css"],
@@ -354,6 +355,14 @@
             ],
             "css": [
                 "style_for/jk/jk_top.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://site.nicovideo.jp/service_list/*"
+            ],
+            "css": [
+                "style_for/site/service_list.css"
             ]
         }
     ]

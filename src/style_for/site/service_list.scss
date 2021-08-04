@@ -1,0 +1,42 @@
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color;
+  color: $main-text-color;
+
+  #header{
+    #logo{
+      filter: $invert;
+    }
+  }
+
+  .contents{
+    .list-nav{
+      background-color: $nico-black;
+      ul li a{
+        color: $sub-1-text-color;
+
+        .arrow::after{
+          border-color: $sub-1-text-color;
+        }
+
+        &:hover{
+          background-color: $hover-background-color;
+        }
+      }
+    }
+
+    .section{
+      .list li{
+        background-color: $nico-black;
+
+        .title a{
+          color: $main-text-color;
+        }
+        .sentence a{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+  }
+}
