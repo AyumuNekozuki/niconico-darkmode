@@ -1,7 +1,7 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "niconico Darkmode",
-    "version": "2.3.4",
+    "version": "2.3.5",
     "description": "ニコニコサイトをダークモード化する拡張機能",
     "icons": {
         "16": "images/icon16.png",
@@ -368,7 +368,9 @@
     ]
     ,
     "permissions": [
-        "*://*.nicovideo.jp/",
         "storage"
+    ],
+    "host_permissions": [
+        "*://*.nicovideo.jp/"
     ]
 }
