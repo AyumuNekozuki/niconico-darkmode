@@ -5,6 +5,10 @@
 .niconico-darkmode-setting-true{
   background-color: $main-background-color;
 
+  [class*="___top-page___"]{//背景色  
+    background-color: $main-background-color !important;
+  }
+
   [class*="___contents-head-area___"]{
     [class*="___information-bar___"]{
       [class*="___subject___"]{
