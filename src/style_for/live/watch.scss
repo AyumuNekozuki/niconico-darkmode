@@ -404,9 +404,13 @@
             }
           }
           [class*="___program-label-view___"][data-provider-type="community"]{ //コミュラベル
-            [class*="___limited-program-label___"]{
+            [class*="___limited-program-label___"]{ //コミュ限
               border-color: $nico-com;
               color: $nico-com;
+            }
+            [class*="___video-premiere-label___"]{ //ライブ公開
+              border-color: $sub-1-text-color;
+              color: $sub-1-text-color;
             }
           }
           [class*="___program-label-view___"]{ //有料生放送
@@ -535,6 +539,27 @@
               [class*="___serial-code-use-button___"]{
                 [class*="___symbol-mark___"]>path{
                   fill: $main-text-color;
+                }
+              }
+            }
+          }
+          [class*="___video-premiere-content-section___"]{ //ライブ公開
+            background: $nico-black;
+            [class*="___header___"]{
+              [class*="___heading___"]{
+                color: $sub-1-text-color;
+              }
+            }
+            [class*="___body-area___"]{
+              [class*="___preview___"]{
+                background: none;
+              }
+              [class*="___content-area___"]{
+                [class*="___content-title___"]{
+                  color: $main-url-color;
+                  &:hover{
+                    text-decoration: none;
+                  }
                 }
               }
             }
