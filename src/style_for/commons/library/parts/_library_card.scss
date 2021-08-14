@@ -22,6 +22,24 @@
         .menuArea{
           color: $sub-1-text-color;
         }
+        .materialsPickupUserName{
+          color: $sub-1-text-color;
+        }
+      }
+    }
+    a.materialsPickupTagAnchor{
+      background-color: $nico-black;
+      border-color: $nico-black;
+      .materialsPickupTagName{
+        color: $main-text-color;
+      }
+
+      &:hover{
+        background-color: $nico-black;
+        border-color: $main-url-color;
+        .materialsPickupTagName{
+          border-color: $main-url-color;
+        }
       }
     }
   }

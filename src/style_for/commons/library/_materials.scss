@@ -69,7 +69,8 @@
           background: none;
           //_library_card.scssを参照
         }
-        .arrowLeftIconArea,.arrowRightIconArea{
+        .arrowLeftIconArea,.arrowRightIconArea,
+        .pickupArrowLeftIconArea,.pickupArrowRightIconArea{
           .arrowLeftIcon,.arrowRightIcon{
             svg{
               fill: $hover-background-color;
