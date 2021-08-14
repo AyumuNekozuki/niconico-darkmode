@@ -660,10 +660,32 @@
 
       }
       [class*="___program-information-side-area___"]{ //右側
-        [class*="___konomi-tag-list-section___"]{ //好みタグ
-          [class*="___heading___"]{
-            color: $main-text-color;
+        [class*="___broadcaster-information-section___"]{ //コミュ/CH
+          [class*="___profile___"]{
+            color: $sub-2-text-color;
           }
+          [class*="___description-area___"]{
+            [class*="___name-area___"]{
+              [class*="___lead___"]{
+                color: $sub-1-text-color;
+              }
+              [class*="___name-label___"]{
+                color: $main-text-color;
+                &:hover{
+                  color: $main-url-color;
+                }
+              }
+            }
+          }
+        }
+        [class*="___konomi-tag-list-section___"]{ //好みタグ
+          border-color: $border-background-color;
+          [class*="___header___"]{
+            border-color: $border-background-color;
+            [class*="___heading___"]{
+              color: $main-text-color;
+            }
+          } 
           [class*="___setting-button___"]{
             svg>path{
               fill: $main-text-color;
