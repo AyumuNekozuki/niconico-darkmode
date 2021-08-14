@@ -72,7 +72,8 @@
         background-color: $main-url-color;
         color: $main-text-color;
       }
-      label[for="materialUpload"]::after{
+      label[for="materialUpload"]::after,
+      .uploadFileName{
         color: $main-text-color;
       }
     }

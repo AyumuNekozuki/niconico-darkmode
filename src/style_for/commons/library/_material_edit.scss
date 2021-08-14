@@ -1,0 +1,28 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  form#editform[action="/material/confirm"]{
+    .form_content{
+      div{
+
+        &.even{
+          background: none;
+        }
+        &.sub-group{
+          border-color: $border-background-color;
+        }
+
+        .label-txt{
+          color: $sub-1-text-color;
+          border-color: $border-background-color;
+        }
+
+        #radio{
+          .radio{
+            border-color: $border-background-color;
+          }
+        }
+      }
+    }
+  }
+}
