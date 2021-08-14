@@ -12,7 +12,8 @@
       border-color: transparent transparent $hover-background-color;
     }
   }
-  .MuiDialog-paperScrollPaper .css-a8udat{ //modal flow
+  .MuiDialog-paperScrollPaper .css-a8udat,
+  .css-a8udat{ //modal flow
     background-color: $nico-black;
   }
   .css-128y703,.css-3ocxhc{ //flowchart
@@ -148,34 +149,46 @@
           color: $sub-1-text-color;
         }
       }
+      .css-14y5xaq{ //シリーズ作成
+        .css-1jebkh5.css-1jebkh5{
+          background-color: $sub2-background-color;
+          border-color: $border-background-color;
+          color: $sub-1-text-color;
+        }
+      }
       .css-1ipusk1{ //公開設定見出し
         color: $sub-2-text-color;
       }
-      .css-1p1ehdf,.css-10snjr6{ //公開設定
-        .css-1wob1xr{
-          .MuiSelect-select{ //公開非公開設定
-            background-color: $sub2-background-color;
-            border-color: $border-background-color;
-            color: $sub-1-text-color;
+      .css-1p1ehdf,.css-10snjr6,.css-55jamq{ //公開設定
+        .MuiSelect-select{
+          background-color: $sub2-background-color;
+          border-color: $border-background-color;
+          color: $sub-1-text-color;
+        }
+        .css-o2j9ze{
+          .MuiFormControl-root{ //公開非公開設定
+            .MuiFormControlLabel-root{
+              span{
+                color: $sub-1-text-color;
+              }
+            }
           }
         }
-        .css-17405a4.css-1i82ydo{ //タイマー
-          .css-1th7cqr{
-            .MuiFormControl-root{
-              .MuiInputBase-root{
-                color: $main-text-color;
-                .MuiInputAdornment-positionEnd{
-                  .MuiIconButton-root{
-                    color: $main-text-color;
-                  }
+        .css-1th7cqr{//タイマー
+          .MuiFormControl-root{
+            .MuiInputBase-root{
+              color: $main-text-color;
+              .MuiInputAdornment-positionEnd{
+                .MuiIconButton-root{
+                  color: $main-text-color;
                 }
               }
-              .MuiInputBase-root.Mui-disabled{
-                color: $sub-3-text-color;
-                .MuiInputAdornment-positionEnd{
-                  .MuiIconButton-root{
-                    color: $sub-3-text-color;
-                  }
+            }
+            .MuiInputBase-root.Mui-disabled{
+              color: $sub-3-text-color;
+              .MuiInputAdornment-positionEnd{
+                .MuiIconButton-root{
+                  color: $sub-3-text-color;
                 }
               }
             }
@@ -414,6 +427,24 @@
               color: $main-text-color;
             }
           }
+        }
+      }
+    }
+    .MuiPaper-root{ //過去動画より引用
+      .css-1k8anir.css-1k8anir svg{
+        fill: $sub-1-text-color;
+      }
+      .css-1798d1d{
+        background-color: $nico-black;
+        border-color: $border-background-color;
+        .css-1cgvw95.css-1cgvw95 > div{
+          background: $nico-black;
+          color: $main-text-color;
+        }
+        .MuiSelect-select{
+          background-color: $sub2-background-color;
+          border-color: $border-background-color;
+          color: $sub-1-text-color;
         }
       }
     }
