@@ -256,14 +256,19 @@
                   background: $nico-black !important;
                   color: $main-text-color !important;
                   border: 2px solid $border-background-color !important;
+
                   .LikeIcon.LikeActionButton-icon{
-                    use #LikeIcon_svg__frame-0>path{
-                      fill: $main-text-color !important;
+                    use{
+                      filter: $invert;
                     }
-                    svg svg defs #LikeIcon_svg__frame-0>path{
-                      fill: $main-text-color !important;
+                  }
+                  &.is-liked{
+                    .LikeIcon.LikeActionButton-icon{
+                      use{
+                        filter: none;
+                      }
                     }
-                  } 
+                  }
                 }
               }
               .VideoMenuContainer-button{
