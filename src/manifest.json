@@ -50,7 +50,7 @@
         },
         {
             "matches": [
-                "*://live.nicovideo.jp/embed/watch-histories/*"
+                "*://live.nicovideo.jp/embed/watch-histories*"
             ],
             "js":["js/jquery-3.5.1.min.js","js/iframe_action.js"],
             "css":["style_for/video/mypage/iframe/live-history.css"],
