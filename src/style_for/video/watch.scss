@@ -347,12 +347,20 @@
                       border-right: 1px solid $sub-3-text-color;
                     }
                     [data-row-nicoru-rank="1"]{
-                      background: rgb(74, 75, 58);
+                      background: $nicoru-grade-1;
                     }
-                    [data-row-nicoru-rank="2"],
-                    [data-row-nicoru-rank="3"],
-                    [data-row-nicoru-rank="4"],
+                    [data-row-nicoru-rank="2"]{
+                      background: $nicoru-grade-2;
+                    }
+                    [data-row-nicoru-rank="3"]{
+                      background: $nicoru-grade-3;
+                    }
+                    [data-row-nicoru-rank="4"]{
+                      background: $nicoru-grade-4;
+                      color: black;
+                    }
                     [data-row-nicoru-rank="5"]{
+                      background: $nicoru-grade-5;
                       color: black;
                     }
                   }
