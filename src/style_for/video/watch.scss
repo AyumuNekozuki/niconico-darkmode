@@ -14,14 +14,35 @@
       //投稿者メニュー
       background: $sub2-background-color;
       .EditorMenuContainer-menuBox{
-        .EditorMenuContainer-menuBox-menu{
-          border: none !important;
-          background: none !important;
+        .EditorMenuContainer-menuBoxMenu{
+          border: none;
+          background: none;
           color: $sub-1-text-color;
+          .icon, .garage g{
+            fill: $sub-1-text-color;
+          }
+          .arrow:after{
+            border-color: $sub-1-text-color transparent transparent;
+          }
+
+          .EditorMenuContainer-menuBoxMenuChild{
+            border-color: $border-background-color;
+            .menuItem{
+              background: $nico-black;
+              border-color: $border-background-color;
+              color: $main-text-color;
+              .Link, .RouterLink{
+                color: $main-text-color;
+              }
+            }
+            .menuItem:hover, .Link:hover, .RouterLink:hover{
+              background: $hover-background-color;
+            }
+          }
         }
-        .EditorMenuContainer-menuBox-menu:hover{
-          background: $hover-background-color !important;
-          color: $main-text-color !important;
+        .EditorMenuContainer-menuBoxMenu:hover{
+          background: $hover-background-color;
+          color: $main-text-color;
         }
       }
       .EditorMenuContainer-menuBox>li:first-child{
@@ -29,8 +50,8 @@
         color: $main-text-color !important;
       }
       .EditorMenuContainer-menuBox>li:first-child:hover{
-        background: none !important;
-        color: $main-text-color !important;
+        background: none;
+        color: $main-text-color;
       }
     }
     .CommunityEditorMenuContainer{
