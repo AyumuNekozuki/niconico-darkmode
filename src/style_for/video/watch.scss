@@ -699,21 +699,41 @@
       .RecommendVideosContainer{ //おすすめ動画
         .RecommendVideosContainer-items{
           .RecommendVideosContainer-item{
+            .NC-VideoCard{
+              .NC-Card-mainHeader{
+                .NC-Card-mainHeaderTitle{
+                  .NC-CardTitle{
+                    color: $main-text-color;
+                  }
+                  &:visited{
+                    color: $sub-1-text-color;
+                  }
+                }
+              }
+              &:hover{
+                .NC-Card-mainHeader{
+                  .NC-CardTitle{
+                    color: $main-text-color;
+                  }
+                }
+              }
+            }
+
             .Card.VideoCard{
               .Card-main{
                 .Card-mainHeader{
                   .Link.Card-mainHeaderTitle{
-                    .CardTitle{
+                    .NC-CardTitle{
                       color: $main-text-color;
                     }
                   }
                   .Link.Card-mainHeaderTitle:visited{
-                    .CardTitle{
+                    .NC-CardTitle{
                       color: $sub-2-text-color;
                     }
                   }
                   .Link.Card-mainHeaderTitle:hover{
-                    .CardTitle{
+                    .NC-CardTitle{
                       color: $main-url-color;
                     }
                   }
