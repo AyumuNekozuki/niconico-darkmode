@@ -79,6 +79,15 @@
     }
   }
 
+  //一般会員お知らせ
+  [class*="___functional-restriction-description-section___"]{
+    background: none;
+  }
+  [class*="___after-description___"]{
+    color: $sub-1-text-color;
+  }
+
+  //好みタグ
   [class*="___konomi-tag-promotion-panel___"],
   [class*="___konomi-tag-setting-panel___"]{ //konomitag modal
     background-color: $main-background-color;
