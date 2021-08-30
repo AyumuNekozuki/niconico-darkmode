@@ -129,6 +129,107 @@
         }
       }
     }
+    .css-r6lg6c.css-r6lg6c{
+      background: none;
+      .css-exhu38{ //動画タイトル
+        .css-1dhrucb{
+          .css-1kmo1uv{
+            color: $sub-2-text-color;
+          }
+          .css-15vcqqm{ //文字数
+            color: $sub-2-text-color;
+          }
+        }
+        .MuiInputBase-root{
+          box-shadow: none;
+          background: none;
+          .MuiInputBase-input{
+            background-color: $sub2-background-color;
+            color: $main-text-color;
+            border-color: $border-background-color;
+          }
+        }
+      }
+      .css-fx35lp.css-2hci6c{ //動画説明文
+        .css-1dhrucb{
+          .css-50ysp3,.css-15vcqqm{
+            color: $sub-2-text-color;
+          }
+        }
+      }
+      fieldset.MuiFormControl-root{ //共通説明文・いいね！チェックボックス
+        legend.MuiFormLabel-root{
+          color: $sub-2-text-color;
+        }
+        div.MuiFormGroup-root{
+          label.MuiFormControlLabel-root{
+            .MuiTypography-body1{
+              color: $sub-1-text-color;
+            }
+          }
+        }
+      }
+      .css-1rh811a{ //いいね！入力欄
+        .MuiInputBase-root{
+          box-shadow: none;
+          background: none;
+          .MuiInputBase-input{
+            background-color: $sub2-background-color;
+            color: $main-text-color;
+            border-color: $border-background-color;
+          }
+        }
+      }
+      .css-fg9cc1{ //ジャンル設定
+        .MuiFormLabel-root{
+          color: $sub-2-text-color;
+        }
+        .MuiSelect-select{
+          background-color: $sub2-background-color;
+          border-color: $border-background-color;
+          color: $sub-1-text-color;
+        }
+      }
+      .css-1ipusk1{ //公開設定見出し
+        color: $sub-2-text-color;
+      }
+      .css-1p1ehdf,.css-10snjr6,.css-55jamq{ //公開設定
+        .MuiSelect-select{
+          background-color: $sub2-background-color;
+          border-color: $border-background-color;
+          color: $sub-1-text-color;
+        }
+        .css-o2j9ze{
+          .MuiFormControl-root{ //公開非公開設定
+            .MuiFormControlLabel-root{
+              span{
+                color: $sub-1-text-color;
+              }
+            }
+          }
+        }
+        .css-1th7cqr{//タイマー
+          .MuiFormControl-root{
+            .MuiInputBase-root{
+              color: $main-text-color;
+              .MuiInputAdornment-positionEnd{
+                .MuiIconButton-root{
+                  color: $main-text-color;
+                }
+              }
+            }
+            .MuiInputBase-root.Mui-disabled{
+              color: $sub-3-text-color;
+              .MuiInputAdornment-positionEnd{
+                .MuiIconButton-root{
+                  color: $sub-3-text-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
 }
