@@ -231,5 +231,38 @@
       }
     }
   }
+  .MuiDialog-container{
+    .MuiPaper-root{ //マイリスト登録
+      .MuiDialogTitle-root h2 .css-rpy6q5{ //ヘッダータイトル
+        color: $sub-1-text-color;
+      }
+      .MuiDialogContent-root.css-vg2vf7{
+        .css-1spxyxr{ //マイリスト選択
+          background-color: $sub2-background-color;
+          .css-wkhedj svg{
+            fill: $main-text-color;
+          }
+          .css-l1z3wp{
+            color: $main-text-color;
+          }
+
+          &:hover{
+            background-color: $hover-background-color;
+          }
+        }
+        /* マイリスト作成 */
+        .css-1jb0ri.css-gcra3u{
+          background: none;
+        }
+        .css-1hd7ypj{
+          .css-1dhrucb{
+            .css-1kmo1uv{
+              color: $sub-1-text-color;
+            }
+          }
+        }
+      }
+    }
+  }
 
 }

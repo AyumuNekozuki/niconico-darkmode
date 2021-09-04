@@ -20,3 +20,18 @@
 @import '_nopost'; //動画未投稿
 
 @import '_error'; //メンテ
+
+
+/* ======================
+　以下、ガレージ共通パーツ
+====================== */
+
+.niconico-darkmode-setting-true{
+
+  .MuiInputBase-root{ //input関連
+    color: $main-text-color;
+    background: $nico-black;
+    border-color: 1px solid $border-background-color;
+  }
+
+}
