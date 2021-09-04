@@ -31,7 +31,8 @@
       border-color: transparent transparent transparent $main-background-color;
     }
   }
-  .css-1v3iagk.css-81qgnv{ //情報入力
+  .css-r6lg6c.css-81qgnv{ //情報入力
+    background: none;
     .css-cqvejz{
       .css-1bwcme4{ //投稿動画から引用
         .MuiFormLabel-root{
@@ -81,6 +82,24 @@
               color: $sub-1-text-color;
             }
           }
+        }
+      }
+      .css-exhu38{ //いいね！設定
+        .css-1y7uoxj.css-1y7uoxj{
+          background-color: $nico-black;
+          .css-crcixx{
+            color: $sub-1-text-color;
+          }
+          .css-g3injr{
+            color: $main-text-color;
+          }
+          &::after{
+            border-bottom-color: $nico-black;
+          }
+        }
+        .css-1jtc0gq.css-1jtc0gq{
+          background-color: $sub2-background-color;
+          color: $sub-1-text-color;
         }
       }
       .css-1rh811a{ //いいね！入力欄

@@ -24,6 +24,10 @@
 
 /* ======================
 　以下、ガレージ共通パーツ
+　.MuiXXXXXX系はこちらにまとめることにする
+
+　20210904更新
+
 ====================== */
 
 .niconico-darkmode-setting-true{
@@ -40,6 +44,10 @@
     svg{
       fill: $sub-1-text-color !important;
     }
+  }
+
+  .MuiFormControlLabel-label{ //ラベル
+    color: $sub-1-text-color;
   }
 
 }
