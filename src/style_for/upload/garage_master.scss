@@ -34,4 +34,12 @@
     border-color: 1px solid $border-background-color;
   }
 
+  .MuiIconButton-root{ //アイコンボタン
+    color: $sub-1-text-color;
+
+    svg{
+      fill: $sub-1-text-color !important;
+    }
+  }
+
 }
