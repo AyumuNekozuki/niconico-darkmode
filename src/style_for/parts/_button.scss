@@ -139,4 +139,13 @@
       color: $main-text-color;
     }
   }
+
+  //20210904
+  .ModalActionButton{
+    background-color: $sub2-background-color;
+    color: $sub-1-text-color;
+    &:hover{
+      background-color: $hover-background-color;
+    }
+  }
 }
