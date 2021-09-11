@@ -267,7 +267,7 @@
             .mUserSeparator{
               color: $main-text-color;
             }
-            .userAnchor{
+            .userAnchorArea{
               a{
                 color: $main-text-color;
               }
@@ -279,7 +279,7 @@
         }
         .materialInfoArea{
           background-color: $nico-black;
-          .materialTitle{
+          .materialInfoTitle{
             color: $main-text-color;
             border-color: $border-background-color
           }
@@ -297,6 +297,14 @@
               }
               .minfoCaption{
                 background-color: $border-background-color;
+              }
+            }
+            .m_info_menu{
+              a{
+                color: $main-text-color;
+              }
+              a:hover{
+                color: $main-url-color;
               }
             }
           }
