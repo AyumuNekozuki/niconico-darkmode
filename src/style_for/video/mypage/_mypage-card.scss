@@ -3,6 +3,22 @@
 
 .niconico-darkmode-setting-true{
 
+  //共通 プレミアム入会バナー
+  .PremiumBanner{
+    background-color: $sub2-background-color;
+    border-color: $nico-premium;
+    .PremiumBanner-message{
+      color: $main-text-color;
+    }
+
+    &:hover{
+      background-color: $hover-background-color;
+      .PremiumBanner-message{
+        color: $main-text-color;
+      }
+    }
+  }
+
   //ニコレポ
   .NicorepoItem-item{
     background-color: $sub2-background-color;
