@@ -52,6 +52,11 @@
           }
           .mc-Privilege_Disp{
             .mc-Privilege_Disp-title{
+              .mc-Privilege_Disp-titleImg{
+                img{
+                  filter: $invert;
+                }
+              }
               .mc-Privilege_Disp-titleText{
                 color: $main-text-color;
               }
