@@ -169,6 +169,9 @@
               border-color: $border-background-color !important;
             }
           }
+          .materialHistoryItemText{
+            color: $main-text-color;
+          }
         }
         .materialCommentSection{
           .materialCommentBody{
