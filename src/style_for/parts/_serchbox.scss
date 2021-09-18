@@ -79,10 +79,10 @@
   .BaseLayout-header{
     .HeaderContainer-searchBox{
       .SearchBox-option{
-        background-color: $nico-default-bg !important;
+        background-color: $nico-black !important;
       }
       .SearchBox-form{
-        background-color: $nico-default-bg !important;
+        background-color: $nico-black !important;
         box-shadow: none !important;
       }
       .SearchBox-query{
@@ -110,12 +110,12 @@
     .HeaderContainer-searchBox{
       .SearchBox{
         border: none;
-        background: $nico-default-bg;
+        background: $nico-black;
         .TagEditForm-input{
           box-shadow: none;
         }
         .TagSuggestionInput-input{
-          background-color: $nico-default-bg;
+          background-color: $nico-black;
           color: $main-text-color;
           box-shadow: none;
         }
@@ -126,9 +126,9 @@
         .TagSuggestionList-item,
         .TagSuggestionList-favoriteTag,
         .SearchBox-optionMenu{
-          background-color: $nico-default-bg;
+          background-color: $nico-black;
           color: $main-text-color;
-          border-top: 1px dotted $nico-default-bg;
+          border-top: 1px dotted $nico-black;
         }
         .TagSuggestionList-item.is-active, 
         .TagSuggestionList-item:hover,
@@ -143,22 +143,22 @@
     //zero-design
     #search_tab{
       a.head_ssw_0{
-        background-color: $nico-default-bg;
+        background-color: $nico-black;
         color: $sub-1-text-color;
       }
     } 
     #search_input{
-      background: $nico-default-bg;
+      background: $nico-black;
       border: $border-background-color solid 1px;
       #bar_search{
-        background-color: $nico-default-bg;
+        background-color: $nico-black;
         color: $main-text-color;
       }
       .suggestBox{
-        background-color: $nico-default-bg; 
+        background-color: $nico-black; 
         .suggestBoxInner{
           border: 1px solid $border-background-color;
-          background-color: $nico-default-bg;
+          background-color: $nico-black;
           .favTagEditBox p{
             color: $main-text-color;
           }
@@ -211,10 +211,10 @@
                 }
               }
               .suggestBox{
-                background-color: $nico-default-bg; 
+                background-color: $nico-black; 
                 .suggestBoxInner{
                   border: 1px solid $border-background-color;
-                  background-color: $nico-default-bg;
+                  background-color: $nico-black;
                   .favTagEditBox p{
                     color: $main-text-color;
                   }

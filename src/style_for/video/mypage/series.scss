@@ -14,7 +14,7 @@
   
   .BaseLayout-main{
     .SeriesAdditionalContainer{
-      background: $nico-default-bg !important;
+      background: $nico-black !important;
       .SeriesAdditionalContainer-ownerArea{
         color: $main-text-color !important;
         .SeriesAdditionalContainer-ownerName{
@@ -29,7 +29,7 @@
 
     .Series-columnSub{
       .SeriesMenuContainer-seriesList{
-        background: $nico-default-bg !important;
+        background: $nico-black !important;
         .SeriesMenuContainer-seriesItem{
           a{
             color: $main-text-color;

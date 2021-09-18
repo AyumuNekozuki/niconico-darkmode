@@ -145,7 +145,7 @@
               background: $main-background-color;
             }
             .GenreRankMetaOverflowMenuContainer-body{
-              background: $nico-default-bg;
+              background: $nico-black;
               .GenreRankMetaOverflowMenuContainer-menuBlock:not(:first-of-type){
                 border-top: 1px solid $border-background-color;
               }
@@ -153,7 +153,7 @@
           }
           .VideoMetaOverflowMenuContainer-menu{
             border: 1px solid $border-background-color;
-            background: $nico-default-bg;
+            background: $nico-black;
             a{
               color: $main-url-color;
             }
@@ -193,7 +193,7 @@
           }
         }
         .TagContainer.is-editing{
-          background-color: $nico-default-bg;
+          background-color: $nico-black;
         }
         .OwnerNicoliveBannerContainer{
           .OwnerNicoliveBanner{
@@ -216,7 +216,7 @@
               .CommentPostContainer-commandInput,
               .CommentPostContainer-commentInput{
                 border: none;
-                background-color: $nico-default-bg !important;
+                background-color: $nico-black !important;
                 border-right: 1px solid $border-background-color;
                 .CommentCommandInput,
                 .CommentInput-textarea{
@@ -355,12 +355,12 @@
               .CommentPanelContainer{
                 background: $main-background-color;
                 .CommentPanelMenuContainer-pastCommentMenu{
-                  background: $nico-default-bg !important;
+                  background: $nico-black !important;
                 }
                 .CommentPanelDataGrid{
                   color: $main-text-color;
                   .CommentPanelDataGrid-HeaderCell{
-                    background: $nico-default-bg;
+                    background: $nico-black;
                     border-right: 1px solid $sub-3-text-color;
                   }
                   .DataGrid-Table{
@@ -409,7 +409,7 @@
             .CommentPanelDataGrid{
               color: $main-text-color;
               .CommentPanelDataGrid-HeaderCell{
-                background: $nico-default-bg;
+                background: $nico-black;
                 border-right: 1px solid $sub-3-text-color;
               }
               .DataGrid-Table{
@@ -427,14 +427,14 @@
                 }
               }
               .DataGrid-Table :hover{
-                background: $nico-default-bg;
+                background: $nico-black;
               }
             }
           }
         }
         .MainContainer-floatingPanel{
           .NGSettingPanelContainer{
-            background: $nico-default-bg;
+            background: $nico-black;
             color: $main-text-color;
             .NGSettingPanelContainer-contentTop{
               .NGSettingPanelContainer-openViewerNGRegisterButton{
@@ -449,7 +449,7 @@
               }
             }
             .NGSettingPanelContainer-contentMain{
-              background: $nico-default-bg;
+              background: $nico-black;
               .ViewerNGListDataGrid-HeaderCell{
                 background: $main-background-color;
                 border-right: 1px solid $border-background-color;
@@ -460,7 +460,7 @@
             }
             .NGSettingPanelContainer-contentModal{
               .ViewerNGRegister{
-                background: $nico-default-bg;
+                background: $nico-black;
                 .ViewerNGRegister-header{
                   border-bottom: 1px solid $border-background-color;
                 }
@@ -471,9 +471,9 @@
             }
           }
           .TwitterPanelContainer{
-            background-color: $nico-default-bg;
+            background-color: $nico-black;
             .TwitterAccountPanel{
-              background-color: $nico-default-bg;
+              background-color: $nico-black;
               color: $main-text-color;
             }
             .TwitterCaptureSelector{
@@ -488,7 +488,7 @@
             }
           }
           .SharePanelContainer{
-            background-color: $nico-default-bg;
+            background-color: $nico-black;
             .SharePanelContainer-title{
               color: $sub-1-text-color;
             }
@@ -506,7 +506,7 @@
           }
           .AddVideoListPanelContainer{
             .AddVideoListPanel-mylist{
-              background: $nico-default-bg;
+              background: $nico-black;
               .AddVideoListPanel-content{
                 color: $main-text-color;
               }
@@ -515,7 +515,7 @@
               }
             }
             .AddMylistModal{
-              background: $nico-default-bg;
+              background: $nico-black;
             }
           }
         }
@@ -620,7 +620,7 @@
     .ContextMenu{
       .CommentPanelContextMenuContainer{
         border: 1px solid $border-background-color;
-        background: $nico-default-bg;
+        background: $nico-black;
       }
       .CommentPanelContextMenuContainer-menuItem:hover{
         background: $border-background-color;
@@ -638,7 +638,7 @@
     .IchibaAdded,
     .IchibaTagSearch,
     .IchibaAdded_Header{
-      background-color: $nico-default-bg !important;
+      background-color: $nico-black !important;
     }
     .IchibaModal_Title_Body,
     .IchibaSuggest_Title,
@@ -653,7 +653,7 @@
     .IchibaSearchForm_Category,
     .IchibaSearchForm_Keyword_Input,
     .IchibaSuggest_Sort{
-      background-color: $nico-default-bg !important;
+      background-color: $nico-black !important;
       color: $main-text-color !important;
       border: 1px solid $border-background-color !important;
     }
