@@ -11,6 +11,7 @@
         "500": "images/icon500.png"
     },
     "content_scripts": [
+        //ニコニコ共通ヘッダー
         {
             "matches": [
                 "*://www.nicovideo.jp/*",
@@ -364,7 +365,19 @@
             "css": [
                 "style_for/site/service_list.css"
             ]
-        }
+        },
+        //N-anime
+        {
+			"matches": [
+                "*://anime.nicovideo.jp/*"
+            ],
+			"css": [
+                "style_for/anime/global.css"
+            ],
+            "js": [
+                "js/anime.js"
+            ]
+		}
     ]
     ,
     "permissions": [

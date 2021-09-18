@@ -1,0 +1,43 @@
+/*
+Target: Nアニメすべてのヘッダー等共通パーツ
+*/
+
+@import '../parts/_default';
+
+.niconico-darkmode-setting-true{
+  opacity: 1;
+  #__layout > div >{
+    //PCヘッダー
+    header:nth-of-type(2){
+
+    }
+    //PCヘッダー下の黄色いテキストお知らせエリア{
+    div:nth-of-type(1){
+      a{
+        background-color: green;
+      }
+    }
+    //メインコンテンツエリア
+    div:nth-of-type(2) > main{
+      //プレイヤーのエリア
+      >div:nth-of-type(1){
+        background-color: yellow;
+      }
+      //各特集エリア 横カード 共通（無料アニメ最新情報など）
+      #free,
+      #live,
+      #timeshift,
+      section[id*="premium"],
+      section[id*="recommend"]{
+        background-color: green;
+      }
+      
+    }
+  }
+}
+
+body{
+  transition: filter 1s ease;
+  filter: brightness(0);
+  background-color: #FFF; //もともとの背景色 なければ白
+}
