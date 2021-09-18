@@ -1,3 +1,7 @@
+/*
+Target URL: https://live.nicovideo.jp/
+*/
+
 @import '../parts/_default';
 @import 'parts/_card';
 @import 'parts/_parts';
@@ -52,7 +56,9 @@
         }
       }
     }
+    //フォロー中の番組、フォロー中の見逃し配信番組などの各カード行
     [class*="___section___"]{
+      //カード行のタイトル
       [class*="___header___"]{
         [class*="___heading___"]{ //section header
           color: $main-text-color;
@@ -74,6 +80,47 @@
           background: $main-url-color;
           color: $main-text-color;
           border-color: $main-url-color;
+        }
+      }
+      //カードの<ul>
+      ul{
+        li[class*="___item___"]{
+          //カードのwraper
+          div[class*="___card___"]{
+            background-color: $nico-black;
+            //カード中：メタ情報列
+            div[class*="___program-provider-card___"]{
+              >*{
+                color: $main-text-color;
+              }
+              //好みタグリスト
+              ul[class*="___konomi-tag-list__"]{
+                li{
+                  span{
+                    //通常の好みタグ描画
+                    color: $main-text-color;
+                    background-color: $sub2-background-color;
+                      a{
+                        color: inherit;
+                      }
+                    //自分が設定している好みタグと位置するとき
+                    &[data-highlight="true"]{
+                      //color: #0069d1;
+                      background-color: #0069d1;
+                    }
+                  }
+                }
+              }
+            }
+            //[C01]カード下：放送タイトル
+            div[class*="___program-summary___"]{
+              color: white;
+            }
+            //C01のHoverスタイル
+            &:hover [class*="___program-title___"]{
+              color: $main-url-color;
+            }
+          }
         }
       }
     }
