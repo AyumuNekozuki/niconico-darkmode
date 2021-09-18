@@ -14,7 +14,7 @@
 
     .BaseLayout-main{
         .UserPageHeader{
-            background-color: $nico-default-bg;
+            background-color: $nico-black;
             .HeaderContainer_Re-main{
                 .NiconicoLogo_re{
                    filter: $invert; 
@@ -23,9 +23,9 @@
         }
         #UserPage-app{
             .UserPage-header{
-                background-color: $nico-default-bg;
+                background-color: $nico-black;
                 .UserDetailsHeader{
-                    background-color: $nico-default-bg;
+                    background-color: $nico-black;
                     .UserDetailsHeader-body{
                         .UserDetailsHeader-bodyHeader{
                             h3{
@@ -67,7 +67,7 @@
                 }
                 .UserDetailsHeader-description{
                     .ExpandBoxButton-overlay{
-                        background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,$nico-default-bg);
+                        background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,$nico-black);
                     }
                     .ExpandBox-expanded{
                         div span{
@@ -80,9 +80,9 @@
                 }
             }
             .MainMenuContainer{
-                background-color: $nico-default-bg;
+                background-color: $nico-black;
                 .MainMenuContainer-menu{
-                    background-color: $nico-default-bg;
+                    background-color: $nico-black;
                     .MainMenuContainer-menuList{
                         a{
                             color: $main-text-color;

@@ -28,7 +28,7 @@
         color: $main-url-color;
       }
       .RankingGenreListContainer-item{
-        background-color: $nico-default-bg !important;
+        background-color: $nico-black !important;
         border: none !important;
       }
       .is-current{
@@ -43,7 +43,7 @@
       }
       .CategoryHelpModal{
         .Modal-content{
-          background: $nico-default-bg;
+          background: $nico-black;
           .CategoryHelpModal-image{
             opacity: 0.8;
           }
@@ -64,7 +64,7 @@
     .RankingHeaderContainer{
       .LaneHeader{
         .CustomButton{
-          background: $nico-default-bg;
+          background: $nico-black;
           .RankingIcon_customBlack{
             filter: $invert;
           }
@@ -74,7 +74,7 @@
         }
         .RankingSettingSummary{
           .RankingSettingSummary-content{
-            background: $nico-default-bg;
+            background: $nico-black;
             .RankingSettingSummary-main>h1,
             .RankingSettingItem-content{
               color: $main-text-color;
@@ -82,12 +82,12 @@
           }
           .RankingSettingSummary-content::before,
           .RankingSettingSummary-content::after{
-            background: $nico-default-bg;
+            background: $nico-black;
           }
         }
       }
       .RankingHeaderContainer-header_fixed{
-        background: $nico-default-bg;
+        background: $nico-black;
         box-shadow: 0 4px 10px rgba(0,0,0,.5);
       }
     }
@@ -106,7 +106,7 @@
 
     .RankingCustomDialogContainer{
       .RankingCustomDialogContainer-dialog{
-        background: $nico-default-bg;
+        background: $nico-black;
         .CustomRankingDialog{
           .CustomRankingDialog-content{
             .CustomRankingTop-description{
@@ -163,7 +163,7 @@
   }
 
   .BaseLayout-footer{
-    background: $nico-default-bg;
+    background: $nico-black;
     .Ads728x90WebPcFooter{
       background: none;
     }
@@ -198,7 +198,7 @@
     .BaseRankingLayout-content{
       .SpecifiedRanking-main{
         .RankingHeader{
-          background: $nico-default-bg;
+          background: $nico-black;
           header{
             border-color: $border-background-color;
             .RankingHeader-prefix{
@@ -241,7 +241,7 @@
         /*fix 20210601*/
         .RankingVideoListContainer{
           .MediaObject, .NC-MediaObject{
-            background: $nico-default-bg;
+            background: $nico-black;
             padding: .5rem;
             border-color: $border-background-color;
 
@@ -276,15 +276,15 @@
             }
           }
           .MediaObject.RankingMainNicoad[data-nicoad-grade=gold]{
-            background: $nico-default-bg;
+            background: $nico-black;
             border: 2.5px solid $nicoad-gold;
           }
           .MediaObject.RankingMainNicoad[data-nicoad-grade=silver]{
-            background: $nico-default-bg;
+            background: $nico-black;
             border: 1.5px solid $nicoad-silver;
           }
           .MediaObject.RankingMainNicoad[data-nicoad-grade=bronze]{
-            background: $nico-default-bg;
+            background: $nico-black;
             border: 1px solid $nicoad-bronze;
           }
         }
@@ -315,19 +315,19 @@
     filter: $invert;
   }
   .Dropdown-list{
-    background-color: $nico-default-bg !important;
+    background-color: $nico-black !important;
     box-shadow: none !important;
     border: 1px solid $border-background-color !important;
   }
   .DropdownItem{
-    background-color: $nico-default-bg !important;
+    background-color: $nico-black !important;
   }
   .DropdownItem[data-is-selected]{
     background: $main-url-color !important;
   }
 
   .RankingFilterTag{
-    background: $nico-default-bg !important;
+    background: $nico-black !important;
     border: none !important;
   }
   .RankingFilterTag_active{
@@ -336,7 +336,7 @@
 
   .Paginator-item{
     border: none !important;
-    background: $nico-default-bg !important;
+    background: $nico-black !important;
   }
   .Paginator-item_current{
     background: none !important;
@@ -348,20 +348,20 @@
 
   /*side*/
   .BaseRankingContentContainer header{
-    background: $nico-default-bg !important;
+    background: $nico-black !important;
   }
   .BaseRankingContentContainer header h1,.NicoNewsContainer-heading,.BaseRankingContentContainer-main h2{
     color: $main-text-color !important;
   }
   .AnotherRankingLink-button{
-    background: $nico-default-bg !important;
+    background: $nico-black !important;
     border: none !important;
   }
   .MediaObject-body p{
     color: $sub-1-text-color !important;
   }
   .BaseRankingContentContainer.TrendTagContainer .TrendTagContainer-link{
-    background: $nico-default-bg !important;
+    background: $nico-black !important;
     border: none !important;
   }
   .BaseRankingContentContainer.TrendTagContainer .TrendTagContainer-row{
