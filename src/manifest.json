@@ -366,7 +366,7 @@
                 "style_for/site/service_list.css"
             ]
         },
-        //N-anime
+        //Nアニメ
         {
 			"matches": [
                 "*://anime.nicovideo.jp/*"
@@ -375,7 +375,8 @@
                 "style_for/anime/global.css"
             ],
             "js": [
-                "js/anime.js"
+                "js/color_palet/anime_top_page.js",
+                "js/replace_by_color_palet.js"
             ]
 		}
     ]

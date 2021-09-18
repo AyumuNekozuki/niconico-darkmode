@@ -43,10 +43,9 @@ function recolorPalette() {
 		//カラーパレットの置き換え
 		//置き換えしたものを再度置き換えないように、一時的に頭に@@をつけ、後ほど#に修正
 		let recolor = orginalStyleContent;
-		recolor = recolor.replaceAll('#000000', '@@FFFFFF'); //基礎反転
-		recolor = recolor.replaceAll('#ffffff', '@@000000'); //基礎反転
-		recolor = recolor.replaceAll('#252525', '@@FFFFFF');
-		recolor = recolor.replaceAll('#fffef7', '@@000000'); //ページ背景色
+		COLOR_PALET.forEach((PALET) => {
+			recolor = recolor.replaceAll('#'+PALET.before, '@@'+PALET.after);
+		});
 		recolor = recolor.replaceAll('@@', '#');
 
 		//オリジナルのCSSを置き換え
