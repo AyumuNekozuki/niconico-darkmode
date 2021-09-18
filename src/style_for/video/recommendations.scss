@@ -35,12 +35,13 @@
             }
           }
           .RecommendVideoListContainer-videos{
-            .VideoCard{
-              .Card-link{
+            .VideoCard, .NC-Card{
+              .Card-link, .NC-CardTitle{
                 color: $main-text-color;
-              }
-              .Card-link:visited{
-                color: $sub-1-text-color;
+
+                &:visited{
+                  color: $sub-1-text-color;
+                }
               }
             }
           }
