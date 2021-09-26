@@ -219,6 +219,9 @@
                   .DropdownItem{
                     color: $sub-1-text-color;
                   }
+                  .DropdownItem[data-is-selected]{
+                    color: $main-text-color;
+                  }
                 }
               }
             }
