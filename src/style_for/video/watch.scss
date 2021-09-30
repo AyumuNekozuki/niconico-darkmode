@@ -621,6 +621,7 @@
       .CommentPanelContextMenuContainer{
         border: 1px solid $border-background-color;
         background: $nico-black;
+        color: $main-text-color;
       }
       .CommentPanelContextMenuContainer-menuItem:hover{
         background: $border-background-color;
