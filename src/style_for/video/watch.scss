@@ -63,7 +63,9 @@
       }
     }
 
+    //Watch APP Main
     .WatchAppContainer-main{
+      //タイトル
       .HeaderContainer{
         background-color: $main-background-color;
         .SeriesBreadcrumbs{
@@ -207,6 +209,8 @@
           }
         }
       }
+
+      //プレイヤー
       .MainContainer{
         .PlayerContainer{
           .ControllerBoxContainer{
@@ -268,15 +272,21 @@
             }
           }
         }
+
+        //プレイヤー右パネル
         .MainContainer-playerPanel{
+          background: $player-black;
+
           .VideoMenuContainer{
+            border-bottom: 1px solid $nico-black;
             .VideoMenuContainer-areaLeft{
-              background: $main-background-color;
+              background: none;
+
+              //いいね！
               .VideoMenuLikeFieldContainer{
                 .LikeActionButton{
-                  background: $nico-black !important;
-                  color: $main-text-color !important;
-                  border: 2px solid $border-background-color !important;
+                  background: none;
+                  color: $main-text-color;
 
                   .LikeIcon.LikeActionButton-icon{
                     use{
@@ -292,6 +302,20 @@
                   }
                 }
               }
+
+              //ギフト
+              .VideoMenuGiftContainer{
+                .GiftButton{
+                  background: none;
+                  color: $main-text-color;
+
+                  svg > path{
+                    fill: $main-text-color;
+                  }
+                }
+              }
+
+              //マイリス・広告
               .VideoMenuContainer-button{
                 fill: $main-text-color !important;
               }
@@ -315,11 +339,20 @@
               }
             }
             .VideoMenuContainer-areaRight{
-              background: $main-background-color;
+              background: none;
 
+              //共有
               .SharePanelVisibleActionButton{
                 svg{
+                  transition: fill .3s ease .3s;
                   fill: $main-text-color;
+                }
+
+                &:hover{
+                  background: none;
+                  svg{
+                    fill: $main-url-color;
+                  }
                 }
               }
             }
@@ -328,11 +361,11 @@
             border-bottom: none;
           }
           .PlayerPanelContainer{
-            background-color:$main-background-color;
+            background: none;
             .PlayerPanelContainer-tab{
               .PlayerPanelContainer-tabItem{
                 color: $main-text-color;
-                border-bottom: 3px solid $border-background-color;
+                border-bottom: 3px solid $nico-black
               }
               .PlayerPanelContainer-tabItem.current{
                 border-bottom: 3px solid $main-url-color;
@@ -344,7 +377,7 @@
                   color: $main-text-color;
                 }
                 .NextPlayVideoContainer{
-                  border-bottom: 1px solid $border-background-color;
+                  border-bottom: 1px solid $nico-black;
                 }
                 .NextPlayVideoContainer-note,
                 .WatchRecommendation-heading,
@@ -353,19 +386,36 @@
                 }
               }
               .CommentPanelContainer{
-                background: $main-background-color;
-                .CommentPanelMenuContainer-pastCommentMenu{
-                  background: $nico-black !important;
+                background: none;
+                .CommentPanelMenuContainer{
+                  border-color: $nico-black;
+
+                  .CommentPanelMenuContainer-pastCommentMenu{
+                    background: none;
+                  }
                 }
+                
                 .CommentPanelDataGrid{
                   color: $main-text-color;
+                  .CommentPanelDataGrid-Body{
+                    &::-webkit-scrollbar{
+                      background: $player-black;
+                    }
+                    &::-webkit-scrollbar-thumb{
+                      background: $nico-black;
+                      &:hover{
+                        background: $hover-background-color;
+                      }
+                    }
+                  }
+
                   .CommentPanelDataGrid-HeaderCell{
-                    background: $nico-black;
-                    border-right: 1px solid $sub-3-text-color;
+                    background: none;
+                    border-right: 1px solid $nico-black;
                   }
                   .DataGrid-Table{
                     .CommentPanelDataGrid-TableCell{
-                      border-right: 1px solid $sub-3-text-color;
+                      border-right: 1px solid $nico-black;
                     }
                     [data-row-nicoru-rank="1"]{
                       background: $nicoru-grade-1;
@@ -386,7 +436,7 @@
                     }
                   }
                   .DataGrid-Table :hover{
-                    background: $hover-background-color;
+                    background: $sub2-background-color;
                     color: $main-text-color;
                   }
                 }
@@ -520,6 +570,8 @@
           }
         }
       }
+
+      //プレイヤー下
       .BottomContainer{
         background-color: $main-background-color;
         .Card{

@@ -1,52 +1,67 @@
-$nico-black: #252525;
-$nico-white: #FAFAFA;
+//ニコニコのテーマカラー
+$nico-black: #252525; //ニコニコブラック サービスカラー
+$nico-white: #FAFAFA; //ニコニコホワイト デフォルト(ライト)時の背景色
 
-$nico-personal-topics: #30A6CA;
+//ニコニコの各パーツ／サービスカラー
+$nico-personal-topics: #30A6CA; //総合TOPのあなたへのおすすめ
 
 $nico-premium: #d9a300;
 $nico-point: #D1A437;
 $nicoru: #FCD842;
 
-$nico-illust: #EDA815;
-$nico-manga: #88C148;
-$nico-ch: #d9a300;
-$nico-game: #046EB8;
-$nico-app: #046EB8;
-$nico-dic: #FFAF19;
-$nico-com: #258D8D;
-$nico-news: #ff8000;
-$nico-jk: #C3291F;
+$nico-illust: #EDA815; //静画 イラスト
+$nico-manga: #88C148; //漫画
+$nico-ch: #d9a300; //チャンネル
+$nico-game: #046EB8; //アツマール
+$nico-app: #046EB8; //ゲーム（色不詳なのでとりあえずアツマール色を定義）
+$nico-dic: #FFAF19; //大百科
+$nico-com: #258D8D; //コミュニティ
+$nico-news: #ff8000; //ニュース
+$nico-jk: #C3291F; //実況
 
-$nico-tree: #EA6802;
-$nico-cresyo: #CC0066;
+$nico-tree: #EA6802; //コンテンツツリー
+$nico-cresyo: #CC0066; //クリエイター奨励プログラム
 
-$chokaigi: #E60020;
+$chokaigi: #E60020; //超会議レッド
 
-$nicobox: #D83A35;
-$N-yobiko: #000066;
+$nicobox: #D83A35; //Nicobox
+$N-yobiko: #000066; //N予備校
 
+
+//他サイトのサービスカラー
 $twitter: #55acee;
 $facebook: #3B5998;
 $line: #1dcd00;
 
+
+//ニコニ広告グレード
 $nicoad-gold: #E5A900;
 $nicoad-silver: #CFDBDD;
 $nicoad-bronze: #a36b21;
 
+//パーツカラー
+//サービス共通背景色　一番後ろのパーツから　$main → $nico-black → $sub2 の順で使用
 $main-background-color: #1A1B1C;
 $sub-background-color: #272727;
 $sub2-background-color: #333333;
 
+
+//生放送専用背景色　パーツがほかサービスより多いので柔軟に定義
 $livetop-content-bg1: #121212;
 $livetop-content-bg2: #333333;
 $livetop-content-bg3: #333b43;
 
+
+//コモンズ登録画面の注意カラー
 $commons-warning: #8a6d3b;
 $commons-attention: #3e9fff;
 
+
+//Hover時の背景色／ボーダーカラー
 $hover-background-color: #555555;
 $border-background-color: #555555;
 
+//サービス共通テキストカラー
 $main-text-color: #F5F5F5;
 $sub-1-text-color: #c4c4c4;
 $sub-2-text-color: #999999;
@@ -54,15 +69,19 @@ $sub-3-text-color: #666666;
 
 $main-url-color: #0080FF;
 
+//画像素材の反転用
 $invert: invert(100%);
 
+//動画コメント欄のニコるグレード色
 $nicoru-grade-1: #28280a;
 $nicoru-grade-2: #515114;
 $nicoru-grade-3: #7a7a1e;
 $nicoru-grade-4: #a3a328;
 $nicoru-grade-5: #cccc33;
 
+//再生プレイヤー専用カラー
 $player-black: #000;
 $player-border: #333;
 
+//ニコレポお知らせ
 $notice-red: #D73446;
