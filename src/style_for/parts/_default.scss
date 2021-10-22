@@ -1,13 +1,14 @@
 //ニコニコのテーマカラー
 $nico-black: #252525; //ニコニコブラック サービスカラー
 $nico-white: #FAFAFA; //ニコニコホワイト デフォルト(ライト)時の背景色
+$nico-gray: #525252; //ニコニコグレー CSSから見つけたので入れたけどダークモードでは多分使わない
 
 //ニコニコの各パーツ／サービスカラー
 $nico-personal-topics: #30A6CA; //総合TOPのあなたへのおすすめ
 
-$nico-premium: #d9a300;
-$nico-point: #D1A437;
-$nicoru: #FCD842;
+$nico-premium: #d9a300; //ニコニコプレミアム
+$nico-point: #D1A437; //ニコニコポイント
+$nicoru: #FCD842; //ニコる
 
 $nico-illust: #EDA815; //静画 イラスト
 $nico-manga: #88C148; //漫画
@@ -19,6 +20,10 @@ $nico-com: #258D8D; //コミュニティ
 $nico-news: #ff8000; //ニュース
 $nico-jk: #C3291F; //実況
 
+$nico-koken: #ff6678; //ニコニ貢献
+$nico-ad: #ffe500; //ニコニ広告
+$nico-gift-video: #d2f73d; //動画ギフト
+
 $nico-tree: #EA6802; //コンテンツツリー
 $nico-cresyo: #CC0066; //クリエイター奨励プログラム
 
@@ -28,16 +33,17 @@ $nicobox: #D83A35; //Nicobox
 $N-yobiko: #000066; //N予備校
 
 
+//ニコニ広告グレード
+$nicoad-gold: #E5A900;
+$nicoad-silver: #CFDBDD;
+$nicoad-bronze: #a36b21;
+
+
 //他サイトのサービスカラー
 $twitter: #55acee;
 $facebook: #3B5998;
 $line: #1dcd00;
 
-
-//ニコニ広告グレード
-$nicoad-gold: #E5A900;
-$nicoad-silver: #CFDBDD;
-$nicoad-bronze: #a36b21;
 
 //パーツカラー
 //サービス共通背景色　一番後ろのパーツから　$main → $nico-black → $sub2 の順で使用
