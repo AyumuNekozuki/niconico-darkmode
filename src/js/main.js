@@ -1,14 +1,18 @@
 //メインで動くファイル
 
 
-//ヘッダーが無いページ＆もろもろ事前定義
-const NOHEADER_HOSTS = [
+//ヘッダーが無いページ＆もろもろ事前定義　後日削除
+const NOHEADER_PAGES = [
   "account.nicovideo.jp/login",
   "www.nicovideo.jp/feedback",
   "live.nicovideo.jp/create",
   "live2.nicovideo.jp/create",
   "site.live.nicovideo.jp/recent/namagame.html",
   "commons.nicovideo.jp/cpp/private/receipt/"
+];
+const NOHEADER_HOSTS = [
+  "www.upload.nicovideo.jp",
+  "jk.nicovideo.jp"
 ];
 
 //拡張機能 情報取得
@@ -112,7 +116,7 @@ function nicodark_change_false() {
 // 後日以下 削除
 
 window.onload = function () {
-  if (!(NOHEADER_HOSTS.includes(now_location))) {
+  if (!(NOHEADER_PAGES.includes(now_location)) && !(NOHEADER_HOSTS.includes(host))) {
     add_settingmenu_header();
   }
 };
