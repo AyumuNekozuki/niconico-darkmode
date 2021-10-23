@@ -395,6 +395,15 @@
       ]
     }
   ],
+  "browser_action": {
+    "default_icon": "images/icon128.png",
+    "default_title": "niconico Darkmode",
+    "default_popup": "browser_actions/index.html"
+  },
+  "background": {
+    "scripts": [ "js/background.js" ],
+    "persistent": false
+  },
   "permissions": [
     "storage",
     "*://*.nicovideo.jp/"
