@@ -415,7 +415,7 @@
                   }
                   .DataGrid-Table{
                     .CommentPanelDataGrid-TableCell{
-                      border-right: 1px solid $nico-black;
+                      border-right: none;
                     }
                     [data-row-nicoru-rank="1"]{
                       background: $nicoru-grade-1;
@@ -433,6 +433,13 @@
                     [data-row-nicoru-rank="5"]{
                       background: $nicoru-grade-5;
                       color: black;
+                    }
+
+                    //ニコる
+                    .NicoruCell{
+                      .NicoruIcon.is-gray circle{
+                        fill: $player-black;
+                      }
                     }
                   }
                   .DataGrid-Table :hover{
@@ -671,12 +678,12 @@
     }
     .ContextMenu{
       .CommentPanelContextMenuContainer{
-        border: 1px solid $border-background-color;
-        background: $nico-black;
-        color: $main-text-color;
+        border: 1px solid $nico-black;
+        background: $main-background-color;
+        color: $sub-1-text-color;
       }
-      .CommentPanelContextMenuContainer-menuItem:hover{
-        background: $border-background-color;
+      .ContextMenuItem:hover{
+        background: $nico-black;
       }
     }
   }
