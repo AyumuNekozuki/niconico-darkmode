@@ -1,4 +1,4 @@
-FROM node:14-stretch
+FROM --platform=linux/x86_64 node:14-stretch
 
 WORKDIR /app
 
