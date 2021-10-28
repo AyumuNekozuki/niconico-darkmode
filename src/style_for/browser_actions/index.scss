@@ -1,0 +1,96 @@
+@import '../parts/_default';
+
+body{
+  background: $nico-black;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.nicodark-setting-menupanel{
+  display: block;
+  letter-spacing: normal;
+
+  .nicodark-logo{
+    width: 100%;
+  }
+  .nicodark-setting-version-telop{
+    color:white;
+    font-weight: bold;
+    text-align: center !important;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 1em;
+    margin-top: 0;
+    a{
+      margin: auto auto auto 10px;
+      color: $main-url-color;
+      text-decoration: underline;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+  }
+  .nicodark-setting-menu{
+    padding: 0px 16px 8px 16px;
+
+    .nicodark-label01{
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      height: 40px;
+      padding: 0px 8px;
+      cursor: pointer;
+      background-color: $nico-black;
+
+      .nicodark-span01{
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        flex: 1 1 0%;
+        color: $main-text-color;
+      }
+      .nicodark-label02{
+        position: relative;
+        display: inline-block;
+        background-color: rgb(204, 204, 204);
+        width: 40px;
+        height: 24px;
+        border-radius: 12px;
+        transition: background-color 0.2s ease 0s;
+        cursor: pointer;
+
+        .nicodark-cb{
+          display: none;
+        }
+        .nicodark-span02{
+          display: inline-block;
+          position: absolute;
+          top: 2px;
+          left: 2px;
+          width: 20px;
+          height: 20px;
+          border-radius: 20px;
+          background-color: rgb(255, 255, 255);
+          transition: left 0.2s ease 0s;
+        }
+      }
+      .nicodark-label02[aria-checked="true"]{
+        background-color: $main-url-color;
+
+        .nicodark-span02{
+          left: 18px;
+        }
+      }
+    }
+    
+  }
+
+  .onelineinfo{
+    line-height: 1;
+    font-size: 12px;
+    text-align: center;
+    color: $nico-premium;
+    margin-top: 0;
+  }
+}
