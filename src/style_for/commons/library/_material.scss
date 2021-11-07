@@ -6,83 +6,86 @@
 
     .materialContentsArea{
       .materialLeft{
-        .materialHeadTitleArea{
-          .materialHeadTitle{
-            color: $main-text-color;
-          }
-        }
-        .materialHeadRegistrationDate{
-          color: $sub-1-text-color;
-        }
-        .materialHeadMetaArea{
-          .materialHeadMeta{
-            color: $sub-2-text-color;
-            span{
-              color: $sub-1-text-color;
-            }
-          }
-        }
-        .materialHeadDescription{
-          margin-top: 15px;
-          margin-bottom: 15px;
-          color: $main-text-color;
-          a{
-            color: $main-text-color;
-            text-decoration: underline;
-          }
-          a:hover{
-            text-decoration: none;
-          }
-        }
-        .materialHeadTagArea{
-          .materialHeadTagForm{
-            input.submit{
-              border-color: $border-background-color;
-              background: $nico-black;
+        .materialPreviewArea {
+          background-color: $main-background-color;
+          .materialHeadTitleArea{
+            .materialHeadTitle{
               color: $main-text-color;
             }
-            input.submit:hover{
-              background-color: $hover-background-color;
+          }
+          .materialHeadRegistrationDate{
+            color: $sub-1-text-color;
+          }
+          .materialHeadMetaArea{
+            .materialHeadMeta{
+              color: $sub-2-text-color;
+              span{
+                color: $sub-1-text-color;
+              }
             }
-            #tag_add_form{
-              #tag_text_add{
-                background-color: $nico-black;
+          }
+          .materialHeadDescription{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            color: $main-text-color;
+            a{
+              color: $main-text-color;
+              text-decoration: underline;
+            }
+            a:hover{
+              text-decoration: none;
+            }
+          }
+          .materialHeadTagArea{
+            .materialHeadTagForm{
+              input.submit{
+                border-color: $border-background-color;
+                background: $nico-black;
+                color: $main-text-color;
+              }
+              input.submit:hover{
+                background-color: $hover-background-color;
+              }
+              #tag_add_form{
+                #tag_text_add{
+                  background-color: $nico-black;
+                  color: $main-text-color;
+                }
+              }
+              #tag_edit_list{
                 color: $main-text-color;
               }
             }
-            #tag_edit_list{
-              color: $main-text-color;
+            .materialHeadTag{
+              a{
+                color: $main-text-color;
+                background-color: $nico-black;
+                border-color: $nico-black;
+              }
+            }
+            .materialHeadTagEditAnchor{
+              color: $sub-1-text-color;
             }
           }
-          .materialHeadTag{
-            a{
-              color: $main-text-color;
-              background-color: $nico-black;
+          .materialPreviewSection{
+            .materialPreviewThumbArea{
               border-color: $nico-black;
+              background-color: $nico-black;
             }
-          }
-          .materialHeadTagEditAnchor{
-            color: $sub-1-text-color;
-          }
-        }
-        .materialPreviewSection{
-          .materialPreviewThumbArea{
-            border-color: $nico-black;
-            background-color: $nico-black;
-          }
-          .materialPreviewDownload{
-            .materialPreviewMetaData{
-              border-color: $border-background-color;
-              ul{
+            .materialPreviewDownload{
+              .materialPreviewMetaData{
                 border-color: $border-background-color;
-                li{
-                  color: $main-text-color;
-                }
-                li:first-child{
-                  background-color: $border-background-color;
+                ul{
                   border-color: $border-background-color;
-                }
-              } 
+                  li{
+                    color: $main-text-color;
+                  }
+                  li:first-child{
+                    background-color: $border-background-color;
+                    border-color: $border-background-color;
+                  }
+                } 
+              }
             }
           }
         }
