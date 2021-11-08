@@ -65,11 +65,34 @@
           }
         }
       }
-      .css-fx35lp.css-2hci6c{ //動画説明文
+      .css-fx35lp.css-1mth1hl{ //動画説明文
         .css-1dhrucb{
           .css-50ysp3,.css-15vcqqm{
             color: $sub-2-text-color;
           }
+        }
+      }
+      .css-15c4pjt .quill .ql-snow{ //入力エリア(動画説明文/共通説明文)
+        background-color: $sub2-background-color;
+        color: $main-text-color;
+        border-color: $border-background-color;
+        .ql-formats{
+          .ql-picker-label{
+            color: $main-text-color;
+          }
+          .ql-picker-options{
+            background-color: $sub2-background-color;
+            .ql-picker-item {
+              color: $main-text-color;
+            }
+          }
+          svg *{
+            fill: $main-text-color;
+            stroke: $main-text-color;
+          }
+        }
+        .ql-editor p{
+          color: $main-text-color;
         }
       }
       fieldset.MuiFormControl-root{ //共通説明文・いいね！チェックボックス
@@ -228,9 +251,9 @@
           }
         }
       }
-      .css-l1jxj6{ //オプション
+      .css-tirlpi{ //オプション
         border-color: $border-background-color;
-        .css-1gzqhbd.css-1gzqhbd{ //オプションを開くボタン
+        .css-1gzqhbd{ //オプションを開くボタン
           color: $main-text-color;
         }
         .css-env1z2{ //オプション内容

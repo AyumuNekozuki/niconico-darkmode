@@ -39,7 +39,7 @@
           .css-i2vhkp{ //item
             background: $main-background-color;
             .css-h1csmh,.css-1jzj00a{ //動画情報 fix-at-20210504
-              .css-1ih34rs,.css-xfajo2.css-8upqmn{ //title
+              .css-1ih34rs,.css-xfajo2.css-8upqmn,.css-8upqmn{ //title
                 color: $main-text-color;
               }
               .css-jy3g4o{ //コメント
@@ -68,6 +68,15 @@
               }
             }
             .css-1j8g6vn{ //投稿途中
+              .css-xfajo2{
+                color: $main-text-color;
+              }
+              .css-b8bh8k .css-147d6hn{
+                color: $sub-1-text-color;
+                &:hover{
+                  background-color: $sub2-background-color;
+                }
+              }
               .css-b3ywll{
                 color: $main-text-color;
               }
