@@ -342,12 +342,15 @@
                     }
                 }
                 .HistoryPage-content{
+                  .VideoMediaObjectList>*+*{
+                    border-color: $border-background-color;
+                  }
                     .VideoWatchHistoryContainer-header{
                         .VideoWatchHistoryContainer-headerTotalCount{
+                          color: $sub-1-text-color;
+                          span{
                             color: $sub-1-text-color;
-                            span{
-                                color: $sub-1-text-color;
-                            }
+                          }
                         }
                         .VideoWatchHistoryContainer-headerAllDeleteButton{
                             color: $main-text-color;
@@ -494,5 +497,18 @@
         .ModalContent-footer{
             background-color: #333;
         }
+    }
+    .NC-Modal.SnsSettingModal{
+      .ModalContent-body{
+        background: $main-background-color;
+        color: $main-text-color;
+
+        .TextField-label{
+        color: $main-text-color;
+        }
+      }
+      .ModalContent-footer{
+        background-color: $main-background-color;
+      }
     }
 }

@@ -54,13 +54,15 @@
     },
     {
       "matches": [
-        "*://live.nicovideo.jp/embed/watch-histories*"
+        "*://live.nicovideo.jp/embed/watch-histories*",
+        "*://live.nicovideo.jp/embed/owned-tickets*"
       ],
       "js": [
         "js/iframe_action.js"
       ],
       "css": [
-        "style_for/video/mypage/iframe/live-history.css"
+        "style_for/video/mypage/iframe/live-history.css",
+        "style_for/video/mypage/iframe/live-tickets.css"
       ],
       "run_at": "document_start",
       "all_frames": true
