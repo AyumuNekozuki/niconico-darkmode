@@ -1,1 +1,35 @@
 @import '../../parts/_default';
+
+.niconico-darkmode-setting-true{
+  background-color: $main-background-color !important;
+  color: $sub-1-text-color !important;
+
+  .top-fixed-container{
+    .header-bar{
+      background: none !important;
+      border-color: $border-background-color !important;
+  
+      .title-column[data-v-0d10b35d]{
+        color: $main-text-color;
+      }
+    }
+    .top-fixed-injected-elements{
+      .nage-user-profile{
+        background: none;
+      }
+    }
+  }
+
+  .rich-view-drawer-transition{
+    .rich-view-tab-bar{
+      background: none;
+      // ul{
+      //   li{
+          
+      //   }
+      // }
+    }
+  }
+
+
+}
