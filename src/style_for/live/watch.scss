@@ -11,6 +11,10 @@
   #root>[class*="___page___"]{
     background-color: $main-background-color;
   }
+
+  [class*="___watch-page___"]{
+    background-color: $main-background-color;
+  }
   
 
   [class*="___player-area___"]{ //放送ビュー
