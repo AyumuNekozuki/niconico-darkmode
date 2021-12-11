@@ -13,7 +13,7 @@ chrome.storage.local.get(["setting"], function (items) {
 window.onload = function() {
   console.log("niconico Darkmode iframe　実行中です"); 
 
-  //ダークモード適用
+  //ダークモード適用
   if (is_darkmode) {
     nicodark_change_true();
   }

@@ -19,7 +19,7 @@ window.onload = function(){
   let nicodark_setting_cb_s_top = document.getElementById("nicodark_s_top-setting_cb");
   let nicodark_aria_s_top = document.getElementById("nicodark-aria-s_top");
 
-  //バージョン表示
+  //バージョン表示 
   document.getElementById("show_version").textContent = "nicodark v" + EX_VERSION;
 
   //設定反映

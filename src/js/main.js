@@ -28,7 +28,7 @@ var now_location = host + path + "";
 window.addEventListener('DOMContentLoaded', function () {
   console.log("niconico Darkmode　実行中です\n" + "　　Version: v" + EX_VERSION + "\n" + "　　Setting: " + is_darkmode + "\n" + "　　SocialTop: " + is_socialtop);
 
-  //ダークモード適用
+  //ダークモード 適用
   if (is_darkmode && is_socialtop) {
     nicodark_change_true();
   } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")) {
