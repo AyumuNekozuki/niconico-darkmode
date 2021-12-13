@@ -9,40 +9,78 @@
 
       .topContentsInner{
         .contentLeft{
-          .mainInfo{ //クリエイター向けのポータルサイト「ニコニ・コモンズ」
-            border-color: $border-background-color;
-            background: linear-gradient(to right, transparent, transparent 32.5%, $nico-black 40%),url(https://commons.nicovideo.jp/images/index/bg_main.png) no-repeat 0 0;
-
-            .mainInfoCaption span{
-              color: $main-text-color;
+          .topInfoList{ //お知らせ
+            h3{
+              filter: invert(90%);
+              border: 1px solid $border-background-color;
+              border-radius: 5px;
             }
-            .mainInfoTxt{
-              color: $sub-1-text-color;
+            .topInfoReadMore{
+              &:hover{
+                opacity: 1;
+              }
+              a{
+                color: $sub-1-text-color;
+                &:hover{
+                  color: $main-url-color;
+                  opacity: 1;
+                  
+                  .moreReadIcon{
+                    svg{
+                      fill: $main-url-color;
+                    }
+                  }
+                }
+                .moreReadIcon{
+                  svg{
+                    fill: $sub-1-text-color;
+                  }
+                }
+              }
             }
-          }
-          .infoList{ //お知らせ
             .infoListInner{
               border-color: $border-background-color;
-              background-color: $nico-black;
               .topInfoListArea{
-                dt{
-                  color: $sub-2-text-color;
-                }
                 dd{
                   a{
                     color: $main-text-color;
-                  }
-                  a:visited{
-                    color: $sub-1-text-color;
-                  }
-                  a:hover{
-                    color: $main-url-color
+                    &:hover{
+                      color: $main-url-color;
+                    }
                   }
                 }
               }
             }
           }
           .newUploads{ //自分が投稿したコモンズ作品
+            h3{
+              filter: invert(90%);
+              border: 1px solid $border-background-color;
+              border-radius: 5px;
+            }
+            .topUploadReadMore{
+              &:hover{
+                opacity: 1;
+              }
+              a{
+                color: $sub-1-text-color;
+                &:hover{
+                  color: $main-url-color;
+                  opacity: 1;
+                  
+                  .moreReadIcon{
+                    svg{
+                      fill: $main-url-color;
+                    }
+                  }
+                }
+                .moreReadIcon{
+                  svg{
+                    fill: $sub-1-text-color;
+                  }
+                }
+              }
+            }
             .newUploadsMain{
               border-color: $border-background-color;
               background-color: $nico-black;

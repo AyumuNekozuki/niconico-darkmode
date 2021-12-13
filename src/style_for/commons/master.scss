@@ -144,4 +144,92 @@
       }
     }
   }
+
+  .p-topPage, //サービス概要
+  .p-contentsTreePage,
+  .p-cppPage{
+    .mainInfo{ 
+      border: none;
+      background: $nico-black;
+  
+      .mainInfoCaption span{
+        color: $main-text-color;
+      }
+      .mainInfoTxt{
+        color: $sub-1-text-color;
+      }
+      .mainVisualTable{
+        .mainVisualTableAnchor{
+          color: $main-text-color;
+          svg{
+            fill: $main-text-color;
+          }
+          a{
+            color: $main-text-color;
+            &:hover{
+              color: $main-url-color;
+            }
+          }
+        }
+        .mainVisualTableText{
+          color: $sub-1-text-color;
+          .mainVisualTableTextAnchor{
+            color: $sub-1-text-color;
+            &:hover{
+              color: $main-url-color;
+            }
+          }
+        }
+      }
+
+      .mainVisualArea{
+        .mainInfoCaption{
+          border-color: $border-background-color;
+
+          .sub, .serviceName{
+            color: $main-text-color;
+          }
+        }
+      }
+      .mainVisualLead{
+        color: $main-text-color;
+      }
+      .mainVisualList{
+        li{
+          color: $sub-1-text-color;
+        }
+      }
+      .mainVisualDescription1{
+        border-color: $border-background-color;
+        h2{
+          color: $nico-cresyo;
+        }
+      }
+      .mainVisualDescription2{
+        border-color: $border-background-color;
+        h2{
+          color: $nico-point;
+        }
+      }
+      
+      .treeAnchor,
+      .cppAnchor{
+        .treeAnchorIcon,
+        .cppAnchorIcon{
+          svg{
+            color: $main-text-color;
+          }
+        }
+        a{
+          color: $main-text-color;
+          &:hover{
+            color: $main-url-color;
+          }
+        }
+      }
+
+
+    }
+  }
+
 }
