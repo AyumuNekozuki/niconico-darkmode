@@ -1,9 +1,9 @@
 @import "../../parts/default";
 
 .niconico-darkmode-setting-true{
-  #Column02.cpsadmin{
-    h3.midashi01{
-      background: $sub2-background-color;
+  #Column02{
+    #TopMainBox{
+      background: $main-background-color;
     }
     #CpsPrivate{
       .btn-03{
