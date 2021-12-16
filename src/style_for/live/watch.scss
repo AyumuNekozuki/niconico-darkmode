@@ -36,15 +36,15 @@
             [class*="___player-display-footer___"]{ //プレイヤーフッター
               [class*="___player-controller___"]{ //コントロールバー
                 [class*="___control-area___"]{
-                  [class*="___time-status-area___"]{
+                  [class*="___time-controller___"]{
                     [class*="___elapsed-time___"]{
                       [class*="___time-text-box___"]{
                         background: none;
                         opacity: 0;
-                      }
-                      [class*="___time-text-box___"]:focus{
-                        background: $nico-black;
-                        opacity: 1;
+                        &:focus{
+                          background: $nico-black;
+                          opacity: 1;
+                        }
                       }
                     }
                   }
