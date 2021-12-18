@@ -99,7 +99,8 @@
       ],
       "css": [
         "style_for/top/social-top.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -108,7 +109,8 @@
       ],
       "css": [
         "style_for/top/recommendnews.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -116,7 +118,8 @@
       ],
       "css": [
         "style_for/top/rss.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -125,7 +128,8 @@
       ],
       "css": [
         "style_for/top/feedback.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -134,7 +138,8 @@
       ],
       "css": [
         "style_for/video/mypage/mypage.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -142,7 +147,8 @@
       ],
       "css": [
         "style_for/video/mypage/series.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -150,7 +156,8 @@
       ],
       "css": [
         "style_for/inform/master.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -159,7 +166,8 @@
       ],
       "css": [
         "style_for/video/video_top.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -167,7 +175,8 @@
       ],
       "css": [
         "style_for/video/recommendations.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -175,7 +184,8 @@
       ],
       "css": [
         "style_for/video/other.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -183,7 +193,8 @@
       ],
       "css": [
         "style_for/video/genre.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -191,7 +202,8 @@
       ],
       "css": [
         "style_for/video/ranking.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -200,7 +212,8 @@
       ],
       "css": [
         "style_for/video/watch.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -208,7 +221,8 @@
       ],
       "css": [
         "style_for/video/openlist.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -216,7 +230,8 @@
       ],
       "css": [
         "style_for/video/ranking_graph.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -226,7 +241,8 @@
       ],
       "css": [
         "style_for/video/serch.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -236,7 +252,8 @@
       ],
       "css": [
         "style_for/video/video-page.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -244,7 +261,8 @@
       ],
       "css": [
         "style_for/upload/garage_master.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -255,7 +273,8 @@
       ],
       "css": [
         "style_for/live/live_top.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -264,7 +283,8 @@
       ],
       "css": [
         "style_for/live/forcus.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -273,7 +293,8 @@
       ],
       "css": [
         "style_for/live/recent.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -281,7 +302,8 @@
       ],
       "css": [
         "style_for/live/site-live/namagame.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -290,7 +312,8 @@
       ],
       "css": [
         "style_for/live/follow.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -299,7 +322,8 @@
       ],
       "css": [
         "style_for/live/timetable.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -308,7 +332,8 @@
       ],
       "css": [
         "style_for/live/ranking.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -317,7 +342,8 @@
       ],
       "css": [
         "style_for/live/watch.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -326,7 +352,8 @@
       ],
       "css": [
         "style_for/live/search.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -335,7 +362,8 @@
       ],
       "css": [
         "style_for/live/my.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -344,7 +372,8 @@
       ],
       "css": [
         "style_for/live/history.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -355,7 +384,8 @@
       ],
       "css": [
         "style_for/live/create.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -363,7 +393,8 @@
       ],
       "css": [
         "style_for/commons/master.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -371,7 +402,8 @@
       ],
       "css": [
         "style_for/jk/jk_top.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -379,7 +411,8 @@
       ],
       "css": [
         "style_for/site/service_list.css"
-      ]
+      ],
+      "run_at": "document_start"
     }
   ],
   "browser_action": {
