@@ -1,6 +1,5 @@
 //iframeで動くファイル
 
-
 var is_darkmode = true;
 chrome.storage.local.get(["setting"], function (items) {
   if (items.setting == "false") {
@@ -9,15 +8,15 @@ chrome.storage.local.get(["setting"], function (items) {
   }
 });
 
-
-window.onload = function() {
+//読み込まれたら
+window.addEventListener('load', function () {
   console.log("niconico Darkmode iframe　実行中です"); 
 
   //ダークモード適用
   if (is_darkmode) {
     nicodark_change_true();
   }
-}
+});
 
 // 設定変更を受け取り
 chrome.runtime.onMessage.addListener(
@@ -26,9 +25,7 @@ chrome.runtime.onMessage.addListener(
 
     if (request.change_settings == "nicodark_to_true") {
       is_darkmode = true;
-      if (is_darkmode && is_socialtop) {
-        nicodark_change_true();
-      } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")) {
+      if (is_darkmode) {
         nicodark_change_true();
       }
 
