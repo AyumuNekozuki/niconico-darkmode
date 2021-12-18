@@ -92,4 +92,5 @@ AyumuNekozuki / [@nekozuki_dev](https://twitter.com/nekozuki_dev)
 [@hiyakake](https://github.com/hiyakake) 
 [@tearaikazuki](https://github.com/tearaikazuki) 
 [@istallia](https://github.com/istallia) 
-
+[@gcrtnst](https://github.com/gcrtnst) 
+[@momoirodouhu](https://github.com/momoirodouhu) 
