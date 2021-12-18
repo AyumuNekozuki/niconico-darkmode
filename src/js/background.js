@@ -20,6 +20,13 @@ chrome.runtime.onInstalled.addListener(function() {
           })
         }
       });
+      chrome.storage.local.get(["social_top"], function (items) {
+        if (items.social_top == undefined) {
+          chrome.storage.local.set({
+            "social_top": "true"
+          })
+        }
+      });
     };
   });
 });
