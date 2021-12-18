@@ -25,7 +25,12 @@ var path = location.pathname;
 var now_location = host + path + "";
 
 //読み込まれたら実行
-window.addEventListener('DOMContentLoaded', function () {
+var observer = new MutationObserver(function (mutationList, observer) {
+  if (document.body === null) {
+    return;
+  }
+  observer.disconnect();
+
   console.log("niconico Darkmode　実行中です\n" + "　　Version: v" + EX_VERSION + "\n" + "　　Setting: " + is_darkmode + "\n" + "　　SocialTop: " + is_socialtop);
 
   //ダークモード 適用
@@ -35,7 +40,7 @@ window.addEventListener('DOMContentLoaded', function () {
     nicodark_change_true();
   }
 });
-
+observer.observe(document.documentElement, {childList: true});
 
 // 設定変更を受け取り
 chrome.runtime.onMessage.addListener(
