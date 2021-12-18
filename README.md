@@ -1,6 +1,7 @@
-![](https://img.shields.io/github/license/AyumuNekozuki/niconico-darkmode) 
+![](https://img.shields.io/github/license/AyumuNekozuki/niconico-darkmode) ![](https://img.shields.io/github/issues/AyumuNekozuki/niconico-darkmode) ![](https://img.shields.io/github/forks/AyumuNekozuki/niconico-darkmode) ![](https://img.shields.io/github/stars/AyumuNekozuki/niconico-darkmode)
 
-![](https://img.shields.io/chrome-web-store/v/gihjpgjpgofigjcckobchfchlfbhenjl) ![](https://img.shields.io/chrome-web-store/users/gihjpgjpgofigjcckobchfchlfbhenjl) ![](https://img.shields.io/amo/v/niconico-darkmode) ![](https://img.shields.io/amo/users/niconico-darkmode)
+![](https://img.shields.io/chrome-web-store/v/gihjpgjpgofigjcckobchfchlfbhenjl) ![](https://img.shields.io/chrome-web-store/users/gihjpgjpgofigjcckobchfchlfbhenjl) 
+![](https://img.shields.io/amo/v/niconico-darkmode) ![](https://img.shields.io/amo/users/niconico-darkmode)
 
 ![](./lib/ss/ss1.png)
 
