@@ -3,16 +3,17 @@
 //拡張機能 情報取得
 const MANIFEST_DATA = chrome.runtime.getManifest();
 const EX_VERSION = MANIFEST_DATA.version + "";
-var is_darkmode = true;
-var is_socialtop = true;
+let is_darkmode = true;
+let is_socialtop = true;
 
-chrome.storage.local.get(["setting"], function (items) {
+console.log("niconico Darkmode　実行中です\n" + "　　Version: v" + EX_VERSION);
+
+//設定取得
+chrome.storage.local.get(["setting", "social_top"], function (items) {
   if (items.setting == "false") {
     is_darkmode = false;
     return is_darkmode;
   }
-});
-chrome.storage.local.get(["social_top"], function (items) {
   if (items.social_top == "false") {
     is_socialtop = false;
     return is_socialtop;
@@ -24,17 +25,40 @@ var host = location.hostname;
 var path = location.pathname;
 var now_location = host + path + "";
 
-//読み込まれたら実行
-window.addEventListener('DOMContentLoaded', function () {
-  console.log("niconico Darkmode　実行中です\n" + "　　Version: v" + EX_VERSION + "\n" + "　　Setting: " + is_darkmode + "\n" + "　　SocialTop: " + is_socialtop);
 
-  //ダークモード 適用
-  if (is_darkmode && is_socialtop) {
-    nicodark_change_true();
-  } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")) {
-    nicodark_change_true();
+
+//bodyタグが読まれたら変更させる監視
+let is_body_observe = false;
+var body_observer = new MutationObserver(function (mutationList, observer) {
+  if (document.body === null) {
+    return;
   }
+  body_observer.disconnect();
+  is_body_observe = true;
+
+  //ダークモード
+  check_nicodarksettings();
 });
+body_observer.observe(document.documentElement, {childList: true});
+
+//設定情報の取得状態を監視
+var setting_observe = setInterval(() => {
+  //設定がfalseの時解除
+  if(is_body_observe){
+    if(!is_darkmode){
+      nicodark_change_false();
+      clearInterval(setting_observe);
+
+    }else if(!is_socialtop && (now_location == "www.nicovideo.jp/")){
+      nicodark_change_false();
+      clearInterval(setting_observe);
+    }
+  }
+}, 100);
+//5秒で自動的に監視STOP
+setTimeout(() => {
+  clearInterval(setting_observe);
+}, 5000);
 
 
 // 設定変更を受け取り
@@ -49,40 +73,36 @@ chrome.runtime.onMessage.addListener(
       } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")) {
         nicodark_change_true();
       }
-      //以下後日削除
-      nicodark_setting_cb.checked = true;
-      nicodark_aria.setAttribute('aria-checked', 'true');
 
     } else if (request.change_settings == "nicodark_to_false") {
       is_darkmode = false;
       nicodark_change_false();
-      //以下後日削除
-      nicodark_setting_cb.checked = false;
-      nicodark_aria.setAttribute('aria-checked', 'false');
 
     } else if (request.change_settings == "nicodark_top_to_true") {
       is_socialtop = true;
       if (now_location == "www.nicovideo.jp/") {
         nicodark_change_true();
       }
-      //以下後日削除
-      nicodark_setting_cb_s_top.checked = true;
-      nicodark_aria_s_top.setAttribute('aria-checked', 'true');
 
     } else if (request.change_settings == "nicodark_top_to_false") {
       is_socialtop = false;
       if (now_location == "www.nicovideo.jp/") {
         nicodark_change_false();
       }
-      //以下後日削除
-      nicodark_setting_cb_s_top.checked = false;
-      nicodark_aria_s_top.setAttribute('aria-checked', 'false');
     }
 
     return true;
   }
 );
 
+//ダークモード実行判定処理
+function check_nicodarksettings(){
+  if (is_darkmode && is_socialtop) {
+    nicodark_change_true();
+  } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")) {
+    nicodark_change_true();
+  }
+}
 
 //ダークモード適用処理　定義
 function nicodark_change_true() {
