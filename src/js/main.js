@@ -8,6 +8,7 @@ let is_socialtop = true;
 
 console.log("niconico Darkmode　実行中です\n" + "　　Version: v" + EX_VERSION);
 
+//設定取得
 chrome.storage.local.get(["setting", "social_top"], function (items) {
   if (items.setting == "false") {
     is_darkmode = false;
@@ -24,7 +25,9 @@ var host = location.hostname;
 var path = location.pathname;
 var now_location = host + path + "";
 
-//読み込まれたら実行
+
+
+//bodyタグが読まれたら変更させる監視
 let is_body_observe = false;
 var body_observer = new MutationObserver(function (mutationList, observer) {
   if (document.body === null) {
@@ -38,7 +41,7 @@ var body_observer = new MutationObserver(function (mutationList, observer) {
 });
 body_observer.observe(document.documentElement, {childList: true});
 
-//設定取得監視
+//設定情報の取得状態を監視
 var setting_observe = setInterval(() => {
   //設定がfalseの時解除
   if(is_body_observe){
@@ -57,6 +60,7 @@ setTimeout(() => {
   clearInterval(setting_observe);
 }, 5000);
 
+
 // 設定変更を受け取り
 chrome.runtime.onMessage.addListener(
   function (request, sender, sendResponse) {
@@ -69,34 +73,22 @@ chrome.runtime.onMessage.addListener(
       } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")) {
         nicodark_change_true();
       }
-      //以下後日削除
-      nicodark_setting_cb.checked = true;
-      nicodark_aria.setAttribute('aria-checked', 'true');
 
     } else if (request.change_settings == "nicodark_to_false") {
       is_darkmode = false;
       nicodark_change_false();
-      //以下後日削除
-      nicodark_setting_cb.checked = false;
-      nicodark_aria.setAttribute('aria-checked', 'false');
 
     } else if (request.change_settings == "nicodark_top_to_true") {
       is_socialtop = true;
       if (now_location == "www.nicovideo.jp/") {
         nicodark_change_true();
       }
-      //以下後日削除
-      nicodark_setting_cb_s_top.checked = true;
-      nicodark_aria_s_top.setAttribute('aria-checked', 'true');
 
     } else if (request.change_settings == "nicodark_top_to_false") {
       is_socialtop = false;
       if (now_location == "www.nicovideo.jp/") {
         nicodark_change_false();
       }
-      //以下後日削除
-      nicodark_setting_cb_s_top.checked = false;
-      nicodark_aria_s_top.setAttribute('aria-checked', 'false');
     }
 
     return true;
