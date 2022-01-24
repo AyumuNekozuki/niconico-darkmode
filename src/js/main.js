@@ -5,11 +5,14 @@ const MANIFEST_DATA = chrome.runtime.getManifest();
 const EX_VERSION = MANIFEST_DATA.version + "";
 let is_darkmode = true;
 let is_socialtop = true;
+let isset_osdarkmode = false;
+
+let os_darkmode = window.matchMedia('(prefers-color-scheme: dark)');
 
 console.log("niconico Darkmode　実行中です\n" + "　　Version: v" + EX_VERSION);
 
 //設定取得
-chrome.storage.local.get(["setting", "social_top"], function (items) {
+chrome.storage.local.get(["setting", "social_top", "set_osdarkmode"], function (items) {
   if (items.setting == "false") {
     is_darkmode = false;
     return is_darkmode;
@@ -17,6 +20,11 @@ chrome.storage.local.get(["setting", "social_top"], function (items) {
   if (items.social_top == "false") {
     is_socialtop = false;
     return is_socialtop;
+  }
+  if (items.set_osdarkmode == "true"){
+    isset_osdarkmode = true;
+    os_darkmode.addEventListener('change', nicodark_set_osdarkmode, true);
+    return isset_osdarkmode;
   }
 });
 
@@ -52,6 +60,10 @@ var setting_observe = setInterval(() => {
     }else if(!is_socialtop && (now_location == "www.nicovideo.jp/")){
       nicodark_change_false();
       clearInterval(setting_observe);
+
+    }else if(isset_osdarkmode && (os_darkmode.matches == false)){
+      nicodark_change_false();
+      clearInterval(setting_observe);
     }
   }
 }, 100);
@@ -68,27 +80,53 @@ chrome.runtime.onMessage.addListener(
 
     if (request.change_settings == "nicodark_to_true") {
       is_darkmode = true;
-      if (is_darkmode && is_socialtop) {
+      if (is_darkmode && is_socialtop && !isset_osdarkmode) {
         nicodark_change_true();
-      } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")) {
+      } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/") && !isset_osdarkmode) {
         nicodark_change_true();
       }
 
     } else if (request.change_settings == "nicodark_to_false") {
       is_darkmode = false;
-      nicodark_change_false();
+      if(!isset_osdarkmode){
+        nicodark_change_false();
+      }
 
     } else if (request.change_settings == "nicodark_top_to_true") {
       is_socialtop = true;
-      if (now_location == "www.nicovideo.jp/") {
+      if (now_location == "www.nicovideo.jp/" && !isset_osdarkmode) {
         nicodark_change_true();
       }
 
     } else if (request.change_settings == "nicodark_top_to_false") {
       is_socialtop = false;
-      if (now_location == "www.nicovideo.jp/") {
+      if (now_location == "www.nicovideo.jp/" && !isset_osdarkmode) {
         nicodark_change_false();
       }
+
+    } else if (request.change_settings == "nicodark_osset_to_true") {
+      isset_osdarkmode = true;
+      os_darkmode.addEventListener('change', nicodark_set_osdarkmode, true);
+      if(os_darkmode.matches == true){
+        nicodark_change_true();
+    
+      }else if(os_darkmode.matches == false){
+        nicodark_change_false();
+      }
+      
+
+    } else if (request.change_settings == "nicodark_osset_to_false") {
+      isset_osdarkmode = false;
+      os_darkmode.removeEventListener('change', nicodark_set_osdarkmode, true); 
+
+      if(is_darkmode && is_socialtop){
+        nicodark_change_true();
+      }else if(is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")){
+        nicodark_change_true();
+      }else{
+        nicodark_change_false();
+      }
+      
     }
 
     return true;
@@ -100,6 +138,8 @@ function check_nicodarksettings(){
   if (is_darkmode && is_socialtop) {
     nicodark_change_true();
   } else if (is_darkmode && !is_socialtop && !(now_location == "www.nicovideo.jp/")) {
+    nicodark_change_true();
+  } else if (isset_osdarkmode == true && os_darkmode.matches == true){
     nicodark_change_true();
   }
 }
@@ -114,4 +154,13 @@ function nicodark_change_true() {
 //ダークモード解除処理　定義
 function nicodark_change_false() {
   document.getElementsByClassName('niconico-darkmode-setting-true')[0].classList.remove('niconico-darkmode-setting-true');
+}
+
+//OSダークモードの取得を検知
+function nicodark_set_osdarkmode(e) {
+  if(e.matches){
+    nicodark_change_true();
+  }else{
+    nicodark_change_false();
+  }
 }

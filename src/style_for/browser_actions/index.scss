@@ -33,6 +33,7 @@ body{
   }
   .nicodark-setting-menu{
     padding: 0px 16px 8px 16px;
+    position: relative;
 
     .nicodark-label01{
       display: flex;
@@ -84,6 +85,36 @@ body{
       }
     }
     
+
+    .beta_setteings_area{
+      border: 1px solid $nico-premium;
+      border-radius: 5px;
+      margin: 5px 0;
+      padding: 0 0 5px 0;
+      overflow: hidden;
+
+      p{
+        color: $main-text-color;
+        font-size: 10px;
+        margin: .1rem .5rem;
+        line-height: 1.2;
+
+        &+p{
+          margin: .25rem .5rem;
+        }
+      }
+
+      &::before{
+        content: "拡張設定 (BETA)";
+        top: 0;
+        padding: .1rem .5rem;
+        text-align: center;
+        font-size: 12px;
+        background-color: $nico-premium;
+        color: $main-text-color;
+        border-radius: 0 5px 5px 0;
+      }
+    }
   }
 
   .onelineinfo{

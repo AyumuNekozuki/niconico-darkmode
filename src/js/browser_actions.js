@@ -5,6 +5,7 @@
 //chrome.storageに突っ込むと文字列化されるので、面倒なので最初から文字列として定義しておく
 let is_darkmode = "true";
 let is_socialtop = "true";
+let isset_osdarkmode = "false";
 const MANIFEST_DATA = chrome.runtime.getManifest();
 const EX_VERSION = MANIFEST_DATA.version + "";
 
@@ -18,6 +19,10 @@ window.onload = function(){
   //総合TOP ボタン
   let nicodark_setting_cb_s_top = document.getElementById("nicodark_s_top-setting_cb");
   let nicodark_aria_s_top = document.getElementById("nicodark-aria-s_top");
+
+  //OS設定と合わせる ボタン
+  let nicodark_set_os_settings_cb = document.getElementById("nicodark_set_os_settings_cb");
+  let nicodark_aria_set_os_settings = document.getElementById("nicodark-aria-set_os_settings");
 
   //バージョン表示 
   document.getElementById("show_version").textContent = "nicodark v" + EX_VERSION;
@@ -49,6 +54,20 @@ window.onload = function(){
     }
 
     return is_socialtop;
+  });
+
+  chrome.storage.local.get(["set_osdarkmode"], function (items) {
+    isset_osdarkmode = items.set_osdarkmode;
+
+    if(items.set_osdarkmode === "false"){
+      nicodark_set_os_settings_cb.checked = false;
+      nicodark_aria_set_os_settings.setAttribute('aria-checked', 'false');
+    }else{
+      nicodark_set_os_settings_cb.checked = true;
+      nicodark_aria_set_os_settings.setAttribute('aria-checked', 'true');
+    }
+
+    return isset_osdarkmode;
   });
 
   //設定変更時処理　メッセージ送信
@@ -87,6 +106,25 @@ window.onload = function(){
       nicodark_setting_cb_s_top.checked = false;
       nicodark_aria_s_top.setAttribute('aria-checked', 'false');
       is_socialtop = "false";
+    }
+  }
+
+  nicodark_set_os_settings_cb.onclick = function(){
+    if(isset_osdarkmode === "false"){
+      chrome.runtime.sendMessage({request_change_settings: "req_nicodark_osset_to_true"}, function(response) {
+        console.log(response.farewell);
+      });
+      nicodark_set_os_settings_cb.checked = true;
+      nicodark_aria_set_os_settings.setAttribute('aria-checked', 'true');
+      isset_osdarkmode = "true";
+
+    }else if(isset_osdarkmode === "true"){
+      chrome.runtime.sendMessage({request_change_settings: "req_nicodark_osset_to_false"}, function(response) {
+        console.log(response.farewell);
+      });
+      nicodark_set_os_settings_cb.checked = false;
+      nicodark_aria_set_os_settings.setAttribute('aria-checked', 'false');
+      isset_osdarkmode = "false";
     }
   }
 }
