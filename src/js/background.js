@@ -27,6 +27,13 @@ chrome.runtime.onInstalled.addListener(function() {
           })
         }
       });
+      chrome.storage.local.get(["set_osdarkmode"], function (items) {
+        if (items.set_osdarkmode == undefined) {
+          chrome.storage.local.set({
+            "set_osdarkmode": "false"
+          })
+        }
+      });
     };
   });
 });
@@ -72,6 +79,21 @@ function change_settings(request_setting_param) {
       });
       send_change_settings("nicodark_top_to_false");
       break;
+
+    case "req_nicodark_osset_to_true":
+      chrome.storage.local.set({
+        "set_osdarkmode": "true"
+      });
+      send_change_settings("nicodark_osset_to_true");
+      break;
+
+    case "req_nicodark_osset_to_false":
+      chrome.storage.local.set({
+        "set_osdarkmode": "false"
+      });
+      send_change_settings("nicodark_osset_to_false");
+      break;
+  
 
     default:
       break;
