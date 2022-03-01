@@ -97,7 +97,6 @@
         "*://spi.nicovideo.jp/*"
       ],
       "js": [
-        "js/jquery-3.5.1.min.js",
         "js/iframe_action.js"
       ],
       "css": [
@@ -110,7 +109,6 @@
         "*://nicoad.nicovideo.jp/nage/publish*"
       ],
       "js": [
-        "js/jquery-3.5.1.min.js",
         "js/iframe_action.js"
       ],
       "css": [
