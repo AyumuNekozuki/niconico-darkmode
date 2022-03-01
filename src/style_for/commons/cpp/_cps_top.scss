@@ -1,6 +1,13 @@
 @import "../../parts/default";
 
 .niconico-darkmode-setting-true{
+  #Contents{
+    .tipbox{
+      a{
+        color: $main-url-color;
+      }
+    }
+  }
   #Column02{
     #TopMainBox{
       background: $main-background-color;
