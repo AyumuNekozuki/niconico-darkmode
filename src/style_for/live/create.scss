@@ -35,6 +35,9 @@
         [class*="___broadcast-request-sender-list-section___"]{
           background-color: $nico-black;
 
+          [class*="___heading___"]{
+            color: $main-text-color;
+          }
           [class*="___item___"]{
             [class*="___body-area___"]{
               [class*="___name-label___"]{
@@ -45,10 +48,9 @@
               [class*="___note___"]{
                 color: $sub-1-text-color;
               }
-
-              [class*="___card___"]{
-                background-color: $hover-background-color;
-              }
+            }
+            [class*="___card___"]:hover{
+              background-color: $hover-background-color;
             }
           }
         }
