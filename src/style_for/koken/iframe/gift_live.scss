@@ -5,6 +5,7 @@
   color: $sub-1-text-color !important;
 
   .top-fixed-container{
+    background-color: $main-background-color;
     .header-bar{
       background: none !important;
       border-color: $border-background-color !important;
@@ -20,16 +21,148 @@
     }
   }
 
+  // タブ
   .rich-view-drawer-transition{
     .rich-view-tab-bar{
       background: none;
-      // ul{
-      //   li{
-          
-      //   }
-      // }
+      ul{
+        li{
+          button[aria-selected="true"]{
+            background-color: $main-url-color;
+          }
+          button[aria-selected="false"]{
+            background-color: $nico-black;
+            color: $main-text-color;
+          }
+        }
+      }
     }
   }
 
+  // メイン
+  .parent-container{
 
+    // 放送者用販売オンオフ
+    .owner-only{
+      .item-available-switch{
+        background-color: $sub2-background-color;
+      }
+    }
+
+    // インフォ
+    .conductor{
+      .visual-conductor{
+        border-color: $border-background-color;
+        .text{
+          color: $main-text-color;
+        }
+        .icon{
+          fill: $sub-1-text-color;
+        }
+      }
+    }
+
+    // ギフト選択
+    .item-group{
+      &:not(:first-child){
+        border-color: $border-background-color;
+      }
+
+      .item-group-header{
+        .item-group-name{
+          color: $main-text-color;
+        }
+        .item-group-text{
+          color: $sub-1-text-color;
+        }
+      }
+      .items{
+        .item{
+          .item-button{
+            background-color: $sub2-background-color;
+            border-color: $sub2-background-color;
+            .point{
+              color: $main-text-color;
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+
+  // 投げ確認
+  .child-container{
+    .item-info{
+      .text{
+        .name{
+          color: $main-text-color;
+        }
+      }
+    }
+    .user-ticket{
+      background-color: $sub2-background-color;
+      &::after{
+        border-top-color: $sub2-background-color;
+      }
+    }
+    .button-wrapper{
+      .charge-button{
+        border-color: $border-background-color;
+      }
+      .purchase-button{
+        color: black;
+      }
+    }
+
+  }
+
+  // 投げ履歴
+  .nage-history{
+    .main{
+      .total-point{
+        .container{
+          background-color: $sub2-background-color;
+          &::after{
+            border-top-color: $sub2-background-color;
+          }
+        }
+      }
+      .history-list{
+        .flipping-effect-list{
+          li{
+            border-color: $border-background-color;
+          }
+        }
+        .empty{
+          color: $sub2-background-color;
+        }
+      }
+    }
+  }
+
+  // 投げらんきんぐ
+  .nage-ranking{
+    .flipping-effect-list{
+      li{
+        border-color: $border-background-color;
+      }
+    }
+    .empty{
+      color: $sub-1-text-color;
+    }
+  }
+
+  // 投げユーザー詳細
+  .nage-ranker-detail{
+    .wrapper::after{
+      border-bottom-color: $main-background-color;
+    }
+    .ranker-info{
+      .text{
+        color: black;
+      }
+    }
+  }
 }
