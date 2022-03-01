@@ -7,6 +7,54 @@
   [class*="___local-page___"]{
     background-color: $main-background-color;
 
+    [class*="___broadcast-request-section___"]{ // 放送リクエスト
+      background-color: $nico-black;
+      color: $main-text-color;
+
+      [class*="___body-area___"]{
+        [class*="___request-sender-list___"]{
+          [class*="___resource___"]{
+            border-color: $border-background-color;
+          }
+        }
+
+        [class*="___button___"]{
+          border-color: $border-background-color;
+        }
+
+        [class*="___setting-edit-button___"]{
+          background-color: $button;
+          border-color: $button;
+          span{
+            color: $main-text-color;
+          }
+        }
+      }
+
+      [class*="___broadcast-request-sender-list-panel___"]{
+        [class*="___broadcast-request-sender-list-section___"]{
+          background-color: $nico-black;
+
+          [class*="___item___"]{
+            [class*="___body-area___"]{
+              [class*="___name-label___"]{
+                color: $main-text-color;
+              }
+              [class*="___request-number___"],
+              [class*="___latest-request-time___"],
+              [class*="___note___"]{
+                color: $sub-1-text-color;
+              }
+
+              [class*="___card___"]{
+                background-color: $hover-background-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
     [class*="___page-title___"]{ //pagetitle
       color: $main-text-color;
     }
@@ -111,4 +159,22 @@
     }
   }
 
+  [class*="___broadcast-request-setting-edit-panel___"]{
+    background-color: $main-background-color;
+
+    [class*="___label___"]{
+      color: $main-text-color;
+    }
+
+    [class*="___note-section___"]{
+      background-color: $nico-black;
+
+      [class*="___heading___"]{
+        color: $sub-1-text-color;
+      }
+      [class*="___item___"]{
+        color: $main-text-color;
+      }
+    }
+  }
 }
