@@ -93,6 +93,12 @@ body{
       padding: 0 0 5px 0;
       overflow: hidden;
 
+      details{
+        padding: 0 15px;
+        color: $main-text-color;
+        cursor: pointer;
+      }
+
       p{
         color: $main-text-color;
         font-size: 10px;
