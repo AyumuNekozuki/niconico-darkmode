@@ -577,7 +577,7 @@
         .css-vb3iwc{//header
           background: $nico-black;
           .css-zbqfsi{
-            .css-1n8vn2q h1,.css-k2ohf6{
+            .css-1n8vn2q h1,.css-k2ohf6, .css-1mfuxoc{
               color: $main-text-color;
             }
             .css-1mwn02k{
@@ -644,7 +644,7 @@
             background: none;
             color: $sub-2-text-color;
           }
-          #AnalyticsUploadedInfiniteScrollTarget{
+          #AnalyticsUploadedScrollTarget{
             background: none;
             .css-ccgi7w{ //item
               background: none;
@@ -1076,6 +1076,30 @@
                   }
                 }
               }
+            }
+          }
+        }
+      }
+    }
+
+    // 次ページ案内バー
+    .css-g0j8td{
+      background-color: $nico-black;
+      .css-2vly8o{
+        .css-1dd9nhn,
+        .css-1loajun,
+        .css-2lfpri{
+          color: $sub-1-text-color;
+        }
+        .css-93flym.css-93flym > div,
+        .css-1pt1hs0.css-1pt1hs0 > div{
+          border-color: $border-background-color;
+          background: none;
+        }
+        .MuiPagination-root{
+          .MuiPagination-ul{
+            .MuiPaginationItem-page{
+              color: $sub-1-text-color;
             }
           }
         }
