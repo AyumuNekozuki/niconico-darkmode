@@ -462,6 +462,34 @@
               color: $sub-1-text-color;
             }
           }
+          [class*="___action-menu___"]{
+            [class*="___follow-item___"]{
+              [class*="___toggle-button___"]{
+                background-color: $button;
+                color: $main-text-color;
+                svg path{
+                  fill: $main-text-color;
+                }
+
+                &[aria-pressed="true"]{
+                  background-color: $sub2-background-color;
+                  color: $sub-1-text-color;
+                  svg path{
+                    fill: $sub-1-text-color;
+                  }
+                }
+              }
+            }
+            [class*="___broadcast-request-item___"]{
+              [class*="___broadcast-request-send-button___"]{
+                background-color: $button;
+                color: $main-text-color;
+                svg path{
+                  fill: $main-text-color;
+                }
+              }
+            }
+          }
         }
       }
     }
