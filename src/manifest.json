@@ -94,6 +94,32 @@
     },
     {
       "matches": [
+        "*://spi.nicovideo.jp/*"
+      ],
+      "js": [
+        "js/jquery-3.5.1.min.js",
+        "js/iframe_action.js"
+      ],
+      "css": [
+        "style_for/live/spi/shin_ichiba.css"
+      ],
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "*://nicoad.nicovideo.jp/nage/publish*"
+      ],
+      "js": [
+        "js/jquery-3.5.1.min.js",
+        "js/iframe_action.js"
+      ],
+      "css": [
+        "style_for/koken/iframe/gift_live.css"
+      ],
+      "all_frames": true
+    },
+    {
+      "matches": [
         "*://www.nicovideo.jp/",
         "*://www.nicovideo.jp/?*"
       ],

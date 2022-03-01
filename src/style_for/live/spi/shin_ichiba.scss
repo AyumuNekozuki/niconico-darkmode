@@ -1,0 +1,379 @@
+@import "../../parts/_default";
+@import "../../parts/_dropdown";
+@import "../../parts/_textarea";
+
+.niconico-darkmode-setting-true {
+  background-color: $main-background-color !important;
+  color: $main-text-color !important;
+
+  //ヘッダー
+  .st-Header {
+    background-color: $main-background-color;
+    border-color: $border-background-color;
+
+    .st-Header_Help {
+      //ヘルプのアイコン
+      filter: $invert;
+    }
+    .st-Header_Back {
+      svg > path {
+        fill: $sub-1-text-color;
+      }
+    }
+  }
+
+  //ヘッダーメニュー
+  .sw-PageTab {
+    background: $main-background-color;
+    box-shadow: 0 -1px 0 inset $nico-black;
+
+    //< >のボタン
+    .sw-PageTab_Controller {
+      .sw-PageTab_Paddle-prev,
+      .sw-PageTab_Paddle-next {
+        background: none;
+        svg > path {
+          fill: $sub-1-text-color;
+        }
+
+        &:not(:disabled):hover {
+          background-color: $hover-background-color;
+        }
+      }
+    }
+    //項目
+    .sw-PageTab_Content {
+      .sw-PageTab_Item .sw-PageTab_Link {
+        transition: color ease 0.3s;
+        color: $sub-1-text-color;
+
+        &[data-status="active"] {
+          box-shadow: 0 -2px 0 inset $main-url-color;
+          color: $main-url-color;
+          font-weight: bold;
+        }
+
+        &:hover {
+          color: $main-url-color;
+        }
+      }
+    }
+  }
+  .sw-SubPageTab {
+    .sw-SubPageTab_Link {
+      border-color: $border-background-color;
+      background: $nico-black;
+      color: $main-text-color;
+
+      &[data-status="active"] {
+        color: $main-text-color;
+        background: $main-url-color;
+        border-color: $border-background-color;
+      }
+
+      &:not([data-status="active"]):hover {
+        color: $main-url-color;
+      }
+    }
+  }
+
+  //お知らせ
+  .sw-Notification {
+    background-color: $main-background-color;
+    border-color: $border-background-color;
+
+    .sw-Notification_Icon {
+      filter: $invert;
+    }
+    .sw-Notification_Text {
+      transition: color ease 0.3s;
+      color: $main-text-color;
+    }
+    &:hover {
+      .sw-Notification_Text {
+        color: $main-url-color;
+      }
+    }
+  }
+
+  //TOP セクション
+  .tp-Section {
+    background: none;
+    border-color: $border-background-color !important;
+
+    //アイテム
+    .tp-ProductList_Item {
+      .tp-ProductList_Image {
+        background-color: #ddd;
+        border-color: $sub2-background-color;
+        img {
+          filter: brightness(0.8);
+        }
+      }
+      .tp-ProductList_NameText {
+        color: $main-text-color;
+      }
+    }
+  }
+
+  //お知らせ リスト
+  .ip-InformationList {
+    .ip-InformationList_ItemLink {
+      color: $main-text-color;
+      border-color: $border-background-color;
+
+      .ip-InformationList_Title {
+        transition: color ease 0.3s;
+        color: $main-text-color;
+      }
+      .ip-InformationList_Icon {
+        filter: $invert;
+      }
+
+      &:hover {
+        .ip-InformationList_Title {
+          color: $main-url-color;
+        }
+      }
+    }
+  }
+
+  //リスト
+  .sw-ProductList {
+    background: none;
+
+    .sw-ProductList_Item {
+      .sw-ProductList_Image {
+        background-color: #ddd;
+        border-color: $sub2-background-color;
+        img {
+          filter: brightness(0.8);
+        }
+      }
+      .sw-ProductList_Name {
+        color: $main-text-color;
+      }
+      .sw-ProductList_ItemLaunchTypeLabel {
+        background-color: $nico-black;
+      }
+    }
+  }
+
+  //検索バー
+  .sw-Search {
+    .sw-Search_Form {
+      background-color: $sub2-background-color;
+      .sw-Search_InputFrame .sw-Search_Input {
+        color: $main-text-color;
+      }
+    }
+    .sw-Search_Suggest {
+      .sw-Search_SuggestList {
+        background-color: $nico-black;
+
+        .sw-Search_SuggestItem {
+          border-color: $border-background-color;
+          color: $main-text-color;
+        }
+      }
+    }
+  }
+
+  //マイリスト
+  .tp-MylistSelect {
+    .tp-MylistSelect_Title {
+      border-color: $border-background-color;
+      color: $sub-1-text-color;
+    }
+    .tp-MylistSelect_List {
+      .tp-MylistSelect_ListItem {
+        .tp-CategorySelect_ListItemLink,
+        .tp-CategorySelect_ListItemLink-follow,
+        .tp-CategorySelect_ListItemLink-nicocas,
+        .tp-CategorySelect_ListItemLink-self,
+        .tp-CategorySelect_ListItemLink-history,
+        .tp-CategorySelect_ListItemLink-temporaryMylist,
+        .tp-CategorySelect_ListItemLink-mylist {
+          &:hover {
+            background-color: $nico-black;
+          }
+          &::before {
+            filter: $invert;
+          }
+
+          .tp-MylistSelect_ListItemText {
+            color: $main-text-color;
+          }
+        }
+      }
+    }
+  }
+
+  //動画選択
+  .sw-QuotationHeader,
+  .sw-QuotationHeader-suggestion {
+    border-color: $border-background-color;
+    .sw-QuotationHeader_Text {
+      color: $main-text-color;
+    }
+  }
+  .sw-QuotationList {
+    .sw-QuotationList_Item {
+      .sw-QuotationList_Image {
+        background: $player-black;
+      }
+      .sw-QuotationList_Detail {
+        .sw-QuotationList_Title {
+          color: $main-text-color;
+        }
+        .sw-QuotationList_Data {
+          .sw-QuotationList_DataItem {
+            .sw-QuotationList_DataIcon {
+              svg > path {
+                fill: $sub-2-text-color;
+              }
+            }
+            .sw-QuotationList_DataText {
+              color: $sub-2-text-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //オーバーレイ
+  .sw-ActionSheet_Content {
+    background-color: $main-background-color;
+
+    .sw-ActionSheet_Image {
+      background-color: #ddd;
+      border-color: $sub2-background-color;
+      img {
+        filter: brightness(0.8);
+      }
+    }
+    .sw-ActionSheet_Image-wideSize {
+      background-color: $player-black;
+      img {
+        filter: brightness(0.8);
+      }
+    }
+
+    .sw-ActionSheet_Detail {
+      .sw-ActionSheet_Title {
+        color: $main-text-color;
+      }
+      .sw-ActionSheet_Description {
+        color: $sub-1-text-color;
+      }
+      .sw-ActionSheet_DataText {
+        color: $sub-2-text-color;
+      }
+    }
+
+    .sw-ActionSheet_Action {
+      .sw-Button-premium {
+        .sw-Button_Container {
+          background-color: $main-background-color;
+        }
+
+        &:hover {
+          .sw-Button_Container {
+            background-color: $nico-premium;
+          }
+        }
+      }
+      .sw-Button-basic {
+        .sw-Button_Container {
+          background-color: $main-background-color;
+        }
+
+        &:hover {
+          .sw-Button_Container {
+            background-color: #4990e2;
+          }
+        }
+      }
+    }
+
+    .sw-ActionSheet_Utility {
+      .sw-ActionSheet_UtilityItem {
+        border-color: $border-background-color;
+        .sw-ActionSheet_UtilityLink {
+          color: $main-text-color;
+        }
+      }
+    }
+  }
+
+  //放送者用Q引用
+  .tp-BroadcastToolSelect_List {
+    .tp-BroadcastToolSelect_ListItem > a {
+      .tp-BroadcastToolSelect_ListItemText {
+        color: $main-text-color;
+      }
+
+      &:hover {
+        background-color: $nico-black;
+      }
+      &::before {
+        filter: $invert;
+      }
+    }
+  }
+
+  //ネタの詳細
+  .pd-Product {
+    background: none;
+
+    .pd-Product_Image {
+      img {
+        background: $nico-white;
+      }
+    }
+
+    .pd-Product_Name {
+      .pd-Product_NameText {
+        color: $main-text-color;
+      }
+    }
+    .pd-Product_DataItem {
+      color: $sub-1-text-color;
+    }
+
+    .pd-Product_Action {
+      .sw-Button-premium {
+        .sw-Button_Container {
+          background-color: $main-background-color;
+        }
+
+        &:hover {
+          .sw-Button_Container {
+            background-color: $nico-premium;
+          }
+        }
+      }
+      .sw-Button-basic {
+        .sw-Button_Container {
+          background-color: $main-background-color;
+        }
+
+        &:hover {
+          .sw-Button_Container {
+            background-color: #4990e2;
+          }
+        }
+      }
+    }
+
+    .pd-Product_Utility {
+      .sw-ActionSheet_UtilityItem {
+        border-color: $border-background-color;
+        .sw-ActionSheet_UtilityLink {
+          color: $main-text-color;
+        }
+      }
+    }
+  }
+}
