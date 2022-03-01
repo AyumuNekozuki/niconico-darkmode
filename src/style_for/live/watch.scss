@@ -447,6 +447,22 @@
         }
         [class*="___user-summary___"],
         [class*="___channel-summary___"]{ //user
+          [class*="___thumbnail-area___"]{
+            [class*="___broadcast-request-thanks-message-balloon___"]{
+              background-color: $nico-black;
+              &::after{
+                border-color: $nico-black transparent transparent;
+              }
+
+              [class*="___heading___"]{
+                color: $sub-1-text-color;
+              }
+              [class*="___message___"]{
+                color: $main-text-color;
+              }
+            }
+          }
+
           [class*="___user-information-area___"],
           [class*="___channel-information-area___"]{
             [class*="___user-name___"],
