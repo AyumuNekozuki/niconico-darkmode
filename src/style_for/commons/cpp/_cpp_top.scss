@@ -136,6 +136,15 @@
             dd{
               border-color: $border-background-color;
               color: $main-text-color;
+              a{
+                color: $main-text-color;
+                &:hover{
+                  color: $nico-tree;
+                }
+                &:visited{
+                  color: $sub-1-text-color;
+                }
+              }
             }
           }
         }
