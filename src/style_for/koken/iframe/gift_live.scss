@@ -62,6 +62,22 @@
       }
     }
 
+    // オーディションイベント
+    .event-info{
+      border-color: $border-background-color;
+      .nage-event-info{
+        .name{
+          color: $main-text-color;
+          svg{
+            fill: $main-text-color;
+          }
+        }
+        .status{
+          color: $main-text-color;
+        }
+      }
+    }
+
     // ギフト選択
     .item-group{
       &:not(:first-child){
@@ -144,6 +160,22 @@
 
   // 投げらんきんぐ
   .nage-ranking{
+    // オーディションイベント
+    .event-heading{
+      border-color: $border-background-color;
+      .nage-event-info{
+        .name{
+          color: $main-text-color;
+          svg{
+            fill: $main-text-color;
+          }
+        }
+        .status{
+          color: $main-text-color;
+        }
+      }
+    }
+
     .flipping-effect-list{
       li{
         border-color: $border-background-color;
