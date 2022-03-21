@@ -116,14 +116,16 @@
       }
       [class*="___target___"][class*="___program-menu___"]{
         background: $sub2-background-color;
-        [class*="___delete-watch-history-button___"]{
+        [class*="___delete-reservation-button___"]{
           color: $main-text-color;
-        }
-        [class*="___delete-watch-history-button___"]:hover{
-          background-color: $hover-background-color;
+
+          &:hover{
+            background-color: $hover-background-color;
+          }
         }
       }
     }
+
 
     // インフォ
     [class*="___info-anchor___"]{
