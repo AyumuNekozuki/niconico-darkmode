@@ -700,45 +700,6 @@
     }
   }
 
-  #ichibaDisplayContent{
-    //TODO 移植のみ完了／SCSSへ書き直し作業
-    a{
-      color: $main-text-color;
-    }
-    .IchibaModal_Container,
-    .IchibaModal_Body,
-    .IchibaAdded,
-    .IchibaTagSearch,
-    .IchibaAdded_Header{
-      background-color: $nico-black !important;
-    }
-    .IchibaModal_Title_Body,
-    .IchibaSuggest_Title,
-    .IchibaTagSearch_Title,
-    .IchibaAdded_Title,
-    .IchibaAdded_Description{
-      color: $main-text-color !important;
-    }
-    .IchibaModal_Body{
-      border-top: 1px solid $border-background-color !important;
-    }
-    .IchibaSearchForm_Category,
-    .IchibaSearchForm_Keyword_Input,
-    .IchibaSuggest_Sort{
-      background-color: $nico-black !important;
-      color: $main-text-color !important;
-      border: 1px solid $border-background-color !important;
-    }
-    .noItem,
-    .loading{
-      color: $sub-2-text-color !important;
-    }
-    .IchibaTagSearch_Item a{
-      background-color: $main-background-color !important;
-      border: 0.5px solid $sub-2-text-color !important;
-    }
-  }
-
   #content.editting.owner.easy_mode{
     //ニコスクリプト簡易設定
     //TODO 移植のみ／SCSS書き直し
@@ -849,6 +810,89 @@
   .BaseLayout-footer{
     .Ads728x90WebPcFooter{
       background: none;
+    }
+  }
+
+
+
+  // ニコニコ市場
+  // nicoExp対応のため、ネスト外へ移動
+  #nicoIchiba{ //プレイヤー下部分
+    .IchibaForWatch{
+      background: none;
+      .IchibaForWatch_Title{
+        .IchibaForWatch_Title_Body{
+          color: $main-text-color;
+        }
+      }
+      .IchibaMainItem{
+        a{
+          color: $main-text-color;
+        }
+        .IchibaMainItem_Thumbnail{
+          border: none;
+        }
+        .IchibaMainItem_Info,
+        .IchibaMainItem_Price_Number{
+          color: $sub-1-text-color;
+        }
+      }
+      .IchibaSuggest{
+        .IchibaSuggest_Title{
+          color: $main-text-color;
+        }
+        .IchibaSuggest_List{
+          .IchibaSuggestItem{
+            background: $hover-background-color;
+            border-color: $hover-background-color;
+            .IchibaSuggestItem_Name{
+              color: $main-text-color;
+            }
+            .IchibaSuggestItem_Info,
+            .IchibaSuggestItem_Price_Number{
+              color: $sub-1-text-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  #ichibaDisplayContent{ //モーダル部分
+    //TODO 移植のみ完了／SCSSへ書き直し作業
+    a{
+      color: $main-text-color;
+    }
+    .IchibaModal_Container,
+    .IchibaModal_Body,
+    .IchibaAdded,
+    .IchibaTagSearch,
+    .IchibaAdded_Header{
+      background-color: $nico-black !important;
+    }
+    .IchibaModal_Title_Body,
+    .IchibaSuggest_Title,
+    .IchibaTagSearch_Title,
+    .IchibaAdded_Title,
+    .IchibaAdded_Description{
+      color: $main-text-color !important;
+    }
+    .IchibaModal_Body{
+      border-top: 1px solid $border-background-color !important;
+    }
+    .IchibaSearchForm_Category,
+    .IchibaSearchForm_Keyword_Input,
+    .IchibaSuggest_Sort{
+      background-color: $nico-black !important;
+      color: $main-text-color !important;
+      border: 1px solid $border-background-color !important;
+    }
+    .noItem,
+    .loading{
+      color: $sub-2-text-color !important;
+    }
+    .IchibaTagSearch_Item a{
+      background-color: $main-background-color !important;
+      border: 0.5px solid $sub-2-text-color !important;
     }
   }
 }
