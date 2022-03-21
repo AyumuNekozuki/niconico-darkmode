@@ -104,6 +104,25 @@
                 }
               }
             }
+            .newUploadsMainArea{ //投稿作品がない場合
+              .topErrorArea{
+                background-color: $main-background-color;
+                border-color: $border-background-color;
+                .topErrorMsg{
+                  color: $main-text-color;
+                }
+                .topAddText{
+                  color: $sub-1-text-color;
+                }
+                .text{
+                  color: $sub-1-text-color;
+                  &:hover{
+                    color: $main-url-color;
+                    opacity: 1;
+                  }
+                }
+              }
+            }
           }
         }
         .contentRight{
