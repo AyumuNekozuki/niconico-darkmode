@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "niconico Darkmode",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "ニコニコをダークモード化する拡張機能",
   "icons": {
     "16": "images/icon16.png",
@@ -55,14 +55,16 @@
     {
       "matches": [
         "*://live.nicovideo.jp/embed/watch-histories*",
-        "*://live.nicovideo.jp/embed/owned-tickets*"
+        "*://live.nicovideo.jp/embed/owned-tickets*",
+        "*://live.nicovideo.jp/embed/timeshift-reservations"
       ],
       "js": [
         "js/iframe_action.js"
       ],
       "css": [
         "style_for/video/mypage/iframe/live-history.css",
-        "style_for/video/mypage/iframe/live-tickets.css"
+        "style_for/video/mypage/iframe/live-tickets.css",
+        "style_for/video/mypage/iframe/live-timeshift.css"
       ],
       "run_at": "document_start",
       "all_frames": true
@@ -451,5 +453,8 @@
   "permissions": [
     "storage",
     "*://*.nicovideo.jp/"
+  ],
+  "web_accessible_resources": [
+    "images/assets/nicolive_bg.svg"
   ]
 }

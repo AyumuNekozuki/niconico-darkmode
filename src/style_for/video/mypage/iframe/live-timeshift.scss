@@ -1,0 +1,158 @@
+// タイムシフト
+
+@import '../../../parts/_default';
+@import '../../../parts/_dropdown';
+@import "../../../parts/_button";
+
+.niconico-darkmode-setting-true{
+  [class*="___timeshift-reservations-page___"]{
+    background: $main-background-color;
+    color: $main-text-color;
+
+    a{
+      color: $main-text-color;
+      &:hover{
+        color: $main-url-color;
+      }
+      &:visited{
+        color: $sub-1-text-color;
+      }
+    }
+
+    // メイン
+    [class*="___header___"]{
+      [class*="___counter___"]{
+        .score{
+          color: $main-text-color;
+        }
+      }
+
+      [class*="___list-controller___"]{
+        [class*="___toggle-button___"]{
+          background-color: $nico-black;
+          color: $sub-1-text-color;
+          border-color: $border-background-color;
+
+          svg path{
+            fill: $sub-1-text-color;
+          }
+          span{
+            color: $sub-1-text-color;
+          }
+
+          &:hover{
+            background-color: $hover-background-color;
+
+            svg path{
+              fill: $sub-1-text-color;
+            }
+            span{
+              color: $sub-1-text-color;
+            }
+          }
+
+          &::after{
+            filter: $invert;
+          }
+        }
+
+        [class*="___list-box___"]{
+          background-color: $nico-black;
+
+          li{
+            &:hover{
+              background-color: $hover-background-color;
+            }
+          }
+        }
+        [class*="___target___"]{
+          background-color: $nico-black;
+          [class*="___item___"]{
+            [class*="___label___"]{
+              color: $sub-1-text-color;
+            }
+            [class*="___radio-group___"]{
+              [class*="___label___"]{
+                color: $main-text-color;
+                &::before{
+                  border-color: $border-background-color;
+                }
+                &::after{
+                  background: none;
+                }
+
+                &:hover{
+                  color: $main-url-color;
+                }
+              }
+              [class*="___target___"]:checked ~ [class*="___label___"]{
+                &::after{
+                  background-color: $main-url-color;
+                }
+              }
+            }
+          }
+        }
+      } 
+    }
+
+    [class*="___program-card-list___"]{
+      [class*="item"]{
+        border-color: $border-background-color;
+
+        [class*="___program-card___"]{
+
+          [class*="___program-preview___"]{
+            background-image: url(chrome-extension://__MSG_@@extension_id__/images/assets/nicolive_bg.svg);
+          }
+        }
+      }
+    }
+
+    // ケバブ
+    [class*="___menu-popup-control___"]{
+      [class*="___toggle-button___"]{
+        filter: $invert;
+      }
+      [class*="___target___"][class*="___program-menu___"]{
+        background: $sub2-background-color;
+        [class*="___delete-watch-history-button___"]{
+          color: $main-text-color;
+        }
+        [class*="___delete-watch-history-button___"]:hover{
+          background-color: $hover-background-color;
+        }
+      }
+    }
+
+    // インフォ
+    [class*="___info-anchor___"]{
+      background-color: $nico-black;
+      border-color: $border-background-color;
+
+      [class*="___info-anchor-content___"]{
+        color: $main-text-color;
+        &::after{
+          border-color: transparent transparent transparent $main-text-color;
+        }
+        &:hover{
+          color: $main-url-color;
+          &::after{
+            border-color: transparent transparent transparent $main-url-color;
+          }
+        }
+      }
+    }
+
+    // empty
+    [data-code="Empty"]{
+      svg path{
+        fill: $sub-1-text-color;
+      }
+      [class*="___message___"]{
+        color: $sub-1-text-color;
+      }
+    }
+
+  }
+}
