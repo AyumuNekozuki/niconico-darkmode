@@ -10,11 +10,23 @@
           background: none;
         }
         [class*="___content-area___"]{
-          [class*="___program-summary___"]{ //枠タイトル
-            color: $main-text-color;
-          }
-          [class*="___program-summary___"]:hover{ //枠タイトル
-            color: $main-url-color;
+          [class*="___program-summary___"]{ //タイトルエリア
+            [class*="___program-label-view___"]{ //ラベル
+              [class*="___pay-program-label___"]{
+                color: $nico-point;
+                border-color: $nico-point;
+              }
+            }
+
+            [class*="___program-title___"]{ //枠タイトル
+              color: $main-text-color;
+            }
+
+            &:hover{
+              [class*="___program-title___"]{ //枠タイトル
+                color: $main-url-color;
+              }
+            }
           }
           [class*="___program-provider-card___"]{ 
             [class*="___information___"]{//コミュタイトル

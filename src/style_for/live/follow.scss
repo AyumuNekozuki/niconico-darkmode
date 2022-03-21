@@ -31,6 +31,13 @@
         }
       }
     }
+
+    [class*="___premium-anchor___"]{
+      background-color: $nico-black;
+      border-color: $nico-premium;
+      color: $main-text-color;
+    }
+
     [class*="___contents-area___"]{
       [class*="___section___"]{
         [class*="___header___"]{
