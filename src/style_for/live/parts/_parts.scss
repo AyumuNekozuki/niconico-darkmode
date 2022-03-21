@@ -189,4 +189,19 @@
       }
     }
   }
+
+  // バルーン
+  [class*="___tips-balloon___"]{
+    background-color: $nico-black;
+    [class*="___heading___"]{
+      color: $main-text-color;
+      svg{
+        fill: $main-text-color;
+      }
+    }
+
+    &::after{
+      border-color: $nico-black transparent transparent;
+    }
+  }
 }
