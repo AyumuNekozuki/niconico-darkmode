@@ -265,6 +265,18 @@
                   border: none !important;
                 }
               }
+
+              .CommentPostAttention{ //コメント投稿前確認
+                background-color: $nico-black;
+                color: $main-text-color;
+
+                .CommentPostAttention-message{
+                  border-color: $border-background-color;
+                }
+                .CommentPostAttention-close{
+                  color: $main-url-color;
+                }
+              }
             }
             .CommentShutter{
               background-color: rgba(0, 0, 0, 0.6) !important;
