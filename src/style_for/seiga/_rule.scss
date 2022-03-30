@@ -1,0 +1,22 @@
+// 利用規約ページ
+// https://seiga.nicovideo.jp/rule
+
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  #rule{
+    h1 img{
+      filter: $invert;
+    }
+
+    #rule_cnt{
+      h3{
+        color: $main-text-color;
+      }
+
+      a{
+        color: $main-url-color;
+      }
+    }
+  }
+}

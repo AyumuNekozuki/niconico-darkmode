@@ -1,0 +1,143 @@
+@import "../parts/default";
+
+@import "_top"; //静画共通TOP
+
+
+
+@import "_rule"; //利用規約ページ
+
+
+// 以下共通
+.niconico-darkmode-setting-true{
+  background: $main-background-color;
+  color: $main-text-color;
+
+  &.seiga{
+    background: $main-background-color;
+  }
+
+  // 静画共通ヘッダー
+  #header_block{
+    #header{
+      background: linear-gradient(180deg, $nico-black 73px, $sub2-background-color 29px);
+
+      // 上部分
+      #header_cnt{
+        #logo{
+          img[alt="ニコニコ静画"]{
+            filter: $invert;
+          }
+        }
+
+        // 検索ボックス
+        #sg_menu_search{
+          #bar_search{
+            background-color: $sub2-background-color;
+            color: $main-text-color;
+            border-color: $border-background-color;
+
+            &:focus{
+              background-color: $sub2-background-color;
+              border-color: $border-background-color;
+            }
+          }
+        }
+        // グローバルNAV
+        #sg_global_navi{
+          li{
+            a.active{
+              background: $sub2-background-color;
+              border-color: $sub2-background-color;
+              font-weight: bold;
+              text-align: center;
+              text-indent: 0;
+              font-size: 1.2em;
+
+              &.sg_navi_top,
+              &.sg_navi_illust{
+                color: $nico-illust;
+              }
+              &.sg_navi_manga{
+                color: $nico-manga;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // ぱんくず
+  .sg_global_bar{
+    .sg_pankuzu{
+      color: $sub-1-text-color;
+
+      .active{
+        color: $sub-1-text-color;
+      }
+
+      li{
+        background: none;
+        padding-right: 0;
+
+        a{
+          color: $sub-1-text-color;
+        }
+
+        &:not(:last-child)::after{
+          content: "▶︎";
+          color: $sub-1-text-color;
+          margin: 0 .5rem;
+          font-size: 8px;
+        }
+      }
+    }
+    #sg_global_navi_sub{
+      li a{
+        color: $main-text-color;
+        border-color: $border-background-color;
+        
+        &:last-child{
+          border: none;
+        }
+
+        &:hover{
+          background-color: $hover-background-color;
+          border-color: $hover-background-color;
+        }
+      }
+    }
+  }
+
+  // フッターADS
+  .level_ad{
+    background-color: $sub2-background-color;
+    border-color: $sub2-background-color;
+  }
+
+  // フッターぱんくず
+  .pankuzu{
+    border-color: $border-background-color;
+    background-color: $nico-black;
+  }
+
+  // フッターライセンス
+  .footer-license{
+    background-color: $nico-black;
+    border-color: $border-background-color;
+
+    .footer-license_inner_logo{
+      img{
+        filter: $invert;
+      }
+    }
+    .footer-license_inner_message{
+      color: $sub-1-text-color;
+    }
+  }
+
+  // フッター
+  #footer{
+    background-color: $nico-black;
+  }
+}

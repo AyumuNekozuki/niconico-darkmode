@@ -21,7 +21,8 @@
         "*://inform.nicovideo.jp/oshirase/*",
         "*://site.nicovideo.jp/service_list/*",
         "*://www.upload.nicovideo.jp/garage*",
-        "*://jk.nicovideo.jp/*"
+        "*://jk.nicovideo.jp/*",
+        "*://seiga.nicovideo.jp/*"
       ],
       "js": [
         "js/main.js"
@@ -419,6 +420,15 @@
       ],
       "css": [
         "style_for/commons/master.css"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://seiga.nicovideo.jp/*"
+      ],
+      "css": [
+        "style_for/seiga/master.css"
       ],
       "run_at": "document_start"
     },

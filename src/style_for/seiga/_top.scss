@@ -1,0 +1,302 @@
+@import "../parts/default";
+
+.niconico-darkmode-setting-true{
+  &.seigatop{
+
+    #main{
+
+      // 左側
+      #main_area_l{
+
+        // お知らせ
+        #top_news_box{
+          .top_news_block__title{
+            background: linear-gradient(180deg, $hover-background-color 0%, $sub2-background-color 100%);
+            box-shadow: none;
+
+            h2{
+              color: $main-text-color;
+              border-color: $border-background-color;
+            }
+            a{
+              color: $sub-1-text-color;
+              &:hover{
+                background: $hover-background-color;
+                color: $sub-1-text-color;
+              }
+            }
+          }
+          .top_news_block__itemlist{
+            background: $nico-black;
+            box-shadow: none;
+
+            li{
+              color: $sub-1-text-color;
+              border-color: $border-background-color;
+              a{
+                color: $main-text-color;
+                &:hover{
+                  color: $main-url-color;
+                }
+              }
+            }
+          }
+        }
+
+        // 人気のイラスト
+        #top_popular_illust_box{
+          .popular_illust_block__title{
+            background: linear-gradient(180deg, $hover-background-color 0%, $sub2-background-color 100%);
+            box-shadow: none;
+
+            h2{
+              color: $main-text-color;
+            }
+            a{
+              color: $sub-1-text-color;
+              &:hover{
+                background: $hover-background-color;
+                color: $sub-1-text-color;
+              }
+            }
+          }
+          .popular_illust_block__itemlist{
+            .popular_illust_block__item{
+              background-color: $nico-black;
+              box-shadow: inset 0 -1px 0 $border-background-color;
+
+              a{
+                .popular_illust_block__item__info{
+                  color: $main-text-color;
+                  .popular_illust_block__item__info--nickname{
+                    color: $sub-1-text-color;
+                  }
+                }
+                .popular_illust_block__item__info--comment_summary{
+                  background: $sub2-background-color;
+                  color: $sub-1-text-color;
+                }
+              }
+
+              &:hover{
+                background-color: $hover-background-color;
+              }
+            }
+          }
+        }
+
+        // ニコニ広告
+        #top_nicoad_box{
+          .nicoad_block__title{
+            background: linear-gradient(180deg, $hover-background-color 0%, $sub2-background-color 100%);
+            box-shadow: none;
+
+            h2{
+              color: $main-text-color;
+              background-image: none;
+              text-indent: 0;
+
+              &::before{
+                content: "";
+                background: url("https://seiga.nicovideo.jp//img/index/icon-megaphone.svg");
+                background-size: 50%;
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: $invert;
+                padding: 0 22px;
+                height: 48px;
+                width: 48px;
+              }
+            }
+            a{
+              color: $sub-1-text-color;
+              &:hover{
+                background: $hover-background-color;
+                color: $sub-1-text-color;
+              }
+            }
+          }
+          // body は iframe
+        }
+
+        // 人気の漫画
+        #top_popular_manga_box{
+          .popular_manga_block__title{
+            background: linear-gradient(180deg, $hover-background-color 0%, $sub2-background-color 100%);
+            box-shadow: none;
+
+            h2{
+              color: $main-text-color;
+            }
+            a{
+              color: $sub-1-text-color;
+              &:hover{
+                background: $hover-background-color;
+                color: $sub-1-text-color;
+              }
+            }
+          }
+          .popular_manga_block__itemlist{
+            .popular_manga_block__item{
+              background-color: $nico-black;
+              box-shadow: inset 0 -1px 0 $border-background-color;
+
+              .popular_manga_block__item__info{
+                color: $main-text-color;
+
+                a{
+                  color: $main-text-color;
+                  &:hover{
+                    color: $main-url-color;
+                  }
+                  &:visited{
+                    color: $sub-1-text-color;
+                  }
+                }
+                .popular_manga_block__item__info--nickname{
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+          }
+        }
+
+        // イベント
+        #top_event_box{
+          .title{
+            border-left: 8px solid $border-background-color;
+            background: linear-gradient(180deg, $hover-background-color 0%, $sub2-background-color 100%);
+            border-bottom: none;
+
+            h2{
+              color: $main-text-color;
+            }
+          }
+          .content_area_inner{
+            border-color: $border-background-color;
+            background-color: $nico-black;
+
+            .event_item{
+              border-color: $border-background-color;
+
+              .event_info{
+                .event_title{
+                  a{
+                    color: $main-text-color;
+                    &:hover{
+                      color: $main-url-color;
+                    }
+                  }
+                }
+                .event_date{
+                  color: $sub-1-text-color;
+                }
+                .event_link{
+                  a{
+                    color: $main-text-color;
+                    &:hover{
+                      color: $main-url-color;
+                    }
+                  }
+                }
+              }
+            }
+            .more_link{
+              border-color: $border-background-color;
+              .arrow01_right{
+                background: none;
+                color: $main-text-color;
+                &:hover{
+                  color: $main-url-color;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // 右側
+      #main_area_r{
+
+        // 広告
+        #top_ads_box{
+          background: $nico-black;
+          border: $nico-black;
+        }
+        .ads_300x60{
+          background: $nico-black;
+          border: $nico-black;
+        }
+        .ads_prtext{
+          ul{
+            background: $nico-black;
+            border-color: $border-background-color;
+            li{
+              border-color: $border-background-color;
+
+              a{
+                color: $main-text-color;
+                &:hover{
+                  color: $main-url-color;
+                }
+              }
+            } 
+          }
+        }
+
+        // イラスト定点観測・お気に入り漫画
+        .top_personalize_block{
+          background: $nico-black;
+          border-color: $nico-black;
+
+          .top_personalize_block__header{
+            color: $main-text-color;
+          }
+          .top_personalize_block__body{
+            background: $sub2-background-color;
+            color: $sub-1-text-color;
+
+            .top_personalize_block__body__itemlist{
+              .top_personalize_block__body__item{
+                border-color: $border-background-color;
+
+                .top_personalize_block__body__item--info{
+                  .top_personalize_block__body__item--info-content_title{
+                    a{
+                      color: $main-text-color;
+                      &:visited{
+                        color: $sub-1-text-color;
+                      }
+                      &:hover{
+                        color: $main-url-color;
+                      }
+                    }
+                  }
+                  .top_personalize_block__body__item--info-episode_title{
+                    a{
+                      color: $sub-1-text-color;
+                      &:hover{
+                        color: $main-url-color;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            .top_personalize_block__body__see-more{
+              a{
+                color: $sub-1-text-color;
+                &:hover{
+                  background-color: $hover-background-color;
+                  color: $sub-1-text-color;
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
