@@ -2,4 +2,4 @@
 #src/**/*.css
 
 dest
-*.DS_Store
+.DS_Store
