@@ -118,8 +118,7 @@
             }
           }
           .ContentsDigestFrame{
-            padding-bottom: 1.5em;
-            .ContentsDigestFrame-body{
+            .ContentsDigestFrame-cards{
               .ContentsDigestFrame-card{
                 .ContentsDigestFrame-cardMetaTitle{
                   color: $main-text-color;
@@ -236,7 +235,6 @@
         }
         .ContentsInformationAreaContainer{
           .ContentsDigestFrame{
-            padding-bottom: 1.5em;
             .ContentsDigestFrame-header{
               .FrameTitleLink{
                 .FrameTitleLink-titleText{
@@ -265,7 +263,7 @@
                 }
               }
             }
-            .ContentsDigestFrame-body{
+            .ContentsDigestFrame-cards{
               .ContentsDigestFrame-card{
                 .ContentsDigestFrame-cardMetaTitle{
                   color: $main-text-color;
@@ -459,7 +457,6 @@
   // ランキング
   .RankingContainer{
     .ContentsDigestFrame{
-      padding-bottom: 1.5em;
       .FrameTitleLink{
         .FrameTitleLink-titleText{
           color: $main-text-color;
@@ -489,7 +486,7 @@
           border-color: $main-url-color;
         }
       }
-      .ContentsDigestFrame-body{
+      .ContentsDigestFrame-cards{
         .ContentsDigestFrame-card{
           .ContentsDigestFrame-cardMetaTitle{
             color: $main-text-color;
