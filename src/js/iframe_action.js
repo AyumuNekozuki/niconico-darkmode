@@ -9,14 +9,20 @@ chrome.storage.local.get(["setting"], function (items) {
 });
 
 //読み込まれたら
-window.addEventListener('load', function () {
+if (document.readyState == "complete") {
+  init_darkmode();
+} else {
+  window.addEventListener("load", init_darkmode);
+}
+
+function init_darkmode() {
   console.log("niconico Darkmode iframe　実行中です"); 
 
   //ダークモード適用
   if (is_darkmode) {
     nicodark_change_true();
   }
-});
+}
 
 // 設定変更を受け取り
 chrome.runtime.onMessage.addListener(
