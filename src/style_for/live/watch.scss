@@ -754,6 +754,7 @@
               border-color: $border-background-color;
               [class*="___tag-card___"]{
                 background-color: $sub2-background-color;
+                // 放送者側
                 [class*="___information___"]{
                   [class*="___name-label___"]{
                     color: $main-text-color;
@@ -777,6 +778,15 @@
                 }
                 [class*="___toolbar___"]::before{
                   background-color: $border-background-color;
+                }
+
+                // リスナー側
+                [class*="___toggle-button___"]{
+                  background-color: $sub2-background-color;
+                  border-color: $border-background-color;
+                  &:hover{
+                    background-color: $hover-background-color;
+                  }
                 }
               }
             }
