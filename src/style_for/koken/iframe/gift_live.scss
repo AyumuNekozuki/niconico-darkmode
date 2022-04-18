@@ -4,108 +4,104 @@
   background-color: $main-background-color !important;
   color: $sub-1-text-color !important;
 
-  .top-fixed-container{
+  // ヘッダー
+  .page-top-fixed-container{
     background-color: $main-background-color;
-    .header-bar{
+    header.wrapper{
       background: none !important;
       border-color: $border-background-color !important;
   
-      .title-column[data-v-0d10b35d]{
+      h1.page-title{
         color: $main-text-color;
       }
     }
-    .top-fixed-injected-elements{
-      .nage-user-profile{
-        background: none;
-      }
+    section.wrapper{
+      background: none;
     }
   }
 
   // タブ
-  .rich-view-drawer-transition{
-    .rich-view-tab-bar{
-      background: none;
-      ul{
-        li{
-          button[aria-selected="true"]{
-            background-color: $main-url-color;
-          }
-          button[aria-selected="false"]{
-            background-color: $nico-black;
-            color: $main-text-color;
-          }
-        }
-      }
-    }
-  }
-
-  // メイン
-  .parent-container{
-
-    // 放送者用販売オンオフ
-    .owner-only{
-      .item-available-switch{
-        background-color: $sub2-background-color;
-      }
-    }
-
-    // インフォ
-    .conductor{
-      .visual-conductor{
-        border-color: $border-background-color;
-        .text{
-          color: $main-text-color;
-        }
-        .icon{
-          fill: $sub-1-text-color;
-        }
-      }
-    }
-
-    // オーディションイベント
-    .event-info{
-      border-color: $border-background-color;
-      .nage-event-info{
-        .name{
-          color: $main-text-color;
-          svg{
-            fill: $main-text-color;
-          }
-        }
-        .status{
-          color: $main-text-color;
-        }
-      }
-    }
-
-    // ギフト選択
-    .item-group{
-      &:not(:first-child){
-        border-color: $border-background-color;
-      }
-
-      .item-group-header{
-        .item-group-name{
-          color: $main-text-color;
-        }
-        .item-group-text{
-          color: $sub-1-text-color;
-        }
-      }
-      .items{
-        .item{
-          .item-button{
-            background-color: $sub2-background-color;
-            border-color: $sub2-background-color;
-            .point{
-              color: $main-text-color;
+  .main-content{
+    .wrapper{
+      // タブ
+      .default-top-fixed-container{
+        .wrapper{
+          background: none;
+          ul{
+            li{
+              button[aria-selected="true"]{
+                background-color: $main-url-color;
+              }
+              button[aria-selected="false"]{
+                background-color: $nico-black;
+                color: $main-text-color;
+              }
             }
           }
         }
       }
     }
+  }
 
+  // 放送者用販売オンオフ
+  .available-switch{
+    .wrapper{
+      background-color: $sub2-background-color;
+    }
+  }
 
+  // インフォ
+  .conductor-banner{
+    .anchor{
+      border-color: $border-background-color;
+      .text{
+        color: $main-text-color;
+      }
+      .blank-icon{
+        fill: $sub-1-text-color;
+      }
+    }
+  }
+
+  // オーディションイベント
+  .event-info{
+    border-color: $border-background-color;
+    .nage-event-info{
+      .name{
+        color: $main-text-color;
+        svg{
+          fill: $main-text-color;
+        }
+      }
+      .status{
+        color: $main-text-color;
+      }
+    }
+  }
+
+  // ギフト選択
+  .item-group{
+    &:not(:first-child){
+      border-color: $border-background-color !important;
+    }
+
+    .item-group-name{
+      color: $main-text-color;
+    }
+    .item-group-text{
+      color: $sub-1-text-color;
+    }
+    .items{
+      .item{
+        .item-button{
+          background-color: $sub2-background-color;
+          border-color: $sub2-background-color;
+          .point{
+            color: $main-text-color;
+          }
+        }
+      }
+    }
   }
 
   // 投げ確認
@@ -135,25 +131,23 @@
   }
 
   // 投げ履歴
-  .nage-history{
-    .main{
-      .total-point{
-        .container{
-          background-color: $sub2-background-color;
-          &::after{
-            border-top-color: $sub2-background-color;
-          }
+  .content-history{
+    .total-point{
+      .balloon{
+        background-color: $sub2-background-color;
+        &::after{
+          border-top-color: $sub2-background-color;
         }
       }
-      .history-list{
-        .flipping-effect-list{
-          li{
-            border-color: $border-background-color;
-          }
+    }
+    .history-list{
+      .flipping-effect-list{
+        li{
+          border-color: $border-background-color;
         }
-        .empty{
-          color: $sub2-background-color;
-        }
+      }
+      .empty{
+        color: $sub2-background-color;
       }
     }
   }

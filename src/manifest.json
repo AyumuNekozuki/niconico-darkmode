@@ -108,7 +108,8 @@
     },
     {
       "matches": [
-        "*://nicoad.nicovideo.jp/nage/publish*"
+        "*://nicoad.nicovideo.jp/nage/publish*",
+        "*://gift.nicovideo.jp/live/*/purchase*"
       ],
       "js": [
         "js/iframe_action.js"
