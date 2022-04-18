@@ -410,15 +410,20 @@
   }
 }
 
-.niconico-darkmode-setting-true{ //chokaigi2021
+// 超会議・ボカコレ対応
+.niconico-darkmode-setting-true{
   .TopPage-section{
+
+    // １ライントピック
     .OneLineNewsContainer{
       background: $nico-black;
     }
     .OneLineNewsContainer:hover{
       background: $main-url-color;
     }
-    .BreakingNewsContainer{ //超速報
+
+    // 超速報
+    .BreakingNewsContainer{
       .BreakingNewsContainer-inner{
         background: $nico-black;
 
@@ -450,11 +455,12 @@
     border-color: $border-background-color;
   }
 
-  .VocaloidCollectionContainer{ //vocacolle
+  // ボカコレ
+  .VocaloidCollectionContainer{
     background-image: none;
   }
 
-  // ランキング
+  // ボカコレ：ランキング
   .RankingContainer{
     .ContentsDigestFrame{
       .FrameTitleLink{
@@ -570,6 +576,7 @@
     border-color: $border-background-color;
   }
 
+  // ボカコレ：掲載情報
   .PublishedEventArticlesContainer{ //keisai
     border-color: $border-background-color;
     background: $nico-black;
@@ -599,7 +606,9 @@
       color: $main-url-color;
     }
   }
-  .SponsorsContainer{ //sponser
+
+  // ボカコレ：スポンサー
+  .SponsorsContainer{
     border-color: $border-background-color;
     background: $nico-black;
     .SponsorsBoard-titleText{
