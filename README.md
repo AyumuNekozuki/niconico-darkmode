@@ -74,7 +74,7 @@ https://github.com/AyumuNekozuki/niconico-darkmode/wiki
 
 ### 環境構築(Firefox)
 1. 最新のリポジトリをDL
-2. dockerとdocker-composeの実行環境を用意
+2. dockerとdocker-composeの実行環境を用意（docker-compose v1.21.1 以上）
 3. [デバッグメニュー](about:debugging#/runtime/this-firefox)へ移動
 4. gitのルートディレクトリで`docker compose up`を実行しコンパイルを実行
 5. `dest`を読み込み編集
