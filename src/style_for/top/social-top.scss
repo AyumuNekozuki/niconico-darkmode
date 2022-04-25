@@ -460,7 +460,7 @@
     background-image: none;
   }
 
-  // ボカコレ：ランキング
+  // ランキング
   .RankingContainer{
     .ContentsDigestFrame{
       .FrameTitleLink{
@@ -572,11 +572,12 @@
     }
   }
   .RankingContainer>.ContentsDigestFrame+.ContentsDigestFrame:before,
-  .CreatorSupportContainer:before{
+  .CreatorSupportContainer:before,
+  .RankingContainer>.ContentsDigestFrame:after{
     border-color: $border-background-color;
   }
 
-  // ボカコレ：掲載情報
+  // 掲載情報
   .PublishedEventArticlesContainer{ //keisai
     border-color: $border-background-color;
     background: $nico-black;
@@ -607,10 +608,19 @@
     }
   }
 
-  // ボカコレ：スポンサー
+  // スポンサー
   .SponsorsContainer{
     border-color: $border-background-color;
     background: $nico-black;
+
+
+    .SponsorCard{
+      background: none;
+      .SponsorCard-link{
+        border-color: $border-background-color;
+      }
+    }
+
     .SponsorsBoard-titleText{
       color: $main-text-color;
       background: $nico-black
