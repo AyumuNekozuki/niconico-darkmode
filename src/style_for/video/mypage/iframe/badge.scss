@@ -7,6 +7,49 @@
 
   .t-badge-wrapper--list{
     background: $main-background-color;
+    // 期間限定クエスト
+    .list-Quest{
+      .list-Quest_Inner{
+        background-color: $nico-black;
+        border-color: $border-background-color;
+
+        .list-Quest_Content-info{
+          a{
+            color: $main-text-color;
+          }
+        }
+        .list-Quest_Content-detail{
+          .list-Quest_Season-title,
+          .list-Quest_Reward-title{
+            color: $sub-1-text-color;
+            background-color: $sub2-background-color;
+          }
+          .list-Quest_Season-item,
+          .list-Quest_Reward-labelText{
+            color: $main-text-color;
+          }
+          .list-Quest_Reward-labelImg{
+            filter: $invert;
+          }
+          .list-Quest_Reward-description{
+            .list-Quest_Reward-descriptionTitle,
+            .list-Quest_Reward-descriptionText{
+              color: $main-text-color;
+            }
+          }
+
+          .list-Quest_Status{
+            .list-Quest_StatusExp{
+              color: $sub-1-text-color;
+            }
+            .list-Quest_Status-bar{
+              background-color: $border-background-color;
+            }
+          }
+        }
+      }
+    }
+    // バッジ一覧
     .o-badge-list {
       .o-badge-list__item.m-badge-card{
         background: $nico-black;
