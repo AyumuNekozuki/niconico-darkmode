@@ -71,19 +71,19 @@
   .LockedContentsPickupContainer{
     .LockedContentsPickupContainer-card{
       background-color: $nico-black;
-      .LockedContentsPickupCard-content{
+      .ContentsPickupCard-content{
         color: $main-text-color;
-        .LockedContentsPickupCard-metaPickupComment{
+        .ContentsPickupCard-metaPickupComment{
           color: $sub-1-text-color;
         }
       }
-      .LockedContentsPickupCard-content:hover{
+      .ContentsPickupCard-content:hover{
         color: $main-url-color;
       }
-      .LockedContentsPickupCard-footerUploader{
+      .ContentsPickupCard-footerUploader{
         color: $main-text-color;
       }
-      .LockedContentsPickupCard-footerUploader:hover{
+      .ContentsPickupCard-footerUploader:hover{
         color: $main-url-color;
       }
     }
