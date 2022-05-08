@@ -732,6 +732,44 @@
             }
           }
         }
+        [class*="___program-broadcast-history-section___"]{ //最近の番組
+          border-color: $border-background-color;
+
+          [class*="___heading___"]{
+            color: $main-text-color;
+          }
+          [class*="___program-card___"]{
+            border-color: $border-background-color;
+            background: $nico-black;
+            [class*="___content-area___"]{
+              [class*="___program-title___"]{
+                color: $main-text-color;
+              }
+              [class*="___duration___"],
+              [class*="___content___"]{
+                color: $sub-2-text-color;
+              }
+            }
+
+            &:hover{
+              background: $hover-background-color;
+            }
+          }
+          [class*="___more-anchor___"]{
+            background-color: $nico-black;
+            border-color: $border-background-color;
+            [class*="___content___30oAu"]{
+              color: $sub-1-text-color;
+            }
+            svg>g>path{
+              fill: $sub-1-text-color;
+            }
+
+            &:hover{
+              background-color: $hover-background-color;
+            }
+          }
+        }
         [class*="___konomi-tag-list-section___"]{ //好みタグ
           border-color: $border-background-color;
           [class*="___header___"]{
