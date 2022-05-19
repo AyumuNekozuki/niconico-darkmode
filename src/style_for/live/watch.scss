@@ -789,9 +789,15 @@
           [class*="___tag-list___"]{
             border: none;
             [class*="___item___"]{
-              border-color: $border-background-color;
+              border: none;
               [class*="___tag-card___"]{
+                border: none;
                 background-color: $sub2-background-color;
+
+                &:hover{
+                  background-color: $hover-background-color;
+                }
+
                 // 放送者側
                 [class*="___information___"]{
                   [class*="___name-label___"]{
@@ -801,6 +807,7 @@
                     color: $main-url-color;
                   }
                 }
+
                 [class*="___toolbar___"]{
                   [class*="___quote-request-button___"]{
                     svg{
@@ -820,11 +827,7 @@
 
                 // リスナー側
                 [class*="___toggle-button___"]{
-                  background-color: $sub2-background-color;
-                  border-color: $border-background-color;
-                  &:hover{
-                    background-color: $hover-background-color;
-                  }
+                  border: none;
                 }
               }
             }
