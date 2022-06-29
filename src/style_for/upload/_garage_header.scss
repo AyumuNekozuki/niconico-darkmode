@@ -1,45 +1,73 @@
-@import '../parts/_default';
+@import "../parts/_default";
 
-.niconico-darkmode-setting-true{
-  #root{
-    header.css-1qgkgen{ //ヘッダー
+.niconico-darkmode-setting-true {
+  #root {
+    header.css-1qgkgen {
+      //ヘッダー
       background: $nico-black;
-      .css-2v2qxj{ //ロゴ
-        a svg path{
+      .css-2v2qxj {
+        //ロゴ
+        a svg path {
           fill: $main-text-color !important;
         }
       }
-      .css-ltttum{ //ヘッダーメニュー 中央
-        .css-1fms4np{
-          .css-v6gc3.css-v6gc3,.css-1gpqqqs{
+      .css-ltttum {
+        //ヘッダーメニュー 中央
+        .css-1fms4np {
+          .css-v6gc3.css-v6gc3,
+          .css-1gpqqqs,
+          .css-pyxdlp {
             color: $main-text-color;
+
+            &:hover {
+              background: $hover-background-color;
+            }
           }
-          .css-v6gc3.css-v6gc3:hover,.css-1gpqqqs:hover{
-            background: $hover-background-color;
-          }
-        }
-        .active{
-          .css-v6gc3.css-v6gc3,.css-1gpqqqs{
-            color: $main-url-color;
+
+          &.active {
+            .css-v6gc3.css-v6gc3,
+            .css-1gpqqqs,
+            .css-pyxdlp {
+              color: $main-url-color;
+            }
           }
         }
       }
-      .css-yv00jc{ //ヘッダーメニュー 右
-        .css-xqpk81.css-xqpk81{
-          color: $sub-1-text-color;
+      .css-yv00jc {
+        //ヘッダーメニュー 右
+
+        .css-1idzbtd {
+          //border
+          border-color: $border-background-color;
         }
-        .css-xqpk81.css-xqpk81:hover{
-          background: rgba(255, 255, 255, 0.25);
+
+        // お知らせ
+        .css-xqpk81.css-xqpk81,
+        .css-xoj3qy.css-xoj3qy {
+          color: $main-text-color;
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.25);
+          }
+
+          svg path {
+            fill: $main-text-color;
+          }
+          .css-1dqkwj4 {
+            color: $main-text-color;
+          }
         }
       }
 
-      .css-ioo85u{ //ヘッダ 編集 右側
-        .css-16rvsbe{
+      .css-ioo85u {
+        //ヘッダ 編集 右側
+        .css-16rvsbe {
           color: $main-text-color;
         }
-        .MuiIconButton-root{ // x ボタン
-          .MuiIconButton-label{
-            svg{
+        .MuiIconButton-root {
+          // x ボタン
+          .MuiIconButton-label {
+            svg {
               fill: $main-text-color;
             }
           }
@@ -48,11 +76,34 @@
     }
   }
 
-  .MuiPaper-root{
-    background: $nico-black;
-    color: $main-text-color;
-    .MuiList-root{
-      .MuiListItem-button:hover{
+  .MuiPaper-root {
+    background: $nico-black !important;
+    color: $main-text-color !important;
+
+    .css-7sw34t {
+      //見出し
+      color: $main-text-color;
+    }
+    // 画像
+    .css-16ybqn5 {
+      background-color: $nico-black;
+    }
+
+    .MuiList-root {
+      border-color: $border-background-color;
+      
+      .css-319nfe{ //list item
+        border-color: $border-background-color;
+
+        .css-v1w5oi {
+          color: $main-text-color;
+        }
+        .css-nwqcr3 {
+          color: $sub-1-text-color;
+        }
+      }
+
+      .MuiListItem-button:hover {
         background-color: $hover-background-color;
       }
     }
