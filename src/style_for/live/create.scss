@@ -83,10 +83,25 @@
       color: $main-text-color;
     }
 
-    [class*="___detail-setting-area___"]{ //詳細設定
-      [class*="___local-section___"]{ //background
-        background: none;
+    [class*="___local-section___"]{ //background
+      background: none;
+    }
+
+    [class*="___basic-section___"]{ // 基本設定
+      [class*="___field___"]{
+        border-color: $border-background-color;
+
+        [class*="___caption___"]{
+          color: $main-text-color;
+
+          [class*="___current-theme-area___"]{
+            color: $sub-1-text-color;
+          }
+        }
       }
+    }
+
+    [class*="___detail-setting-area___"]{ //詳細設定
       [class*="___field___"]:not(:last-of-type){ //border
         border-color: $border-background-color;
       }
