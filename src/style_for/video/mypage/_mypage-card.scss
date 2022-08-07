@@ -233,7 +233,9 @@
       }
     }
     .NC-MediaObject-action{
-      filter: $invert;
+      .NC-ThreePointMenu-menu{
+        filter: $invert;
+      }
     }
   }
   /* 20210601 fix end */
