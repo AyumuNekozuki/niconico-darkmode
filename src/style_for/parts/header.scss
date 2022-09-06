@@ -38,99 +38,131 @@
 
     /* 右上メニュー */
     .common-header-1ivnjlh{
-      .common-header-15gxh1a,
-      .common-header-1vs9bno,
-      .common-header-j97ykn{
-        background-color: $nico-black;
+			.common-header-m6vxd{
+				background-color: $nico-black;
 
-        //ユーザー,ニコニコポイント
-        .common-header-1cuw74j{
-          background-color: $nico-black;
+				// 未ログインblank
+				.common-header-1q7xmj5{
+					background-color: inherit;
+					.common-header-hoa397{
+						color: $sub-1-text-color;
+					}
+				}
 
-          //ユーザー
-          .common-header-5x0u19{
-            .common-header-5onxr7{
-              background-color: $nico-black;
+				// ユーザーネーム/ニコポ/アカウント設定
+				.common-header-1ke4cb6{
+					background: none;
 
-              .common-header-1319btw{
-                color: $main-text-color;
-              }
+					// username
+					.common-header-5x0u19{
+						.common-header-1xzs4ko{
+							background-color: inherit;
 
-              &:hover{
-                background-color: $hover-background-color;
-              }
-            }
-          }
+							.common-header-n0qa7l{
+								color: $main-text-color;
+							}
+						}
 
-          //ユーザー未ログイン
-          .common-header-ibyxl4{
-            background-color: $nico-black;
-            .common-header-15ct2og{
-              color: $main-text-color;
-            }
-          }
+						&:hover{
+							background-color: $hover-background-color;
+						}
+					}
+					// ニコニコポイント
+					.common-header-mghz3s{
+						.common-header-5x0u19{
+							.common-header-8xay8a{
+								background-color: $sub2-background-color;
+								.common-header-jmhvxm{
+									color: $main-text-color;
+								}
 
-          //ニコニコポイント
-          .common-header-1extteq{
-            .common-header-g80xl3{
-              background-color: $nico-black;
-              border: solid 2px $sub2-background-color;
+								&:hover{
+									background-color: $hover-background-color;
+								}
+							}
+						}
+					}
 
-              .common-header-1sypczf{
-                color: $main-text-color;
-              }
+					// アカウント設定
+					.common-header-fl03vy{
+						.common-header-5x0u19{
+							.common-header-z5pyn9{
+								.common-header-z0oejq > svg > path{
+									fill: $sub-1-text-color;
+								}
+								.common-header-jmhvxm{
+									color: $sub-1-text-color;
+								}
 
-              &:hover{
-                background-color: $nico-point;
+								&:hover{
+									background-color: $hover-background-color;
+								}
+							}
+						}
+					}
+				}
 
-                .common-header-1iolkct svg g g,
-                .common-header-1sypczf{
-                  fill: #FFFFFF;
-                  color: $main-text-color;
-                }
-              }
-            }
-          }
-        }
+				// セクション
+				.common-header-cvcm83{
+					// ヘッダー
+					.common-header-yxm7eu{
+						color: $sub-1-text-color;
+						background-color: inherit;
+						border-color: $border-background-color;
+					}
+					// itemwrap
+					.common-header-17f7oiq{
+						border-color: $border-background-color;
+						// item
+						.common-header-o214xd{
+							border-color: $border-background-color;
+							background-color: $sub2-background-color;
+							.common-header-ddpru6{
+								color: $main-text-color;
+							}
+							svg.common-header-bqetqb > path{
+								fill: $border-background-color;
+							}
 
-        //メニュー
-        .common-header-cvcm83{
+							&:hover{
+								background-color: $hover-background-color;
+							}
+						}
 
-          //各ボタン
-          .common-header-zz80x3,
-          .common-header-1gq7o6w,
-          .common-header-1vs9bno{
-            background-color: $nico-black;
-            border-color: $sub2-background-color;
-            .common-header-19mflz9,
-            .common-header-1u02t5o{
-              color: $main-text-color;
-            }
+						// 空アイテム
+						.common-header-15czeyj{
+							background-color: $nico-black;
+							border-color: $border-background-color;
+						}
+					}
+				}
 
-            &:hover{
-              background-color: $hover-background-color;
-            }
-          }
+				// footer
+				.common-header-1xmxna8{
+					background-color: inherit;
 
-          &> *{
-            border-color: $sub2-background-color;
-          }
-        }
+					// ヘッダースイッチ
+					.common-header-1yxywo9{
+						color: $sub-1-text-color;
+					}
 
-        //ログアウト
-        .common-header-xp52wl {
-          border: $sub2-background-color 2px solid;
+					// ログアウト
+					.common-header-5x0u19{
+						.common-header-8g5w98{
+							svg.common-header-17qo8f1 > path{
+								fill: $sub-1-text-color;
+							}
+							.common-header-ndczso{
+								color: $sub-1-text-color;
+							}
 
-          .common-header-yrq9nc{
-            color: $main-text-color;
-          }
-          
-          &:hover{
-            background-color: $notice-red;
-          }
-        }
-
-      }
+							&:hover{
+								background-color: $hover-background-color;
+							}
+						}
+					}
+				}
+			}
     }
 
     /* お知らせ（ベルマーク） */
