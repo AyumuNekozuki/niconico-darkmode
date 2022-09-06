@@ -5,9 +5,11 @@
     background: none;
 
     .materialContentsArea{
+			// メイン
       .materialLeft{
         .materialPreviewArea {
-          background-color: $main-background-color;
+					background-color: $nico-black;
+					border-color: $border-background-color;
           .materialHeadTitleArea{
             .materialHeadTitle{
               color: $main-text-color;
@@ -59,8 +61,9 @@
             .materialHeadTag{
               a{
                 color: $main-text-color;
-                background-color: $nico-black;
-                border-color: $nico-black;
+                background-color: $sub2-background-color;
+                border-color: $border-background-color;
+								margin-left: .25rem;
               }
             }
             .materialHeadTagEditAnchor{
@@ -90,10 +93,9 @@
           }
         }
         .materialDerivationSection{
-          border: none;
           .materialDerivationArea{
             background-color: $nico-black;
-            border-color: $nico-black;
+            border-color: $border-background-color;
             .commonsParents{
               .materialDerivationBodyParents{
                 .materialDerivationTitle{
@@ -157,7 +159,7 @@
           }
         }
         .materialHistoryLicense{
-          border-color: $nico-black;
+					border-color: $border-background-color;
           background-color: $nico-black;
           .materialHistoryLicenseTitle{
             color: $main-text-color;
@@ -182,7 +184,7 @@
         .materialCommentSection{
           .materialCommentBody{
             background-color: $nico-black;
-            border-color: $nico-black;
+						border-color: $border-background-color;
             .materialCommentTitle{
               color: $main-text-color;
             }
@@ -195,34 +197,43 @@
               background-color: $main-url-color;
               color: $main-text-color;
             }
-            #box_comment{
-              .materialCommentTable{
-                tr+tr{
-                  border-color: $border-background-color;
-                }
-                td{
-                  .materialCommentUserName{
-                    color: $main-text-color;
-                  }
-                  .comment_text{
-                    color: $main-text-color;
-                  }
-                }
-              }
-            }
-            #comment_command_base{
+						.materialCommentTable{
+							tr{
+								border-color: $border-background-color;
+							}
+							td{
+								.materialCommentUserName{
+									color: $main-text-color;
+								}
+								.comment_text{
+									color: $main-text-color;
+								}
+							}
+						}
+            .materialCommentCommandArea{
               .materialCommentInfoArea{
                 border-color: $border-background-color;
                 .materialCommentInfo{
                   color: $sub-1-text-color;
                 }
               }
+							.materialCommentBlockArea{
+								a{
+									color: $main-text-color;
+									&:hover{
+										text-decoration: none;
+									}
+								}
+              }
             }
           }
         }
         .materialReport{
           background-color: $nico-black;
-          border-color: $nico-black;
+					border-color: $border-background-color;
+					.materialTitleReport{
+						color: $main-text-color;
+					}
           p{
             color: $main-text-color;
             a{
@@ -243,10 +254,12 @@
           }
         }
       }
+			// サイドバー
       .materialRight{
         background: none;
         .materialProfileArea{
           background-color: $nico-black;
+					border-color: $border-background-color;
           .materialUserTitle{
             color: $main-text-color;
             border-color: $border-background-color;
@@ -285,6 +298,7 @@
         }
         .materialInfoArea{
           background-color: $nico-black;
+					border-color: $border-background-color;
           .materialInfoTitle{
             color: $main-text-color;
             border-color: $border-background-color
