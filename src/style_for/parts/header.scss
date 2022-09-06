@@ -3,40 +3,65 @@
 .niconico-darkmode-setting-true{
   .nico-CommonHeaderRoot /*新ヘッダー*/{
 
-    /* その他 */
-    .common-header-1yklp7i{
+		// プルダウン セクション
+		.common-header-cvcm83{
+			// ヘッダー
+			.common-header-yxm7eu{
+				color: $sub-1-text-color;
+				background-color: inherit;
+				border-color: $border-background-color;
+			}
+			// itemwrap
+			.common-header-17f7oiq{
+				border-color: $border-background-color;
+				// item
+				.common-header-o214xd{
+					border-color: $border-background-color;
+					background-color: $sub2-background-color;
+					.common-header-ddpru6{
+						color: $main-text-color;
+					}
+					svg.common-header-bqetqb > path{
+						fill: $border-background-color;
+					}
+
+					&:hover{
+						background-color: $hover-background-color;
+					}
+				}
+
+				// 空アイテム
+				.common-header-15czeyj{
+					background-color: $nico-black;
+					border-color: $border-background-color;
+				}
+			}
+		}
+
+    /* その他タブ */
+    .common-header-1hrl22z{
       background-color: $nico-black;
 
       /*各サービス*/
-      .common-header-j1xbgx{
-
-        /*各パーツ*/
-        .common-header-11yv2qr{
-          background: none;
-          border-color: $sub2-background-color;
-          .common-header-19mflz9{
-            color: $main-text-color;
-          }
-
-          &:hover{
-            background-color: $hover-background-color;
-          }
-        }
-      }
+			// プルダウンセクションを参照
 
       /*もっと見る*/
-      .common-header-11j62e9{
-        background-color: $main-background-color;
-        color: $main-text-color;
+      .common-header-eyo3v5{
+				background-color: $nico-black;
 
-        &:hover{
-          background-color: $hover-background-color;
-          text-decoration: none;
-        }
+				.common-header-10t70iy{
+					background-color: inherit;
+					color: $main-text-color;
+
+					&:hover{
+						background-color: $hover-background-color;
+						text-decoration: none;
+					}
+				}
       }
     }
 
-    /* 右上メニュー */
+    /* ユーザータブ */
     .common-header-1ivnjlh{
 			.common-header-m6vxd{
 				background-color: $nico-black;
@@ -103,39 +128,7 @@
 				}
 
 				// セクション
-				.common-header-cvcm83{
-					// ヘッダー
-					.common-header-yxm7eu{
-						color: $sub-1-text-color;
-						background-color: inherit;
-						border-color: $border-background-color;
-					}
-					// itemwrap
-					.common-header-17f7oiq{
-						border-color: $border-background-color;
-						// item
-						.common-header-o214xd{
-							border-color: $border-background-color;
-							background-color: $sub2-background-color;
-							.common-header-ddpru6{
-								color: $main-text-color;
-							}
-							svg.common-header-bqetqb > path{
-								fill: $border-background-color;
-							}
-
-							&:hover{
-								background-color: $hover-background-color;
-							}
-						}
-
-						// 空アイテム
-						.common-header-15czeyj{
-							background-color: $nico-black;
-							border-color: $border-background-color;
-						}
-					}
-				}
+				// プルダウンセクションを参照
 
 				// footer
 				.common-header-1xmxna8{
