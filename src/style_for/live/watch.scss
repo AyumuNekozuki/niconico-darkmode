@@ -1,4 +1,4 @@
-@import '../parts/default';
+@use '../parts/default' as *;
 @import '../parts/_serchbox';
 @import '../parts/_textarea';
 @import '../parts/_dropdown';
@@ -380,49 +380,71 @@
         background-color: $nico-black;
         border-color: $nico-black;
         box-shadow: none;
-        [class*="___primary-information-area___"]{ //枠タイトル・開始時間
-          [class*="___title___"],[class*="___program-title___"]{ //枠タイトル, fix210511
-            color: $main-text-color;
-            a{
-              color: inherit;
-            }
-            a::after{
-              filter: $invert;
-            }
-            a:hover{
-              color: $main-url-color;
-            }
-            a:hover::after{
-              filter: none;
-            }
-          }
-          [class*="___program-detail-area___"]{ //枠開始時間
-            [class*="___onair-time___"],[class*="___airtime___"]{
-              color: $sub-2-text-color;
-            }
-          }
-          [class*="___program-label-view___"][data-provider-type="channel"]{ //CHラベル
-            [class*="___limited-program-label___"]{
-              border-color: $nico-ch;
-              color: $nico-ch;
-            }
-          }
-          [class*="___program-label-view___"][data-provider-type="community"]{ //コミュラベル
-            [class*="___limited-program-label___"]{ //コミュ限
-              border-color: $nico-com;
-              color: $nico-com;
-            }
-            [class*="___video-premiere-label___"]{ //ライブ公開
-              border-color: $sub-1-text-color;
-              color: $sub-1-text-color;
-            }
-          }
-          [class*="___program-label-view___"]{ //有料生放送
-            [class*="___pay-program-label___"]{
-              border-color: $nico-point;
-              color: $nico-point;
-            }
-          }
+        [class*="___primary-information-area___"]{ 
+					[class*="___program-information-area___"]{ //番組情報
+						background-color: $nico-black;
+						[class*="___title___"],[class*="___program-title___"]{ //枠タイトル, fix210511
+							color: $main-text-color;
+							a{
+								color: inherit;
+							}
+							a::after{
+								filter: $invert;
+							}
+							a:hover{
+								color: $main-url-color;
+							}
+							a:hover::after{
+								filter: none;
+							}
+						}
+						[class*="___program-detail-area___"]{ //枠開始時間
+							[class*="___onair-time___"],[class*="___airtime___"]{
+								color: $sub-2-text-color;
+							}
+						}
+						[class*="___program-label-view___"][data-provider-type="channel"]{ //CHラベル
+							[class*="___limited-program-label___"]{
+								border-color: $nico-ch;
+								color: $nico-ch;
+							}
+						}
+						[class*="___program-label-view___"][data-provider-type="community"]{ //コミュラベル
+							[class*="___limited-program-label___"]{ //コミュ限
+								border-color: $nico-com;
+								color: $nico-com;
+							}
+							[class*="___video-premiere-label___"]{ //ライブ公開
+								border-color: $sub-1-text-color;
+								color: $sub-1-text-color;
+							}
+						}
+						[class*="___program-label-view___"]{ //有料生放送
+							[class*="___pay-program-label___"]{
+								border-color: $nico-point;
+								color: $nico-point;
+							}
+						}
+					}
+					[class*="___program-edit-anchor-area___"]{ //番組編集ボタン
+						[class*="___program-edit-anchor___"]{
+							// TODO 対処考える
+							--anchor-border: 2px solid #555;
+							--anchor-background-color: #252525;
+							--anchor-color: #f5f5f5;
+
+							[class*="___content___"]{
+								color: var(--anchor-color);
+							}
+							svg > path{
+								fill: var(--anchor-color);
+							}
+
+							&:hover{
+								--anchor-color: #0080ff;
+							}
+						}
+					}
         }
         [class*="___menu-dock___"]{ //Share
           [class*="___extra-popup-control___"],
