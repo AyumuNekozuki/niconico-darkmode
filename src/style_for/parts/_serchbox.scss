@@ -3,37 +3,37 @@
 .niconico-darkmode-setting-true{
   .TopPage,.UserPageHeader{
     .SearchContainer{
-      .CrossSearch_Re{
-        .CrossSearch_Re-rowSelector{
+      .CrossSearch{
+        .CrossSearch-rowSelector{
           border-color: $sub2-background-color;
           background: $sub2-background-color;
-          .CrossSearch_Re-rowService{
+          .CrossSearch-rowService{
             color: $main-text-color;
           }
-          .CrossSearch_Re-rowService.active,
-          .CrossSearch_Re-rowService:hover{
+          .CrossSearch-rowService.active,
+          .CrossSearch-rowService:hover{
             background: $hover-background-color;
           }
         }
-        .CrossSearch_Re-pullDownSelector{
-          .CrossSearch_Re-pullDownButton{
+        .CrossSearch-pullDownSelector{
+          .CrossSearch-pullDownButton{
             border: none;
             background-color: $sub2-background-color;
 
           }
-          .CrossSearch_Re-pullDownButton.active,
-          .CrossSearch_Re-pullDownButton:hover{
+          .CrossSearch-pullDownButton.active,
+          .CrossSearch-pullDownButton:hover{
             background-color: $hover-background-color;
           }
-          .CrossSearch_Re-pullDownList{
+          .CrossSearch-pullDownList{
             background-color: $sub2-background-color;
             border-color: $border-background-color;
-            .CrossSearch_Re-pullDownService{
+            .CrossSearch-pullDownService{
               color: $main-text-color;
             }
           }
         }
-        .CrossSearch_Re-form{
+        .CrossSearch-form{
           background: $sub2-background-color;
           box-shadow: inset 0 0 0 1px $sub2-background-color;
           border: none;

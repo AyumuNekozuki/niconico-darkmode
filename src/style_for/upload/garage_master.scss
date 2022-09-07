@@ -6,9 +6,9 @@
   このファイルにimport形式で読み込むようにしてください。
 */
 
-@import '../parts/_default'; //全配色
-@import '_garage_header'; //ガレージヘッダー
-@import '_garage_footer'; //ガレージフッター
+@use '../parts/_default' as *; //全配色
+@import './parts/garage_header'; //ガレージヘッダー
+@import './parts/garage_footer'; //ガレージフッター
 
 @import '_videos'; //投稿動画一覧
 @import '_upload'; //動画ファイル選択

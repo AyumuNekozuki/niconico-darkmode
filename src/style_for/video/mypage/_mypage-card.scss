@@ -1,8 +1,7 @@
-@import '../../parts/_default';
+@use '../../parts/_default' as *;
 @import '../../parts/_dropdown';
 
 .niconico-darkmode-setting-true{
-
   //共通 プレミアム入会バナー
   .PremiumBanner{
     background-color: $sub2-background-color;
@@ -215,28 +214,6 @@
       filter: $invert;
     }
   }
-  /* 20210601 fix*/
-  .NC-MediaObject{
-    .NC-MediaObject-contents{
-      .NC-MediaObjectTitle{
-        color: $main-text-color;
-      }
-    }
-    .NC-MediaObject-contents:visited{
-      .NC-MediaObjectTitle{
-        color: $sub-1-text-color;
-      }
-    }
-    .NC-MediaObject-contents:hover{
-      .NC-MediaObjectTitle{
-        color: $main-url-color;
-      }
-    }
-    .NC-MediaObject-action{
-      filter: $invert;
-    }
-  }
-  /* 20210601 fix end */
 
   //あとで見る
   .WatchLaterList-item+.WatchLaterList-item{  
@@ -252,6 +229,8 @@
   .MylistItemList-item+.MylistItemList-item:before{
     background-color: $border-background-color;
   }
+
+
 
   //履歴：動画
   .VideoWatchHistoryContainer-item+.VideoWatchHistoryContainer-item:before{

@@ -1,4 +1,4 @@
-@import "../../parts/_default";
+@use "../../parts/_default" as *;
 @import "../../parts/_serchbox";
 @import "../../parts/_dropdown";
 @import "../../parts/_textarea";
@@ -8,6 +8,10 @@
 @import "../../parts/_footer";
 @import "_mypage-card";
 
+@import './NC-module/_NC-MediaObject.scss';
+@import './NC-module/_NC-ThreePointMenu.scss';
+@import './NC-module/_NC-Modal.scss';
+
 .niconico-darkmode-setting-true {
   background-color: $main-background-color !important;
 
@@ -15,8 +19,8 @@
 
     .UserPageHeader {
       background-color: $nico-black;
-      .HeaderContainer_Re-main {
-        .NiconicoLogo_re {
+      .HeaderContainer-main {
+        .NiconicoLogo {
           filter: $invert;
         }
       }
@@ -439,14 +443,6 @@
   }
 
   // モーダル
-  .Modal {
-    .ModalContent {
-      background-color: $main-background-color;
-      .ModalContent-body {
-        background-color: $nico-black;
-      }
-    }
-  }
   .Modal.NicorepoMuteSettingContainer {
     .ModalContent-body {
       .NicorepoMuteSettingContainer-infoNumber {
@@ -456,15 +452,6 @@
         .NicorepoMuteItem-detail {
           color: $main-text-color;
         }
-      }
-    }
-  }
-  .NC-Modal-body {
-    .NC-ShareModal-modal {
-      background-color: $main-background-color;
-      color: $main-text-color;
-      .CopyForm-copy:hover {
-        background-color: $hover-background-color;
       }
     }
   }
@@ -529,19 +516,6 @@
     }
     .ModalContent-footer {
       background-color: #333;
-    }
-  }
-  .NC-Modal.SnsSettingModal {
-    .ModalContent-body {
-      background: $main-background-color;
-      color: $main-text-color;
-
-      .TextField-label {
-        color: $main-text-color;
-      }
-    }
-    .ModalContent-footer {
-      background-color: $main-background-color;
     }
   }
 }
