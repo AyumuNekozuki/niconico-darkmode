@@ -1,0 +1,13 @@
+@use '../../../parts/_default' as *;
+
+.niconico-darkmode-setting-true{
+	.NC-ThreePointMenu{
+		.NC-ThreePointMenu-menu{
+			filter: $invert;
+		}
+		.NC-ThreePointMenu-button{
+			filter: $invert;
+		}
+	}
+}
+

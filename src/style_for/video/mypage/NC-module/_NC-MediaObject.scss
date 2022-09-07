@@ -1,0 +1,57 @@
+@use '../../../parts/_default' as *;
+
+.niconico-darkmode-setting-true{
+	.NC-MediaObject{
+		.NC-MediaObject-contents{
+			.NC-MediaObjectTitle,
+			.NC-MediaObject-bodyTitle{
+				color: $main-text-color;
+			}
+
+			&:visited{
+				.NC-MediaObjectTitle,
+				.NC-MediaObject-bodyTitle{
+					color: $sub-1-text-color;
+				}
+			}
+
+			&:hover{
+				.NC-MediaObjectTitle,
+				.NC-MediaObject-bodyTitle{
+					color: $main-url-color;
+				}
+			}
+		}
+
+		&.NC-VideoMediaObject{
+			.NC-VideoMediaObjectOwnerInfo-link{
+				color: $main-text-color;
+				&:hover{
+					color: $main-url-color;
+				}
+			}
+		}
+		&.NC-MylistMediaObject{
+			background-color: $nico-black;
+			border-color: transparent;
+
+			.NC-MylistMediaObject-itemCount{
+				color: $main-text-color;
+			}
+			.NC-MylistMediaObject-thumbnails{
+				background-color: $sub2-background-color;
+				border-color: $border-background-color;
+				.NC-MylistMediaObject-thumbnail:nth-of-type(3):before{
+					background: linear-gradient(90deg,hsla(0,0%,98%,0),$sub2-background-color);
+				}
+				.NC-MylistMediaObject-itemCount{
+					color: $sub-2-text-color;
+				}
+			}
+
+			&:hover{
+				box-shadow: none;
+			}
+		}
+	}
+}

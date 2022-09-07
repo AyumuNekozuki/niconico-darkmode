@@ -1,0 +1,53 @@
+@use '../../../parts/_default' as *;
+
+.niconico-darkmode-setting-true{
+
+	.NC-Modal{
+		.NC-Modal-body{
+			// モーダル: 共通
+			.ModalContent{
+				background-color: $nico-black;
+
+				.ModalContent-header{
+					background-color: $sub2-background-color;
+				}
+
+				.ModalContent-body{
+					background-color: $nico-black;
+					color: $main-text-color;
+				}
+
+				.ModalContent-footer {
+					background-color: $sub2-background-color;
+				}
+				
+				&.ModalContent_with-footer{
+					.ModalContent-body{
+						background: linear-gradient(hsla(0,0%,100%,0),$sub2-background-color 70%) 0 100%,linear-gradient(transparent,rgba(0,0,0,.1)) 0 100%;
+					}
+				}
+			}
+
+			// モーダル: 共有
+			.NC-ShareModal-modal {
+				background-color: $main-background-color;
+				color: $main-text-color;
+				.CopyForm-copy:hover {
+					background-color: $hover-background-color;
+				}
+			}
+
+
+			// モーダル: マイページSNS設定
+			.SnsSettingModalContainer{
+				.SnsSettingModalContainer-textField{
+					.TextField-label{
+						color: $main-text-color;
+					}
+				}
+			}
+
+		}
+	}
+
+}
