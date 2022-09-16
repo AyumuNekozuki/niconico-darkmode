@@ -98,6 +98,11 @@
             color: $sub-1-text-color;
           }
         }
+        [class*="___broadcast-theme-field___"]{}
+          [class*="___label___"]{ //
+            color: $main-text-color;
+          }
+        }
       }
     }
 
