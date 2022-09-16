@@ -111,6 +111,30 @@
       [class*="___length-score___"]{ // 文字数
         color: $sub-1-text-color;
       }
+      .quill{ //説明文エディタ
+        .ql-formats{//書式変更
+          :not(.ql-active):not(:hover){
+            //ホバー状態、選択状態ではオレンジになってしまう
+            svg{
+              filter: $invert;
+            }
+          }
+          .ql-size{//サイズ変更
+            color: $main-text-color;
+            .ql-picker-options{
+              background-color: $main-background-color;
+            }
+          }
+          .ql-color{
+            .ql-picker-options{
+              background-color: $main-background-color;
+            }
+          }
+        }
+        .ql-editor{//入力欄
+          color: $main-text-color;
+        }
+      }
       [class*="___target___"]+[class*="___label___"],[class*="___label___"]{ //selectlavel
         color: $main-text-color;
       }
