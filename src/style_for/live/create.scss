@@ -113,7 +113,7 @@
       }
       .quill{ //説明文エディタ
         .ql-formats{//書式変更
-          :not(.ql-active):not(:hover){
+          :not(.ql-active):not(:hover):not(.ql-color){
             //ホバー状態、選択状態ではオレンジになってしまう
             svg{
               filter: $invert;
