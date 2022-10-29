@@ -35,6 +35,10 @@ Target URL: https://live.nicovideo.jp/
     }
   }
 
+	[class*="___ad-billboard___"]{
+		background-color: $sub2-background-color;
+	}
+
   [class*="___contents-area___"]{
     [class*="___contents-area___"],
     [class*="___middle-ad___"]{ //常設

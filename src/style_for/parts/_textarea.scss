@@ -1,21 +1,25 @@
 @import '_default';
 
 .niconico-darkmode-setting-true{
-  textarea{
-    background: $sub2-background-color;
-    color: $main-text-color;
-    border-color: $border-background-color;
-  }
-  input[type=text],
-  input[type=date],input[type=time],
-  .AddingMylistModal-nameInput,
-  .AddingMylistModal-descriptionInput,
-  .AddMylistModal-nameInput,
-  .AddMylistModal-descriptionInput,
-  .ichiba_search_form_query{
-    background: $sub2-background-color;
-    color: $main-text-color;
-    border-color: $border-background-color;
-    box-shadow: none;
-  }
+
+	:not(.CrossSearch-input){
+		&textarea{
+			background: $sub2-background-color;
+			color: $main-text-color;
+			border-color: $border-background-color;
+		}
+		&input[type=text],
+		&input[type=date],input[type=time],
+		&.AddingMylistModal-nameInput,
+		&.AddingMylistModal-descriptionInput,
+		&.AddMylistModal-nameInput,
+		&.AddMylistModal-descriptionInput,
+		&.ichiba_search_form_query{
+			background: $sub2-background-color;
+			color: $main-text-color;
+			border-color: $border-background-color;
+			box-shadow: none;
+		}
+	}
+
 }

@@ -6,8 +6,18 @@
 
   [class*="___page-header-area___"]{ //生放送ヘッダー
     [class*="___site-header___"]{
-      [class*="___program-navigation___"]{
+      [class*="___program-navigation___"],
+			[class*="___program-navigation-tool___"]{
         [class*="___search-form___"]{ //検索box
+
+					// TODO
+					[class*="combo-box"]{
+						.popup-area{
+							.text-box{
+								color: $main-text-color !important;
+							}
+						}
+					}
           ul[class*="___suggest___"]{
             background: none;
             li{

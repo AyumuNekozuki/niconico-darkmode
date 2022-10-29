@@ -120,6 +120,15 @@
             border: 1px solid $sub2-background-color;
             background: $sub2-background-color;
           }
+
+					.NC-CreatorSupportAccepting{
+						.NC-CreatorSupportAccepting-content{
+							background-color: $sub2-background-color;
+						}
+						.NC-CreatorSupportAccepting-arrow{
+							background-color: $sub2-background-color;
+						}
+					}
         }
         .VideoMetaContainer{
           .VideoUploadDateMeta-title,
