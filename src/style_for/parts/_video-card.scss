@@ -5,24 +5,28 @@
   .VideoCard,
   .VideoItem.VideoCard,
   .VideoItem.NC-VideoCard,
+	.NC-VideoCard,
   .NicoadVideoItem,
   .NicoadItem.NicoadCard,
   .NicoadItem.NC-NicoadCard{
     background: $nico-black;
 
     a.NicoadVideoItem-link,
+		a .NC-VideoCard-title,
     a .Card-title,
     a .NC-CardTitle,
     a.FollowingVideosContainer-owner .FollowingVideosContainer-ownerName{
       color: $main-text-color;
     }
     a.NicoadVideoItem-link:visited,
+		a:visited .NC-VideoCard-title,
     a:visited .Card-title,
     a:visited .CardTitle,
     a:visited .NC-CardTitle{
       color: $sub-1-text-color;
     }
     a.NicoadVideoItem-link:hover,
+		a:hover .NC-VideoCard-title,
     a:hover .Card-title,
     a:hover .CardTitle,
     a:hover .NC-CardTitle,
@@ -40,6 +44,9 @@
     .NC-ThreePointMenu-button:hover{
       filter: $invert;
     }
+		.RecommendVideoContainer-footer{
+			color: $main-text-color;
+		}
   }
   .TagItem{
     .TagItem-link{

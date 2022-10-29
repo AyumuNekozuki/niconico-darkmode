@@ -1,7 +1,7 @@
 @import '_default';
 
 .niconico-darkmode-setting-true{
-  .TopPage,.UserPageHeader{
+  .TopPage{
     .SearchContainer{
       .CrossSearch{
         .CrossSearch-rowSelector{
@@ -239,21 +239,21 @@
       }
     }
   }
-  .suggestBox{
-    .suggestItem{
-      li{
-        a{
-          color: $main-text-color;
-        }
-      }
-      li.active{
-        background: $hover-background-color !important;
-        a{
-          color: $main-text-color !important;
-        }
-      }
-    }
-  }
+  // .suggestBox{
+  //   .suggestItem{
+  //     li{
+  //       a{
+  //         color: $main-text-color;
+  //       }
+  //     }
+  //     li.active{
+  //       background: $hover-background-color !important;
+  //       a{
+  //         color: $main-text-color !important;
+  //       }
+  //     }
+  //   }
+  // }
 
   /*live create tag*/
   ul.___suggest___1GWLd,ul.___suggest___29TND{
