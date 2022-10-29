@@ -130,4 +130,13 @@ body{
     color: $nico-premium;
     margin-top: 0;
   }
+
+	.endsupport{
+		display: block;
+		margin: .25rem;
+		border: $commons-warning 2px solid;
+		&:hover{
+			filter: brightness(1.25);
+		}
+	}
 }
